@@ -1,8 +1,7 @@
 # $NetBSD$
-#
 
-DISTNAME=	configobj-4.7.2
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/.tar//}
+DISTNAME=	configobj-5.0.6
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel
 MASTER_SITES=	http://pypi.python.org/packages/source/c/configobj/
 
@@ -13,10 +12,5 @@ LICENSE=	modified-bsd
 
 USE_LANGUAGES=	# none
 
-PYDISTUTILSPKG=	yes
-
-# XXX: as of configobj-4.7.2
-PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # "except Exception, e:" SyntaxError
-
-.include "../../lang/python/extension.mk"
+.include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
