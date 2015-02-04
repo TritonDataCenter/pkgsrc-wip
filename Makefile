@@ -2559,7 +2559,6 @@ SUBDIR+=	py-colorpy
 SUBDIR+=	py-complexsystems
 SUBDIR+=	py-concepts
 SUBDIR+=	py-conda
-SUBDIR+=	py-configobj
 SUBDIR+=	py-constraint
 SUBDIR+=	py-construct
 SUBDIR+=	py-control

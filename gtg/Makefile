@@ -11,7 +11,7 @@ COMMENT=	GTG is a personal organizer for the GNOME
 LICENSE=	gnu-gpl-v3
 
 DEPENDS+=	${PYPKGPREFIX}-xdg>=0.17:../../devel/py-xdg
-DEPENDS+=	${PYPKGPREFIX}-configobj>=4.6.0:../../wip/py-configobj
+DEPENDS+=	${PYPKGPREFIX}-configobj>=4.6.0:../../devel/py-configobj
 
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=	intltool msgfmt
