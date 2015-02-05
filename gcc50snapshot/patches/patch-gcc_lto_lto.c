@@ -1,8 +1,8 @@
 $NetBSD$
 
---- gcc/lto/lto.c.orig	2014-03-19 11:35:59.000000000 +0000
+--- gcc/lto/lto.c.orig	2015-01-30 16:15:00.000000000 +0000
 +++ gcc/lto/lto.c
-@@ -2479,7 +2479,12 @@ wait_for_child ()
+@@ -2495,7 +2495,13 @@ wait_for_child ()
  #ifndef WCONTINUED
  #define WCONTINUED 0
  #endif
@@ -13,6 +13,7 @@ $NetBSD$
 +#else
 +      int w = waitpid(0, &status, WUNTRACED | WCONTINUED);
 +#endif
++ 
        if (w == -1)
- 	fatal_error ("waitpid failed");
+ 	fatal_error (input_location, "waitpid failed");
  
