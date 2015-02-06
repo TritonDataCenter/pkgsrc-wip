@@ -8,6 +8,10 @@ share/texmf-dist/tex/latex/adjustbox/box.tex
 share/texmf-dist/tex/latex/adjustbox/compare.tex
 share/texmf-dist/tex/latex/adjustbox/margin.tex
 share/texmf-dist/tex/latex/adjustbox/margin2.tex
+share/texmf-dist/tex/latex/adjustbox/tc-dvips.def
+share/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+share/texmf-dist/tex/latex/adjustbox/tc-pgf.def
+share/texmf-dist/tex/latex/adjustbox/tc-xetex.def
 share/texmf-dist/tex/latex/adjustbox/trim.tex
 share/texmf-dist/tex/latex/adjustbox/trim2.tex
 share/texmf-dist/tex/latex/adjustbox/trim3.tex
