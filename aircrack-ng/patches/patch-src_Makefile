@@ -1,10 +1,8 @@
 $NetBSD$
 
-Replace install with BSD_INSTALL_PROGRAM
-
---- src/Makefile.orig	2009-06-14 17:07:09.000000000 +0200
+--- src/Makefile.orig	2014-06-08 19:03:52.000000000 +0000
 +++ src/Makefile
-@@ -194,10 +194,8 @@ distclean: clean
+@@ -199,10 +199,8 @@ distclean: clean
  
  install: all
  	$(MAKE) -C $(OSD) install

@@ -1,7 +1,5 @@
 $NetBSD$
 
-Replace install with BSD_INSTALL_MAN
-
 --- manpages/Makefile.orig	2013-01-26 19:12:24.000000000 +0000
 +++ manpages/Makefile
 @@ -25,10 +25,8 @@ all:
