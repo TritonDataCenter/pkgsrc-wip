@@ -2984,7 +2984,6 @@ SUBDIR+=	py-qit
 SUBDIR+=	py-qitensor
 SUBDIR+=	py-qmath
 SUBDIR+=	py-qnet
-SUBDIR+=	py-qt5
 SUBDIR+=	py-quantities
 SUBDIR+=	py-quaternionarray
 SUBDIR+=	py-quepy
