@@ -12,6 +12,7 @@ LICENSE=	2-clause-bsd
 CONFLICTS+=	bsdtar-[0-9]*
 CONFLICTS+=	libarchive<=3.1.2
 
+TEST_TARGET=	check
 GNU_CONFIGURE=	yes
 USE_CMAKE=	yes
 USE_LIBTOOL=	yes
