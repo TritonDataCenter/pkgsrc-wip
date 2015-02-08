@@ -273,7 +273,6 @@ SUBDIR+=	caja
 SUBDIR+=	caja-dropbox
 SUBDIR+=	caja-extensions
 SUBDIR+=	calcurse
-SUBDIR+=	calibre
 SUBDIR+=	calligra
 SUBDIR+=	callweaver
 SUBDIR+=	calypso-git
