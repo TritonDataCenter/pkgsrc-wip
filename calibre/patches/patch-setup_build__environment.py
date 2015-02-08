@@ -37,6 +37,9 @@ thread.error: can't start new thread
 (The same chunk works fine in the interactive shell, not sure why
 it so reliably breaks. -- wiz 20150207)
 
+See also
+http://debian.2.n7.nabble.com/Bug-760865-calibre-FTBFS-on-mips-thread-error-can-t-start-new-thread-td3353306.html
+
 --- setup/build_environment.py.orig	2015-02-07 14:26:27.000000000 +0000
 +++ setup/build_environment.py
 @@ -43,11 +43,7 @@ if iswindows:
