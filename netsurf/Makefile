@@ -9,6 +9,7 @@ MASTER_SITES=	http://download.netsurf-browser.org/netsurf/releases/source-full/
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.netsurf-browser.org/
 COMMENT=	Web browser for RISC OS and UNIX-like platforms
+LICENSE=	gnu-gpl-v2 AND mit
 
 BUILD_DEPENDS+=	lemon>=1.0:../../devel/lemon
 BUILD_DEPENDS+=	re2c>=0.12:../../devel/re2c
