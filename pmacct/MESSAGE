@@ -1,0 +1,16 @@
+===========================================================================
+$NetBSD$
+
+You will need construct an appropriate configuration file for the collector
+or collectors you intend to use. Examples from the distribution can be
+found in:
+${EGDIR}
+
+Tip: Don't forget "daemonize: true" to allow the process to background.
+
+Distribution documentation for this release can be found in:
+${DOCDIR}
+
+More detailed examples, along with recent additions are available at:
+http://wiki.pmacct.net/
+===========================================================================
