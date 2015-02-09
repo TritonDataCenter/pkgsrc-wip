@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	netsurf-all-3.2
-PKGNAME=	${DISTNAME:S/-all$//}
+PKGNAME=	${DISTNAME:S/-all//}
 CATEGORIES=	www
 MASTER_SITES=	http://download.netsurf-browser.org/netsurf/releases/source-full/
 
