@@ -13,7 +13,6 @@ LICENSE=	gnu-gpl-v3
 INSTALLATION_DIRS+=	bin sbin ${PKGMANDIR}/man1 ${PKGMANDIR}/man8
 
 USE_TOOLS+=		bash gmake
-REPLACE_BASH+=		scripts/airdriver-ng
 REPLACE_BASH+=		scripts/airodump-ng-oui-update
 
 SUBST_CLASSES+=		paths
