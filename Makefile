@@ -1884,6 +1884,7 @@ SUBDIR+=	netkit-telnet
 SUBDIR+=	netkit-tftp
 SUBDIR+=	netlogo
 SUBDIR+=	netrik
+SUBDIR+=	netsurf
 SUBDIR+=	nettle3
 SUBDIR+=	netwib
 SUBDIR+=	netwmpager
