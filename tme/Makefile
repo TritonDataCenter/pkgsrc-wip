@@ -22,6 +22,36 @@ CONFLICTS=	tme-[0-9]*
 CONFIGURE_ARGS+=	--disable-recode
 .endif
 
+.include "../../mk/compiler.mk"
+.if !empty(PKGSRC_COMPILER:Mclang)
+_WRAP_EXTRA_ARGS.CC+=	-Wno-tautological-compare \
+			-Wno-sometimes-uninitialized \
+			-Wno-unused-function \
+			-Wno-unused-parameter \
+			-Wno-unused-variable \
+			-Wno-sign-compare \
+			-Wno-incompatible-pointer-types \
+			-Wno-absolute-value
+CWRAPPERS_APPEND.cc+=	-Wno-tautological-compare \
+			-Wno-sometimes-uninitialized \
+			-Wno-unused-function \
+			-Wno-unused-parameter \
+			-Wno-unused-variable \
+			-Wno-sign-compare \
+			-Wno-incompatible-pointer-types \
+			-Wno-absolute-value
+.elif !empty(CC_VERSION:Mgcc-4.8.*)
+_WRAP_EXTRA_ARGS.CC+=	-Wno-unused-but-set-variable \
+	-Wno-array-bounds \
+	-Wno-type-limits \
+	-fno-strict-aliasing
+CWRAPPERS_APPEND.cc+=	-Wno-unused-but-set-variable \
+	-Wno-array-bounds \
+	-Wno-type-limits \
+	-fno-strict-aliasing
+
+.endif
+
 .include "../../devel/libltdl/convenience.mk"
 .include "../../x11/gtk3/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
