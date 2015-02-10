@@ -17,9 +17,9 @@ BUILD_DEPENDS+=		transfig-[0-9]*:../../print/transfig
 BUILD_DEPENDS+=		netpbm-[0-9]*:../../graphics/netpbm
 
 BUILD_DEPENDS+=		tex-latex-[0-9]*:../../print/tex-latex
-BUILD_DEPENDS+=		tex-adjustbox-[0-9]*:../../wip/tex-adjustbox
-BUILD_DEPENDS+=		tex-collectbox-[0-9]*:../../wip/tex-collectbox
-BUILD_DEPENDS+=		tex-ydoc-[0-9]*:../../wip/tex-ydoc
+BUILD_DEPENDS+=		tex-adjustbox-[0-9]*:../../print/tex-adjustbox
+BUILD_DEPENDS+=		tex-collectbox-[0-9]*:../../print/tex-collectbox
+BUILD_DEPENDS+=		tex-ydoc-[0-9]*:../../print/tex-ydoc
 
 # formatting refman.pdf needs tools
 BUILD_DEPENDS+=		web2c-[0-9]*:../../print/web2c
