@@ -13,7 +13,7 @@ rcvar=${name}
 command=@PREFIX@/sbin/${name}
 required_files="@PKG_SYSCONFDIR@/${name}.conf"
 pidfile="/var/run/${name}.pid"
-command_args="-p ${pidfile} -f ${required_files}"
+command_args="-F ${pidfile} -f ${required_files}"
 
 load_rc_config $name
 
