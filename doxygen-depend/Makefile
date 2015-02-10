@@ -27,8 +27,8 @@ DEPENDS+=	nelma-[0-9]*:../../cad/nelma
 
 #EPENDS+=	gammu-[0-9]*:../../comms/gammu		# used to be BUILD_DEPENDS
 DEPENDS+=	asterisk-[0-9]*:../../comms/asterisk
-DEPENDS+=	asterisk10-[0-9]*:../../comms/asterisk10
-DEPENDS+=	asterisk18-[0-9]*:../../comms/asterisk18
+DEPENDS+=	asterisk-10.[0-9]*:../../comms/asterisk10
+DEPENDS+=	asterisk-1.8.[0-9]*:../../comms/asterisk18
 
 DEPENDS+=	openobex-[0-9]*:../../comms/openobex	# YES explicit
 #EPENDS+=	libcdr-[0-9]*:../../converters/libcdr	# disabled by configure
