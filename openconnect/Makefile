@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	openconnect-5.02
+DISTNAME=	openconnect-7.04
 CATEGORIES=	net security
 MASTER_SITES=	ftp://ftp.infradead.org/pub/openconnect/
 
