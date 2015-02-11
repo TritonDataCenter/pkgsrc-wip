@@ -560,6 +560,7 @@ SUBDIR+=	elementary-icon-theme
 SUBDIR+=	elinks-libmm
 SUBDIR+=	elinks-snapshot
 SUBDIR+=	elk
+SUBDIR+=	elscreen-current
 SUBDIR+=	emacs-current
 SUBDIR+=	emacs-current-nox11
 SUBDIR+=	emacs-ditz
