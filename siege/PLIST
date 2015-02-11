@@ -17,7 +17,7 @@ share/doc/siege/KNOWNBUGS
 share/doc/siege/MACHINES
 share/doc/siege/NEWS
 share/doc/siege/PLATFORM
-share/doc/siege/README
+share/doc/siege/README.md
 share/doc/siege/README.https
 share/doc/siege/README.solaris
 share/examples/siege/siegerc
