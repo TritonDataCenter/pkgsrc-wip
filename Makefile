@@ -3284,6 +3284,7 @@ SUBDIR+=	revbump
 SUBDIR+=	revelation
 SUBDIR+=	rhapsody
 SUBDIR+=	riak
+SUBDIR+=	riak14
 SUBDIR+=	ripe-rpsl-objectlibrary
 SUBDIR+=	ripit
 SUBDIR+=	ripole
