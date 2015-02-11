@@ -1602,6 +1602,7 @@ SUBDIR+=	lmdbg-current
 SUBDIR+=	lmfit
 SUBDIR+=	lmod
 SUBDIR+=	logfmon-devel
+SUBDIR+=	logrotate-svn
 SUBDIR+=	logwatch
 SUBDIR+=	lorder
 SUBDIR+=	love
