@@ -55,3 +55,4 @@ PERL5_PACKLIST_DIR=	${PERL5_INSTALLVENDORARCH:S/vendor_perl/site_perl/}
 .include	"../../mk/jpeg.buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
+DEPENDS+=	p5-Tie-Simple-[0-9]*:../../wip/p5-Tie-Simple
