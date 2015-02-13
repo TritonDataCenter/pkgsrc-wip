@@ -107,6 +107,10 @@ post-extract:
 	${CHMOD} -R u=rwX,g=rX,o=rX ${WRKSRC}
 	${CHOWN} -R ${ROOT_USER}:${ROOT_GROUP} ${WRKSRC}
 
+post-build:
+	${PATCH} -p0 ${WRKSRC}/rel/riak/bin/riak \
+		${WRKSRC}/deps/node_package/priv/templates/smartos/runner.patch
+
 do-install:
 	${MKDIR} ${WRKSRC}/deps/node_package/priv/templates/pkgsrc
 	${INSTALL_DATA} ${FILESDIR}/Makefile \
