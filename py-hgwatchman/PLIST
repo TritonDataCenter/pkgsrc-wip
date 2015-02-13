@@ -1,0 +1,12 @@
+@comment $NetBSD$
+${PYSITELIB}/hgwatchman-${EGG_FILE}
+${PYSITELIB}/hgwatchman/__init__.py
+${PYSITELIB}/hgwatchman/__init__.pyc
+${PYSITELIB}/hgwatchman/__init__.pyo
+${PYSITELIB}/hgwatchman/bser.so
+${PYSITELIB}/hgwatchman/client.py
+${PYSITELIB}/hgwatchman/client.pyc
+${PYSITELIB}/hgwatchman/client.pyo
+${PYSITELIB}/hgwatchman/state.py
+${PYSITELIB}/hgwatchman/state.pyc
+${PYSITELIB}/hgwatchman/state.pyo
