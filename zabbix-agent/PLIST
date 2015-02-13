@@ -8,3 +8,13 @@ sbin/zabbix_agent
 sbin/zabbix_agentd
 share/examples/zabbix/zabbix_agent.conf
 share/examples/zabbix/zabbix_agentd.conf
+@pkgdir share/zabbix/sqlite3
+@pkgdir share/zabbix/schema
+@pkgdir share/zabbix/postgresql
+@pkgdir share/zabbix/oracle
+@pkgdir share/zabbix/mysql
+@pkgdir share/zabbix/ibm_db2
+@pkgdir share/zabbix/data
+@pkgdir share/doc/zabbix
+@pkgdir etc/zabbix/zabbix_agentd.conf.d
+@pkgdir etc/zabbix/zabbix_agent.conf.d

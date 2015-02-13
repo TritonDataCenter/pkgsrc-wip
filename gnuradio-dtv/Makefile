@@ -10,6 +10,7 @@ CMAKE_ARGS+=	-DENABLE_DEFAULT=False
 CMAKE_ARGS+=	-DENABLE_GR_DTV=True
 CMAKE_ARGS+=	-DENABLE_GR_FEC=True
 
+PLIST_MINUS+=	fec
 .include	"../../wip/gnuradio-fec/buildlink3.mk"
 
 .include	"../../mk/bsd.pkg.mk"

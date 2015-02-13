@@ -3,11 +3,12 @@ GCC 4.6+ chokes on "--no-undefined" which older versions of GCC let fall
 to the linker.  Prefix with "-Wl," to fix build.
 --- plugins/gda/Makefile.am.orig	2011-11-15 21:25:46.000000000 +0000
 +++ plugins/gda/Makefile.am
-@@ -9,6 +9,7 @@ gda_la_LIBADD = \
- 	$(GDA_LIBS)
- 
+@@ -11,7 +11,7 @@ gda_la_LIBADD = \
  gda_la_LDFLAGS = \
-+	-Wl, \
  	-avoid-version \
  	-module \
- 	-no-undefined
+-	-no-undefined
++	-Wl,-no-undefined
+ 
+ gda_la_SOURCES = 
+ 

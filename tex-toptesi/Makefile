@@ -1,8 +1,8 @@
 # $NetBSD$
 
 DISTNAME=	toptesi
-PKGNAME=	tex-${DISTNAME}-5.76
-TEXLIVE_REV=	32081
+PKGNAME=	tex-${DISTNAME}-5.86f
+TEXLIVE_REV=	35916
 
 MAINTAINER=	leot1990@users.sourceforge.net
 COMMENT=	Bundle of files for typsetting theses

@@ -1,22 +1,18 @@
 # $NetBSD$
-#
 
-VERSION=	0.37
-DISTNAME=	OpenOpt
-EGG_NAME=	openopt-${VERSION}
-PKGNAME=	${PYPKGPREFIX}-${EGG_NAME}
+DISTNAME=	openopt-0.5404
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 PKGREVISION=	1
 CATEGORIES=	math python
-MASTER_SITES=	http://openopt.org/images/3/33/
-EXTRACT_SUFX=	.zip
+CATEGORIES=	wip
+MASTER_SITES=	https://pypi.python.org/packages/source/o/openopt/
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://openopt.org/Welcome
 COMMENT=	Python module for numerical optimization
 LICENSE=	modified-bsd
 
-USE_LANGUAGES=	fortran
-PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
+USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"
 .include "../../math/py-numpy/buildlink3.mk"

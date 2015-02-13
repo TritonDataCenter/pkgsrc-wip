@@ -21,12 +21,6 @@ PKGCONFIG_OVERRIDE+=	data/polkit-agent-1.pc.in
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 CONFIGURE_ARGS+=	--with-polkitd-user=${POLKITD_USER}
 
-.include "../../mk/bsd.prefs.mk"
-
-.if ${OPSYS} == "NetBSD"
-CONFIGURE_ARGS+=	--with-os-type=freebsd
-.endif
-
 POLKITD_USER?=		polkitd
 POLKITD_GROUP?=		polkitd
 PKG_GROUPS+=		${POLKITD_GROUP}
@@ -52,10 +46,6 @@ CONF_FILES+=	${PREFIX}/share/examples/polkit/dbus-1/system.d/org.freedesktop.Pol
 		${PKG_SYSCONFDIR}/dbus-1/system.d/org.freedesktop.PolicyKit1.conf
 CONF_FILES+=	${PREFIX}/share/examples/polkit/polkit-1/rules.d/50-default.rules \
 		${PKG_SYSCONFDIR}/polkit-1/rules.d/50-default.rules
-
-MAKE_DIRS+=	/etc/pam.d
-CONF_FILES+=	${PREFIX}/share/examples/pam.d/polkit-1 \
-		/etc/pam.d/polkit-1
 
 .include "options.mk"
 

@@ -3,20 +3,23 @@
 CATEGORIES=	net
 PKGBASE=	mtr
 PKGVERSION=	0.85.99
-PKGREVISION=	13
+PKGREVISION=	14
 #
 PKGNAME=	${PKGBASE}-${PKGVERSION}
 DISTNAME=	${PKGBASE}-${GITVERSION}
 MASTER_SITES=	https://github.com/${GITHUB_USER}/${PKGBASE}/tarball/${GITVERSION}/
 WRKSRC=		${WRKDIR}/${GITHUB_USER}-${PKGBASE}-${GITVERSION}
 
-GITVERSION=	45706fe
+GITVERSION=	daad12f
 GITHUB_USER=	traviscross
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.bitwizard.nl/mtr/
 COMMENT=	Traceroute and ping in a single graphical network diagnostic tool
 LICENSE=	gnu-gpl-v2
+
+CONFLICTS=	mtr-[0-9]*
+CONFLICTS+=	mtr-graph-[0-9]*
 
 GNU_CONFIGURE=		YES
 USE_TOOLS+=		autoconf autoreconf automake

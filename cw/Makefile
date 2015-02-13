@@ -11,6 +11,5 @@ LICENSE=	gnu-gpl-v2
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
-CHECK_INTERPRETER=	no
 
 .include "../../mk/bsd.pkg.mk"

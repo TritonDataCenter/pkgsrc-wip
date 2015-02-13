@@ -4,7 +4,7 @@ DISTNAME=	ii-1.7
 CATEGORIES=	chat
 MASTER_SITES=	http://dl.suckless.org/tools/
 
-MAINTAINER=	yrmt@users.sourceforge.net
+MAINTAINER=	youri.mout@gmail.com
 HOMEPAGE=	http://dl.suckless.org/tools/
 COMMENT=	Minimalist FIFO and filesystem-based IRC client
 LICENSE=	mit

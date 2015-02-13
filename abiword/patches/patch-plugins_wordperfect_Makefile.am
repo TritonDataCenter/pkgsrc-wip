@@ -3,11 +3,12 @@ GCC 4.6+ chokes on "--no-undefined" which older versions of GCC let fall
 to the linker.  Prefix with "-Wl," to fix build.
 --- plugins/wordperfect/Makefile.am.orig	2011-11-15 21:25:46.000000000 +0000
 +++ plugins/wordperfect/Makefile.am
-@@ -9,6 +9,7 @@ wordperfect_la_LIBADD = \
- 	$(WORDPERFECT_LIBS)
- 
+@@ -11,7 +11,7 @@ wordperfect_la_LIBADD = \
  wordperfect_la_LDFLAGS = \
-+	-Wl, \
  	-avoid-version \
  	-module \
- 	-no-undefined
+-	-no-undefined
++	-Wl,-no-undefined
+ 
+ wordperfect_la_SOURCES = 
+ nodist_EXTRA_wordperfect_la_SOURCES = dummy.cpp

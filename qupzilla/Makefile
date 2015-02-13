@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	QupZilla-1.8.5
+DISTNAME=	QupZilla-1.8.6
 PKGNAME=	${DISTNAME:tl}
 
 CATEGORIES=	www

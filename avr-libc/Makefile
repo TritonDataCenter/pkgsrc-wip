@@ -1,7 +1,6 @@
-# $NetBSD: Makefile,v 1.33 2014/05/29 23:35:24 wiz Exp $
+# $NetBSD: Makefile,v 1.37 2014/11/10 06:31:45 mef Exp $
 
-DISTNAME=		avr-libc-1.8.0
-PKGREVISION=		4
+DISTNAME=		avr-libc-1.8.1
 CATEGORIES=		cross
 MASTER_SITES=		http://savannah.nongnu.org/download/avr-libc/
 EXTRACT_SUFX=		.tar.bz2
@@ -11,9 +10,23 @@ HOMEPAGE=		http://savannah.nongnu.org/projects/avr-libc
 COMMENT=		C and math library for Atmel AVR 8-bit microcontrollers
 LICENSE=		modified-bsd
 
-BUILD_DEPENDS+=		doxygen>=1.8.7:../../devel/doxygen
+BROKEN=			'Undefined control sequence.l.303 \backmatter, see TODO. Thank you.'
+
+BUILD_DEPENDS+=		doxygen>=1.8.9.1:../../devel/doxygen
 BUILD_DEPENDS+=		transfig-[0-9]*:../../print/transfig
 BUILD_DEPENDS+=		netpbm-[0-9]*:../../graphics/netpbm
+
+BUILD_DEPENDS+=		tex-latex-[0-9]*:../../print/tex-latex
+BUILD_DEPENDS+=		tex-adjustbox-[0-9]*:../../print/tex-adjustbox
+BUILD_DEPENDS+=		tex-collectbox-[0-9]*:../../print/tex-collectbox
+BUILD_DEPENDS+=		tex-ydoc-[0-9]*:../../print/tex-ydoc
+
+# formatting refman.pdf needs tools
+BUILD_DEPENDS+=		web2c-[0-9]*:../../print/web2c
+# tex not found
+BUILD_DEPENDS+=		tex-tetex-[0-9]*:../../print/tex-tetex
+# mkfmt tex.fmt not found
+BUILD_DEPENDS+=		teTeX-texmf-[0-9]*:../../print/teTeX3-texmf
 
 USE_TOOLS+=		gmake perl
 GNU_CONFIGURE=		yes
@@ -23,6 +36,8 @@ CONFIGURE_ARGS+=	--build=${MACHINE_GNU_PLATFORM:Q}
 CONFIGURE_ARGS+=	--host=avr
 CONFIGURE_ARGS+=	--enable-doc
 CONFIGURE_ARGS+=	--disable-versioned-doc
+CONFIGURE_ARGS+=	CC=${PREFIX}/bin/avr-gcc
+CONFIGURE_ARGS+=	CPPFLAGS="-I${PREFIX}/include -I${PREFIX}/avr/include"
 
 #   In doc/examples/demo directory, we have sample Makefile both for
 #   generating *.hex file at pkg installation time, and for installing
@@ -52,22 +67,16 @@ post-install:
 		${DESTDIR}${PREFIX}/share/doc/avr-libc
 	## delete following or similar files, which includes PATH at build time.
 	##_usr_pkgsrc_cross_avr-libc_work_avr-libc-1.8.0_libc_string_.3
-	(cd ${DESTDIR}${PREFIX}/share/doc/avr-libc/man/man3; ${RM} -f *${PKGVERSION_NOREV}*)
-	set -e;	\
-	for f in Makefile demo.c demo.bin demo.hex demo.pdf \
-		demo.srec;\
-	do \
-		${INSTALL_DATA} ${WRKSRC}/doc/examples/demo/$$f \
-			${DESTDIR}${PREFIX}/share/doc/avr-libc/examples/demo; \
-	done
+	${RM} ${DESTDIR}${PREFIX}/share/doc/avr-libc/man/man3/*${PKGVERSION_NOREV}*
+.for f in Makefile demo.c demo.bin demo.hex demo.pdf demo.srec
+	${INSTALL_DATA} ${WRKSRC}/doc/examples/demo/${f} \
+		${DESTDIR}${PREFIX}/share/doc/avr-libc/examples/demo
+.endfor
 
+#include "../../print/kpathsea/buildlink3.mk"
 .include "../../cross/avr-binutils/buildlink3.mk"
-.include "../../wip/avr-gcc/buildlink3.mk"
+.include "../../cross/avr-gcc/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
 
-# XXX: very evil hack to override CC, doing it via CONFIGURE_ENV doesn't work.
-#MAKE_ENV+=		CC=${PREFIX}/bin/avr-gcc
-#MAKE_ENV is overwritten by CC=gcc in ALL_ENV
-ALL_ENV+= CC=${PREFIX}/bin/avr-gcc
 # Not to be overridden as --mandir=${PREFIX}, put the line here.
 CONFIGURE_ARGS+=	--mandir=${PREFIX}/share/doc/avr-libc/man

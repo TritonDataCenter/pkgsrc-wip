@@ -8,7 +8,7 @@ COMMENT=	Program and library to derive instances for data types
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-haskell-src-exts/buildlink3.mk"
+.include "../../devel/hs-haskell-src-exts/buildlink3.mk"
 .include "../../devel/hs-syb/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../devel/hs-uniplate/buildlink3.mk"

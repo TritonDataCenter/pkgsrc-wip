@@ -1,13 +1,30 @@
 $NetBSD$
 GCC 4.6+ chokes on "--no-undefined" which older versions of GCC let fall 
 to the linker.  Prefix with "-Wl," to fix build.
+Use CXX for linking.
 --- plugins/goffice/Makefile.am.orig	2011-11-15 21:25:46.000000000 +0000
 +++ plugins/goffice/Makefile.am
-@@ -9,6 +9,7 @@ goffice_la_LIBADD = \
+@@ -1,4 +1,5 @@
+ 
++
+ SUBDIRS = unix
+ 
+ plugindir = $(ABIWORD_PLUGINSDIR)
+@@ -6,14 +7,16 @@ plugin_LTLIBRARIES = goffice.la
+ 
+ goffice_la_LIBADD = \
+ 	unix/libunix.la \
++	-lstdc++ \
  	$(GOFFICE_LIBS)
  
  goffice_la_LDFLAGS = \
-+	-Wl, \
  	-avoid-version \
  	-module \
- 	-no-undefined
+-	-no-undefined
++	-Wl,-no-undefined
+ 
+ goffice_la_SOURCES = 
++nodist_EXTRA_goffice_la_SOURCES = dummy.cpp
+ 
+ EXTRA_DIST = \
+ 	plugin.m4

@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	bin_prot-${VERS}
-VERS=		112.01.00
+VERS=		112.17.00
 CATEGORIES=	devel
 MASTER_SITES=	https://github.com/janestreet/bin_prot/archive/
 DISTFILES=	${VERS}${EXTRACT_SUFX}

@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	girara-0.2.2
+DISTNAME=	girara-0.2.3
 CATEGORIES=	x11
 MASTER_SITES=	http://pwmt.org/projects/girara/download/
 
@@ -12,6 +12,8 @@ COMMENT=	Library to develop simple and minimalist user interface
 
 USE_TOOLS+=	pkg-config gettext gmake groff
 USE_LIBTOOL=	yes
+
+MAKE_ENV+=	COLOR=0
 
 .include "../../x11/gtk3/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

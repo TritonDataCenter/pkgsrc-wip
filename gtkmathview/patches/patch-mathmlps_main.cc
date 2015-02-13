@@ -1,13 +1,25 @@
 $NetBSD$
-str* needs string.h
+str* needs cstring
+Fix build on gcc 4.7 and later
 --- mathmlps/main.cc.orig	2007-08-17 10:02:46.000000000 +0000
 +++ mathmlps/main.cc
 @@ -21,6 +21,8 @@
  #include <cassert>
  #include <fstream>
  
-+#include <string.h>
++#include <cstring>
 +
  #include <popt.h>
  
  // needed for old versions of GCC, must come before String.hh!
+@@ -391,9 +393,9 @@ main(int argc, const char* argv[])
+ #else
+       SMS sms(logger, view);
+       sms.process(argv[optind]);
++      optind++;
+ #endif
+ 
+-      optind++;
+     }
+ 
+   poptFreeContext(ctxt);

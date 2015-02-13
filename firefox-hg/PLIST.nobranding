@@ -1,0 +1,2 @@
+@comment $NetBSD$
+lib/firefox-${VERSION}/browser/chrome/browser/content/branding/about-background.png

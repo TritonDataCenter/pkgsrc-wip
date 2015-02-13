@@ -1,8 +1,17 @@
 @comment $NetBSD$
 sbin/auto-append-line
 sbin/auto-ask
+sbin/auto-denyhosts-remove-ip
+sbin/auto-denyhosts-setup
+sbin/auto-disable-hyperthreading
+sbin/auto-enable-autologout
+sbin/auto-harden
 sbin/auto-insert-line
 sbin/auto-ldap-client-setup
+sbin/auto-pkgsrc-setup
+sbin/auto-pxe-installer-setup
+sbin/auto-pxe-node-discover
 sbin/auto-register-dhcp-hostname
 sbin/auto-replace-file
+sbin/auto-set-memory-limits
 sbin/auto-ssh-authorize

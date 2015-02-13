@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	v1.2.0
+DISTNAME=	v1.2.1
 PKGNAME=	${DISTNAME:S/v/zmap-/}
 CATEGORIES=	net
 MASTER_SITES=	https://github.com/zmap/zmap/archive/

@@ -1,8 +1,5 @@
 $NetBSD: patch-ipc_glue_GeckoChildProcessHost.cpp,v 1.8 2014/06/11 00:40:59 ryoon Exp $
 
-* Just because OS_ARCH is Darwin does not mean MacOS X specific
-  kludges are needed.
-
 --- ipc/glue/GeckoChildProcessHost.cpp.orig	2014-09-28 08:30:05.000000000 +0000
 +++ ipc/glue/GeckoChildProcessHost.cpp
 @@ -4,7 +4,13 @@
@@ -19,30 +16,3 @@ $NetBSD: patch-ipc_glue_GeckoChildProcessHost.cpp,v 1.8 2014/06/11 00:40:59 ryoo
  
  #include "base/command_line.h"
  #include "base/string_util.h"
-@@ -526,7 +532,7 @@ GeckoChildProcessHost::PerformAsyncLaunc
-   // and passing wstrings from one config to the other is unsafe.  So
-   // we split the logic here.
- 
--#if defined(OS_LINUX) || defined(OS_MACOSX) || defined(OS_BSD)
-+#if defined(OS_LINUX) || defined(OS_MACOSX) || defined(OS_BSD) || defined(OS_SOLARIS)
-   base::environment_map newEnvVars;
-   ChildPrivileges privs = mPrivileges;
-   if (privs == base::PRIVILEGES_DEFAULT) {
-@@ -665,7 +671,7 @@ GeckoChildProcessHost::PerformAsyncLaunc
-   childArgv.push_back(pidstring);
- 
- #if defined(MOZ_CRASHREPORTER)
--#  if defined(OS_LINUX) || defined(OS_BSD)
-+#  if defined(OS_LINUX) || defined(OS_BSD) || defined(OS_SOLARIS)
-   int childCrashFd, childCrashRemapFd;
-   if (!CrashReporter::CreateNotificationPipeForChild(
-         &childCrashFd, &childCrashRemapFd))
-@@ -698,7 +704,7 @@ GeckoChildProcessHost::PerformAsyncLaunc
-   childArgv.push_back(childProcessType);
- 
-   base::LaunchApp(childArgv, mFileMap,
--#if defined(OS_LINUX) || defined(OS_MACOSX) || defined(OS_BSD)
-+#if defined(OS_LINUX) || defined(OS_MACOSX) || defined(OS_BSD) || defined(OS_SOLARIS)
-                   newEnvVars, privs,
- #endif
-                   false, &process, arch);

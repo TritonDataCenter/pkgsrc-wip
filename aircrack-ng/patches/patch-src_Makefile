@@ -1,0 +1,17 @@
+$NetBSD$
+
+--- src/Makefile.orig	2014-06-08 19:03:52.000000000 +0000
++++ src/Makefile
+@@ -199,10 +199,8 @@ distclean: clean
+ 
+ install: all
+ 	$(MAKE) -C $(OSD) install
+-	install -d $(DESTDIR)$(bindir)
+-	install -m 755 $(BINFILES) $(DESTDIR)$(bindir)
+-	install -d $(DESTDIR)$(sbindir)
+-	install -m 755 $(SBINFILES) $(DESTDIR)$(sbindir)
++	${BSD_INSTALL_PROGRAM} $(BINFILES) $(DESTDIR)$(bindir)
++	${BSD_INSTALL_PROGRAM} $(SBINFILES) $(DESTDIR)$(sbindir)
+ 
+ uninstall:
+ 	$(MAKE) -C $(OSD) uninstall

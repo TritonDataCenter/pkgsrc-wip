@@ -1,0 +1,4 @@
+@comment $NetBSD$
+riak/lib/os_mon-${VERSION.os_mon}/priv/bin/cpu_sup
+riak/lib/os_mon-${VERSION.os_mon}/priv/bin/ferrule
+riak/lib/os_mon-${VERSION.os_mon}/priv/bin/mod_syslog

@@ -1,7 +1,0 @@
-@comment $NetBSD$
-${PYSITELIB}/configobj.py
-${PYSITELIB}/configobj.pyc
-${PYSITELIB}/configobj.pyo
-${PYSITELIB}/validate.py
-${PYSITELIB}/validate.pyc
-${PYSITELIB}/validate.pyo

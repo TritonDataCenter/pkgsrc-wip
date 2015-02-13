@@ -23,5 +23,5 @@ SUBST_MESSAGE.fix-path=	Fixing absolute paths.
 SUBST_FILES.fix-paths+=	../Init
 SUBST_SED.fix-paths=	-e 's,"/usr/local,"${PREFIX},g'
 
-.include "../../wip/deforaos-libsystem/buildlink3.mk"
+.include "../../devel/deforaos-libsystem/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

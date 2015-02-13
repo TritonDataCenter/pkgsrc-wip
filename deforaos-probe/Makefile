@@ -29,5 +29,5 @@ SUBST_FILES.fix-paths+=	../DaMon
 SUBST_FILES.fix-paths+=	../Probe
 SUBST_SED.fix-paths=	-e 's,"/usr/local,"${PREFIX},g'
 
-.include "../../wip/deforaos-libsystem/buildlink3.mk"
+.include "../../devel/deforaos-libsystem/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
