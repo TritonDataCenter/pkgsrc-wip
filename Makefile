@@ -85,7 +85,6 @@ SUBDIR+=	aircrack-ng
 SUBDIR+=	airsnort
 SUBDIR+=	alac_decoder
 SUBDIR+=	alberta
-SUBDIR+=	alex
 SUBDIR+=	alive
 SUBDIR+=	alsa-plugins
 SUBDIR+=	alt-ergo
