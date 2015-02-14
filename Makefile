@@ -1404,7 +1404,6 @@ SUBDIR+=	libalkimia
 SUBDIR+=	libanimal
 SUBDIR+=	libappindicator
 SUBDIR+=	libarchive
-SUBDIR+=	libargp
 SUBDIR+=	libavc1394
 SUBDIR+=	libbacon
 SUBDIR+=	libbfio
