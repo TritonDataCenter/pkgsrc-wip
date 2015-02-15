@@ -14,6 +14,5 @@ USE_LIBTOOL= yes
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c c++ fortran
 
-BUILDLINK_API_DEPENDS.gmp+=             gmp>=4.2.1
 .include "../../devel/gmp/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
