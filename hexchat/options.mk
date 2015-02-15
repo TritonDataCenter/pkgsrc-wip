@@ -5,9 +5,6 @@ PKG_SUPPORTED_OPTIONS=	dbus gtk2 inet6 libcanberra libnotify libpci libproxy
 PKG_SUPPORTED_OPTIONS+=	ntlm openssl perl python tests themes xft2
 PKG_SUGGESTED_OPTIONS+=	gtk2 inet6 libproxy libsexy openssl xft2
 
-PKG_OPTIONS_OPTIONAL_GROUPS+=	spell
-PKG_OPTIONS_GROUP.spell=	libsexy gtkspell
-
 PLIST_VARS+=		dbus gtk2 libpci perl python
 
 .include "../../mk/bsd.options.mk"
@@ -92,12 +89,6 @@ CONFIGURE_ARGS+=	--enable-python=no
 
 .if !empty(PKG_OPTIONS:Mlibsexy)
 .include "../../devel/libsexy/buildlink3.mk"
-CONFIGURE_ARGS+=	--enable-spell=libsexy
-.elif !empty(PKG_OPTIONS:Mgtkspell)
-.include "../../textproc/gtkspell/buildlink3.mk"
-CONFIGURE_ARGS+=	--enable-spell=gtkspell
-.else
-CONFIGURE_ARGS+=        --enable-spell=static
 .endif
 
 .if !empty(PKG_OPTIONS:Mtests)
@@ -118,7 +109,4 @@ CONFIGURE_ARGS+=	--with-theme-manager=on
 .if !empty(PKG_OPTIONS:Mxft2)
 .include "../../x11/libXext/buildlink3.mk"
 .include "../../x11/libXft/buildlink3.mk"
-CONFIGURE_ARGS+=	--enable-shm=yes
-.else
-CONFIGURE_ARGS+=	--enable-shm=no
 .endif
