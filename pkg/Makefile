@@ -19,4 +19,5 @@ USE_LANGUAGES=	c c++
 pre-configure:
 	cd ${WRKSRC} && ./autogen.sh
 
+.include "../../devel/libelf/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
