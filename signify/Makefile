@@ -1,8 +1,8 @@
 # $NetBSD$
 
-GHCOMMIT=	ce5f56307017d36267fab4bf86a073a852b05989
+GHCOMMIT=	9170b4391945da17fd2ac2e251b54b3400668192
 DISTNAME=	${GHCOMMIT}
-PKGNAME=	signify-0.1
+PKGNAME=	signify-0.1.0.20150215
 CATEGORIES=	security
 MASTER_SITES=	https://github.com/yrmt/signify/archive/
 
