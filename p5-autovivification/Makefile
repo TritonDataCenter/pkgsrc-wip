@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	autovivification-0.14	
+DISTNAME=	autovivification-0.14
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	devel
 MASTER_SITES=	http://search.cpan.org/CPAN/authors/id/V/VP/VPIT/
