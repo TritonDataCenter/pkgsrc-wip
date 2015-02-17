@@ -8,6 +8,7 @@ DISTFILES=	# empty
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.infradead.org/openconnect/vpnc-script.html
 COMMENT=	Improved config script for OpenConnect and vpnc
+LICENSE=	gnu-gpl-v2
 
 NO_BUILD=	YES
 WRKSRC=		${WRKDIR}
