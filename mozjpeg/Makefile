@@ -1,9 +1,10 @@
 # $NetBSD$
 
-DISTNAME=	mozjpeg-${VERSION}
-VERSION=	2.1
+DISTNAME=	mozjpeg-${VERSION}-release-source
+PKGNAME=	${DISTNAME:S/-release-source//}
+VERSION=	3.0
 CATEGORIES=	graphics
-MASTER_SITES=	-https://github.com/mozilla/mozjpeg/archive/v${VERSION}${EXTRACT_SUFX}
+MASTER_SITES=	https://github.com/mozilla/mozjpeg/releases/download/v${VERSION}/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/mozilla/mozjpeg/
@@ -12,11 +13,10 @@ LICENSE=	modified-bsd
 
 BUILD_DEPENDS+=	yasm-[0-9]*:../../devel/yasm
 
+WRKSRC=		${WRKDIR}/mozjpeg
+
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_TOOLS+=	autoconf automake autoreconf
 
-pre-configure:
-	cd ${WRKSRC} && autoreconf -fi
 
 .include "../../mk/bsd.pkg.mk"

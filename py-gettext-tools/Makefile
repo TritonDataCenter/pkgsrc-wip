@@ -1,8 +1,6 @@
 # $NetBSD$
-#
 
-PKGNAME=	${PYPKGPREFIX}-gettext-tools-0
-PKGREVISION=	1
+PKGNAME=	${PYPKGPREFIX}-gettext-tools-${PY_DISTVERSION}
 CATEGORIES=	databases
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

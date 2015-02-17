@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	toolz-0.6.0
+DISTNAME=	toolz-0.7.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	devel python
+CATEGORIES=	devel
 MASTER_SITES=	https://pypi.python.org/packages/source/t/toolz/
 
 MAINTAINER=	kamelderouiche@yahoo.com

@@ -1,0 +1,5 @@
+@comment $NetBSD$
+lib/X11/fonts/TTF/KacstOne-Bold.sfd
+lib/X11/fonts/TTF/KacstOne-Bold.ttf
+lib/X11/fonts/TTF/KacstOne.sfd
+lib/X11/fonts/TTF/KacstOne.ttf

@@ -7,7 +7,7 @@ CATEGORIES=	math
 MASTER_SITES=	http://wwwthep.physik.uni-mainz.de/~stefanw/download/
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	http://wwwthep.physik.uni-mainz.de/~stefanw/download/
+HOMEPAGE=	http://wwwthep.physik.uni-mainz.de/~stefanw/nestedsums/
 COMMENT=	Library for the expansion of transcendental functions
 LICENSE=	gnu-gpl-v2
 

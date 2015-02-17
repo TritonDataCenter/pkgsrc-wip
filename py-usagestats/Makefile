@@ -1,0 +1,18 @@
+# $NetBSD$
+
+DISTNAME=	usagestats-0.3
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	systutils python
+MASTER_SITES=	https://pypi.python.org/packages/source/u/usagestats/
+
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	https://github.com/remram44/usagestats
+COMMENT=	Anonymous usage statistics collecter
+LICENSE=	apache-2.0
+
+WRKSRC=		${WRKDIR}/usagestats-0.3
+
+USE_LANGUAGES=	# none
+
+.include "../../lang/python/egg.mk"
+.include "../../mk/bsd.pkg.mk"
