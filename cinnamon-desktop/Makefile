@@ -13,8 +13,9 @@ LICENSE=	gnu-gpl-v2
 WRKSRC=		${WRKDIR}/cinnamon-desktop-2.2.3
 
 GNU_CONFIGURE= yes
+USE_PKGLOCALEDIR=  YES
 USE_LIBTOOL= yes
-USE_TOOLS+=	gmake pkg-config automake autoreconf intltool
+USE_TOOLS+=  gmake pkg-config automake autoreconf intltool msgfmt
 
 BUILD_DEPENDS+=		gettext-m4>=0.14.6:../../devel/gettext-m4
 
@@ -23,9 +24,7 @@ PKGCONFIG_OVERRIDE+=	libcinnamon-desktop/cinnamon-desktop.pc.in
 pre-configure:
 	cd ${WRKSRC} && ${SH}  ./autogen.sh
 
-CONFIGURE_ARGS+=	--with-gnome-distributor="The NetBSD Foundation"
-
-.include "../../devel/glib2/buildlink3.mk"
+.include "../../devel/glib2/schemas.mk"
 .include "../../devel/gobject-introspection/buildlink3.mk"
 .include "../../graphics/gdk-pixbuf2/buildlink3.mk"
 .include "../../x11/gtk3/buildlink3.mk"
