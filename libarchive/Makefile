@@ -13,6 +13,7 @@ CONFLICTS+=	bsdtar-[0-9]*
 CONFLICTS+=	libarchive<=3.1.2
 
 GNU_CONFIGURE=	yes
+TEST_TARGET=	test
 USE_CMAKE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
