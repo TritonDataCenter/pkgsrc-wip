@@ -7,7 +7,7 @@ CATEGORIES=	www
 MASTER_SITES=	-http://trac-hacks.org/changeset/${SVN_REV}/${SVN_MOD}?old_path=/&format=zip
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	obache@NetBSD.org
+MAINTAINER=	obache@users.sourceforge.net
 HOMEPAGE=	http://trac-hacks.org/wiki/ExcelViewerPlugin
 COMMENT=	Excel viewer plugin for trac
 

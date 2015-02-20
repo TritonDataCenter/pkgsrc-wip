@@ -5,7 +5,7 @@ CATEGORIES=	multimedia
 MASTER_SITES=	http://pub.mate-desktop.org/releases/1.8/
 EXTRACT_SUFX=	.tar.xz
 
-MAINTAINER=	obache@NetBSD.org
+MAINTAINER=	obache@users.sourceforge.net
 HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	MATE media tools for MATE Desktop
 LICENSE=	gnu-gpl-v2 AND gnu-fdl-v1.1 AND gnu-lgpl-v2

@@ -6,7 +6,7 @@ CATEGORIES=	sysutils
 MASTER_SITES=	http://upower.freedesktop.org/releases/
 EXTRACT_SUFX=	.tar.xz
 
-MAINTAINER=	obache@NetBSD.org
+MAINTAINER=	obache@users.sourceforge.net
 HOMEPAGE=	http://upower.freedesktop.org/releases/
 COMMENT=	UPower is an abstraction for enumerating power devices
 LICENSE=	gnu-gpl-v2

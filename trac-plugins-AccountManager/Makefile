@@ -7,7 +7,7 @@ CATEGORIES=	www
 MASTER_SITES=	-http://trac-hacks.org/changeset/${SVN_REV}/${SVN_MOD}/tags/${SVN_TAG}?old_path=%2F&old=${SVN_REV}&format=zip
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	obache@NetBSD.org
+MAINTAINER=	obache@users.sourceforge.net
 HOMEPAGE=	http://trac-hacks.org/wiki/AccountManagerPlugin
 COMMENT=	User account management plugin for Trac
 LICENSE=	modified-bsd
