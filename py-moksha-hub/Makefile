@@ -12,7 +12,7 @@ LICENSE=	apache-2.0
 
 DEPENDS+=	${PYPKGPREFIX}-twisted-[0-9]*:../../net/py-twisted
 DEPENDS+=	${PYPKGPREFIX}-zmq>=14.4.1:../../net/py-zmq
-DEPENDS+=	${PYPKGPREFIX}-py-txWS>=0.9.1:../../wip/py-py-txWS
+DEPENDS+=	${PYPKGPREFIX}-txWS>=0.9.1:../../wip/py-txWS
 DEPENDS+=	${PYPKGPREFIX}-txZMQ>=0.7.3:../../wip/py-txZMQ
 DEPENDS+=	${PYPKGPREFIX}-moksha-common>=1.2.3:../../wip/py-moksha-common
 
