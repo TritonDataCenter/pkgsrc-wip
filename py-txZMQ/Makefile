@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	txZMQ-0.7.3
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME:tl}
+PKGNAME=	${PYPKGPREFIX}-txZMQ-0.7.3
 CATEGORIES=	net python
 MASTER_SITES=	https://pypi.python.org/packages/source/t/txZMQ/
 
@@ -15,5 +15,7 @@ DEPENDS+=	${PYPKGPREFIX}-zmq>=14.4.1:../../net/py-zmq
 
 USE_LANGUAGES=	# none
 
-.include "../../lang/python/distutils.mk"
+PYDISTUTILSPKG=	yes
+
+.include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
