@@ -2391,6 +2391,7 @@ SUBDIR+=	pinkpony
 SUBDIR+=	pizza
 SUBDIR+=	pjproject
 SUBDIR+=	pkg
+SUBDIR+=	pkg15
 SUBDIR+=	pkg_conflicts
 SUBDIR+=	pkg_fake
 #SUBDIR+=	pkg_get			# not a package (yet?)
