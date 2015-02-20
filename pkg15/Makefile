@@ -3,8 +3,8 @@
 
 GHCOMMIT=	d7d7a7f532ce90d41f7c146b209b5c34808f8b09
 DISTNAME=	${GHCOMMIT}
-PKGREVISION=	1
 PKGNAME=	pkg15-1.4.99.11.20150220
+PKGREVISION=	2
 CATEGORIES=	pkgtools
 MASTER_SITES=	https://github.com/freebsd/pkg/archive/
 
@@ -31,5 +31,4 @@ post-install:
 	${MV} ${DESTDIR}${PREFIX}/etc/pkg.conf.sample ${DESTDIR}${PREFIX}/share/doc/pkg/pkg.conf.sample
 
 .include "../../archivers/libarchive/buildlink3.mk"
-.include "../../devel/libelf/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
