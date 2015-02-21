@@ -51,5 +51,5 @@ man/man8/pkg.8
 sbin/pkg
 sbin/pkg-static
 sbin/pkg2ng
-share/doc/pkg/pkg.conf.sample
+share/examples/pkg/pkg.conf.sample
 share/zsh/site-functions/_pkg

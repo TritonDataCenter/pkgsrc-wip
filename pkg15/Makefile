@@ -4,7 +4,7 @@
 GHCOMMIT=	d7d7a7f532ce90d41f7c146b209b5c34808f8b09
 DISTNAME=	${GHCOMMIT}
 PKGNAME=	pkg15-1.4.99.11.20150220
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	pkgtools
 MASTER_SITES=	https://github.com/freebsd/pkg/archive/
 
@@ -24,11 +24,17 @@ USE_LANGUAGES=	c c++
 
 AUTO_MKDIRS=	yes
 
+EGDIR=		${PREFIX}/share/examples/pkg
+
+CONF_FILES=	${EGDIR}/pkg.conf.sample \
+		${PKG_SYSCONFDIR}/pkg.conf
+
 pre-configure:
 	cd ${WRKSRC} && ./autogen.sh
 
 post-install:
-	${MV} ${DESTDIR}${PREFIX}/etc/pkg.conf.sample ${DESTDIR}${PREFIX}/share/doc/pkg/pkg.conf.sample
+	${MV} ${DESTDIR}${PREFIX}/etc/pkg.conf.sample \
+		${DESTDIR}${EGDIR}/pkg.conf.sample
 
 .include "../../archivers/libarchive/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
