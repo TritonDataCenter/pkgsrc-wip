@@ -33,6 +33,7 @@ REPLACE_AWK+=	runtime/tools/mve.awk
 .include "../../lang/LuaJIT2/buildlink3.mk"
 .include "../../lang/lua/application.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
-.include "../../mk/termcap.buildlink3.mk"
+.include "../../wip/libunibilium/buildlink3.mk"
+.include "../../wip/libtermkey/buildlink3.mk"
 .include "../../wip/mk/git-package.mk"
 .include "../../mk/bsd.pkg.mk"
