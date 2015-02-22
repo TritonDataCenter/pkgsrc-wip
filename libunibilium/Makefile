@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	libunibilium-1.1.1
+DISTNAME=	libunibilium-1.1.2
 CATEGORIES=	devel
 MASTER_SITES=	-https://github.com/mauke/unibilium/archive/v${PKGVERSION_NOREV}${EXTRACT_SUFX}
 
