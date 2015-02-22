@@ -3299,6 +3299,7 @@ SUBDIR+=	rippled
 SUBDIR+=	ristretto
 SUBDIR+=	rk
 SUBDIR+=	rnc-mode
+SUBDIR+=	rng-tools
 SUBDIR+=	rolo
 SUBDIR+=	rootcheck
 SUBDIR+=	rope
