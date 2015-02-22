@@ -14,6 +14,7 @@ HAS_CONFIGURE=	YES
 CONFIGURE_ARGS+=	--mandir=${PREFIX}/${PKGMANDIR}
 CONFIGURE_ARGS+=	--with-sysmagic
 CONFIGURE_ARGS+=	--with-syscapstone
+CONFIGURE_ARGS+=	--with-syszip
 PKGCONFIG_OVERRIDE+=	pkgcfg/*.pc*
 USE_TOOLS+=	gmake
 
@@ -21,4 +22,5 @@ USE_TOOLS+=	gmake
 
 .include "../../devel/capstone/buildlink3.mk"
 .include "../../sysutils/file/buildlink3.mk"
+.include "../../archivers/libzip/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
