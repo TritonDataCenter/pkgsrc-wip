@@ -1,0 +1,7 @@
+===========================================================================
+$NetBSD$
+
+Once started, kibana will listen for HTTP requests on :5601
+
+Please consider placing it behind a proxy for production use.
+===========================================================================
