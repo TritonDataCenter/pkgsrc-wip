@@ -1,0 +1,7 @@
+@comment $NetBSD$
+${PYSITELIB}/dependenpy/__init__.py
+${PYSITELIB}/dependenpy/__init__.pyc
+${PYSITELIB}/dependenpy/__init__.pyo
+${PYSITELIB}/dependenpy/utils.py
+${PYSITELIB}/dependenpy/utils.pyc
+${PYSITELIB}/dependenpy/utils.pyo

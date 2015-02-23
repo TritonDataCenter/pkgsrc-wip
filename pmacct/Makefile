@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pmacct-1.5.0
+DISTNAME=	pmacct-1.5.1
 CATEGORIES=	net
 MASTER_SITES=	http://www.pmacct.net/
 

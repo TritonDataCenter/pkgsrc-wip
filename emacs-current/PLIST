@@ -2162,8 +2162,6 @@ share/emacs/${PKGVERSION}/lisp/gnus/rfc2045.el.gz
 share/emacs/${PKGVERSION}/lisp/gnus/rfc2045.elc
 share/emacs/${PKGVERSION}/lisp/gnus/rfc2047.el.gz
 share/emacs/${PKGVERSION}/lisp/gnus/rfc2047.elc
-share/emacs/${PKGVERSION}/lisp/gnus/rfc2104.el.gz
-share/emacs/${PKGVERSION}/lisp/gnus/rfc2104.elc
 share/emacs/${PKGVERSION}/lisp/gnus/rfc2231.el.gz
 share/emacs/${PKGVERSION}/lisp/gnus/rfc2231.elc
 share/emacs/${PKGVERSION}/lisp/gnus/rtree.el.gz
@@ -2772,6 +2770,8 @@ share/emacs/${PKGVERSION}/lisp/net/quickurl.el.gz
 share/emacs/${PKGVERSION}/lisp/net/quickurl.elc
 share/emacs/${PKGVERSION}/lisp/net/rcirc.el.gz
 share/emacs/${PKGVERSION}/lisp/net/rcirc.elc
+share/emacs/${PKGVERSION}/lisp/net/rfc2104.el.gz
+share/emacs/${PKGVERSION}/lisp/net/rfc2104.elc
 share/emacs/${PKGVERSION}/lisp/net/rlogin.el.gz
 share/emacs/${PKGVERSION}/lisp/net/rlogin.elc
 share/emacs/${PKGVERSION}/lisp/net/sasl-cram.el.gz
@@ -2780,6 +2780,8 @@ share/emacs/${PKGVERSION}/lisp/net/sasl-digest.el.gz
 share/emacs/${PKGVERSION}/lisp/net/sasl-digest.elc
 share/emacs/${PKGVERSION}/lisp/net/sasl-ntlm.el.gz
 share/emacs/${PKGVERSION}/lisp/net/sasl-ntlm.elc
+share/emacs/${PKGVERSION}/lisp/net/sasl-scram-rfc.el.gz
+share/emacs/${PKGVERSION}/lisp/net/sasl-scram-rfc.elc
 share/emacs/${PKGVERSION}/lisp/net/sasl.el.gz
 share/emacs/${PKGVERSION}/lisp/net/sasl.elc
 share/emacs/${PKGVERSION}/lisp/net/secrets.el.gz

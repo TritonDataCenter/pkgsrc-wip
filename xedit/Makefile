@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	xedit-1.2.1
+DISTNAME=	xedit-1.2.2
 CATEGORIES=	editors
 MASTER_SITES=	${MASTER_SITE_XORG:=app/}
 EXTRACT_SUFX=	.tar.bz2

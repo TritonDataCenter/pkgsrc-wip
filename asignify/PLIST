@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/asignify
+include/asignify.h
+lib/libasignify.la
+man/man1/asignify.1

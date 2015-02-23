@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/rngtest
+man/man1/rngtest.1
+man/man8/rngd.8
+sbin/rngd

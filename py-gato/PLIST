@@ -1,6 +1,7 @@
 @comment $NetBSD$
-bin/Gato2.7
-bin/Gred2.7
+bin/Gato${PYVERSSUFFIX}
+bin/Gred${PYVERSSUFFIX}
+${PYSITELIB}/${EGG_FILE}
 ${PYSITELIB}/Gato/AnimatedAlgorithms.py
 ${PYSITELIB}/Gato/AnimatedAlgorithms.pyc
 ${PYSITELIB}/Gato/AnimatedAlgorithms.pyo

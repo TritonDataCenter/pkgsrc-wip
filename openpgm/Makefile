@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/lib/open/}
 CATEGORIES=	net
 MASTER_SITES=	http://openpgm.googlecode.com/files/
 
-MAINTAINER=	obache@NetBSD.org
+MAINTAINER=	obache@users.sourceforge.net
 HOMEPAGE=	http://code.google.com/p/openpgm/
 COMMENT=	Open source implementation of the Pragmatic General Multicast
 LICENSE=	gnu-lgpl-v2.1 # or later

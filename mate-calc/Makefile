@@ -5,7 +5,7 @@ CATEGORIES=	math
 MASTER_SITES=	http://pub.mate-desktop.org/releases/1.8/
 EXTRACT_SUFX=	.tar.xz
 
-MAINTAINER=	obache@NetBSD.org
+MAINTAINER=	obache@users.sourceforge.net
 HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	Calculator application for MATE desktop
 LICENSE=	gnu-gpl-v2

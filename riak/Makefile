@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		riak-2.0.2
+DISTNAME=		riak-2.0.5
 CATEGORIES=		databases
 MASTER_SITES=		http://s3.amazonaws.com/downloads.basho.com/riak/2.0/${PKGVERSION}/
 
@@ -40,6 +40,7 @@ RIAK_USER?=		riak
 RIAK_GROUP?=		${RIAK_USER}
 RIAK_DATA?=		${VARBASE}/db/riak
 RIAK_LOG?=		${VARBASE}/log/riak
+RIAK_RUN?=		${VARBASE}/run
 
 PKG_GROUPS+=		${RIAK_GROUP}
 PKG_USERS+=		${RIAK_USER}:${RIAK_GROUP}
@@ -61,14 +62,9 @@ SMF_HOME=		${RIAK_DATA}
 
 BUILD_TARGET=		rel
 
-PLIST_VARS+=		dtrace
-
 PLIST_SRC=		PLIST
 .if exists(${.CURDIR}/PLIST.${OPSYS})
 PLIST_SRC+=		PLIST.${OPSYS}
-.endif
-.if !empty(PKG_BUILD_OPTIONS.erlang:Mdtrace)
-PLIST.dtrace=		yes
 .endif
 .if !empty(PKG_BUILD_OPTIONS.erlang:Merlang-hipe)
 PLIST_SRC+=		PLIST.hipe
@@ -77,23 +73,18 @@ PLIST_SRC+=		PLIST.hipe
 SUBST_CLASSES+=		pkgsrc
 SUBST_STAGE.pkgsrc=	pre-build
 SUBST_MESSAGE.pkgsrc=	Fixing pkgsrc locations and tools
-SUBST_FILES.pkgsrc=	rel/vars.config
+SUBST_FILES.pkgsrc=	deps/node_package/priv/base/env.sh rel/vars.config
 SUBST_VARS.pkgsrc=	PREFIX PKG_SYSCONFDIR PKGVERSION_NOREV
-SUBST_VARS.pkgsrc+=	RIAK_USER RIAK_DATA RIAK_LOG
-
-REPLACE_INTERPRETER+=	escript
-REPLACE.escript.old=	.*escript
-REPLACE.escript.new=	${BUILDLINK_PREFIX.erlang}/bin/escript
-REPLACE_FILES.escript=	rel/files/nodetool
+SUBST_VARS.pkgsrc+=	RIAK_USER RIAK_DATA RIAK_LOG RIAK_RUN
 
 CHECK_INTERPRETER_SKIP=	riak/lib/eper-${VERSION.eper}/priv/bin/* \
 			riak/erts-${VERSION.erts}/bin/* \
 			riak/lib/bitcask-${VERSION.bitcask}/priv/Run-eunit-loop.expect \
-			riak/lib/riaknostic/riaknostic \
-			riak/lib/yokozuna-${VERSION.yokozuna}/priv/solr/etc/*.sh
+			riak/lib/riaknostic/riaknostic
 
 CHECK_PORTABILITY_SKIP=	deps/riak_search/tests/riak_search/run_all.sh \
-			tests/riak_search/run_all.sh
+			riak/lib/yokozuna-${VERSION.yokozuna}/priv/solr/etc/*.sh \
+ 			tests/riak_search/run_all.sh
 
 MAKE_ENV+=		PATCH=${PATCH:Q}
 
@@ -125,6 +116,7 @@ post-extract:
 	${CHOWN} -R ${ROOT_USER}:${ROOT_GROUP} ${WRKSRC}
 
 do-install:
+	${RM} -f ${WRKSRC}/rel/riak/lib/runtime_tools-${VERSION.runtime_tools}/priv/obj/dtrace_user.o
 	${MKDIR} ${WRKSRC}/deps/node_package/priv/templates/pkgsrc
 	${INSTALL_DATA} ${FILESDIR}/Makefile \
 	  ${WRKSRC}/deps/node_package/priv/templates/pkgsrc
