@@ -3,6 +3,7 @@
 .include "../../net/samba/Makefile.mirrors"
 
 DISTNAME=	samba-${VERSION}
+PKGNAME=	samba4-${VERSION}
 CATEGORIES=	net
 MASTER_SITES=	${SAMBA_MIRRORS:=stable/}
 # http://www.samba.org/samba/ftp/stable/
@@ -20,11 +21,13 @@ DESCR_SRC=		${PKGDIR}/../../net/samba/DESCR
 MESSAGE_SRC=		${PKGDIR}/../../net/samba/MESSAGE
 BUILD_DEFS+=		VARBASE
 
+USE_MULTIARCH=	lib
+
 .include "../../mk/bsd.prefs.mk"
 
 PKG_SYSCONFSUBDIR=	samba
 SAMBA_ETCDIR?=		${PKG_SYSCONFDIR}
-SAMBA_LIBDIR?=		${PREFIX}/lib
+SAMBA_LIBDIR?=		${PREFIX}/lib${LIBARCHSUFFIX}
 SAMBA_LOCKDIR?=		${SAMBA_VARDIR}/run/samba
 SAMBA_LOGDIR?=		${SAMBA_VARDIR}/log
 SAMBA_MODULESDIR?=	${SAMBA_LIBDIR}/samba
@@ -126,7 +129,7 @@ MAKE_DIRS=	${SAMBA_VARDIR} ${SAMBA_LOGDIR} ${SAMBA_PIDDIR}
 OWN_DIRS=	${SAMBA_ETCDIR} ${SAMBA_LOCKDIR} ${SAMBA_STATEDIR}
 OWN_DIRS_PERMS=	${SAMBA_PRIVATE} ${REAL_ROOT_USER} ${REAL_ROOT_GROUP} 0700
 RCD_SCRIPTS+=	samba nmbd smbd ${WINBINDD_RCD_SCRIPT}
-LDFLAGS+=	-Wl,-rpath,${PREFIX}/lib/samba
+LDFLAGS+=	-Wl,-rpath,${PREFIX}/lib${LIBARCHSUFFIX}/samba
 
 SUBST_CLASSES+=		paths
 SUBST_MESSAGE.paths=	Fixing paths.
