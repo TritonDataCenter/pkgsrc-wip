@@ -4,7 +4,7 @@
 GHCOMMIT=	d7d7a7f532ce90d41f7c146b209b5c34808f8b09
 DISTNAME=	${GHCOMMIT}
 PKGNAME=	pkg15-1.4.99.11.20150220
-PKGREVISION=	4
+PKGREVISION=	5
 CATEGORIES=	pkgtools
 MASTER_SITES=	https://github.com/freebsd/pkg/archive/
 
@@ -23,6 +23,7 @@ USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c c++
 
 CPPFLAGS+=	-D_LOCALBASE="\"${PREFIX}\""
+CPPFLAGS+=	-DPORTSDIR="\"/usr/pkgsrc\""
 
 AUTO_MKDIRS=	yes
 
