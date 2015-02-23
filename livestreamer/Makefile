@@ -1,9 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	v1.10.2
-PKGNAME=	livestreamer-${DISTNAME:C/v//1}
+DISTNAME=	livestreamer-1.11.1
 CATEGORIES=	multimedia python
-MASTER_SITES=	https://github.com/chrippa/livestreamer/archive/
+MASTER_SITES=	-https://github.com/chrippa/livestreamer/archive/v${PKGVERSION_NOREV}${EXTRACT_SUFX}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://livestreamer.tanuki.se/
