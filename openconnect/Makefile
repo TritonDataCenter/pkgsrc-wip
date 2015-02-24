@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	openconnect-7.04
 CATEGORIES=	net security
