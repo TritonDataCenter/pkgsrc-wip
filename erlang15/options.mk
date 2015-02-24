@@ -23,7 +23,7 @@ PKG_SUPPORTED_OPTIONS+=	dtrace
 
 .include "../../mk/bsd.options.mk"
 
-PLIST_VARS+=	odbc dtrace
+PLIST_VARS+=	odbc
 
 .if !empty(PKG_OPTIONS:Mjava)
 USE_JAVA=		yes
@@ -65,7 +65,6 @@ CONFIGURE_ARGS+=	--with-dynamic-trace=dtrace
 .  elif ${OPSYS} == "Linux"
 CONFIGURE_ARGS+=	--with-dynamic-trace=systemtap
 .  endif
-PLIST.dtrace=		yes
 .endif
 
 # Help generate optional PLIST parts:

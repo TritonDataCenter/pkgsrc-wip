@@ -80,6 +80,7 @@ pre-build:
 	${RUN} ${RM} -f ${WRKSRC}/lib/stdlib/ebin/dets_v9.beam
 
 post-install:
+	${RM} -f ${DESTDIR}${PREFIX}/lib/erlang/lib/runtime_tools-${VERSION.runtime_tools}/priv/obj/dtrace_user.o
 	chmod -R go-w ${DESTDIR}${PREFIX}/lib/erlang/lib
 
 .include "../../security/openssl/buildlink3.mk"
