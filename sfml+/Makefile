@@ -3,7 +3,7 @@
 DISTNAME=	SFML-1.6-sdk-linux-64
 PKGNAME=	sfml+-1.6
 CATEGORIES=	multimedia
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=sfml/}
+MASTER_SITES=	http://www.sfml-dev.org/files/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.sfml-dev.org/
