@@ -7,6 +7,7 @@ sbin/auto-disable-hyperthreading
 sbin/auto-enable-autologout
 sbin/auto-harden
 sbin/auto-insert-line
+sbin/auto-ldap-adduser
 sbin/auto-ldap-client-setup
 sbin/auto-pkgsrc-setup
 sbin/auto-pxe-installer-setup
