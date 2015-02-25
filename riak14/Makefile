@@ -112,6 +112,7 @@ post-build:
 		${WRKSRC}/deps/node_package/priv/templates/smartos/runner.patch
 
 do-install:
+	${RM} -f ${WRKSRC}/rel/riak/lib/runtime_tools-${VERSION.runtime_tools}/priv/obj/dtrace_user.o
 	${MKDIR} ${WRKSRC}/deps/node_package/priv/templates/pkgsrc
 	${INSTALL_DATA} ${FILESDIR}/Makefile \
 	  ${WRKSRC}/deps/node_package/priv/templates/pkgsrc
