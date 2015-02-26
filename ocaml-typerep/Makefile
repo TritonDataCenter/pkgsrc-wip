@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	typerep-${VERS}
-VERS=		111.17.00
+VERS=		112.17.00
 CATEGORIES=	devel
 MASTER_SITES=   https://github.com/janestreet/typerep/archive/
 DISTFILES=	${VERS}${EXTRACT_SUFX}
