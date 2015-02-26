@@ -1932,6 +1932,7 @@ SUBDIR+=	ocaml-bin_prot
 SUBDIR+=	ocaml-biniou
 SUBDIR+=	ocaml-camomile
 SUBDIR+=	ocaml-comparelib
+SUBDIR+=	ocaml-custom_printf
 SUBDIR+=	ocaml-easy-format
 SUBDIR+=	ocaml-enumerate
 SUBDIR+=	ocaml-fieldslib
