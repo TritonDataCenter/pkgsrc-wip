@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	pa_test-${VERS}
-VERS=		111.08.00
+VERS=		111.08.01
 CATEGORIES=	devel
 MASTER_SITES=   https://github.com/janestreet/pa_test/archive/
 DISTFILES=	${VERS}${EXTRACT_SUFX}
