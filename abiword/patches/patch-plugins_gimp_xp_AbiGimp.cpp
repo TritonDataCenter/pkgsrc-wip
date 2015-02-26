@@ -7,7 +7,7 @@ $NetBSD$
      // Get the current view that the user is in.
      XAP_Frame *pFrame = XAP_App::getApp()->getLastFocussedFrame();
 +    if (pFrame == NULL) {
-+      UT_DEBUGMSG("Gimp plugin: getLastFocussedFrame() returned NULL\n");
++      UT_DEBUGMSG(("Gimp plugin: getLastFocussedFrame() returned NULL\n"));
 +      return false;
 +    }
      FV_View* pView = static_cast<FV_View*>(pFrame->getCurrentView());
