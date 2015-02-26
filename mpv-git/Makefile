@@ -9,7 +9,7 @@ HOMEPAGE=	http://mpv.io/
 COMMENT=	Video player based on MPlayer and mplayer2 (git version)
 LICENSE=	gnu-gpl-v2
 
-BUILD_DEPENDS+=	${PYPKGPREFIX}-docutils-[0-9]*:../../textproc/py-docutils
+BUILD_DEPENDS+=	${PYPKGPREFIX}-docutils>=0.12:../../textproc/py-docutils
 # ${WRKSRC}/bootstrap.py mentions needed version
 BUILD_DEPENDS+=	waf>=1.8.4:../../devel/waf
 
@@ -31,6 +31,12 @@ SUBST_SED.audio+=	-e "s,/dev/dsp,${DEVOSSAUDIO},"
 SUBST_FILES.audio+=	stream/audio_in.c waftools/checks/custom.py wscript
 SUBST_STAGE.audio=	pre-configure
 SUBST_MESSAGE.audio=	Fixing path to audio device.
+
+SUBST_CLASSES+=		docutils
+SUBST_SED.docutils+=	-e "s,rst2man,rst2man-${PYVERSSUFFIX},"
+SUBST_FILES.docutils+=	wscript
+SUBST_STAGE.docutils=	pre-configure
+SUBST_MESSAGE.docutils=	Fix docutils command names.
 
 post-install:
 	cd ${DESTDIR}${PREFIX} && ${MV} etc/mpv/encoding-profiles.conf share/examples/mpv
