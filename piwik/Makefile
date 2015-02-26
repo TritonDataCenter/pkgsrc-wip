@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		2.11.0
+DISTNAME=		2.11.1
 PKGNAME=		piwik-${DISTNAME}
 CATEGORIES=		www
 MASTER_SITES=		https://github.com/piwik/piwik/archive/
