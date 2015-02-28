@@ -12,7 +12,7 @@ LICENSE=	gnu-gpl-v2
 USE_TOOLS+=	flex yacc
 BUILD_DEPENDS+=	asciidoc-[0-9]*:../../textproc/asciidoc
 
-REPLACE_PYTHON+=	cvssync
+REPLACE_PYTHON+=	cvsconvert cvssync
 USE_TOOLS+=	gmake # for srcdir
 MAKE_FLAGS+=	prefix=${PREFIX}
 MAKE_FLAGS+=	mandir=${PKGMANDIR}
