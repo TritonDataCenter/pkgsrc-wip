@@ -1,4 +1,5 @@
 # $FreeBSD: 372832 $
+# $NetBSD$
 
 SRCS+= adb.c
 SRCS+= adb_client.c
