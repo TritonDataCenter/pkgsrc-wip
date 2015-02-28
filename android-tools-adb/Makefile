@@ -11,7 +11,6 @@ COMMENT=	Android debug bridge command line tool
 LICENSE=	apache-2.0
 
 WRKSRC=		${WRKDIR}/platform_system_core-android-5.0.2_r1/adb
-USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake
 
 MAKE_JOBS_SAFE=	no
