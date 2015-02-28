@@ -94,6 +94,7 @@ SUBDIR+=	amavis-logwatch
 SUBDIR+=	amaya
 SUBDIR+=	analizo
 SUBDIR+=	and
+SUBDIR+=	android-tools-adb
 SUBDIR+=	ann
 SUBDIR+=	anthy-dic-jis34
 SUBDIR+=	antlr3-c
