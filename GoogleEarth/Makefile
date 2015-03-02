@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=		google-earth-stable_current_amd64.deb
+DISTNAME=		google-earth-stable_${GE_VERSION}_amd64.deb
 PKGNAME=		GoogleEarth-${GE_VERSION}
 CATEGORIES=		geography x11
-MASTER_SITES=		http://dl.google.com/earth/client/current/
+MASTER_SITES=		-http://dl.google.com/earth/client/current/google-earth-stable_current_amd64.deb
 EXTRACT_SUFX=
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
@@ -28,7 +28,6 @@ ONLY_FOR_PLATFORM=	NetBSD-[0-9]*-x86_64 Linux-[0-9]*-x86_64
 GE_VERSION=		7.1.2.204
 NO_CONFIGURE=		yes
 WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
-DIST_SUBDIR=		${PKGNAME_NOREV}
 EXTRACT_CMD=		ar x "$$extract_file"
 
 INSTALLATION_DIRS=	bin share
