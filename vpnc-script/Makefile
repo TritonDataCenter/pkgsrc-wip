@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	vpnc-script-20130311
+DISTNAME=	vpnc-script-20140805
 CATEGORIES=	net security
-MASTER_SITES=	# empty
-DISTFILES=	# empty
+MASTER_SITES=	http://git.infradead.org/users/dwmw2/vpnc-scripts.git/blob_plain/HEAD:/
+DISTFILES=	vpnc-script
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.infradead.org/openconnect/vpnc-script.html
