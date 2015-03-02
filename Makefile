@@ -2252,6 +2252,7 @@ SUBDIR+=	pcsx2
 SUBDIR+=	pcsxr
 SUBDIR+=	pdb2ldif
 SUBDIR+=	pdf2svg
+SUBDIR+=	pdfcrack
 SUBDIR+=	pdfedit
 SUBDIR+=	pdfminer
 SUBDIR+=	pdftk
