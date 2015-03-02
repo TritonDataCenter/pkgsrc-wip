@@ -1,6 +1,0 @@
-@comment $NetBSD$
-include/openconnect.h
-lib/libopenconnect.la
-lib/pkgconfig/openconnect.pc
-man/man8/openconnect.8
-sbin/openconnect

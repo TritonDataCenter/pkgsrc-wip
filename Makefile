@@ -1971,7 +1971,6 @@ SUBDIR+=	openbsc
 SUBDIR+=	openbsd-input-usbtablet
 SUBDIR+=	openca
 SUBDIR+=	opencascade
-SUBDIR+=	openconnect
 SUBDIR+=	opendchub
 SUBDIR+=	openerp-server
 SUBDIR+=	openlogos
