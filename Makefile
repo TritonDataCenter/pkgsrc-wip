@@ -3771,7 +3771,6 @@ SUBDIR+=	vlevel
 SUBDIR+=	vm-pop3d
 SUBDIR+=	vmsbackup
 SUBDIR+=	vncselector
-SUBDIR+=	vpnc-script
 SUBDIR+=	vpnc-svn
 SUBDIR+=	vpr
 SUBDIR+=	vreng

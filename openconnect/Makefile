@@ -13,7 +13,7 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake pkg-config
 
-DEPENDS+=	vpnc-script-[0-9]*:../../wip/vpnc-script
+DEPENDS+=	vpnc-script-[0-9]*:../../net/vpnc-script
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 CONFIGURE_ARGS+=	--with-vpnc-script=${PKG_SYSCONFDIR}/vpnc-script
