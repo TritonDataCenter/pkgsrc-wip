@@ -1901,6 +1901,7 @@ lib/firefox-${VERSION}/chrome/toolkit/content/formautofill/requestAutocomplete.x
 lib/firefox-${VERSION}/chrome/toolkit/content/global/BrowserElementChild.js
 lib/firefox-${VERSION}/chrome/toolkit/content/global/BrowserElementChildPreload.js
 lib/firefox-${VERSION}/chrome/toolkit/content/global/BrowserElementPanning.js
+lib/firefox-${VERSION}/chrome/toolkit/content/global/BrowserElementPanningAPZDisabled.js
 lib/firefox-${VERSION}/chrome/toolkit/content/global/XPCNativeWrapper.js
 lib/firefox-${VERSION}/chrome/toolkit/content/global/about.js
 lib/firefox-${VERSION}/chrome/toolkit/content/global/about.xhtml
