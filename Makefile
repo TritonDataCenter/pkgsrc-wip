@@ -13,6 +13,7 @@ SUBDIR+=	GNUMail-pgp
 SUBDIR+=	GSCommander
 SUBDIR+=	GoogleEarth
 SUBDIR+=	LabPlot
+SUBDIR+=	MesaLib
 SUBDIR+=	MoleInvasion
 SUBDIR+=	OpenGLUT
 SUBDIR+=	PHPUnit
