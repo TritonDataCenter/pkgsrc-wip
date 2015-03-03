@@ -29,6 +29,18 @@ PKGCONFIG_OVERRIDE+=	src/mesa/drivers/dri/dri.pc.in
 PKGCONFIG_OVERRIDE+=	src/mesa/drivers/osmesa/osmesa.pc.in
 PKGCONFIG_OVERRIDE+=	src/mesa/gl.pc.in
 
+# Work around a buildlink and/or libtool bug:
+# In the libtool install/relink stage, if we want to link with two static
+# archives named libglapi.la but in different directories, bad things happen.
+SUBST_CLASSES+=			wrapper-bug
+SUBST_STAGE.wrapper-bug=	pre-configure
+SUBST_MESSAGE.wrapper-bug=	Renaming glapi-shared/libglapi in Makefiles
+SUBST_FILES.wrapper-bug=	src/gbm/Makefile.in
+SUBST_FILES.wrapper-bug+=	src/glx/Makefile.in
+SUBST_FILES.wrapper-bug+=	src/mapi/Makefile.in
+SUBST_SED.wrapper-bug=		-e 's,shared-glapi/libglapi.la,shared-glapi/libglapis.la,g'
+SUBST_SED.wrapper-bug+=		-e 's,shared_glapi_libglapi_la,shared_glapi_libglapis_la,g'
+
 .include "options.mk"
 
 # XXX fix pypkgprefix
