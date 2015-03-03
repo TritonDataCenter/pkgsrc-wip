@@ -31,7 +31,7 @@ BUILDLINK_PKGSRCDIR.MesaLib?=	../../wip/MesaLib
 #.include "../../x11/libXdamage/buildlink3.mk"
 #.include "../../x11/libXfixes/buildlink3.mk"
 #.include "../../x11/libX11/buildlink3.mk"
-#.include "../../x11/libXext/buildlink3.mk"
+.include "../../x11/libXext/buildlink3.mk"
 #.include "../../x11/libdrm/buildlink3.mk"
 #.include "../../x11/libxcb/buildlink3.mk"
 #.include "../../x11/xf86vidmodeproto/buildlink3.mk"
