@@ -38,8 +38,9 @@ SUBST_MESSAGE.wrapper-bug=	Renaming glapi-shared/libglapi in Makefiles
 SUBST_FILES.wrapper-bug=	src/gbm/Makefile.in
 SUBST_FILES.wrapper-bug+=	src/glx/Makefile.in
 SUBST_FILES.wrapper-bug+=	src/mapi/Makefile.in
-SUBST_SED.wrapper-bug=		-e 's,shared-glapi/libglapi.la,shared-glapi/libglapis.la,g'
-SUBST_SED.wrapper-bug+=		-e 's,shared_glapi_libglapi_la,shared_glapi_libglapis_la,g'
+SUBST_SED.wrapper-bug=		-e 's,shared-glapi/libglapi.la,shared-glapi/libglapi_shared.la,g'
+SUBST_SED.wrapper-bug+=		-e 's,libglapi.la,libglapi_static.la,g'
+SUBST_SED.wrapper-bug+=		-e 's,libglapi_shared.la,libglapi.la,g'
 
 .include "options.mk"
 
