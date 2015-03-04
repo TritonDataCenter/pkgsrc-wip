@@ -48,6 +48,13 @@ PYTHON_FOR_BUILD_ONLY=	yes
 BUILD_DEPENDS+=		${PYPKGPREFIX}-mako-[0-9]*:../../devel/py-mako
 .include "../../lang/python/tool.mk"
 
+.if !empty(OPSYS:M*BSD)
+CONFIGURE_ARGS+=	--with-sha1=libc
+.else
+.include "../../security/nettle/buildlink3.mk"
+CONFIGURE_ARGS+=	--with-sha1=libnettle
+.endif
+
 #.include "../../multimedia/libva/buildlink3.mk"
 .include "../../sysutils/libpciaccess/buildlink3.mk"
 .include "../../x11/dri2proto/buildlink3.mk"
