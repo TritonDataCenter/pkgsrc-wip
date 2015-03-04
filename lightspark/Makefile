@@ -46,7 +46,7 @@ BUILDLINK_API_DEPENDS.xz+=	xz>=5.0.5
 .include "../../graphics/glu/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../mk/jpeg.buildlink3.mk"
-.include "../../lang/libLLVM/buildlink3.mk"
+.include "../../lang/libLLVM34/buildlink3.mk"
 .include "../../multimedia/ffmpeg010/buildlink3.mk"
 .include "../../net/rtmpdump/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
