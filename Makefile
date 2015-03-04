@@ -3297,7 +3297,6 @@ SUBDIR+=	quickie
 SUBDIR+=	qupzilla
 SUBDIR+=	qvamps
 SUBDIR+=	r8s
-SUBDIR+=	radare2
 SUBDIR+=	radare2-git
 SUBDIR+=	radiotray
 SUBDIR+=	ranmacgen
