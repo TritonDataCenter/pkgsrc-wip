@@ -4,7 +4,7 @@
 # used by wip/zabbix-server-pgsql/Makefile
 # used by wip/zabbix-server-mysql/Makefile
 
-VER=			2.4.3
+VER=			2.4.4
 DISTNAME=		zabbix-${VER}
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=zabbix/}
