@@ -44,11 +44,9 @@ SUBST_SED.wrapper-bug+=		-e 's,libglapi_shared.la,libglapi.la,g'
 
 .include "options.mk"
 
-# XXX fix pypkgprefix
 PYTHON_FOR_BUILD_ONLY=	yes
 BUILD_DEPENDS+=		${PYPKGPREFIX}-mako-[0-9]*:../../devel/py-mako
-CONFIGURE_ENV+=		PYTHON2=${PYTHONBIN}
-.include "../../lang/python/application.mk"
+.include "../../lang/python/tool.mk"
 
 #.include "../../multimedia/libva/buildlink3.mk"
 .include "../../sysutils/libpciaccess/buildlink3.mk"
