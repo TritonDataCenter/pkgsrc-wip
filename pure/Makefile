@@ -20,7 +20,7 @@ PKGCONFIG_OVERRIDE=	pure.pc.in
 pre-configure:
 	${LN} -s ${LLVM_CONFIG_PATH} ${TOOLS_DIR}/bin/llvm-config
 
-.include "../../lang/libLLVM/buildlink3.mk"
+.include "../../lang/libLLVM34/buildlink3.mk"
 .include "../../devel/readline/buildlink3.mk"
 .include "../../devel/gmp/buildlink3.mk"
 .include "../../math/mpfr/buildlink3.mk"
