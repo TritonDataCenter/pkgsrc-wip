@@ -4,14 +4,18 @@ PKG_OPTIONS_VAR=		PKG_OPTIONS.MesaLib
 PKG_SUPPORTED_OPTIONS=		llvm dri
 PKG_SUGGESTED_OPTIONS=
 
-.if !empty(MACHINE_PLATFORM:MNetBSD-[789].*-*)
+.if !empty(MACHINE_PLATFORM:MNetBSD-[789].*-*) && (	\
+	${MACHINE_ARCH} == "i386" ||			\
+	${MACHINE_ARCH} == "x86_64" ||			\
+	${MACHINE_ARCH} == "sparc64" ||			\
+	${MACHINE_ARCH} == "powerpc" ||			\
+	!empty(MACHINE_ARCH:M*arm*))
 PKG_SUGGESTED_OPTIONS+=		llvm
-PKG_SUGGESTED_OPTIONS+=		dri
 .endif
 
 .if (${OPSYS} == "FreeBSD" || ${OPSYS} == "OpenBSD" ||		\
 	${OPSYS} == "DragonFly" || ${OPSYS} == "Linux" ||	\
-	${OPSYS} == "SunOS")
+	${OPSYS} == "SunOS") || ${OPSYS} == "NetBSD"
 PKG_SUGGESTED_OPTIONS+=		dri
 .endif
 
