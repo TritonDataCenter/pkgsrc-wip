@@ -2,8 +2,8 @@
 # used by wip/wmx/Makefile
 # used by wip/wmx-gnome/Makefile
 
-DISTNAME=	wmx-7
-WMX_VERS=	7.0
+DISTNAME=	wmx-8
+WMX_VERS=	8.0
 CATEGORIES+=	x11 wm
 MASTER_SITES=	http://www.all-day-breakfast.com/wmx/
 
