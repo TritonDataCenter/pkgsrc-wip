@@ -109,6 +109,12 @@ SUBST_FILES.alsa+=	gr-audio/lib/CMakeLists.txt
 SUBST_SED.alsa=		-e 's,@@ALSA@@,${ALSA_ENABLED},'
 SUBST_STAGE.alsa=	post-patch
 
+SUBST_CLASSES+=		pyvers
+SUBST_FILES.pyvers=	cmake/Modules/FindSphinx.cmake
+SUBST_MESSAGE.pyvers=	Fix SPHINX_EXECUTABLE NAMES(sphinx-build)
+SUBST_VARS.pyvers+=	PYVERSSUFFIX
+SUBST_STAGE.pyvers=	pre-configure
+
 # REPLACE_PYTHON is some 600 files
 .include	"../../wip/gnuradio-core/files/REPLACE_PYTHON"
 
