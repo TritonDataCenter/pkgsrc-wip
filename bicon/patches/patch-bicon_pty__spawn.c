@@ -1,5 +1,6 @@
 $NetBSD$
 Terminal includes per http://daemonforums.org/attachment.php?attachmentid=537&d=1425436939
+Patch authored by bcallah@openbsd.org
 
 --- bicon/pty_spawn.c.orig	2015-03-05 07:25:26.000000000 -0800
 +++ bicon/pty_spawn.c	2015-03-05 07:26:35.000000000 -0800

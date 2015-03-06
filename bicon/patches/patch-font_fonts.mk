@@ -1,5 +1,6 @@
 $NetBSD$
 Remove Linux'isms per http://daemonforums.org/attachment.php?attachmentid=537&d=1425436939
+Patch authored by bcallah@openbsd.org
 
 --- font/fonts.mk.orig	2015-03-05 07:36:42.000000000 -0800
 +++ font/fonts.mk	2015-03-05 07:36:53.000000000 -0800
