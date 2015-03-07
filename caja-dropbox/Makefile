@@ -5,7 +5,7 @@ CATEGORIES=	sysutils
 MASTER_SITES=	http://pub.mate-desktop.org/releases/1.8/
 EXTRACT_SUFX=	.tar.xz
 
-MAINTAINER=	obach@NetBSD.org
+MAINTAINER=	obache@users.sourceforge.net
 HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	Dropbox Caja extension
 LICENSE=	cc-by-nd-v3.0-license AND gnu-gpl-v3
