@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	mathopd-1.5p8
+DISTNAME=	mathopd-1.6b15
 CATEGORIES=	www
 MASTER_SITES=	http://www.mathopd.org/dist/
 
