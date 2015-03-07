@@ -1,12 +1,11 @@
 # $NetBSD$
 
-DISTNAME=	${GH_PROJECT}-${GH_TAGNAME}
+MASTER_SITES=	https://github.com/android/
+DISTNAME=	${GITHUB_PROJECT}-${GITHUB_TAG}
 PKGNAME=	android-tools-adb-5.0.2
 CATEGORIES=	devel
-USE_GITHUB=	yes
-GH_ACCOUNT=	android
-GH_PROJECT=	platform_system_core
-GH_TAGNAME=	android-5.0.2_r1
+GITHUB_PROJECT=	platform_system_core
+GITHUB_TAG=	android-5.0.2_r1
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://developer.android.com/tools/help/adb.html
