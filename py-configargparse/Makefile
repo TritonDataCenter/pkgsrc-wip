@@ -5,7 +5,6 @@ DISTNAME=	ConfigArgParse-${VERSION}
 PKGNAME=	${PYPKGPREFIX}-configargparse-${VERSION}
 CATEGORIES=	devel
 MASTER_SITES=	https://pypi.python.org/packages/source/C/ConfigArgParse/
-#EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/bw2/ConfigArgParse
