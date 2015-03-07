@@ -13,22 +13,14 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.acpica.org/
 COMMENT=	Intel ACPI CA Unix utilities
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
-INSTALLATION_DIRS=	bin share/doc/acpica-utils
-
 USE_TOOLS+=	bison flex gm4 gmake
 
 LICENSE=	gnu-gpl-v2 # OR intel-acpica-license
-# According to http://www.acpica.org/documentation/faq.php:
+# According to https://acpica.org/faq
 #   "Under what licensing is the ACPICA source released?
 #      ACPICA can be licensed under the GNU General Public License or via a
 #      separate license that may be more favorable to commercial OSVs. Please
 #      see the source code license header for specifics.
-
-# Don't have sem_timedwait()
-CFLAGS.NetBSD+=	-DACPI_USE_ALTERNATE_TIMEOUT
-CFLAGS.DragonFly+=	-DACPI_USE_ALTERNATE_TIMEOUT
 
 .include "../../wip/mk/git-package.mk"
 .include "../../mk/bsd.pkg.mk"
