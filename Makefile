@@ -3547,7 +3547,6 @@ SUBDIR+=	syncthing
 SUBDIR+=	syncthing-gtk
 SUBDIR+=	synfig
 SUBDIR+=	synfigstudio
-SUBDIR+=	sysjail
 SUBDIR+=	sysklogd
 SUBDIR+=	syslog-ng2
 SUBDIR+=	sysstat
