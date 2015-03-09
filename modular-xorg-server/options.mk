@@ -13,6 +13,8 @@ PLIST.dri=		yes
 CONFIGURE_ARGS+=	--enable-dri
 CONFIGURE_ARGS+=	--enable-glx
 CONFIGURE_ARGS+=	--enable-aiglx
+# XXX needs libepoxy
+#CONFIGURE_ARGS+=	--enable-glamor
 .else
 ###
 ### XXX Perhaps we should allow for a built-in glx without dri enabled?
@@ -31,7 +33,6 @@ CONFIGURE_ARGS+=	--disable-ipv6
 CONFIGURE_ARGS+=	--enable-debug
 CFLAGS+=		-ggdb
 .endif
-
 
 .if !empty(PKG_OPTIONS:Mdtrace)
 PLIST.dtrace=		yes
