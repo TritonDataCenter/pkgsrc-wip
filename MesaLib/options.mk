@@ -28,6 +28,7 @@ PLIST_VARS+=		dri swrast_dri i915_dri nouveau_dri i965_dri radeon_dri r200_dri
 
 .if !empty(PKG_OPTIONS:Mdri)
 PLIST.dri=	yes
+BUILDLINK_DEPMETHOD.libpciaccess=      full
 .include "../../sysutils/libpciaccess/buildlink3.mk"
 .include "../../graphics/MesaLib/dri.mk"
 
