@@ -1443,6 +1443,7 @@ SUBDIR+=	libee
 SUBDIR+=	libeio
 SUBDIR+=	libeio-cvs
 SUBDIR+=	libepc
+SUBDIR+=	libepoxy
 SUBDIR+=	libeps
 SUBDIR+=	libestr
 SUBDIR+=	libfm
