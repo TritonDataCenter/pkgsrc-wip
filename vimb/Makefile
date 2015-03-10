@@ -2,7 +2,7 @@
 
 DISTNAME=	vimb-2.9
 CATEGORIES=	www
-MASTER_SITES=	-https://github.com/fanglingsu/vimb/archive/${PKGVERSION_NOREV}${EXTRACT_SUFX}
+MASTER_SITES=	${MASTER_SITE_GITHUB:=fanglingsu/}
 
 MAINTAINER=	leot1990@users.sourceforge.net
 HOMEPAGE=	http://fanglingsu.github.io/vimb/
