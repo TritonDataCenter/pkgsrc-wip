@@ -10,7 +10,6 @@ COMMENT=	Password Recovery Tool for PDF-files
 LICENSE=	gnu-gpl-v2
 
 NO_CONFIGURE=	yes
-USE_TOOLS+=	gmake	# FIXME: remove gmake dependency.
 
 SUBST_CLASSES+=		makefile
 SUBST_STAGE.makefile=	pre-build

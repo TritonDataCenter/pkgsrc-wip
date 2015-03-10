@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (pdfcrack-0.14.tar.gz) = 15d74431a06430b910c8e9ad2b1f5b8635c94181
 RMD160 (pdfcrack-0.14.tar.gz) = 95d19d885f2c9ff2cce22911841ecb21512a1c92
 Size (pdfcrack-0.14.tar.gz) = 33387 bytes
+SHA1 (patch-Makefile) = aae520e5a29bda32762e78cbddc9d821a7a879c7
