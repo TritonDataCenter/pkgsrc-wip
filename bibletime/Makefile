@@ -16,10 +16,11 @@ USE_CMAKE=		yes
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		pkg-config
 
-SUBST_CLASSES+=		prefix
-SUBST_FILES.prefix=	${WRKSRC}/cmake/docs/*.xsl
-SUBST_STAGE.prefix=	post-patch
-SUBST_SED.prefix=	-e 's,@PREFIX@,${PREFIX},g'
+SUBST_CLASSES+=		docdir
+SUBST_FILES.docdir=	${WRKSRC}/cmake/BTDocumentation.cmake
+SUBST_FILES.docdir+=	${WRKSRC}/src/util/directory.cpp
+SUBST_STAGE.docdir=	pre-configure
+SUBST_SED.docdir=	-e 's,bibletime/docs,doc/bibletime,g'
 
 DEPENDS+=	dejavu-ttf-[0-9]*:../../fonts/dejavu-ttf
 
