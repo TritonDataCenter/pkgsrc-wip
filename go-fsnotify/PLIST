@@ -1,5 +1,5 @@
 @comment $NetBSD$
-gopkg/pkg/netbsd_amd64/github.com/go-fsnotify/fsnotify.a
+gopkg/pkg/${GO_PLATFORM}/github.com/go-fsnotify/fsnotify.a
 gopkg/src/github.com/go-fsnotify/fsnotify/AUTHORS
 gopkg/src/github.com/go-fsnotify/fsnotify/CHANGELOG.md
 gopkg/src/github.com/go-fsnotify/fsnotify/CONTRIBUTING.md
