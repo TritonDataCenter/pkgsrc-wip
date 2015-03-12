@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.7 2012/10/23 19:50:50 asau Exp $
+# $NetBSD: $
 #
 
 GIT_REPOSITORIES=	acpica-utils

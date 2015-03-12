@@ -8,4 +8,3 @@ bin/acpinames
 bin/acpisrc
 bin/acpixtract
 bin/iasl
-@pkgdir share/doc/acpica-utils
