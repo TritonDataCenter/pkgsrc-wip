@@ -3156,6 +3156,7 @@ SUBDIR+=	py-validictory
 SUBDIR+=	py-vanity
 SUBDIR+=	py-varify
 SUBDIR+=	py-vcversioner
+SUBDIR+=	py-vdirsyncer-git
 SUBDIR+=	py-vegas
 SUBDIR+=	py-version-control-tools
 SUBDIR+=	py-viper
