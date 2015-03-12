@@ -2,7 +2,9 @@
 
 DISTNAME=	syncthing-gtk-0.6.1
 CATEGORIES=	net
-MASTER_SITES=	-https://github.com/syncthing/syncthing-gtk/archive/v${PKGVERSION_NOREV}.tar.gz
+MASTER_SITES=	${MASTER_SITE_GITHUB:=syncthing/}
+GITHUB_PROJECT=	syncthing-gtk
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/syncthing/syncthing-gtk
