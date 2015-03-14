@@ -10,6 +10,8 @@ HOMEPAGE=	https://github.com/syncthing/syncthing-inotify
 COMMENT=	Inotify file watcher intended for use with Syncthing
 LICENSE=	mpl-2.0
 
+BUILD_DEPENDS+=	go-[0-9]*:../../lang/go
+
 MAKE_ENV+=	GOPATH=${PREFIX}/gopkg
 
 INSTALLATION_DIRS=	bin
