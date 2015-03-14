@@ -2394,7 +2394,6 @@ SUBDIR+=	popup-el-current
 SUBDIR+=	portscout
 SUBDIR+=	postal2-mpdemo-bin
 SUBDIR+=	postfix-logwatch
-SUBDIR+=	postgresql-postgis2
 SUBDIR+=	postoffice
 SUBDIR+=	postr
 SUBDIR+=	povray
