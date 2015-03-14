@@ -2332,7 +2332,6 @@ SUBDIR+=	php-rrd
 SUBDIR+=	php-ssh2
 SUBDIR+=	php-tclink
 SUBDIR+=	php-tidy
-SUBDIR+=	php-xcache
 SUBDIR+=	picasm
 SUBDIR+=	picocom
 SUBDIR+=	picosat
