@@ -2,6 +2,7 @@
 
 DISTNAME=	mesa-10.5.0-rc3
 PKGNAME=	MesaLib-10.5.0rc3
+PKGREVISION=	1
 CATEGORIES=	graphics x11
 MASTER_SITES=	ftp://ftp.freedesktop.org/pub/mesa/10.5.0/
 EXTRACT_SUFX=	.tar.xz
