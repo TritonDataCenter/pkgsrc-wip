@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/pymetrics
+bin/pymetrics2.7
 ${PYSITELIB}/PyMetrics/PyMetrics.py
 ${PYSITELIB}/PyMetrics/PyMetrics.pyc
 ${PYSITELIB}/PyMetrics/PyMetrics.pyo
