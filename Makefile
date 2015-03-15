@@ -3271,7 +3271,6 @@ SUBDIR+=	remctl
 SUBDIR+=	resid-builder
 SUBDIR+=	residualvm
 SUBDIR+=	resin
-SUBDIR+=	retroarch
 SUBDIR+=	revbump
 SUBDIR+=	revelation
 SUBDIR+=	rhapsody
