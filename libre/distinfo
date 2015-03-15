@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (re-0.4.9.tar.gz) = 4fa54882ed07a7b001abbf65388db1fed5810e20
-RMD160 (re-0.4.9.tar.gz) = 341af3fbc76d15955dc91093ef87b6c41797c5f8
-Size (re-0.4.9.tar.gz) = 291214 bytes
+SHA1 (re-0.4.11.tar.gz) = 6e04f8e30eaa273134c47433b41bcffadfca194c
+RMD160 (re-0.4.11.tar.gz) = e775e371292b4fb4cb266c76e73693844f9a3e88
+Size (re-0.4.11.tar.gz) = 295558 bytes
 SHA1 (patch-src_dns_res.c) = 62245c05b3017a1a16ece093c6d435ea78e6ecf5
