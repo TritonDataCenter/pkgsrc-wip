@@ -2,9 +2,9 @@ $NetBSD$
 
 Absorb membername difference.
 
---- ./work/gdb-7.5.1/gdb/ppcnbsd-nat.c.orig	2013-06-01 22:55:47.000000000 +0900
-+++ ./gdb/ppcnbsd-nat.c	2013-06-01 22:58:09.000000000 +0900
-@@ -161,20 +161,20 @@ ppcnbsd_supply_pcb (struct regcache *reg
+--- gdb/ppcnbsd-nat.c.orig	2015-02-19 11:58:07.000000000 +0000
++++ gdb/ppcnbsd-nat.c
+@@ -160,20 +160,20 @@ ppcnbsd_supply_pcb (struct regcache *reg
      return 0;
  
    read_memory (pcb->pcb_sp, (gdb_byte *)&sf, sizeof sf);
