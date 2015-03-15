@@ -1,6 +1,6 @@
 # $NetBSD$
 
-PKG_OPTIONS_VAR=	PKG_OPTIONS.retroarch
+PKG_OPTIONS_VAR=	PKG_OPTIONS.rsound
 PKG_SUPPORTED_OPTIONS=	alsa jack libao openal oss portaudio pulseaudio
 PKG_SUPPORTED_OPTIONS+=	samplerate syslog
 PKG_SUGGESTED_OPTIONS=	libao openal oss pulseaudio samplerate
