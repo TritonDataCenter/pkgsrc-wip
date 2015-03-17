@@ -8,7 +8,7 @@ GITHUB_TAG=	v${PKGVERSION_NOREV}
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://syncthing.net/
 COMMENT=	Keeps directories in sync across hosts
-LICENSE=	gnu-gpl-v3
+LICENSE=	mpl-2.0
 
 BUILD_DEPENDS+=		go-[0-9]*:../../lang/go
 
