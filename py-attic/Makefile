@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Attic-0.13
+DISTNAME=	Attic-0.14
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/A/a/}
 CATEGORIES=	sysutils
 MASTER_SITES=	https://pypi.python.org/packages/source/A/Attic/
