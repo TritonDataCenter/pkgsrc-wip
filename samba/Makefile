@@ -12,7 +12,7 @@ HOMEPAGE=	http://www.samba.org/
 COMMENT=	SMB/CIFS protocol server suite
 LICENSE=	gnu-gpl-v3
 
-VERSION=	4.1.9
+VERSION=	4.2.0
 CONFLICTS+=	ja-samba-[0-9]* pam-smbpass-[0-9]* tdb-[0-9]* winbind-[0-9]*
 
 FILESDIR=		${PKGDIR}/../../net/samba/files
@@ -76,8 +76,12 @@ CONFIGURE_ARGS+=	--localstatedir=${SAMBA_VARDIR}
 #
 #CONFIGURE_ARGS+=	--enable-merged-build=no
 
+CONFIGURE_ARGS+=	--without-acl-support # ***
+
 CONFIGURE_ARGS+=	--bundled-libraries=tdb,com_err
 CONFIGURE_ENV+=		XSLTPROC=${FALSE} # suppress generation of man pages
+
+LDFLAGS+=		$(COMPILER_RPATH_FLAG)$(SAMBA_LIBDIR)/samba
 
 WAF_ENV+=		JOBS=${MAKE_JOBS:U1:Q}
 
@@ -192,5 +196,6 @@ PY_PATCHPLIST=	yes
 .include "../../devel/popt/buildlink3.mk"
 .include "../../devel/readline/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
-.include "../../security/openssl/buildlink3.mk"
+.include "../../security/gnutls/buildlink3.mk"
+#.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
