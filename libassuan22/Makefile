@@ -1,5 +1,7 @@
 # $NetBSD$
 
+added SUBDIR+=libassuan22
+
 DISTNAME=	libassuan-2.2.0
 CATEGORIES=	security
 MASTER_SITES=	ftp://ftp.gnupg.org/gcrypt/libassuan/
