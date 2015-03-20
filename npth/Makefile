@@ -1,5 +1,7 @@
 # $NetBSD$
 
+SUBDIR+=npth
+
 DISTNAME=	npth-1.1
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.gnupg.org/gcrypt/npth/
