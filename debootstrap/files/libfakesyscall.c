@@ -1,3 +1,5 @@
+/* $NetBSD$ */
+
 #define _GNU_SOURCE
 #include <sys/syscall.h>
 #include <dlfcn.h>

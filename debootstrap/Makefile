@@ -62,7 +62,7 @@ post-extract:
 	mkdir ${WRKDIR}/${keyring_deb:S/.deb//}
 	cd ${WRKDIR}/${keyring_deb:S/.deb//} && ${XZCAT} ../data.tar.xz | ${TAR} xf -
 .endfor
-	cp ${FILESDIR}/* ${WRKDIR}
+	cp ${FILESDIR}/[a-z]* ${WRKDIR}
 	set -e; cd ${WRKDIR}; for uue in *.uue; do uudecode $$uue; done
 
 post-build:
