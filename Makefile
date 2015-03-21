@@ -429,6 +429,7 @@ SUBDIR+=	debian_glib
 SUBDIR+=	debian_gtk
 #SUBDIR+=	debian_linux	# not a real package
 SUBDIR+=	debian_x11
+SUBDIR+=	debootstrap
 SUBDIR+=	debugger-git
 SUBDIR+=	dee
 SUBDIR+=	deforaos-accessories
