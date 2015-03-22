@@ -14,3 +14,12 @@ $NetBSD$
  	    hurd*)
  		;;
  	    *)
+@@ -1052,7 +1057,7 @@ setup_devices () {
+ 		setup_devices_hurd ;;
+ 	    *)
+ 		if [ -e "$DEVICES_TARGZ" ]; then
+-			zcat "$DEVICES_TARGZ" | (cd "$TARGET"; tar -xf -)
++			zcat "$DEVICES_TARGZ" | (cd "$TARGET"; tar -xpf -)
+ 		else
+ 			if [ -e /dev/.devfsd ] ; then
+ 				in_target mount -t devfs devfs /dev

@@ -11,4 +11,4 @@ RMD160 (ubuntu-archive-keyring_2012.05.19-2_all.deb) = f9d8e97c3ded064eb26bfaced
 Size (ubuntu-archive-keyring_2012.05.19-2_all.deb) = 18178 bytes
 SHA1 (patch-Makefile) = 021a7732eb6f6b8e99f0011402d73d6c07d295ad
 SHA1 (patch-debootstrap) = a923299ffa8f5e3c85bf6262c7113300e70ea05d
-SHA1 (patch-functions) = 22e2ef8b01df7f764d5c7c2417663ba35d41215f
+SHA1 (patch-functions) = b83df037dcbb1b967dac5ae07f72fc0b1f42987d
