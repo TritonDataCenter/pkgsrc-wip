@@ -1,5 +1,7 @@
 # $NetBSD$
 
+SUBDIR+=gnupg21
+
 DISTNAME=	gnupg-2.1.2
 CATEGORIES=	security
 MASTER_SITES=	ftp://ftp.gnupg.org/gcrypt/gnupg/
