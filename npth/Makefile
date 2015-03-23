@@ -13,6 +13,9 @@ COMMENT=	New Portable Threads Library (nPth)
 LICENSE=	gnu-gpl-v3
 
 USE_LIBTOOL=	yes
-GNU_CONFIGURE=	yes
+#GNU_CONFIGURE=	yes
+#USE_TOOLS+=	yes
+HAS_CONFIGURE=	yes
+#CONFIGURE_ARGS+=	--includedir=${LOCALBASE}/include
 
 .include "../../mk/bsd.pkg.mk"
