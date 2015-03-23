@@ -422,6 +422,7 @@ SUBDIR+=	db1
 SUBDIR+=	dbf
 SUBDIR+=	dbmail
 SUBDIR+=	dbus-explorer
+SUBDIR+=	dcc
 SUBDIR+=	ddate
 SUBDIR+=	deadbeef
 SUBDIR+=	debian_base
