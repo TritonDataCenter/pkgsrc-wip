@@ -12,9 +12,6 @@ LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-msgpack-[0-9]*:../../devel/py-msgpack
 
-# missing xattr support; packages, but does not run
-NOT_FOR_PLATFORM=	NetBSD-*-*
-
 PYTHON_VERSIONS_INCOMPATIBLE=	26 27
 PLIST_SUBST+=			PYVERSSUFFIX=${PYVERSSUFFIX}
 
