@@ -32,7 +32,7 @@ Also, NO_SYS_INSTALL shouldn't prevent man pages from being installed
  
  @MAKE_DOT@ifndef DCC_MODE
  DCC_MODE    =555
-@@ -115,20 +119,17 @@ DCC_MODE    =555
+@@ -115,16 +119,17 @@ DCC_MODE    =555
  BINMODE	    =$(DCC_MODE)
  
  MANDIR	    =@installroot@@mandir@
@@ -46,13 +46,8 @@ Also, NO_SYS_INSTALL shouldn't prevent man pages from being installed
 +@MAKE_DOT@endif
  MANMODE	    =444
  
--@MAKE_DOT@ifdef NO_SYS_INSTALL
+ @MAKE_DOT@ifdef NO_SYS_INSTALL
 -NOMAN	=no
--SET_BINOWN=
--SET_MANOWN=
--SET_DCCOWN=
--@MAKE_DOT@else
-+@MAKE_DOT@ifndef NO_SYS_INSTALL
- SET_BINOWN=-o $(BINOWN) -g $(BINGRP)
- SET_MANOWN=-o $(MANOWN) -g $(MANGRP)
- SET_DCCOWN=-o @DCCSUID@ -g $(BINGRP)
+ SET_BINOWN=
+ SET_MANOWN=
+ SET_DCCOWN=

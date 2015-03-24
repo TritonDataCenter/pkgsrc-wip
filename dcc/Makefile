@@ -35,7 +35,6 @@ SUBST_SED.dae+=		-e 's/^\(DCCIFD_ENABLE=\).*$$/\1on/'
 SUBST_MESSAGE.dae=	Enabling all daemons in dcc_conf
 
 HAS_CONFIGURE=		yes
-MAKE_JOBS_SAFE=		no
 
 USE_TOOLS+=		perl:run
 USE_TOOLS+=		xargs:run
@@ -53,6 +52,9 @@ CONFIGURE_ARGS+=	--with-uid=${DCC_USER}
 CONFIGURE_ARGS+=	--with-make-cmd=${MAKE_PROGRAM:Q}
 CONFIGURE_ARGS+=	--disable-sys-inst
 CONFIGURE_ARGS+=	--disable-dccm
+
+USE_BSD_MAKEFILE=	yes
+MAKE_JOBS_SAFE=		no
 
 # PKGSRC_DCC_EGDIR is for homedir/Makefile
 MAKE_ENV+=		PKGSRC_DCC_EGDIR=${DCC_EGDIR}
