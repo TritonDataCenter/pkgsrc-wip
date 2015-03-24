@@ -56,7 +56,6 @@ REPLACE_BASH+=	libs/jqplot/build_minified_script.sh
 
 REPLACE_BASH+=	misc/composer/*.sh
 REPLACE_SH+=	misc/cron/archive.sh
-REPLACE_BASH+=	misc/log-analytics/tests/run_tests.sh
 REPLACE_BASH+=	misc/others/stress.sh
 
 REPLACE_BASH+=	plugins/TestRunner/scripts/on_instance_launch.sh
@@ -77,6 +76,13 @@ REPLACE_PYTHON+=misc/log-analytics/import_logs.py
 
 MOCHA_VERSION=	2.1.0
 PLIST_SUBST+=	MOCHA_VERSION=${MOCHA_VERSION}
+
+SUBST_CLASSES+=		build
+SUBST_MESSAGE.build=	Fix build script, (shebang and PATH)
+SUBST_FILES.build=	misc/composer/build-xhprof.sh
+SUBST_STAGE.build=	pre-install
+SUBST_SED.build=	-e '/^\#!/s,^\#!,\#!${PREFIX}/bin/bash,'
+SUBST_SED.build+=	-e '2s,^$$,PATH=${PREFIX}/bin:/usr/bin:/bin,'
 
 do-install:
 	cd ${WRKSRC} && pax -rw -pmp . ${DESTDIR}${PKHOME}
