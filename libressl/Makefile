@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	libressl-2.1.2
+DISTNAME=	libressl-2.1.6
 CATEGORIES=	security
 MASTER_SITES=	${MASTER_SITE_OPENBSD:=LibreSSL/}
 
