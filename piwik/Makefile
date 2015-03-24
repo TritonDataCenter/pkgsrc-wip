@@ -55,7 +55,7 @@ REPLACE_BASH+=	tests/travis/generate_docs.sh
 REPLACE_BASH+=	libs/jqplot/build_minified_script.sh
 
 REPLACE_BASH+=	misc/composer/*.sh
-REPLACE_BASH+=	misc/cron/archive.sh
+REPLACE_SH+=	misc/cron/archive.sh
 REPLACE_BASH+=	misc/log-analytics/tests/run_tests.sh
 REPLACE_BASH+=	misc/others/stress.sh
 
