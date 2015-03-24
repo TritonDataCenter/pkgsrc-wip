@@ -75,6 +75,9 @@ REPLACE_BASH+=	tests/travis/*.sh
 
 REPLACE_PYTHON+=misc/log-analytics/import_logs.py
 
+MOCHA_VERSION=		1.17.1
+PLIST_SUBST+=		MOCHA_VERSION=${MOCHA_VERSION}		
+
 do-install:
 	cd ${WRKSRC} && pax -rw -pmp . ${DESTDIR}${PKHOME}
 	${FIND} ${DESTDIR}${PKHOME} \
