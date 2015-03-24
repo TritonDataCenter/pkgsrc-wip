@@ -91,6 +91,8 @@ do-install:
 	${FIND} ${DESTDIR}${PKHOME} \
 		-type f -exec ${CHMOD} ${SHAREMODE} "{}" \;
 
+	${CHMOD} +x ${DESTDIR}${PKHOME}/misc/composer/build-xhprof.sh
+
 .include "../../lang/python/application.mk"
 # to give PHP_VERSION_DEFAULT
 .include "../../lang/php/phpversion.mk"
