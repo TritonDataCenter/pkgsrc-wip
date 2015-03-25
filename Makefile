@@ -1409,7 +1409,6 @@ SUBDIR+=	libXaw3d
 SUBDIR+=	libXprintAppUtil
 SUBDIR+=	libalkimia
 SUBDIR+=	libanimal
-SUBDIR+=	libarchive
 SUBDIR+=	libassuan22
 SUBDIR+=	libavc1394
 SUBDIR+=	libbacon
