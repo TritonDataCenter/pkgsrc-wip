@@ -28,4 +28,7 @@ ${PYSITELIB}/khard/helpers.pyo
 ${PYSITELIB}/khard/khard.py
 ${PYSITELIB}/khard/khard.pyc
 ${PYSITELIB}/khard/khard.pyo
+${PYSITELIB}/khard/version.py
+${PYSITELIB}/khard/version.pyc
+${PYSITELIB}/khard/version.pyo
 share/examples/khard/khard.conf.example

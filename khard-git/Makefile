@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		khard-0.2.2
+DISTNAME=		khard-0.3.1
 CATEGORIES=		time net
 MASTER_SITES=		https://github.com/scheibler/khard/
 
