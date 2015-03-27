@@ -40,5 +40,5 @@ do-install:
 
 .include "../../devel/libconfig/buildlink3.mk"
 .include "../../wip/protobuf-c/buildlink3.mk"
-.include "../../wip/polarssl11/buildlink3.mk"
+.include "../../security/polarssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
