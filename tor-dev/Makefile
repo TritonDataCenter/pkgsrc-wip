@@ -23,8 +23,8 @@ TEST_TARGET=		check
 
 TOR_USER?=		tor
 TOR_GROUP?=		tor
-PKG_GECOS.${TOR_USER}?=	Torifier
-PKG_HOME.${TOR_USER}?=	${VARBASE}/chroot/tor
+PKG_GECOS.${TOR_USER}=	Torifier
+PKG_HOME.${TOR_USER}=	${VARBASE}/chroot/tor
 BUILD_DEFS+=		VARBASE
 PKG_SYSCONFSUBDIR=	tor
 
