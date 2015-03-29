@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	libcsv
+
+.if !defined(LIBCSV_BUILDLINK3_MK)
+LIBCSV_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.libcsv+=	libcsv>=3.0.3
+BUILDLINK_PKGSRCDIR.libcsv?=	../../local/libcsv
+.endif	# LIBCSV_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-libcsv
