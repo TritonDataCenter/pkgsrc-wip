@@ -20,8 +20,9 @@ MAKE_ENV+=	LDFLAGS="-R,-L${PREFIX}/lib"
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 pre-install:
-	for m in ${WRKSRC}/*.gz; do \
-		gunzip "$${m}" ; \
+	set -e ; \
+	for f in ${WRKSRC}/*.gz; do \
+		gunzip "$${f}" ; \
 	done
 
 .include "../../devel/pcre/buildlink3.mk"
