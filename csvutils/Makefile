@@ -25,5 +25,5 @@ pre-install:
 	done
 
 .include "../../devel/pcre/buildlink3.mk"
-.include "../../local/libcsv/buildlink3.mk"
+.include "../../wip/libcsv/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
