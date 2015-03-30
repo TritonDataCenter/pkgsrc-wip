@@ -1,6 +1,5 @@
 # $NetBSD$
 
-SUBDIR+=gnupg21
 
 DISTNAME=	gnupg-2.1.2
 CATEGORIES=	security

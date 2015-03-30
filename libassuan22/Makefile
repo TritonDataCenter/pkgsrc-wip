@@ -1,6 +1,5 @@
 # $NetBSD$
 
-SUBDIR+=libassuan22
 
 DISTNAME=	libassuan-2.2.0
 CATEGORIES=	security

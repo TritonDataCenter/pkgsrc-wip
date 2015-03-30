@@ -1,7 +1,5 @@
 # $NetBSD$
 
-SUBDIR+= apinger
-
 DISTNAME=	apinger-0.6.1
 CATEGORIES=	net
 MASTER_SITES=	http://freebsdcluster.org/~mich/software/

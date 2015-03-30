@@ -1,7 +1,5 @@
 # $NetBSD$
 
-SUBDIR+= dnscrypt-proxy
-
 DISTNAME=	dnscrypt-proxy-1.4.3
 CATEGORIES=	security
 MASTER_SITES=	http://download.dnscrypt.org/dnscrypt-proxy/
