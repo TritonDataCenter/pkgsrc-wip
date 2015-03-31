@@ -22,6 +22,7 @@ pre-configure:
 
 .include "../../lang/python/tool.mk"
 BUILDLINK_API_DEPENDS.MesaLib+=	MesaLib>=10
+.include "../../devel/xorg-util-macros/buildlink3.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
