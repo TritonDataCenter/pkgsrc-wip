@@ -18,6 +18,13 @@ DCC_GROUP?=		dcc
 DCC_HOME?=		${VARBASE}/dcc
 DCC_RUN?=		${VARBASE}/run/dcc
 
+# dcc already implements $DESTDIR as $installroot but also prepends
+# $installroot to $BINDIR, which bsd.prog.mk subsequently extends to
+# $DESTDIR/$BINDIR, effectively doubling the $DESTDIR prefix.  The
+# following bit of make dances around the issue and avoids adding
+# $DESTDIR when evaluated within a bsd.prog.mk target.
+DCC_DESTDIR=		$${"$${@:Mproginstall-*}"=="":?$${DESTDIR}:}
+
 # expanded in files/dcc*.sh
 FILES_SUBST+=		DCC_HOME=${DCC_HOME}
 FILES_SUBST+=		DCC_EGDIR=${DCC_EGDIR}
@@ -50,6 +57,7 @@ CONFIGURE_ARGS+=	--with-cgi-bin=${DCC_EGDIR}/cgi-bin
 CONFIGURE_ARGS+=	--with-rundir=${DCC_RUN}
 CONFIGURE_ARGS+=	--with-uid=${DCC_USER}
 CONFIGURE_ARGS+=	--with-make-cmd=${MAKE_PROGRAM:Q}
+CONFIGURE_ARGS+=	--with-installroot=\$$\(DCC_DESTDIR\)
 CONFIGURE_ARGS+=	--disable-sys-inst
 CONFIGURE_ARGS+=	--disable-dccm
 
@@ -58,6 +66,7 @@ MAKE_JOBS_SAFE=		no
 
 # PKGSRC_DCC_EGDIR is for homedir/Makefile
 MAKE_ENV+=		PKGSRC_DCC_EGDIR=${DCC_EGDIR}
+MAKE_ENV+=		DCC_DESTDIR=${DCC_DESTDIR:Q}
 MAKE_ENV+=		MKHTML=no
 MAKE_ENV+=		NO_SUID=yes
 
