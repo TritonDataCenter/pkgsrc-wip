@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.6 2013/08/27 16:40:11 shattered Exp $
 
-DISTNAME=		dcc-1.3.155
+DISTNAME=		dcc-1.3.156
 #PKGREVISION=		2
 CATEGORIES=		mail
 MASTER_SITES=		http://www.rhyolite.com/dcc/source/old/
