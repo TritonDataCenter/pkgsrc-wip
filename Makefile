@@ -3311,6 +3311,7 @@ SUBDIR+=	rpm5
 SUBDIR+=	rsget
 SUBDIR+=	rsound
 SUBDIR+=	rss-glib
+SUBDIR+=	rsstail
 SUBDIR+=	rst-mode
 SUBDIR+=	rstart
 SUBDIR+=	rstudio
