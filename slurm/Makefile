@@ -43,6 +43,11 @@ SUBST_FILES.htmldir=	${WRKSRC}/doc/man/man5/Makefile.am \
 			${WRKSRC}/doc/man/man1/Makefile.in
 SUBST_SED.htmldir=	-e 's|$${datadir}/doc/@PACKAGE@-@VERSION@/html|@htmldir@|g'
 
+SUBST_CLASSES+=		linuxinit
+SUBST_STAGE.linuxinit=	post-patch
+SUBST_FILES.linuxinit=	${WRKSRC}/etc/init.d.slurm.in
+SUBST_SED.linuxinit=	-e "/^BINDIR=/ i exec_prefix=$(PREFIX)\nprefix=$(PREFIX)\n" 
+
 post-install:
 	$(INSTALL_DATA_DIR) $(DESTDIR)$(PREFIX)/share/examples/$(PKGBASE)
 	$(INSTALL_DATA) $(WRKSRC)/etc/* $(DESTDIR)$(PREFIX)/share/examples/$(PKGBASE)/
