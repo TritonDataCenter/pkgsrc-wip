@@ -2398,6 +2398,7 @@ SUBDIR+=	pointless
 SUBDIR+=	pokerth
 SUBDIR+=	polarssl11
 SUBDIR+=	polipo
+SUBDIR+=	polkit
 SUBDIR+=	polylib
 SUBDIR+=	polymul
 SUBDIR+=	pop3.proxy
