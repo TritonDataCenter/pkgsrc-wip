@@ -5,7 +5,6 @@ PKGNAME=		${APACHE_PKG_PREFIX}-${RUBY_PKGPREFIX}-${DISTNAME}
 COMMENT=		Passenger module for running Rails and Rack applications on Apache2
 
 BUILDLINK_DEPMETHOD.libeio=	build
-BUILDLINK_DEPMETHOD.libev=	build
 BUILDLINK_DEPMETHOD.curl=	build
 .include "../../wip/ruby-passenger/Makefile.common"
 
