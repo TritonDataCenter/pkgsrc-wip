@@ -3805,7 +3805,6 @@ SUBDIR+=	wqy-microhei-ttf
 SUBDIR+=	wqy-zenhei-ttf
 SUBDIR+=	wrcs
 SUBDIR+=	wsmake
-SUBDIR+=	wtf
 SUBDIR+=	wvstreams
 SUBDIR+=	wxGTK-contrib-unicode
 SUBDIR+=	wxGTK-unicode
