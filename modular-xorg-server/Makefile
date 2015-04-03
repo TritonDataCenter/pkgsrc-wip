@@ -135,7 +135,7 @@ CONFIGURE_ENV+=		ac_cv_path_RAWCPP="${PREFIX}/bin/tradcpp -Uunix"
 .include "options.mk"
 
 ## XXX even for disable dri?
-.include "../../wip/libepoxy/buildlink3.mk"
+.include "../../graphics/libepoxy/buildlink3.mk"
 
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
