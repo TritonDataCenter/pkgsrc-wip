@@ -69,6 +69,7 @@ share/nvim/runtime/autoload/syntaxcomplete.vim
 share/nvim/runtime/autoload/tar.vim
 share/nvim/runtime/autoload/tohtml.vim
 share/nvim/runtime/autoload/vimball.vim
+share/nvim/runtime/autoload/vimexpect.vim
 share/nvim/runtime/autoload/xml/html32.vim
 share/nvim/runtime/autoload/xml/html401f.vim
 share/nvim/runtime/autoload/xml/html401s.vim
