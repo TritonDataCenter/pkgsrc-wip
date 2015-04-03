@@ -16,6 +16,8 @@ USE_TOOLS+=	pkg-config gmake
 USE_LANGUAGES=	c99 c++
 USE_LIBTOOL=	yes
 
+GCC_REQD+=	4.2
+
 PKGCONFIG_OVERRIDE+=	src/egl/main/egl.pc.in
 PKGCONFIG_OVERRIDE+=	src/egl/wayland/wayland-egl/wayland-egl.pc.in
 PKGCONFIG_OVERRIDE+=	src/gallium/targets/d3dadapter9/d3d.pc.in
