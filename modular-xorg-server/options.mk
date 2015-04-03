@@ -9,6 +9,14 @@ PKG_SUGGESTED_OPTIONS=	dri inet6
 PLIST_VARS+=		dri dtrace
 
 .if !empty(PKG_OPTIONS:Mdri)
+.include "../../graphics/libepoxy/buildlink3.mk"
+BUILDLINK_API_DEPENDS.MesaLib+=	MesaLib>=10
+.include "../../graphics/MesaLib/buildlink3.mk"
+BUILDLINK_API_DEPENDS.glproto+=		glproto>=1.4.16
+.include "../../x11/glproto/buildlink3.mk"
+.include "../../x11/dri2proto/buildlink3.mk"
+.include "../../x11/libdrm/buildlink3.mk"
+.include "../../x11/xf86driproto/buildlink3.mk"
 PLIST.dri=		yes
 CONFIGURE_ARGS+=	--enable-dri
 CONFIGURE_ARGS+=	--enable-glx
@@ -21,6 +29,10 @@ CONFIGURE_ARGS+=	--enable-aiglx
 ###
 CONFIGURE_ARGS+=	--disable-dri
 CONFIGURE_ARGS+=	--disable-glx
+pre-build: disable-modesetting
+.PHONY: disable-modesetting
+disable-modesetting:
+	(echo "all:"; echo "install:") > ${WRKSRC}/hw/xfree86/drivers/modesetting/Makefile
 .endif
 
 .if !empty(PKG_OPTIONS:Minet6)
