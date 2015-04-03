@@ -1483,7 +1483,6 @@ SUBDIR+=	libgxim
 SUBDIR+=	libgzstream
 SUBDIR+=	libharu
 SUBDIR+=	libhid
-SUBDIR+=	libhidapi
 SUBDIR+=	libhttpd
 SUBDIR+=	libifstat
 SUBDIR+=	libindicator
