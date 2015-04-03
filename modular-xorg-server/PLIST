@@ -137,6 +137,7 @@ include/xorg/xf86Priv.h
 include/xorg/xf86Privstr.h
 include/xorg/xf86RamDac.h
 include/xorg/xf86RandR12.h
+${PLIST.sparc}include/xorg/xf86Sbus.h
 include/xorg/xf86VGAarbiter.h
 include/xorg/xf86Xinput.h
 include/xorg/xf86_OSlib.h
