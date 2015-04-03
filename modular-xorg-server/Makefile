@@ -16,7 +16,6 @@ SPECIAL_PERMS+=		bin/Xorg ${SETUID_ROOT_PERMS}
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake pkg-config
-USE_LANGUAGES=	c c++ # XXX does it really need C++, url2pkg suggested it ...
 
 PKGCONFIG_OVERRIDE+=	xorg-server.pc.in
 SHLIBTOOL_OVERRIDE=	# empty
