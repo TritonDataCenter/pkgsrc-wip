@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	mesa-10.5.1
+DISTNAME=	mesa-10.5.2
 PKGNAME=	${DISTNAME:S/mesa/MesaLib/}
 CATEGORIES=	graphics x11
-MASTER_SITES=	ftp://ftp.freedesktop.org/pub/mesa/10.5.1/
+MASTER_SITES=	ftp://ftp.freedesktop.org/pub/mesa/10.5.2/
 EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
