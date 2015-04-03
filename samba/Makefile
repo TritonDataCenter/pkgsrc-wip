@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.11 2011/10/11 20:30:00 jmcneill Exp $
 
-.include "../../net/samba/Makefile.mirrors"
+.include "../../wip/samba/Makefile.mirrors"
 
 DISTNAME=	samba-${VERSION}
 PKGNAME=	samba4-${VERSION}
@@ -16,9 +16,9 @@ LICENSE=	gnu-gpl-v3
 VERSION=	4.1.9
 CONFLICTS+=	ja-samba-[0-9]* pam-smbpass-[0-9]* tdb-[0-9]* winbind-[0-9]*
 
-FILESDIR=		${PKGDIR}/../../net/samba/files
-DESCR_SRC=		${PKGDIR}/../../net/samba/DESCR
-MESSAGE_SRC=		${PKGDIR}/../../net/samba/MESSAGE
+FILESDIR=		${PKGDIR}/../../wip/samba/files
+DESCR_SRC=		${PKGDIR}/../../wip/samba/DESCR
+MESSAGE_SRC=		${PKGDIR}/../../wip/samba/MESSAGE
 BUILD_DEFS+=		VARBASE
 
 USE_MULTIARCH=	lib
@@ -89,7 +89,7 @@ CHECK_PORTABILITY_SKIP=	source3/configure
 do-build:
 	cd ${WRKSRC} && env ${WAF_ENV} ${PYTHONBIN} ./buildtools/bin/waf build -v
 
-#.include "../../net/samba/options.mk"
+#.include "../../wip/samba/options.mk"
 
 PLIST_VARS+=		macosx
 
