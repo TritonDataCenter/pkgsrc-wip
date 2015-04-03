@@ -12,7 +12,6 @@ PLIST_VARS+=		dri dtrace
 .include "../../graphics/libepoxy/buildlink3.mk"
 BUILDLINK_API_DEPENDS.MesaLib+=	MesaLib>=10
 .include "../../graphics/MesaLib/buildlink3.mk"
-BUILDLINK_API_DEPENDS.glproto+=		glproto>=1.4.16
 .include "../../x11/glproto/buildlink3.mk"
 .include "../../x11/dri2proto/buildlink3.mk"
 .include "../../x11/libdrm/buildlink3.mk"
