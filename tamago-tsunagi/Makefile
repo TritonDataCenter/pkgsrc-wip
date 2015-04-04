@@ -14,4 +14,6 @@ CONFLICTS+=	tamago-[0-9]*
 
 GNU_CONFIGURE=		yes
 
+.include "options.mk"
+
 .include "../../mk/bsd.pkg.mk"
