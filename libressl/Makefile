@@ -23,6 +23,9 @@ PKG_SYSCONFSUBDIR=	openssl
 CONFIGURE_ARGS+=	--with-openssldir=${PKG_SYSCONFDIR}
 CONFIGURE_ARGS+=	--with-enginesdir=${PREFIX}/lib/engines
 
+# Added for 2.1.6 - remove for next stable version as it's fixed upstream
+CPPFLAGS.NetBSD+=	-D_OPENBSD_SOURCE
+
 TEST_TARGET=	check
 
 .include "../../mk/bsd.pkg.mk"
