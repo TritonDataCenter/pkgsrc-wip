@@ -2,23 +2,19 @@ $NetBSD$
 
 --- src/mesa/drivers/dri/swrast/swrast.c.orig	2015-03-28 18:20:39.000000000 +0000
 +++ src/mesa/drivers/dri/swrast/swrast.c
-@@ -1,4 +1,4 @@
--/*
-+*
-  * Copyright 2008, 2010 George Sapountzis <gsapountzis@gmail.com>
-  *
-  * Permission is hereby granted, free of charge, to any person obtaining a
-@@ -60,6 +60,9 @@
+@@ -60,6 +60,11 @@
  #include "swrast_priv.h"
  #include "swrast/s_context.h"
  
 +#if defined(__NetBSD__)
++#include <sys/param.h>
++#include <sys/sysctl.h>
 +#endif
 +
  const __DRIextension **__driDriverGetExtensions_swrast(void);
  
  const char * const swrast_vendor_string = "Mesa Project";
-@@ -137,7 +140,18 @@ swrast_query_renderer_integer(__DRIscree
+@@ -137,7 +142,18 @@ swrast_query_renderer_integer(__DRIscree
        return 0;
     case __DRI2_RENDERER_VIDEO_MEMORY: {
        /* XXX: Do we want to return the full amount of system memory ? */
