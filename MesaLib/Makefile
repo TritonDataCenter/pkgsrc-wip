@@ -52,13 +52,6 @@ PYTHON_FOR_BUILD_ONLY=	yes
 BUILD_DEPENDS+=		${PYPKGPREFIX}-mako-[0-9]*:../../devel/py-mako
 .include "../../lang/python/tool.mk"
 
-.if !empty(OPSYS:M*BSD)
-CONFIGURE_ARGS+=	--with-sha1=libc
-.else
-.include "../../security/nettle/buildlink3.mk"
-CONFIGURE_ARGS+=	--with-sha1=libnettle
-.endif
-
 # On NetBSD < 6 we need to compile with GCC from pkgsrc.
 # But GCC from pkgsrc does not add implicit -lc like base GCC does,
 # which breaks the build with -Wl,--no-undefined.
