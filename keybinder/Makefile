@@ -17,6 +17,8 @@ PLIST_SRC+=	PLIST
 PKGCONFIG_OVERRIDE+=	libkeybinder/keybinder.pc.in
 
 CONFIGURE_ARGS+=	--disable-static
+# Don't rebuild the documentation
+CONFIGURE_ARGS+=	--disable-gtk-doc
 
 post-install:
 	${RUN}${RM} ${DESTDIR}${PREFIX}/lib/libkeybinder.a
