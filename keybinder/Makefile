@@ -12,6 +12,7 @@ LICENSE=	gnu-gpl-v2
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config gmake
+PLIST_SRC+=	PLIST
 
 PKGCONFIG_OVERRIDE+=	libkeybinder/keybinder.pc.in
 

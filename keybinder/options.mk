@@ -23,8 +23,10 @@ CONFIGURE_ARGS+=	--disable-lua
 .endif
 
 .if !empty(PKG_OPTIONS:Mpython)
+PY_PATCHPLIST=		yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34
+.include "../../lang/python/extension.mk"
 .include "../../x11/py-gtk2/buildlink3.mk"
-.include "../../lang/python27/buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-python
 PLIST_SRC+=		PLIST.python
 .else
