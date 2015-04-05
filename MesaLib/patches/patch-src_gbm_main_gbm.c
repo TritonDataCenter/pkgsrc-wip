@@ -6,7 +6,7 @@ $NetBSD$
  #include <stdint.h>
  
  #include <sys/types.h>
-+#idef __sun
++#ifdef __sun
 +#include <sys/mkdev.h> /* for major(2) */
 +#endif
  #include <sys/stat.h>
