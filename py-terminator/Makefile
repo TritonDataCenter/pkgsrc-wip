@@ -18,7 +18,6 @@ USE_TOOLS=	intltool
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
-.include "../../x11/vte/buildlink3.mk"
 .include "../../x11/py-vte/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../sysutils/py-notify-python/buildlink3.mk"
