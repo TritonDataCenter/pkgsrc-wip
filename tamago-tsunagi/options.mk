@@ -1,12 +1,12 @@
 # $NetBSD$
 PKG_OPTIONS_VAR=	PKG_OPTIONS.tamago-tsunagi
 PKG_SUPPORTED_OPTIONS=	freewnn canna sj3 anthy
-PKG_SUGGESTED_OPTIONS=	canna sj3 anthy
+PKG_SUGGESTED_OPTIONS=	freewnn canna sj3 anthy
 
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mfreewnn)
-DEPENDS+=	ja-FreeWnn-server>=1.11:../../inputmethod/ja-freewnn-server
+DEPENDS+=	ja-FreeWnn-server>=1.10:../../inputmethod/ja-freewnn-server
 .endif
 
 .if !empty(PKG_OPTIONS:Mcanna)
