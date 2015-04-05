@@ -4,10 +4,11 @@ Old NetBSD doesn't have exp2.
 
 --- src/mesa/main/imports.h.orig	2015-03-28 18:20:39.000000000 +0000
 +++ src/mesa/main/imports.h
-@@ -126,6 +126,17 @@ typedef union { GLfloat f; GLint i; GLui
+@@ -126,6 +126,18 @@ typedef union { GLfloat f; GLint i; GLui
  #define atanhf(f) ((float) atanh(f))
  #endif
  
++#include <sys/param.h>
 +#if defined(__NetBSD__) && __NetBSD_Version__ < 600000000
 +#if defined(exp2f)
 +#undef exp2f
