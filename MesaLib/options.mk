@@ -58,7 +58,7 @@ DRI_DRIVERS+=		swrast
 
 # Software rasterizer
 GALLIUM_DRIVERS=	#
-PLIST.swrast+=		yes
+PLIST.swrast=		yes
 GALLIUM_DRIVERS+=	swrast
 
 .if ${MACHINE_ARCH} == "i386" || ${MACHINE_ARCH} == "x86_64"
