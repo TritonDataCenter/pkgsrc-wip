@@ -1352,6 +1352,7 @@ SUBDIR+=	kannel-gateway
 SUBDIR+=	kapital
 SUBDIR+=	kawa
 SUBDIR+=	keepassx-git
+SUBDIR+=	keybinder
 SUBDIR+=	kgrab
 SUBDIR+=	kgraphviewer
 SUBDIR+=	khard-git
