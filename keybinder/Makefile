@@ -15,21 +15,18 @@ USE_TOOLS+=	pkg-config gmake
 
 PKGCONFIG_OVERRIDE+=	libkeybinder/keybinder.pc.in
 
-CONFIGURE_ARGS+=	--enable-gtk-doc
 CONFIGURE_ARGS+=	--disable-static
 
 post-install:
 	${RUN}${RM} ${DESTDIR}${PREFIX}/lib/libkeybinder.a
 	${RUN}${RM} ${DESTDIR}${PREFIX}/lib/libkeybinder.la
-	${RUN}${RM} ${DESTDIR}${PREFIX}/lib/lua/5.1/keybinder.a
-	${RUN}${RM} ${DESTDIR}${PREFIX}/lib/lua/5.1/keybinder.la
-	${RUN}${RM} ${DESTDIR}${PREFIX}/${PYSITELIB}/keybinder/_keybinder.a
-	${RUN}${RM} ${DESTDIR}${PREFIX}/${PYSITELIB}/keybinder/_keybinder.la
+	${RUN}${RM} -f ${DESTDIR}${PREFIX}/lib/lua/5.1/keybinder.a
+	${RUN}${RM} -f ${DESTDIR}${PREFIX}/lib/lua/5.1/keybinder.la
+	${RUN}${RM} -f ${DESTDIR}${PREFIX}/${PYSITELIB}/keybinder/_keybinder.a
+	${RUN}${RM} -f ${DESTDIR}${PREFIX}/${PYSITELIB}/keybinder/_keybinder.la
 
-.include "../../textproc/gtk-doc/buildlink3.mk"
+.include "options.mk"
+
 .include "../../devel/gobject-introspection/buildlink3.mk"
-.include "../../lang/lua51/buildlink3.mk"
-.include "../../x11/py-gtk2/buildlink3.mk"
-.include "../../lang/python27/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
