@@ -19,10 +19,10 @@ CONFIGURE_ARGS+=	--enable-python
 # Don't rebuild the documentation
 CONFIGURE_ARGS+=	--disable-gtk-doc
 
-BUILD_DIRS=	python
-
 PY_PATCHPLIST=			yes
 PYTHON_VERSIONS_INCOMPATIBLE=	33 34
+
+INSTALL_DIRS=	python-keybinder
 
 .include "../../lang/python/extension.mk"
 .include "../../x11/py-gtk2/buildlink3.mk"
