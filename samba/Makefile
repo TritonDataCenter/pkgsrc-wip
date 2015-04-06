@@ -55,23 +55,22 @@ REPLACE_PERL=		script/findsmb.in
 USE_GNU_ICONV=		yes	# FIXME: something doesn't work on NetBSD
 
 HAS_CONFIGURE=		yes
-CONFIGURE_ARGS+=	--libdir=${SAMBA_LIBDIR}
 CONFIG_SHELL=		${PYTHONBIN}
 CONFIGURE_SCRIPT=	${WRKSRC}/buildtools/bin/waf
 CONFIGURE_ARGS+=	configure
 CONFIGURE_ARGS+=	--prefix=$(PREFIX:Q)
+CONFIGURE_ARGS+=	--libdir=${SAMBA_LIBDIR}
 CONFIGURE_ARGS+=	--with-libiconv=${BUILDLINK_PREFIX.iconv}
-#CONFIGURE_ARGS+=	--with-readline=${BUILDLINK_PREFIX.readline}
-#CONFIGURE_ARGS+=	--with-configdir=${SAMBA_ETCDIR}
+CONFIGURE_ARGS+=	--with-configdir=${SAMBA_ETCDIR}
 CONFIGURE_ARGS+=	--with-privatelibdir=${SAMBA_LIBDIR}/samba
 CONFIGURE_ARGS+=	--mandir=${PREFIX}/${PKGMANDIR}
 CONFIGURE_ARGS+=	--datadir=${PREFIX}/share/${PKGBASE}
 CONFIGURE_ARGS+=	--with-lockdir=${SAMBA_LOCKDIR}
-#CONFIGURE_ARGS+=	--with-logfilebase=${SAMBA_LOGDIR}
+CONFIGURE_ARGS+=	--with-logfilebase=${SAMBA_LOGDIR}
 CONFIGURE_ARGS+=	--with-modulesdir=${SAMBA_MODULESDIR}
 CONFIGURE_ARGS+=	--with-piddir=${SAMBA_PIDDIR}
 CONFIGURE_ARGS+=	--with-privatedir=${SAMBA_PRIVATE:Q}
-#CONFIGURE_ARGS+=	--with-statedir=${SAMBA_STATEDIR}
+CONFIGURE_ARGS+=	--with-statedir=${SAMBA_STATEDIR}
 CONFIGURE_ARGS+=	--localstatedir=${SAMBA_VARDIR}
 #CONFIGURE_ARGS+=	--with-swatdir=${PREFIX}/share/samba/swat
 #
@@ -89,7 +88,7 @@ CHECK_PORTABILITY_SKIP=	source3/configure
 do-build:
 	cd ${WRKSRC} && env ${WAF_ENV} ${PYTHONBIN} ./buildtools/bin/waf build -v
 
-#.include "../../wip/samba/options.mk"
+.include "../../wip/samba/options.mk"
 
 PLIST_VARS+=		macosx
 

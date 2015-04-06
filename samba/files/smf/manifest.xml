@@ -37,6 +37,8 @@
 		</template>
 	</instance>
 
+	<!-- winbind does not build on SunOS -->
+        <!--
 	<instance name='winbindd' enabled='false'>
 		<exec_method name='start'   type='method' exec='@PREFIX@/sbin/winbindd -D' timeout_seconds='0'/>
 		<exec_method name='stop'    type='method' exec=':kill'      timeout_seconds='30'/>
@@ -50,6 +52,7 @@
 			</documentation>
 		</template>
 	</instance>
+	-->
 
 	<stability value='Unstable'/>
 </service>

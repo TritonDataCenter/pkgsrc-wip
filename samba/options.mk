@@ -8,7 +8,7 @@
 #   Domain Controller			ldap winbind
 #
 PKG_OPTIONS_VAR=	PKG_OPTIONS.samba
-PKG_SUPPORTED_OPTIONS=	ads cups fam ldap pam winbind
+PKG_SUPPORTED_OPTIONS=	acl ads cups fam ldap pam winbind
 PKG_SUGGESTED_OPTIONS=	ads ldap pam winbind
 
 .include "../../mk/bsd.fast.prefs.mk"
@@ -31,7 +31,7 @@ SAMBA_STATIC_MODULES:=	# empty
 PKG_OPTIONS+=		ldap
 .  endif
 CONFIGURE_ARGS+=	--with-ads
-CONFIGURE_ARGS+=	--with-krb5=${KRB5BASE}
+CONFIGURE_ARGS+=	--with-system-mitkrb5
 
 # Avoid build failures with recent version of Heimdal under NetBSD.
 .  if ${OPSYS} == "NetBSD"
@@ -44,7 +44,6 @@ CONFIGURE_ENV+=		ac_cv_header_gssapi_h=no
 .  endif
 .else
 CONFIGURE_ARGS+=	--without-ads
-CONFIGURE_ARGS+=	--without-krb5
 .endif
 
 ###
@@ -79,18 +78,20 @@ CONFIGURE_ARGS+=	--disable-cups
 PLIST_VARS+=		fam
 .if !empty(PKG_OPTIONS:Mfam)
 .  include "../../mk/fam.buildlink3.mk"
-CONFIGURE_ARGS+=	--enable-fam
+CONFIGURE_ARGS+=	--with-fam
 PLIST.fam=		yes
 .else
-CONFIGURE_ARGS+=	--disable-fam
+CONFIGURE_ARGS+=	--without-fam
 .endif
 
 ###
 ### Support LDAP authentication and storage of Samba account information.
 ###
+PLIST_VARS+=		ldap
 .if !empty(PKG_OPTIONS:Mldap)
 .  include "../../databases/openldap-client/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-ldap
+PLIST.ldap=		yes
 .else
 CONFIGURE_ARGS+=	--without-ldap
 .endif
@@ -111,9 +112,9 @@ INSTALLATION_DIRS+=	${EGDIR}/pam_smbpass
 .PHONY: samba-pam-smbpass-install
 post-install: samba-pam-smbpass-install
 samba-pam-smbpass-install:
-	${INSTALL_DATA} ${WRKSRC}/pam_smbpass/README			\
+	${INSTALL_DATA} ${WRKSRC}/source3/pam_smbpass/README			\
 		${DESTDIR}${PREFIX}/${DOCDIR}/README.pam_smbpass
-	cd ${WRKSRC}/pam_smbpass/samples; for f in [a-z]*; do		\
+	cd ${WRKSRC}/source3/pam_smbpass/samples; for f in [a-z]*; do		\
 		${INSTALL_DATA} $${f} \
 			${DESTDIR}${PREFIX}/${EGDIR}/pam_smbpass/$${f};	\
 	done
@@ -125,6 +126,15 @@ samba-pam-smbpass-install:
 ###
 PLIST_VARS+=		winbind
 .if !empty(PKG_OPTIONS:Mwinbind)
+.  if ${OPSYS} == "SunOS"
+#
+# winbind fails to build on SunOS
+# even if enabled we force disable winbind!
+#
+CONFIGURE_ARGS+=	--without-winbind
+PLIST_SUBST+=		NSS_WINBIND="no NSS winbind module"
+PLIST_SUBST+=		NSS_WINS="no NSS WINS module"
+.  else
 CONFIGURE_ARGS+=	--with-winbind
 
 SAMBA_STATIC_MODULES:=	${SAMBA_STATIC_MODULES},idmap_rid
@@ -177,6 +187,7 @@ post-install: samba-nss-wins-install
 samba-nss-wins-install:
 	lib=${WRKDIR}/${DISTNAME}/nsswitch/${NSS_WINS:T:Q};		\
 	${TEST} ! -f $$lib || ${INSTALL_LIB} $$lib ${DESTDIR}${PREFIX}/lib
+.  endif
 .else
 CONFIGURE_ARGS+=	--without-winbind
 PLIST_SUBST+=		NSS_WINBIND="no NSS winbind module"
