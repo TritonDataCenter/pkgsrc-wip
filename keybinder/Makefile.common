@@ -13,3 +13,11 @@ DISTINFO_FILE=          ${.CURDIR}/../../wip/keybinder/distinfo
 PATCHDIR=               ${.CURDIR}/../../wip/keybinder/patches
 
 PKGCONFIG_OVERRIDE+=	libkeybinder/keybinder.pc.in
+
+GNU_CONFIGURE=  yes
+USE_LIBTOOL=    yes
+USE_TOOLS+=     pkg-config gmake
+
+CONFIGURE_ARGS+=        --disable-static
+# Don't rebuild the documentation
+CONFIGURE_ARGS+=        --disable-gtk-doc
