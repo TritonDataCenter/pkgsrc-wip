@@ -9,4 +9,7 @@ MASTER_SITES=	${MASTER_SITE_GENTOO:=distfiles/}
 HOMEPAGE=	https://github.com/engla/keybinder
 LICENSE=	gnu-gpl-v2
 
+DISTINFO_FILE=          ${.CURDIR}/../../wip/keybinder/distinfo
+PATCHDIR=               ${.CURDIR}/../../wip/keybinder/patches
+
 PKGCONFIG_OVERRIDE+=	libkeybinder/keybinder.pc.in
