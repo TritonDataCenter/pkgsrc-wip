@@ -16,6 +16,7 @@ SPECIAL_PERMS+=		bin/Xorg ${SETUID_ROOT_PERMS}
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake pkg-config
+USE_LANGUAGES+=	c99
 
 PKGCONFIG_OVERRIDE+=	xorg-server.pc.in
 SHLIBTOOL_OVERRIDE=	# empty

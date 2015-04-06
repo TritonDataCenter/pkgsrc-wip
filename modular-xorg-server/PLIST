@@ -107,6 +107,7 @@ include/xorg/shadow.h
 include/xorg/shadowfb.h
 include/xorg/shmint.h
 include/xorg/site.h
+${PLIST.sunos}include/xorg/solaris-${SUNOS_ARCH}.il
 include/xorg/swaprep.h
 include/xorg/swapreq.h
 include/xorg/syncsdk.h
