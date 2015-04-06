@@ -8,7 +8,7 @@
 #   Domain Controller			ldap winbind
 #
 PKG_OPTIONS_VAR=	PKG_OPTIONS.samba
-PKG_SUPPORTED_OPTIONS=	acl ads cups fam ldap pam winbind
+PKG_SUPPORTED_OPTIONS=	ads cups fam ldap pam winbind
 PKG_SUGGESTED_OPTIONS=	ads ldap pam winbind
 
 .include "../../mk/bsd.fast.prefs.mk"
@@ -26,21 +26,29 @@ SAMBA_STATIC_MODULES:=	# empty
 ### Allow Samba to join as a member server of an Active Directory domain.
 ###
 .if !empty(PKG_OPTIONS:Mads)
-.  include "../../mk/krb5.buildlink3.mk"
-.  if empty(PKG_OPTIONS:Mldap)
+.  if ${OPSYS} == "SunOS"
+#
+# Broken on SunOS
+#
+CONFIGURE_ARGS+=        --with-acl-support
+.  else
+.    include "../../mk/krb5.buildlink3.mk"
+.    if empty(PKG_OPTIONS:Mldap)
 PKG_OPTIONS+=		ldap
-.  endif
+.    endif
 CONFIGURE_ARGS+=	--with-ads
 CONFIGURE_ARGS+=	--with-system-mitkrb5
 
+
 # Avoid build failures with recent version of Heimdal under NetBSD.
-.  if ${OPSYS} == "NetBSD"
+.    if ${OPSYS} == "NetBSD"
 CONFIGURE_ENV+=	samba_cv_HAVE_KRB5_DEPRECATED_WITH_IDENTIFIER=no
-.  endif
+.    endif
 
 # ignore gssapi.h on Solaris as it conflicts with <gssapi/gssapi.h>
-.  if ${OPSYS} == "SunOS"
+.    if ${OPSYS} == "SunOS"
 CONFIGURE_ENV+=		ac_cv_header_gssapi_h=no
+.    endif
 .  endif
 .else
 CONFIGURE_ARGS+=	--without-ads
@@ -91,6 +99,11 @@ PLIST_VARS+=		ldap
 .if !empty(PKG_OPTIONS:Mldap)
 .  include "../../databases/openldap-client/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-ldap
+.PHONY: samba-ldap-install
+post-install: samba-ldap-install
+samba-ldap-install:
+	cp -r ${WRKSRC}/source4/setup \
+		${DESTDIR}${PREFIX}/share/${PKGBASE}/
 PLIST.ldap=		yes
 .else
 CONFIGURE_ARGS+=	--without-ldap
