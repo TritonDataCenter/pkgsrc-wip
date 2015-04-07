@@ -1,4 +1,7 @@
 @comment $NetBSD$
+${PLIST.exclusive}bin/ctags
+${PLIST.exclusive}bin/emacsclient
+${PLIST.exclusive}bin/etag
 bin/m2ps
 bin/mule
 share/mule/etc/3B-MAXMEM
