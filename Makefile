@@ -1354,7 +1354,6 @@ SUBDIR+=	kapital
 SUBDIR+=	kawa
 SUBDIR+=	keepassx-git
 SUBDIR+=	keybinder
-SUBDIR+=	keybinder3
 SUBDIR+=	kgrab
 SUBDIR+=	kgraphviewer
 SUBDIR+=	khard-git
