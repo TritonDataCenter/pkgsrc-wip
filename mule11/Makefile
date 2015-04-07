@@ -15,6 +15,13 @@ USE_TOOLS=		gmake
 
 BROKEN=		See TODO, thanks
 
+# next chunk should be before SUBST_CLASSES= pref
+SUBST_CLASSES+=		var
+SUBST_MESSAGE.var=	Adjust VARBASE
+SUBST_FILES.var=	src/paths.h-dist
+SUBST_STAGE.var=	pre-configure
+SUBST_VARS.var=		VARBASE
+
 SUBST_CLASSES+=		pref
 SUBST_SED.pref=		-e 's,/usr/local,${PREFIX},g'
 SUBST_MESSAGE.pref=	Convert /usr/local to ${PREFIX}
