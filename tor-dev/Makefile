@@ -1,7 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	tor-0.2.6.6
-PKGREVISION=	1
+DISTNAME=	tor-0.2.6.7
 CATEGORIES=	net security
 MASTER_SITES=	https://www.torproject.org/dist/
 
