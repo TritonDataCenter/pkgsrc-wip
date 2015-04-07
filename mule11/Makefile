@@ -16,11 +16,11 @@ USE_TOOLS=		gmake
 BROKEN=		Segfaults without -nw, see TODO, thanks
 
 # next chunk should be before SUBST_CLASSES= pref
-SUBST_CLASSES+=		var
-SUBST_MESSAGE.var=	Adjust VARBASE
-SUBST_FILES.var=	src/paths.h-dist
-SUBST_STAGE.var=	pre-configure
-SUBST_VARS.var=		VARBASE
+SUBST_CLASSES+=		path
+SUBST_MESSAGE.path=	Adjust PATH (VARBASE and PKGVERSION)
+SUBST_FILES.path=	src/paths.h-dist
+SUBST_STAGE.path=	pre-configure
+SUBST_VARS.path=	VARBASE PKGNAME
 
 SUBST_CLASSES+=		pref
 SUBST_SED.pref=		-e 's,/usr/local,${PREFIX},g'

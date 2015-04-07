@@ -1,5 +1,6 @@
 $NetBSD$
 
+Squelch warining
 
 --- src/dispnew.c.orig	2015-03-28 00:05:34.000000000 +0900
 +++ src/dispnew.c	2015-04-07 10:13:29.000000000 +0900
