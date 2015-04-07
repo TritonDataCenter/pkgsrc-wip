@@ -9,7 +9,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	Python bindings for the keybinder library
 LICENSE=	gnu-gpl-v2
 
-CONFIGURE_ARGS+=	--disable-lua
 CONFIGURE_ARGS+=	--enable-python
 
 PY_PATCHPLIST=			yes

@@ -1,5 +1,2 @@
 @comment $NetBSD$
-${PYSITELIB}/keybinder/__init__.py
-${PYSITELIB}/keybinder/__init__.pyc
-${PYSITELIB}/keybinder/__init__.pyo
-${PYSITELIB}/keybinder/_keybinder.la
+lib/lua/5.1/keybinder.la

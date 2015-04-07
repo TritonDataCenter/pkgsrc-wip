@@ -9,7 +9,7 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	Lua bindings for the keybinder library
 LICENSE=	gnu-gpl-v2
 
-CONFIGURE_ARGS+=	--enable-lua
+# --enable-lua is broken
 CONFIGURE_ARGS+=	--disable-python
 
 INSTALL_DIRS=	lua-keybinder
