@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	i3status-2.8
+DISTNAME=	i3status-2.9
 CATEGORIES=	sysutils wm
 MASTER_SITES=	http://i3wm.org/i3status/
 EXTRACT_SUFX=	.tar.bz2

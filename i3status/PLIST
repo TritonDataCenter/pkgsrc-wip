@@ -2,4 +2,3 @@
 bin/i3status
 man/man1/i3status.1
 share/doc/i3status/i3status.conf
-@pkgdir share/doc/i3-status
