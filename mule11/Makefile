@@ -78,9 +78,6 @@ pre-configure:
 	${CP} src/mconfig.h-${LOWER_OPSYS} src/mconfig.h; \
 	)
 
-pre-install:
-	${RM} ${WRKSRC}/lisp/mule-init.el.orig
-
 .include "options.mk"
 
 .include "../../inputmethod/ja-freewnn-lib/buildlink3.mk"
