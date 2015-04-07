@@ -1,7 +1,7 @@
 @comment $NetBSD$
-bin/ctags
-bin/emacsclient
-bin/etags
+${PLIST.exclusive}bin/ctags
+${PLIST.exclusive}bin/emacsclient
+${PLIST.exclusive}bin/etag
 bin/m2ps
 bin/mule
 mule/etc/3B-MAXMEM
@@ -541,4 +541,3 @@ mule/lisp/xscheme.el
 mule/lisp/xscheme.elc
 mule/lisp/yow.el
 mule/lisp/yow.elc
-@pkgdir mule/lock
