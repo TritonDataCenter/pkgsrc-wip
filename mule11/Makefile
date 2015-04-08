@@ -8,7 +8,7 @@ CATEGORIES=		editors
 
 MAINTAINER=		makoto@ki.nu
 HOMEPAGE=		https://github.com/tsutsui/mule1.1-netbsd
-COMMENT=		Classical Mule, Muliti-Lingual-Emacs, based on 18.59
+COMMENT=		Classical Mule (MULtilingual Enhancement of GNU Emacs), based on 18.59
 LICENSE=		gnu-gpl-v1
 MAKE_JOBS_SAFE=		no
 
