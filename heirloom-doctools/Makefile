@@ -13,5 +13,6 @@ LICENSE=	cddl-1.0
 USE_LANGUAGES=	c c++
 
 MAKE_FILE=	makefile
+BUILD_TARGET=	dummy
 
 .include "../../mk/bsd.pkg.mk"
