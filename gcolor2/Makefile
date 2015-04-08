@@ -12,7 +12,7 @@ LICENSE=	gnu-gpl-v2
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake perl pkg-config
 
-BUILD_DEPENDS+=            p5-XML-Parser>=2.31nb1:../../textproc/p5-XML-Parser
+BUILD_DEPENDS+=	p5-XML-Parser>=2.31nb1:../../textproc/p5-XML-Parser
 
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
