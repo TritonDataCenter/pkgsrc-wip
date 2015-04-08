@@ -763,6 +763,7 @@ SUBDIR+=	gcc43
 SUBDIR+=	gcc48snapshot
 SUBDIR+=	gcc49snapshot
 SUBDIR+=	gcc50snapshot
+SUBDIR+=	gcolor2
 SUBDIR+=	gconf-cleaner
 SUBDIR+=	gdal-docs
 SUBDIR+=	gdal-grass
