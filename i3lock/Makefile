@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	i3lock-2.4.1
+DISTNAME=	i3lock-2.6
 CATEGORIES=	x11
 MASTER_SITES=	http://i3wm.org/i3lock/
 EXTRACT_SUFX=	.tar.bz2
@@ -27,11 +27,12 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/i3lock ${DESTDIR}${PREFIX}/bin/
 	${INSTALL_MAN} ${WRKSRC}/i3lock.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/
 
-.include "../../x11/libxcb/buildlink3.mk"
-.include "../../x11/xcb-util/buildlink3.mk"
-.include "../../x11/xcb-util-keysyms/buildlink3.mk"
-.include "../../x11/xcb-util-image/buildlink3.mk"
-.include "../../x11/xextproto/buildlink3.mk"
 .include "../../devel/libev/buildlink3.mk"
+.include "../../graphics/cairo/buildlink3.mk"
+.include "../../x11/libxcb/buildlink3.mk"
+.include "../../x11/libxkbcommon/buildlink3.mk"
+.include "../../x11/xcb-util/buildlink3.mk"
+.include "../../x11/xcb-util-image/buildlink3.mk"
+.include "../../x11/xcb-util-keysyms/buildlink3.mk"
 .include "../../mk/pam.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
