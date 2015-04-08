@@ -33,6 +33,4 @@ MAKE_FLAGS =	CC="${CC}" \
 MAKE_FILE=	makefile
 BUILD_TARGET=	dummy
 
-SUBDIR+=	heirloom-doctools
-
 .include "../../mk/bsd.pkg.mk"
