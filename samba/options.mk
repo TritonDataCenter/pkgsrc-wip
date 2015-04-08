@@ -13,14 +13,24 @@ PKG_SUGGESTED_OPTIONS=	ads ldap pam winbind
 
 .include "../../mk/bsd.fast.prefs.mk"
 
+###
+### Support ACL on certain platforms
+###
 SAMBA_ACL_OPSYS=	AIX Darwin FreeBSD HPUX IRIX Linux OSF1 SunOS
 .if !empty(SAMBA_ACL_OPSYS:M${OPSYS})
 PKG_SUPPORTED_OPTIONS+=	acl
 .endif
 
+# Suggest zfsacl on SunOS
+.if ${OPSYS} == "SunOS"
+PKG_SUPPORTED_OPTIONS+=	zfsacl
+PKG_SUGGESTED_OPTIONS+=	zfsacl
+.endif
+
 .include "../../mk/bsd.options.mk"
 
 SAMBA_STATIC_MODULES:=	# empty
+SAMBA_SHARED_MODULES:=	# empty
 
 ###
 ### Allow Samba to join as a member server of an Active Directory domain.
@@ -53,6 +63,17 @@ CONFIGURE_ENV+=		ac_cv_header_gssapi_h=no
 .else
 CONFIGURE_ARGS+=	--without-ads
 .endif
+
+
+###
+### Ensure that the zfsacl shared library is generated
+###
+PLIST_VARS+=		zfsacl
+.if !empty(PKG_OPTIONS:Mzfsacl)
+PKG_OPTIONS+=           acl
+SAMBA_SHARED_MODULES:=	${SAMBA_SHARED_MODULES},vfs_zfsacl
+PLIST.zfsacl=		yes
+.  endif
 
 ###
 ### Access Control List support.
@@ -212,4 +233,11 @@ PLIST_SUBST+=		NSS_WINS="no NSS WINS module"
 ###
 .if !empty(SAMBA_STATIC_MODULES)
 CONFIGURE_ARGS+=	--with-static-modules=${SAMBA_STATIC_MODULES:S/^,//}
+.endif
+
+###
+### Add the optionsl shared modules to the configuration
+###
+.if !empty(SAMBA_SHARED_MODULES)
+CONFIGURE_ARGS+=	--with-shared-modules=${SAMBA_SHARED_MODULES:S/^,//}
 .endif

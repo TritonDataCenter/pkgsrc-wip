@@ -976,3 +976,4 @@ ${PLIST.pam}share/examples/samba4/pam_smbpass/password-mature
 ${PLIST.pam}share/examples/samba4/pam_smbpass/password-migration
 ${PLIST.pam}share/examples/samba4/pam_smbpass/password-sync
 ${PLIST.fam}lib${LIBARCHSUFFIX}/samba/vfs/notify_fam.${LIBEXT}
+${PLIST.zfsacl}lib${LIBARCHSUFFIX}/samba/vfs/zfsacl.${LIBEXT}
