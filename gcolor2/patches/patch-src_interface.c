@@ -31,6 +31,15 @@ gdk_pixbuf_unref() is deprecated and replaced with g_object_unref()
      }
  
    dialog_vbox3 = GTK_DIALOG (about_dialog)->vbox;
+@@ -487,7 +487,7 @@ create_delete_dialog (void)
+   if (delete_dialog_icon_pixbuf)
+     {
+       gtk_window_set_icon (GTK_WINDOW (delete_dialog), delete_dialog_icon_pixbuf);
+-      gdk_pixbuf_unref (delete_dialog_icon_pixbuf);
++      g_object_unref (delete_dialog_icon_pixbuf);
+     }
+   gtk_window_set_type_hint (GTK_WINDOW (delete_dialog), GDK_WINDOW_TYPE_HINT_DIALOG);
+ 
 @@ -526,4 +526,3 @@ create_delete_dialog (void)
    gtk_widget_grab_default (delete_cancel);
    return delete_dialog;
