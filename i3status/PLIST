@@ -1,4 +1,5 @@
 @comment $NetBSD$
 bin/i3status
 man/man1/i3status.1
-share/doc/i3status/i3status.conf
+share/doc/i3status/LICENSE
+share/examples/i3status/i3status.conf
