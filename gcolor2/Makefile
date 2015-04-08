@@ -5,7 +5,7 @@ CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gcolor2/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://sourceforge.net/projects/gcolor2/files/gcolor2/0.4/
+HOMEPAGE=	http://gcolor2.sourceforge.net/
 COMMENT=	Simple color selector
 LICENSE=	gnu-gpl-v2
 
