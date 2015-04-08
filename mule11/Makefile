@@ -81,6 +81,10 @@ pre-configure:
 	${CP} src/mconfig.h-${LOWER_OPSYS} src/mconfig.h; \
 	)
 
+# To avoid after patch, original file is installed
+pre-install:
+	(cd ${WRKSRC} ; ${RM} lisp/mule-init.el.orig )
+
 .include "options.mk"
 
 .include "../../inputmethod/ja-freewnn-lib/buildlink3.mk"
