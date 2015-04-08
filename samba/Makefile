@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.11 2011/10/11 20:30:00 jmcneill Exp $
 
-.include "../../net/samba/Makefile.mirrors"
+.include "../../wip/samba/Makefile.mirrors"
 
 DISTNAME=	samba-${VERSION}
 PKGNAME=	samba4-${VERSION}
@@ -13,12 +13,12 @@ HOMEPAGE=	http://www.samba.org/
 COMMENT=	SMB/CIFS protocol server suite
 LICENSE=	gnu-gpl-v3
 
-VERSION=	4.1.9
+VERSION=	4.1.17
 CONFLICTS+=	ja-samba-[0-9]* pam-smbpass-[0-9]* tdb-[0-9]* winbind-[0-9]*
 
-FILESDIR=		${PKGDIR}/../../net/samba/files
-DESCR_SRC=		${PKGDIR}/../../net/samba/DESCR
-MESSAGE_SRC=		${PKGDIR}/../../net/samba/MESSAGE
+FILESDIR=		${PKGDIR}/../../wip/samba/files
+DESCR_SRC=		${PKGDIR}/../../wip/samba/DESCR
+MESSAGE_SRC=		${PKGDIR}/../../wip/samba/MESSAGE
 BUILD_DEFS+=		VARBASE
 
 USE_MULTIARCH=	lib
@@ -55,23 +55,22 @@ REPLACE_PERL=		script/findsmb.in
 USE_GNU_ICONV=		yes	# FIXME: something doesn't work on NetBSD
 
 HAS_CONFIGURE=		yes
-CONFIGURE_ARGS+=	--libdir=${SAMBA_LIBDIR}
 CONFIG_SHELL=		${PYTHONBIN}
 CONFIGURE_SCRIPT=	${WRKSRC}/buildtools/bin/waf
 CONFIGURE_ARGS+=	configure
 CONFIGURE_ARGS+=	--prefix=$(PREFIX:Q)
+CONFIGURE_ARGS+=	--libdir=${SAMBA_LIBDIR}
 CONFIGURE_ARGS+=	--with-libiconv=${BUILDLINK_PREFIX.iconv}
-#CONFIGURE_ARGS+=	--with-readline=${BUILDLINK_PREFIX.readline}
-#CONFIGURE_ARGS+=	--with-configdir=${SAMBA_ETCDIR}
+CONFIGURE_ARGS+=	--with-configdir=${SAMBA_ETCDIR}
 CONFIGURE_ARGS+=	--with-privatelibdir=${SAMBA_LIBDIR}/samba
 CONFIGURE_ARGS+=	--mandir=${PREFIX}/${PKGMANDIR}
 CONFIGURE_ARGS+=	--datadir=${PREFIX}/share/${PKGBASE}
 CONFIGURE_ARGS+=	--with-lockdir=${SAMBA_LOCKDIR}
-#CONFIGURE_ARGS+=	--with-logfilebase=${SAMBA_LOGDIR}
+CONFIGURE_ARGS+=	--with-logfilebase=${SAMBA_LOGDIR}
 CONFIGURE_ARGS+=	--with-modulesdir=${SAMBA_MODULESDIR}
 CONFIGURE_ARGS+=	--with-piddir=${SAMBA_PIDDIR}
 CONFIGURE_ARGS+=	--with-privatedir=${SAMBA_PRIVATE:Q}
-#CONFIGURE_ARGS+=	--with-statedir=${SAMBA_STATEDIR}
+CONFIGURE_ARGS+=	--with-statedir=${SAMBA_STATEDIR}
 CONFIGURE_ARGS+=	--localstatedir=${SAMBA_VARDIR}
 #CONFIGURE_ARGS+=	--with-swatdir=${PREFIX}/share/samba/swat
 #
@@ -89,7 +88,7 @@ CHECK_PORTABILITY_SKIP=	source3/configure
 do-build:
 	cd ${WRKSRC} && env ${WAF_ENV} ${PYTHONBIN} ./buildtools/bin/waf build -v
 
-#.include "../../net/samba/options.mk"
+.include "../../wip/samba/options.mk"
 
 PLIST_VARS+=		macosx
 
