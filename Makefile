@@ -986,7 +986,6 @@ SUBDIR+=	haze
 SUBDIR+=	hdhomerun_config
 SUBDIR+=	hdparm
 SUBDIR+=	heimdall
-SUBDIR+=	heirloom-doctools
 SUBDIR+=	hengband
 SUBDIR+=	hepmc
 SUBDIR+=	hepmcvisual
