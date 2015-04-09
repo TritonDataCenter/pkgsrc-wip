@@ -13,6 +13,8 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake pkg-config
 
+EXTRACT_USING=	gtar
+
 BUILDLINK_TRANSFORM=	rm:-Werror
 PKGCONFIG_OVERRIDE=	libindicator/indicator3-0.4.pc.in.in
 PKGCONFIG_OVERRIDE+=	libindicator/indicator-0.4.pc.in.in
