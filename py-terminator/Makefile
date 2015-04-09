@@ -14,7 +14,7 @@ REPLACE_PYTHON+= *.py
 REPLACE_PYTHON+= terminatorlib/*.py
 REPLACE_PYTHON+= terminatorlib/plugins/*.py
 
-USE_TOOLS=	intltool
+USE_TOOLS+=	intltool
 
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"
