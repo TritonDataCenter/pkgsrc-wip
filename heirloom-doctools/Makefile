@@ -8,10 +8,11 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	carsten.kunze@arcor.de
 HOMEPAGE=	http://n-t-roff.github.io/heirloom/doctools.html
-COMMENT=	modernized troff implementation
+COMMENT=	Modernized troff implementation
 LICENSE=	cddl-1.0
 
 USE_LANGUAGES=	c c++
+MAKE_JOBS_SAFE=	no
 
 MAKE_FLAGS =	CC="${CC}" \
 		CCC="${CXX}" \
