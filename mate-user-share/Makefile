@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	mate-user-share-1.8.0
+DISTNAME=	mate-user-share-1.8.1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://pub.mate-desktop.org/releases/1.8/
 EXTRACT_SUFX=	.tar.xz
