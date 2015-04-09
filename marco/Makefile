@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	marco-1.8.2
+DISTNAME=	marco-1.8.3
 CATEGORIES=	wm
 MASTER_SITES=	http://pub.mate-desktop.org/releases/1.8/
 EXTRACT_SUFX=	.tar.xz
