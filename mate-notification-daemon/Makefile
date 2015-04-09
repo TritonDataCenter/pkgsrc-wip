@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	mate-notification-daemon-1.8.1
+DISTNAME=	mate-notification-daemon-1.8.2
 CATEGORIES=	sysutils
 MASTER_SITES=	http://pub.mate-desktop.org/releases/1.8/
 EXTRACT_SUFX=	.tar.xz
