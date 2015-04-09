@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	libmatekbd-1.8.0
+DISTNAME=	libmatekbd-1.8.1
 CATEGORIES=	x11
 MASTER_SITES=	http://pub.mate-desktop.org/releases/1.8/
 EXTRACT_SUFX=	.tar.xz
