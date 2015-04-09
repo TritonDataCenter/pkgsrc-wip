@@ -25,7 +25,7 @@ PYTHON_FOR_BUILD_ONLY=	yes
 .include "options.mk"
 
 .include "../../devel/glib2/schemas.mk"
-
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 #XXX NetworkManager
 .include "../../wip/libmateweather/buildlink3.mk"
 .include "../../wip/mate-desktop/buildlink3.mk"

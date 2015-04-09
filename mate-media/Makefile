@@ -24,7 +24,7 @@ INSTALL_MAKE_FLAGS+=	sysconfdir=${PREFIX}/share/examples/mate-media
 .include "options.mk"
 
 .include "../../devel/glib2/schemas.mk"
-
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../audio/libcanberra/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../multimedia/gstreamer0.10/buildlink3.mk"

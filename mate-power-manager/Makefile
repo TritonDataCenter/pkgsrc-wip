@@ -25,7 +25,7 @@ CONF_FILES+=	${PREFIX}/share/examples/mate-power-manager/xdg/autostart/mate-powe
 .include "options.mk"
 
 .include "../../devel/glib2/schemas.mk"
-
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../wip/upower/buildlink3.mk"
 .include "../../wip/mate-panel/buildlink3.mk"
 .include "../../audio/libcanberra/buildlink3.mk"

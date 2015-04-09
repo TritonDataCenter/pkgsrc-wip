@@ -53,7 +53,7 @@ CONF_FILES+=	${PREFIX}/share/examples/pam.d/mate-screensaver \
 		/etc/pam.d/mate-screensaver
 
 .include "../../devel/glib2/schemas.mk"
-
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../wip/mate-desktop/buildlink3.mk"
 .include "../../wip/mate-menus/buildlink3.mk"
 .include "../../wip/libmatekbd/buildlink3.mk"
