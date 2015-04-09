@@ -4,7 +4,7 @@ DISTNAME=	libappindicator-12.10.0
 CATEGORIES=	devel
 MASTER_SITES=	https://launchpad.net/libappindicator/12.10/12.10.0/+download/
 
-MAINTAINER=	obache@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://launchpad.net/libappindicator/
 COMMENT=	Allow applications to export a menu into the panel
 LICENSE=	gnu-lgpl-v3 AND gnu-lgpl-v2.1

@@ -5,7 +5,7 @@ CATEGORIES=	archivers
 MASTER_SITES=	http://pub.mate-desktop.org/releases/1.8/
 EXTRACT_SUFX=	.tar.xz
 
-MAINTAINER=	obache@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	Archive manager utility for the MATE Environment
 LICENSE=	gnu-gpl-v2
