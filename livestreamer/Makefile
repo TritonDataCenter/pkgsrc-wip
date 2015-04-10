@@ -23,7 +23,7 @@ DEPENDS+=	${PYPKGPREFIX}-six-[0-9]*:../../lang/py-six
 DEPENDS+=	${PYPKGPREFIX}-futures-[0-9]*:../../wip/py-futures
 .endif
 .if ${_PYTHON_VERSION} <= 33
-DEPENDS+=	${PYPKGPREFIX}-singledispatch-[0-9]*:../../wip/py-singledispatch
+DEPENDS+=	${PYPKGPREFIX}-singledispatch-[0-9]*:../../devel/py-singledispatch
 .endif
 
 EGG_NAME=	${PKGNAME_NOREV}
