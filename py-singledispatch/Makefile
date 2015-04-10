@@ -11,7 +11,6 @@ COMMENT=	Library brings functools.singledispatch from Python 3.4
 LICENSE=	mit
 
 PYTHON_VERSIONS_ACCEPTED=	33 27 26  # included in 3.4+
-PYTHON_VERSIONS_INCOMPATIBLE=	34
 
 USE_LANGUAGES=	# none
 
