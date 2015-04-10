@@ -7,5 +7,3 @@ include/libindicator-0.4/libindicator/indicator-service.h
 include/libindicator-0.4/libindicator/indicator.h
 lib/libindicator.la
 lib/pkgconfig/indicator-0.4.pc
-libexec/indicator-loader
-share/libindicator/80indicator-debugging
