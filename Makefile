@@ -3067,7 +3067,6 @@ SUBDIR+=	py-sima
 SUBDIR+=	py-simplegeneric
 SUBDIR+=	py-simpleparse-mxtexttools
 SUBDIR+=	py-simulators
-SUBDIR+=	py-singledispatch
 SUBDIR+=	py-sleekxmpp
 SUBDIR+=	py-slowaes
 SUBDIR+=	py-smcp
