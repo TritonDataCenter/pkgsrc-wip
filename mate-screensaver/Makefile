@@ -10,6 +10,8 @@ HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	Screen saver and locker for the MATE desktop
 LICENSE=	gnu-gpl-v2 AND gnu-lgpl-v2
 
+CONFLICTS+=	gnome-screensaver-[0-9]*
+
 DEPENDS+=	consolekit-[0-9]*:../../wip/consolekit
 
 GNU_CONFIGURE=		yes
