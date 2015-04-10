@@ -6,6 +6,7 @@ USE_GTK_VERSION=2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	GTK+2 symbols and convience functions for indicators
+PKGNAME=	${DISTNAME:S/-/-tools-/}
 
 INSTALL_DIRS=	tools
 
