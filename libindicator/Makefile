@@ -1,5 +1,7 @@
 # $NetBSD$
 
+USE_GTK_VERSION=2
+
 .include "Makefile.common"
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

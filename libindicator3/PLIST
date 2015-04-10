@@ -5,7 +5,13 @@ include/libindicator3-0.4/libindicator/indicator-object.h
 include/libindicator3-0.4/libindicator/indicator-service-manager.h
 include/libindicator3-0.4/libindicator/indicator-service.h
 include/libindicator3-0.4/libindicator/indicator.h
+lib/libdummy-indicator-blank.la
+lib/libdummy-indicator-entry-func.la
+lib/libdummy-indicator-null.la
+lib/libdummy-indicator-signaler.la
+lib/libdummy-indicator-simple.la
+lib/libdummy-indicator-visible.la
 lib/libindicator3.la
 lib/pkgconfig/indicator3-0.4.pc
 libexec/indicator-loader3
-share/examples/libindicator3/80indicator-debugging
+share/libindicator/80indicator-debugging

@@ -1,5 +1,7 @@
 # $NetBSD$
 
+USE_GTK_VERSION=3
+
 .include "../../wip/libindicator/Makefile.common"
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
