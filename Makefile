@@ -2785,6 +2785,7 @@ SUBDIR+=	py-lingpy
 SUBDIR+=	py-linop
 SUBDIR+=	py-lire
 SUBDIR+=	py-liveplots
+SUBDIR+=	py-locustio
 SUBDIR+=	py-loggly
 SUBDIR+=	py-logilab-database
 SUBDIR+=	py-logilab-mtconverter
