@@ -15,7 +15,9 @@ GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		intltool pkg-config
 
-CONF_FILES+=	etc/xdg/libfm/libfm.conf
+OWN_DIRS=	${PKG_SYSCONFDIR}/xdg/libfm
+CONF_FILES+=	${PREFIX}/etc/xdg/libfm/libfm.conf \
+		${PKG_SYSCONFDIR}/xdg/libfm/libfm.conf
 
 .include "../../graphics/libexif/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
