@@ -1,11 +1,11 @@
 # $NetBSD$
 
-PKGNAME=        mate-1.8
+PKGNAME=        lxqt-0.9.0
 CATEGORIES=     meta-pkgs
 
 MAINTAINER=     pkgsrc-users@NetBSD.org
-HOMEPAGE=       http://www.mate-desktop.org/
-COMMENT=        Meta-package for MATE desktop environment
+HOMEPAGE=       http://lxqt.org/
+COMMENT=        Meta-package for LXQt desktop environment
 
 META_PACKAGE=   yes
 
