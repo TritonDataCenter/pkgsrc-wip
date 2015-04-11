@@ -283,6 +283,7 @@ SUBDIR+=	canna-canuum
 SUBDIR+=	canna-dict
 SUBDIR+=	canna-lib
 SUBDIR+=	canna-server
+SUBDIR+=	cardpeek
 SUBDIR+=	carnival
 SUBDIR+=	cartago
 SUBDIR+=	casady-fonts
