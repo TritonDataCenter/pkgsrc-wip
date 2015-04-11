@@ -1,3 +1,4 @@
 @comment $NetBSD$
 bin/pycscope.py
+${PYSITELIB}/${EGG_FILE}
 share/doc/py-cscope/README
