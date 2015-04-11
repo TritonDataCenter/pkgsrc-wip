@@ -1,16 +1,18 @@
 # $NetBSD: buildlink3.mk,v 1.23 2014/02/12 23:18:35 tron Exp $
 
-BUILDLINK_TREE+=	polkit-qt
+BUILDLINK_TREE+=	polkit-qt5
 
-.if !defined(POLKIT_QT_BUILDLINK3_MK)
-POLKIT_QT_BUILDLINK3_MK:=
+.if !defined(POLKIT_QT5_BUILDLINK3_MK)
+POLKIT_QT5_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.polkit-qt+=	polkit-qt>=0.9.2
-BUILDLINK_ABI_DEPENDS.polkit-qt+=	polkit-qt>=0.9.4nb17
-BUILDLINK_PKGSRCDIR.polkit-qt?=	../../security/polkit-qt
+BUILDLINK_API_DEPENDS.polkit-qt5+=	polkit-qt5>=0.112.0
+BUILDLINK_ABI_DEPENDS.polkit-qt5+=	polkit-qt5>=0.112.0
+BUILDLINK_PKGSRCDIR.polkit-qt5?=	../../wip/polkit-qt5
 
+.include "../../x11/qt5-dbus/buildlink3.mk"
+.include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../security/policykit/buildlink3.mk"
-.include "../../x11/qt4-libs/buildlink3.mk"
-.endif	# POLKIT_QT_BUILDLINK3_MK
+.include "../../wip/polkit/buildlink3.mk"
+.endif	# POLKIT_QT5_BUILDLINK3_MK
 
-BUILDLINK_TREE+=	-polkit-qt
+BUILDLINK_TREE+=	-polkit-qt5
