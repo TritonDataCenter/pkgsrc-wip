@@ -17,6 +17,7 @@ USE_TOOLS+=		intltool pkg-config
 
 CONF_FILES+=	etc/xdg/libfm/libfm.conf
 
+.include "../../graphics/libexif/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../sysutils/menu-cache/buildlink3.mk"
