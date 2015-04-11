@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/lxqt-policykit-agent
+share/lxqt/translations/lxqt-policykit-agent/lxqt-policykit-agent_pt.qm
+share/lxqt/translations/lxqt-policykit-agent/lxqt-policykit-agent_ru.qm
+share/lxqt/translations/lxqt-policykit-agent/lxqt-policykit-agent_ru_RU.qm
