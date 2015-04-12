@@ -12,6 +12,7 @@ LICENSE=	gnu-gpl-v2
 
 USE_LANGUAGES=	# none
 
+PYTHON_VERSIONS_INCOMPATIBLE=	26
 REPLACE_PYTHON+=	pycscope/__init__.py
 
 INSTALLATION_DIRS=	share/doc/py-cscope
