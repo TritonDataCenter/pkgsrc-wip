@@ -18,7 +18,7 @@ MAKE_ENV+=	LDAPSDKDIR=${BUILDLINK_PREFIX.ldapsdk}
 MAKE_ENV+=	LDAPSDKSSL="no"
 MAKE_ENV+=	LDAPV3ON="yes"
 
-.include "../../x11/kdelibs3/buildlink3.mk"
+#include "../../x11/kdelibs3/buildlink3.mk"
 .include "../../devel/ldapsdk/buildlink3.mk"
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
