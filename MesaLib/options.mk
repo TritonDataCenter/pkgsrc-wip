@@ -28,20 +28,11 @@ PLIST_VARS+=		dri swrast_dri i915_dri nouveau_dri i965_dri radeon_dri r200_dri
 
 .if !empty(PKG_OPTIONS:Mdri)
 
-# XXX this crashes clang:
-#
-#In file included from entry.c:49:
-#./entry_x86-64_tls.h:66:1: warning: tentative array definition assumed to have
-#      one element
-#x86_64_entry_start[];
-#^
-#fatal error: error in backend: symbol 'x86_64_entry_start' is already defined
-#clang: error: clang frontend command failed with exit code 70 (use -v to see invocation)
-#.if !empty(MACHINE_PLATFORM:MNetBSD-[0-5].*)
-#CONFIGURE_ARGS+=	--disable-glx-tls
-#.else
-#CONFIGURE_ARGS+=	--enable-glx-tls
-#.endif
+.if !empty(MACHINE_PLATFORM:MNetBSD-[0-5].*)
+CONFIGURE_ARGS+=	--disable-glx-tls
+.else
+CONFIGURE_ARGS+=	--enable-glx-tls
+.endif
 
 PLIST.dri=	yes
 BUILDLINK_DEPMETHOD.libpciaccess=      full
