@@ -71,6 +71,12 @@ BUILD_DEPENDS+=		${PYPKGPREFIX}-mako-[0-9]*:../../devel/py-mako
 BUILDLINK_TRANSFORM+=   l:pthread:pthread:c
 .endif
 
+# Handle platforms without exp2
+.if !empty(MACHINE_PLATFORM:MNetBSD-[1-5].*-*)
+CPPFLAGS+=	-Dexp2\(x\)=pow\(2.0d,x\)
+CPPFLAGS+=	-Dexp2f\(x\)=powf\(2.0f,x\)
+.endif
+
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libXext/buildlink3.mk"
 .include "../../x11/libxcb/buildlink3.mk"
