@@ -19,7 +19,7 @@ CONFIGURE_ENV+=		ac_cv_prog_MAGICK_CONFIG=no
 .endif
 
 .if !empty(PKG_OPTIONS:Mpython)
-PYTHON_VERSIONS_ACCEPTED= 27 26
+PYTHON_VERSIONS_ACCEPTED= 27
 .include "../../lang/python/extension.mk"
 .include "../../devel/swig/buildlink3.mk"
 .else

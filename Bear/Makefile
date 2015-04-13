@@ -12,8 +12,6 @@ USE_LANGUAGES=	c c++
 USE_CMAKE=	yes
 USE_TOOLS+=	gmake
 
-PYTHON_VERSIONS_INCOMPATIBLE=       26
-
 SUBST_CLASSES+=			   py_interpreter
 SUBST_STAGE.py_interpreter=        post-extract
 SUBST_FILES.py_interpreter+=       bear/main.py.in

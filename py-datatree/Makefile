@@ -15,7 +15,7 @@ DEPENDS+=	${PYPKGPREFIX}-yaml>=3.08:../../textproc/py-yaml
 WRKSRC=		${WRKDIR}/datatree-0.1.8
 
 USE_LANGUAGES=	# none
-#PYTHON_VERSIONS_ACCEPTED= 27 26
+#PYTHON_VERSIONS_ACCEPTED= 27
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

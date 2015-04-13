@@ -48,7 +48,6 @@ PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-twisted, py-xml via py-nevow, py-psutil
 #  File "support/version.py", line 43, in version
 #    svn_revision = subprocess.check_output(["svnversion", "-n", source_root, branch])
 #AttributeError: 'module' object has no attribute 'check_output'
-PYTHON_VERSIONS_INCOMPATIBLE+=	26
 
 USE_LANGUAGES=	c
 USE_TOOLS+=	bash:run

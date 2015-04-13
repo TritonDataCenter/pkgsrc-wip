@@ -10,7 +10,7 @@ HOMEPAGE=	http://electrum.org/
 COMMENT=	Electrum is an easy to use Bitcoin client
 LICENSE=	gnu-gpl-v3
 
-PYTHON_VERSIONS_ACCEPTED= 27 26
+PYTHON_VERSIONS_ACCEPTED= 27
 NO_BUILD=	yes
 PYDISTUTILSPKG= yes
 

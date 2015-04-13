@@ -24,7 +24,7 @@ DEPENDS+=		${PYPKGPREFIX}-dateutil-[0-9]*:../../time/py-dateutil
 DEPENDS+=		${PYPKGPREFIX}-sphinx>=1.2.3nb1:../../textproc/py-sphinx
 USE_TOOLS+=		bash:run make:build
 
-PYTHON_VERSIONS_INCOMPATIBLE=26 32 # py-docutils
+PYTHON_VERSIONS_INCOMPATIBLE=	32 # py-docutils
 
 SUBST_CLASSES+=				fix-python
 SUBST_STAGE.fix-python=		pre-configure

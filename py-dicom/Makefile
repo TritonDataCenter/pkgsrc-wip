@@ -17,7 +17,7 @@ USE_LANGUAGES=	# none
 REPLACE_BASH+=	dicom/test/shell_all
 REPLACE_PYTHON+=	dicom/contrib/dicom_dao.py
 
-PYTHON_VERSIONS_ACCEPTED= 26 27
+PYTHON_VERSIONS_ACCEPTED= 27
 
 do-test:
 	${RUN} cd ${WRKSRC}/dicom/test; ${SETENV} ${TEST_ENV} ${PYTHONBIN} run_test.py

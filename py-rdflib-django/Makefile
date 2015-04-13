@@ -14,7 +14,7 @@ LICENSE=	mit
 
 DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
 
-PYTHON_VERSIONS_INCOMPATIBLE=	26 33 34 # not yet ported as of 0.2.dev-201210061248
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # not yet ported as of 0.2.dev-201210061248
 
 USE_LANGUAGES=	# none
 

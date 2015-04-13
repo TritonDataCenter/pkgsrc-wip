@@ -16,7 +16,6 @@ DEPENDS+=	${PYPKGPREFIX}-twisted>=2.4.0:../../net/py-twisted
 DEPENDS+=	${PYPKGPREFIX}-divmod-epsilon>=0.5.6:../../wip/py-divmod-epsilon
 
 PYDISTUTILSPKG=		yes
-PYTHON_VERSIONS_ACCEPTED=	26
 REPLACE_PYTHON+=	bin/axiomatic
 PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-sqlite2, py-twisted
 
