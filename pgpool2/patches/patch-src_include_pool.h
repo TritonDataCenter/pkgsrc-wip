@@ -1,9 +1,9 @@
 $NetBSD$
 
 Default pid file location.
---- pool.h.orig	2014-03-24 14:30:01.000000000 +0000
-+++ pool.h
-@@ -67,7 +67,7 @@
+--- src/include/pool.h.orig	2015-04-08 07:58:44.000000000 +0000
++++ src/include/pool.h
+@@ -78,7 +78,7 @@
  #define DEFAULT_SOCKET_DIR "/tmp"
  
  /* pid file name */

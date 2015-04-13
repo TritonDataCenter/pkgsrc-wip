@@ -1,8 +1,8 @@
 $NetBSD$
 
 Needs sys/wait.h here too.
---- watchdog/wd_packet.c.orig	2014-03-24 14:30:01.000000000 +0000
-+++ watchdog/wd_packet.c
+--- src/watchdog/wd_packet.c.orig	2015-04-08 07:28:03.000000000 +0000
++++ src/watchdog/wd_packet.c
 @@ -33,6 +33,7 @@
  #include <sys/un.h>
  #include <sys/types.h>
