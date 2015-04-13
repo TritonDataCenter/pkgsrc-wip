@@ -12,5 +12,8 @@ HOMEPAGE=	https://github.com/dotnet/coreclr
 COMMENT=	The .NET Core runtime and the base library
 LICENSE=	mit
 
+USE_CMAKE=	yes
+USE_LANGUAGES=	c c++
+
 .include "../../wip/mk/git-package.mk"
 .include "../../mk/bsd.pkg.mk"
