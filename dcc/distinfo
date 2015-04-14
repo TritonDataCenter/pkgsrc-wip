@@ -6,4 +6,4 @@ Size (dcc-1.3.158.tar.Z) = 1714175 bytes
 SHA1 (patch-Makefile.inc.in) = 9cd0fb433697d1864dde3314bed08f5a78bf3e7e
 SHA1 (patch-Makefile.inc2.in) = 16e3fdd5933048ea31f90a6e1b2dad2949deb2a3
 SHA1 (patch-configure) = 25b5aafe9dd652c5db633c91d8aee2d20f534599
-SHA1 (patch-homedir_Makefile.in) = f1097124734b848140cd7ea7827b67c7e3855680
+SHA1 (patch-homedir_Makefile.in) = 6567860b3a7b86a3993091d4ca3ee558b9937ec1

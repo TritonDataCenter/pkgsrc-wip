@@ -24,7 +24,7 @@ into rc-files as start_precmd check).
  	@:
  
 -install:$(HD) $(HD)/log
-+install:$(HD)
++install:
  	for NM in $(SSCRIPTS); do $(BININSTALL) $$NM $(DCC_BINDIR)/$$NM;done
 -	sh make-dcc_conf -F '@configsuffix@' -h $(HD)
 -	for NM in $(SIMPLE); do\
