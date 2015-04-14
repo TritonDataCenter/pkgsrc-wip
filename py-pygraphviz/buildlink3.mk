@@ -1,13 +1,13 @@
 # $NetBSD$
 
-BUILDLINK_TREE+=	py26-pygraphviz
+BUILDLINK_TREE+=	py-pygraphviz
 
-.if !defined(PY26_PYGRAPHVIZ_BUILDLINK3_MK)
-PY26_PYGRAPHVIZ_BUILDLINK3_MK:=
+.if !defined(PY_PYGRAPHVIZ_BUILDLINK3_MK)
+PY_PYGRAPHVIZ_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.py26-pygraphviz+=	py26-pygraphviz>=1.0
-BUILDLINK_PKGSRCDIR.py26-pygraphviz?=	../../wip/py-pygraphviz
+BUILDLINK_API_DEPENDS.py-pygraphviz+=	${PYPKGPREFIX}-pygraphviz>=1.0
+BUILDLINK_PKGSRCDIR.py-pygraphviz?=	../../wip/py-pygraphviz
 
-.endif	# PY26_PYGRAPHVIZ_BUILDLINK3_MK
+.endif	# PY_PYGRAPHVIZ_BUILDLINK3_MK
 
-BUILDLINK_TREE+=	-py26-pygraphviz
+BUILDLINK_TREE+=	-py-pygraphviz

@@ -1,16 +1,15 @@
 # $NetBSD$
 
-BUILDLINK_TREE+=	py26-repositoryhandler
+BUILDLINK_TREE+=	py-repositoryhandler
 
-.if !defined(PY26_REPOSITORYHANDLER_BUILDLINK3_MK)
-PY26_REPOSITORYHANDLER_BUILDLINK3_MK:=
+.if !defined(PY_REPOSITORYHANDLER_BUILDLINK3_MK)
+PY_REPOSITORYHANDLER_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.py26-repositoryhandler+=	py26-repositoryhandler>=0.3
-BUILDLINK_ABI_DEPENDS.py26-repositoryhandler?=	py27-repositoryhandler>=0.3
-BUILDLINK_PKGSRCDIR.py26-repositoryhandler?=	../../wip/py-repositoryhandler
+BUILDLINK_API_DEPENDS.py-repositoryhandler+=	${PYPKGPREFIX}-repositoryhandler>=0.3
+BUILDLINK_PKGSRCDIR.py-repositoryhandler?=	../../wip/py-repositoryhandler
 
 .include "../../devel/subversion-base/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
-.endif	# PY26_REPOSITORYHANDLER_BUILDLINK3_MK
+.endif	# PY_REPOSITORYHANDLER_BUILDLINK3_MK
 
-BUILDLINK_TREE+=	-py26-repositoryhandler
+BUILDLINK_TREE+=	-py-repositoryhandler
