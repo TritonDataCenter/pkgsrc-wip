@@ -3,8 +3,8 @@ $NetBSD$
 pragma GCC diagnostic only acts on some lines.
 See http://gcc.gnu.org/bugzilla/show_bug.cgi?id=52116
 
---- macros.h.orig	2014-06-24 20:27:39.000000000 +0000
-+++ macros.h
+--- girara/macros.h.orig	2014-06-24 20:27:39.000000000 +0000
++++ girara/macros.h
 @@ -51,7 +51,7 @@
  #endif
  
