@@ -10,8 +10,7 @@ HOMEPAGE=	https://code.google.com/p/pythonfutures/
 COMMENT=	Library brings asynchronous computations from Python 3.x
 LICENSE=	modified-bsd
 
-PYTHON_VERSIONS_ACCEPTED=	27 # included in 3+
-PYTHON_VERSIONS_INCOMPATIBLE=	33 34
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # included in 3+
 
 USE_LANGUAGES=	# none
 

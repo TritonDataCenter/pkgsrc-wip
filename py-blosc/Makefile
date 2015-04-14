@@ -12,7 +12,6 @@ LICENSE=	mit
 
 USE_LANGUAGES=	c c++
 
-PYTHON_VERSIONS_ACCEPTED= 27
 PYDISTUTILSPKG=	yes
 
 .include "../../lang/python/extension.mk"

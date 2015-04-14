@@ -42,12 +42,6 @@ DEPENDS+=	subversion-base-[0-9]*:../../devel/subversion-base
 PYTHON_VERSIONED_DEPENDENCIES=	dateutil
 
 PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-twisted, py-xml via py-nevow, py-psutil, py-Kerberos, py-ldap
-#Traceback (most recent call last):
-#  File "setup.py", line 66, in <module>
-#    version_number, version_info = version()
-#  File "support/version.py", line 43, in version
-#    svn_revision = subprocess.check_output(["svnversion", "-n", source_root, branch])
-#AttributeError: 'module' object has no attribute 'check_output'
 
 USE_LANGUAGES=	c
 USE_TOOLS+=	bash:run
