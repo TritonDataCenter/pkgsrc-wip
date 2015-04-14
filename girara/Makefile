@@ -2,7 +2,6 @@
 #
 
 DISTNAME=	girara-0.2.4
-PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://pwmt.org/projects/girara/download/
 
