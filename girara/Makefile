@@ -13,6 +13,12 @@ COMMENT=	Library to develop simple and minimalist user interface
 USE_TOOLS+=	pkg-config gettext gmake groff
 USE_LIBTOOL=	yes
 
+SUBST_CLASSES+=		makefile
+SUBST_STAGE.makefile=	pre-build
+SUBST_MESSAGE.makefile=	Fixing install invokation
+SUBST_FILES.makefile=	Makefile
+SUBST_SED.makefile=	-e '/install.*\.so.*/ s;install -m 644;${INSTALL_LIB:Q};'
+
 MAKE_ENV+=	COLOR=0
 
 .include "../../x11/gtk3/buildlink3.mk"
