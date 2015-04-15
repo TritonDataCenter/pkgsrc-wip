@@ -27,7 +27,7 @@ PLIST_SUBST+=   PYVERSSUFFIX=${PYVERSSUFFIX}	# 3.4
 PLIST_SUBST+=   PYVERS=${PYPKGPREFIX:S/py//}	# py34 -> 34
 PLIST_SUBST+=   VERSION=${VERSION}
 
-BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools>=1.1.5:../../devel/py-setuptools
+DEPENDS+=	${PYPKGPREFIX}-setuptools>=1.1.5:../../devel/py-setuptools
 DEPENDS+=	${PYPKGPREFIX}-qt4>=4.10.2nb1:../../x11/py-qt4
 DEPENDS+=	${PYPKGPREFIX}-sqlite3>=1:../../databases/py-sqlite3
 DEPENDS+=	${PYPKGPREFIX}-lhafile>=0:../../wip/py-lhafile
