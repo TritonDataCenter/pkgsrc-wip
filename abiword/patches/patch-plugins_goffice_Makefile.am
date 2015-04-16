@@ -10,13 +10,7 @@ Use CXX for linking.
  SUBDIRS = unix
  
  plugindir = $(ABIWORD_PLUGINSDIR)
-@@ -6,14 +7,16 @@ plugin_LTLIBRARIES = goffice.la
- 
- goffice_la_LIBADD = \
- 	unix/libunix.la \
-+	-lstdc++ \
- 	$(GOFFICE_LIBS)
- 
+@@ -11,9 +12,10 @@ goffice_la_LIBADD = \
  goffice_la_LDFLAGS = \
  	-avoid-version \
  	-module \

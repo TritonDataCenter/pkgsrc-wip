@@ -3,7 +3,7 @@
 PKGNAME=	mate-1.8
 CATEGORIES=	meta-pkgs
 
-MAINTAINER=	obache@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	Meta-package for MATE desktop environment
 

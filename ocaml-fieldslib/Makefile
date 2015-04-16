@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	fieldslib-${VERS}
-VERS=		109.19.00
+VERS=		109.20.03
 CATEGORIES=	devel
 MASTER_SITES=	https://github.com/janestreet/fieldslib/archive/
 DISTFILES=	${VERS}${EXTRACT_SUFX}

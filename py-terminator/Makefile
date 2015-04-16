@@ -10,17 +10,20 @@ HOMEPAGE=	https://launchpad.net/terminator
 COMMENT=	Terminator, multiple terminals in one window
 LICENSE=	gnu-gpl-v2
 
-REPLACE_PYTHON= *.py
-USE_TOOLS=	intltool
+REPLACE_PYTHON+= *.py
+REPLACE_PYTHON+= terminatorlib/*.py
+REPLACE_PYTHON+= terminatorlib/plugins/*.py
 
-.include "../../lang/python/application.mk"
-.include "../../lang/python/distutils.mk"
+USE_TOOLS+=	intltool
+
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"
-.include "../../x11/gtk2/buildlink3.mk"
-.include "../../x11/vte/buildlink3.mk"
-.include "../../x11/py-vte/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
-.include "../../sysutils/py-notify-python/buildlink3.mk"
+.include "../../lang/python/application.mk"
+.include "../../lang/python/distutils.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
+.include "../../sysutils/py-notify-python/buildlink3.mk"
+.include "../../wip/py-keybinder/buildlink3.mk"
+.include "../../x11/gtk2/buildlink3.mk"
+.include "../../x11/py-vte/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

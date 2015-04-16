@@ -11,7 +11,7 @@ HOMEPAGE=	http://pysphere.googlecode.com/
 COMMENT=	Python API for interacting with the vSphere Web Services SDK
 LICENSE=	modified-bsd
 
-PYTHON_VERSIONS_ACCEPTED=	27 26
+PYTHON_VERSIONS_ACCEPTED=	27
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

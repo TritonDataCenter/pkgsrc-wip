@@ -34,7 +34,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/readme.html \
 		${DESTDIR}${PREFIX}/share/doc/nestopia
 
-.include "../../wip/libarchive/buildlink3.mk"
+.include "../../archivers/libarchive/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/buildlink3.mk"
 BUILD_DEPENDS+=	xdg-utils-[0-9]*:../../misc/xdg-utils
 .include "../../audio/alsa-lib/buildlink3.mk"

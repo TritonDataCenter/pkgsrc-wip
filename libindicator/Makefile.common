@@ -1,29 +1,25 @@
 # $NetBSD$
-# used by wip/libindicator/Makefile
+#
 # used by wip/libindicator3/Makefile
+# used by wip/libindicator-tools/Makefile
 
 DISTNAME=	libindicator-12.10.1
 CATEGORIES=	sysutils
-MASTER_SITES=	https://launchpad.net/libindicator/${PKGVERSION_NOREV:R}/${PKGVERSION_NOREV}/+download/
+MASTER_SITES=	https://launchpad.net/libindicator/12.10/${PKGVERSION_NOREV}/+download/
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://launchpad.net/libindicator
-COMMENT=	Symbols and convience functions for all indicators (GTK${USE_GTK_VERSION})
 LICENSE=	gnu-gpl-v3
+
+DISTINFO_FILE=	${.CURDIR}/../../wip/libindicator/distinfo
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake pkg-config
 
-DISTINFO_FILE=	${.CURDIR}/../../wip/libindicator/distinfo
-PATCHDIR=	${.CURDIR}/../../wip/libindicator/patches
+EXTRACT_USING=	gtar
 
-PKGCONFIG_OVERRIDE+=	libindicator/indicator3-0.4.pc.in.in
+BUILDLINK_TRANSFORM+=	rm:-Werror
 PKGCONFIG_OVERRIDE+=	libindicator/indicator-0.4.pc.in.in
+PKGCONFIG_OVERRIDE+=	libindicator/indicator3-0.4.pc.in.in
 
-CONFIGURE_ARGS+=	--disable-tests
 CONFIGURE_ARGS+=	--with-gtk=${USE_GTK_VERSION}
-
-INSTALL_MAKE_FLAGS+=	xsessiondir=${PREFIX}/share/examples/${PKGBASE}
-
-.include "../../x11/gtk${USE_GTK_VERSION}/buildlink3.mk"

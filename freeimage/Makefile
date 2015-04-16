@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	FreeImage3160
-PKGNAME=	freeimage-3.16.0
+DISTNAME=	FreeImage3170
+PKGNAME=	freeimage-3.17.0
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=freeimage/}
 EXTRACT_SUFX=	.zip

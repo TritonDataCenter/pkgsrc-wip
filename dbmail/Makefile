@@ -1,7 +1,6 @@
 # $NetBSD: Makefile,v 1.37 2013/02/06 23:22:42 jperkin Exp $
 
-DISTNAME=	dbmail-3.2.1
-PKGREVISION=	1
+DISTNAME=	dbmail-3.2.3
 CATEGORIES=	mail
 MASTER_SITES=	http://www.dbmail.org/download/3.2/
 

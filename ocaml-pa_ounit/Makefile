@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	pa_ounit-${VERS}
-VERS=		111.28.00
+VERS=		112.17.00
 CATEGORIES=     devel
 MASTER_SITES=   https://github.com/janestreet/pa_ounit/archive/
 DISTFILES=      ${VERS}${EXTRACT_SUFX}

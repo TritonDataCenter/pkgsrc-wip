@@ -1,7 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	tor-0.2.6.3-alpha
-PKGNAME=	${DISTNAME:S/-alpha//}
+DISTNAME=	tor-0.2.6.7
 CATEGORIES=	net security
 MASTER_SITES=	https://www.torproject.org/dist/
 
@@ -23,8 +22,8 @@ TEST_TARGET=		check
 
 TOR_USER?=		tor
 TOR_GROUP?=		tor
-PKG_GECOS.${TOR_USER}?=	Torifier
-PKG_HOME.${TOR_USER}?=	${VARBASE}/chroot/tor
+PKG_GECOS.${TOR_USER}=	Torifier
+PKG_HOME.${TOR_USER}=	${VARBASE}/chroot/tor
 BUILD_DEFS+=		VARBASE
 PKG_SYSCONFSUBDIR=	tor
 
@@ -46,12 +45,6 @@ CONF_FILES+=		${PREFIX}/share/examples/tor/torrc.sample 	\
 
 FILES_SUBST+=		PKG_HOME=${PKG_HOME.${TOR_USER}}
 FILES_SUBST+=		TOR_USER=${TOR_USER} TOR_GROUP=${TOR_GROUP}
-
-SUBST_CLASSES+=			fix-paths
-SUBST_STAGE.fix-paths=		pre-configure
-SUBST_MESSAGE.fix-paths=	Fixing absolute paths.
-SUBST_FILES.fix-paths=		contrib/torify.in
-SUBST_SED.fix-paths=		-e 's,"/etc/tor,"${PKG_SYSCONFDIR},g'
 
 INSTALL_MAKE_FLAGS+=	sysconfdir=${PREFIX}/share/examples
 

@@ -5,10 +5,12 @@ CATEGORIES=	x11
 MASTER_SITES=	http://pub.mate-desktop.org/releases/1.8/
 EXTRACT_SUFX=	.tar.xz
 
-MAINTAINER=	obache@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	Screen saver and locker for the MATE desktop
 LICENSE=	gnu-gpl-v2 AND gnu-lgpl-v2
+
+CONFLICTS+=	gnome-screensaver-[0-9]*
 
 DEPENDS+=	consolekit-[0-9]*:../../wip/consolekit
 
@@ -53,7 +55,7 @@ CONF_FILES+=	${PREFIX}/share/examples/pam.d/mate-screensaver \
 		/etc/pam.d/mate-screensaver
 
 .include "../../devel/glib2/schemas.mk"
-
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../wip/mate-desktop/buildlink3.mk"
 .include "../../wip/mate-menus/buildlink3.mk"
 .include "../../wip/libmatekbd/buildlink3.mk"

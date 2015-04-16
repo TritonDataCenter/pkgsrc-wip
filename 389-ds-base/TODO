@@ -9,4 +9,4 @@ $NetBSD$
 
 - Write BSD-compatible rc script
 
-- Note CVE-2011-1067, CVE-2010-4746
+- Note CVE-2011-1067, CVE-2010-4746, CVE-2014-8105, CVE-2014-8112

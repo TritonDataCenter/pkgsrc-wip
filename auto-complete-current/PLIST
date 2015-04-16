@@ -25,6 +25,7 @@ ${EMACS_LISPPREFIX}/auto-complete/ac-dict/php-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/python-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/qml-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/ruby-mode
+${EMACS_LISPPREFIX}/auto-complete/ac-dict/scala-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/scheme-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/sclang-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/sh-mode

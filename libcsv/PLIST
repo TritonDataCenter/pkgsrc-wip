@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/libcsv/csv.h
+lib/libcsv.la
+man/man3/csv.3

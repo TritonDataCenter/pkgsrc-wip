@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=		2.11.1
+DISTNAME=		2.12.1
 PKGNAME=		piwik-${DISTNAME}
 CATEGORIES=		www
-MASTER_SITES=		https://github.com/piwik/piwik/archive/
+MASTER_SITES=		${MASTER_SITE_GITHUB:=piwik/piwik/archive/}
 DIST_SUBDIR=		piwik
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
@@ -49,14 +49,13 @@ PHP_VERSIONS_ACCEPTED= 54 55 56
 DEPENDS+=	php5[0-9]-pdo_mysql-[0-9]*:../../databases/php-pdo_mysql
 DEPENDS+=	ap22-php5[0-9]*-[0-9]*:../../www/ap-php
 
-REPLACE_BASH=	tests/lib/mocha-1.17.1/test/acceptance/glob/glob.sh
+REPLACE_BASH=	tests/lib/mocha-${MOCHA_VERSION}/test/acceptance/glob/glob.sh
 REPLACE_BASH+=	tests/travis/generate_docs.sh
 
 REPLACE_BASH+=	libs/jqplot/build_minified_script.sh
 
 REPLACE_BASH+=	misc/composer/*.sh
-REPLACE_BASH+=	misc/cron/archive.sh
-REPLACE_BASH+=	misc/log-analytics/tests/run_tests.sh
+REPLACE_SH+=	misc/cron/archive.sh
 REPLACE_BASH+=	misc/others/stress.sh
 
 REPLACE_BASH+=	plugins/TestRunner/scripts/on_instance_launch.sh
@@ -67,13 +66,23 @@ REPLACE_BASH+=	tests/javascript/jash
 
 REPLACE_BASH+=	tests/lib/chai-1.9.0/support/sauce/*.sh
 REPLACE_BASH+=	tests/lib/jsdoc-toolkit/jsrun.sh
-REPLACE_BASH+=	tests/lib/mocha-1.17.1/test/acceptance/glob/glob.sh
+REPLACE_BASH+=	tests/lib/mocha-${MOCHA_VERSION}/test/acceptance/glob/glob.sh
 
 REPLACE_BASH+=	tests/travis/*.sh
 
 #REPLACE_PHP+=	console
 
 REPLACE_PYTHON+=misc/log-analytics/import_logs.py
+
+MOCHA_VERSION=	2.1.0
+PLIST_SUBST+=	MOCHA_VERSION=${MOCHA_VERSION}
+
+SUBST_CLASSES+=		build
+SUBST_MESSAGE.build=	Fix build script, (shebang and PATH)
+SUBST_FILES.build=	misc/composer/build-xhprof.sh
+SUBST_STAGE.build=	pre-install
+SUBST_SED.build=	-e '/^\#!/s,^\#!,\#!${PREFIX}/bin/bash,'
+SUBST_SED.build+=	-e '2s,^$$,PATH=${PREFIX}/bin:/usr/bin:/bin,'
 
 do-install:
 	cd ${WRKSRC} && pax -rw -pmp . ${DESTDIR}${PKHOME}
@@ -82,10 +91,12 @@ do-install:
 	${FIND} ${DESTDIR}${PKHOME} \
 		-type f -exec ${CHMOD} ${SHAREMODE} "{}" \;
 
+	${CHMOD} +x ${DESTDIR}${PKHOME}/misc/composer/build-xhprof.sh
+
 .include "../../lang/python/application.mk"
 # to give PHP_VERSION_DEFAULT
 .include "../../lang/php/phpversion.mk"
 .include "../../mk/bsd.pkg.mk"
 
-## wip/piwik/work/.destdir/usr/pkg/share/piwik/tests/lib/mocha-1.17.1/bin/_mocha
-## wip/piwik/work/.destdir/usr/pkg/share/piwik/tests/lib/mocha-1.17.1/bin/mocha
+## wip/piwik/work/.destdir/usr/pkg/share/piwik/tests/lib/mocha-${MOCHA_VERSION}/bin/_mocha
+## wip/piwik/work/.destdir/usr/pkg/share/piwik/tests/lib/mocha-${MOCHA_VERSION}/bin/mocha

@@ -5,10 +5,12 @@ CATEGORIES=	x11
 MASTER_SITES=	http://pub.mate-desktop.org/releases/1.8/
 EXTRACT_SUFX=	.tar.xz
 
-MAINTAINER=	obache@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	MATE panel applets
 LICENSE=	gnu-gpl-v2 AND gnu-fdl-v1.1
+
+CONFLICTS+=	gnome-applets-[0-9]*
 
 TOOL_DEPENDS+=	itstool-[0-9]*:../../textproc/itstool
 TOOL_DEPENDS+=	libxml2-[0-9]*:../../textproc/libxml2 # for xmllint

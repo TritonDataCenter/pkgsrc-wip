@@ -27,7 +27,7 @@ USE_LANGUAGES+=	c++
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
 PLIST_SUBST+=	PYSITELIB=${PYSITELIB:Q}
-PYTHON_VERSIONS_INCOMPATIBLE=	26 27
+PYTHON_VERSIONS_INCOMPATIBLE=	27
 
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../devel/boost-headers/buildlink3.mk"

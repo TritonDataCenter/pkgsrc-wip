@@ -4,6 +4,7 @@ lib/ocaml/site-lib/fieldslib/field.mli
 lib/ocaml/site-lib/fieldslib/fieldslib.a
 lib/ocaml/site-lib/fieldslib/fieldslib.cma
 lib/ocaml/site-lib/fieldslib/fieldslib.cmi
+lib/ocaml/site-lib/fieldslib/fieldslib.cmx
 lib/ocaml/site-lib/fieldslib/fieldslib.cmxa
 lib/ocaml/site-lib/fieldslib/fieldslib.cmxs
 lib/ocaml/site-lib/fieldslib/pa_fields_conv.a

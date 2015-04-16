@@ -1,0 +1,4 @@
+Qt wrapper around polkit-1 client libraries, used by kdelibs to provide the
+polkit-1 kauth backend and by KDE's polkit client.
+
+This package provides Qt5 libraries.

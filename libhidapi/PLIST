@@ -1,5 +1,0 @@
-@comment $NetBSD$
-include/hidapi/hidapi.h
-lib/libhidapi.so
-lib/libhidapi.so.0
-lib/libhidapi.so.${PKGVERSION}

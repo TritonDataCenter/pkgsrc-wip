@@ -1,0 +1,25 @@
+$NetBSD$
+
+--- functions.orig	2015-01-06 04:00:50.000000000 +0000
++++ functions
+@@ -1011,6 +1011,11 @@ setup_proc () {
+ 			mount -t linprocfs proc $TARGET/proc
+ 		fi
+ 		;;
++	    netbsd)
++		umount_on_exit /dev
++		umount_on_exit /proc
++		mount -t procfs -o linux proc $TARGET/proc
++		;;
+ 	    hurd*)
+ 		;;
+ 	    *)
+@@ -1052,7 +1057,7 @@ setup_devices () {
+ 		setup_devices_hurd ;;
+ 	    *)
+ 		if [ -e "$DEVICES_TARGZ" ]; then
+-			zcat "$DEVICES_TARGZ" | (cd "$TARGET"; tar -xf -)
++			zcat "$DEVICES_TARGZ" | (cd "$TARGET"; tar -xpf -)
+ 		else
+ 			if [ -e /dev/.devfsd ] ; then
+ 				in_target mount -t devfs devfs /dev

@@ -5,7 +5,7 @@ CATEGORIES=	multimedia
 MASTER_SITES=	http://pub.mate-desktop.org/releases/1.8/
 EXTRACT_SUFX=	.tar.xz
 
-MAINTAINER=	obache@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	MATE media tools for MATE Desktop
 LICENSE=	gnu-gpl-v2 AND gnu-fdl-v1.1 AND gnu-lgpl-v2
@@ -24,7 +24,7 @@ INSTALL_MAKE_FLAGS+=	sysconfdir=${PREFIX}/share/examples/mate-media
 .include "options.mk"
 
 .include "../../devel/glib2/schemas.mk"
-
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../audio/libcanberra/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../multimedia/gstreamer0.10/buildlink3.mk"

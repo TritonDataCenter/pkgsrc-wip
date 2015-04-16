@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/libassuan-config
+include/assuan.h
+info/assuan.info
+lib/libassuan.la
+share/aclocal/libassuan.m4

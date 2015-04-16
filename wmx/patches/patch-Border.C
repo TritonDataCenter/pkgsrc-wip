@@ -1,6 +1,6 @@
 $NetBSD$
 
---- Border.C.orig	2009-01-09 11:18:03.000000000 +0000
+--- Border.C.orig	2014-11-16 19:34:19.000000000 +0000
 +++ Border.C
 @@ -306,7 +306,7 @@ void Border::initialiseStatics(WindowMan
                  strcpy (pixMapPath, home);

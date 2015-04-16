@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.44 2012/10/31 11:16:59 asau Exp $
 #
 
-DISTNAME=	gdb-7.6.1
+DISTNAME=	gdb-7.9
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNU:=gdb/}
 
@@ -10,7 +10,7 @@ HOMEPAGE=	http://www.gnu.org/software/gdb/gdb.html
 COMMENT=	Symbolic debugger for multiple language frontends
 LICENSE=	gnu-gpl-v3
 
-#NOT_FOR_PLATFORM=	Darwin-*-* DragonFly-*-* NetBSD-*-x86_64
+#NOT_FOR_PLATFORM=	Darwin-*-* DragonFly-*-*
 
 BROKEN_GETTEXT_DETECTION=	yes
 GNU_CONFIGURE=		YES
@@ -54,10 +54,6 @@ BUILD_DEFS+=		${TARGET_STR}
 CONFIGURE_ARGS+=		--target=${TARGET_STR}
 TEST_ENV=		DEJAGNU=${WRKDIR}/../files/dragonfly-default.exp
 .endif
-
-# pkg_add: Conflicting PLIST with autoconf-2.69nb1: info/standards.info
-post-patch:
-	${RM}	${WRKSRC}/etc/standards.info
 
 post-install:
 .if ${OPSYS} == "DragonFly"

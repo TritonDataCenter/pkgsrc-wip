@@ -1,6 +1,6 @@
 $NetBSD: patch-am,v 1.2 2014/08/03 22:30:05 wiz Exp $
 
---- Source/WTF/wtf/RAMSize.cpp.orig	2015-01-15 09:40:35.000000000 +0000
+--- Source/WTF/wtf/RAMSize.cpp.orig	2015-03-04 14:25:16.000000000 +0000
 +++ Source/WTF/wtf/RAMSize.cpp
 @@ -27,7 +27,7 @@
  #include "RAMSize.h"

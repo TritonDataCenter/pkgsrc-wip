@@ -1,3 +1,2 @@
-@comment $NetBSD$
 share/examples/init.d/munge
 share/examples/default/munge

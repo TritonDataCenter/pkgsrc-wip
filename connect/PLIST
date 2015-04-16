@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/connect
-share/doc/connect/manual.html
-share/doc/connect/manual.txt

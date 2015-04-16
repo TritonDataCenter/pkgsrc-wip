@@ -13,7 +13,7 @@ LICENSE=	gnu-lgpl-v3
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
-PYTHON_VERSIONS_INCOMPATIBLE=	26 27
+PYTHON_VERSIONS_INCOMPATIBLE=	27
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

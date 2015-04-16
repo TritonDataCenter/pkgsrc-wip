@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		grass-${GRASS_VERSION}
-PKGREVISION=		4
+PKGREVISION=		5
 CATEGORIES=		geography
 MASTER_SITES=		http://grass.itc.it/grass64/source/
 

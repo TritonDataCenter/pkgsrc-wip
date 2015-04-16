@@ -5,17 +5,11 @@ BUILDLINK_TREE+=	libfm
 .if !defined(LIBFM_BUILDLINK3_MK)
 LIBFM_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.libfm+=	libfm>=0.1.15
+BUILDLINK_API_DEPENDS.libfm+=	libfm>=1.2.3
 BUILDLINK_PKGSRCDIR.libfm?=	../../wip/libfm
 
-#.include "../../devel/glib2/buildlink3.mk"
-
-BUILDLINK_TARGETS+=	buildlink-include-libfm
-
-.PHONY: buildlink-include-libfm
-buildlink-include-libfm:
-	${LN} -s ${BUILDLINK_PREFIX.libfm}/include/libfm-1.0 ${BUILDLINK_DIR}/include/libfm
-
+.include "../../x11/gtk2/buildlink3.mk"
+.include "../../sysutils/menu-cache/buildlink3.mk"
 .endif	# LIBFM_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-libfm

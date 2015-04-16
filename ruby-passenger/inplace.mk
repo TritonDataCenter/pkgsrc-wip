@@ -16,10 +16,7 @@ extract-inplace-passenger:
 
 BUILDLINK_DEPMETHOD.curl=	build
 BUILDLINK_DEPMETHOD.libeio=	build
-BUILDLINK_DEPMETHOD.libev=	build
 
 .include "../../wip/libeio/buildlink3.mk"
-BUILDLINK_API_DEPENDS.libev+=	libev>=4.11
-.include "../../devel/libev/buildlink3.mk"
 .include "../../lang/ruby/modules.mk"
 .include "../../www/curl/buildlink3.mk"

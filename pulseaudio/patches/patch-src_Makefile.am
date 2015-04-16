@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-src_Makefile.am,v 1.1 2014/06/09 13:08:19 ryoon Exp $
 
 Install files into pkgsrc example paths; will be correctly
 installed by pkgsrc configuration file framework.

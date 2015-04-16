@@ -5,7 +5,7 @@ CATEGORIES=	x11
 MASTER_SITES=	http://pub.mate-desktop.org/releases/1.8/
 EXTRACT_SUFX=	.tar.xz
 
-MAINTAINER=	obache@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	MATE panel application
 LICENSE=	gnu-gpl-v2 AND gnu-lgpl-v2 AND gnu-fdl-v1.1
@@ -25,7 +25,7 @@ PYTHON_FOR_BUILD_ONLY=	yes
 .include "options.mk"
 
 .include "../../devel/glib2/schemas.mk"
-
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 #XXX NetworkManager
 .include "../../wip/libmateweather/buildlink3.mk"
 .include "../../wip/mate-desktop/buildlink3.mk"

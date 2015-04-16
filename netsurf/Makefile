@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.40 2014/05/29 23:37:58 wiz Exp $
 #
 
-DISTNAME=	netsurf-all-3.2
+DISTNAME=	netsurf-all-3.3
 PKGNAME=	${DISTNAME:S/-all//}
 CATEGORIES=	www
 MASTER_SITES=	http://download.netsurf-browser.org/netsurf/releases/source-full/

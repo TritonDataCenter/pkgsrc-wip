@@ -1,6 +1,0 @@
-@comment $NetBSD$
-bin/retroarch
-bin/retroarch-joyconfig
-bin/retroarch-zip
-man/man1/retroarch-joyconfig.1
-man/man1/retroarch.1

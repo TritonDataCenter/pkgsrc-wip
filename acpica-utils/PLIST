@@ -1,0 +1,10 @@
+@comment $NetBSD$
+bin/acpibin
+bin/acpidump
+bin/acpiexamples
+bin/acpiexec
+bin/acpihelp
+bin/acpinames
+bin/acpisrc
+bin/acpixtract
+bin/iasl

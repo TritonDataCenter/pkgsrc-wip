@@ -5,7 +5,7 @@ CATEGORIES=	sysutils
 MASTER_SITES=	http://pub.mate-desktop.org/releases/1.8/
 EXTRACT_SUFX=	.tar.xz
 
-MAINTAINER=	obache@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	Power manager for MATE
 LICENSE=	gnu-gpl-v2
@@ -25,7 +25,7 @@ CONF_FILES+=	${PREFIX}/share/examples/mate-power-manager/xdg/autostart/mate-powe
 .include "options.mk"
 
 .include "../../devel/glib2/schemas.mk"
-
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../wip/upower/buildlink3.mk"
 .include "../../wip/mate-panel/buildlink3.mk"
 .include "../../audio/libcanberra/buildlink3.mk"

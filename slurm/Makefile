@@ -1,6 +1,7 @@
-# $NetBSD: Makefile,v 1.6 2012/10/03 21:57:14 wiz Exp $
+# $NetBSD: Makefile,v 1.15 2014/09/13 16:49:27 asau Exp $
 
 DISTNAME=	slurm-2.6.4
+PKGREVISION=	5
 CATEGORIES=	parallel
 MASTER_SITES=	http://www.schedmd.com/download/archive/ \
 		http://www.schedmd.com/download/latest/ \
@@ -28,6 +29,8 @@ PKG_USERS=		slurm:slurm
 PKG_GECOS.slurm=	SLURM user
 PKG_SHELL.slurm=	$(NOLOGIN)
 
+RCD_SCRIPTS+=	slurmd slurmctld
+
 SUBST_CLASSES+=		htmldir
 SUBST_STAGE.htmldir=	post-patch
 SUBST_FILES.htmldir=	${WRKSRC}/doc/man/man5/Makefile.am \
@@ -39,6 +42,11 @@ SUBST_FILES.htmldir=	${WRKSRC}/doc/man/man5/Makefile.am \
 			${WRKSRC}/doc/man/man8/Makefile.in \
 			${WRKSRC}/doc/man/man1/Makefile.in
 SUBST_SED.htmldir=	-e 's|$${datadir}/doc/@PACKAGE@-@VERSION@/html|@htmldir@|g'
+
+SUBST_CLASSES+=		linuxinit
+SUBST_STAGE.linuxinit=	post-patch
+SUBST_FILES.linuxinit=	${WRKSRC}/etc/init.d.slurm.in
+SUBST_SED.linuxinit=	-e "/^BINDIR=/ i exec_prefix=$(PREFIX)\nprefix=$(PREFIX)\n" 
 
 post-install:
 	$(INSTALL_DATA_DIR) $(DESTDIR)$(PREFIX)/share/examples/$(PKGBASE)

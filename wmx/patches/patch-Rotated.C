@@ -1,6 +1,6 @@
 $NetBSD$
 
---- Rotated.C.orig	2009-01-09 11:18:03.000000000 +0000
+--- Rotated.C.orig	2014-11-16 19:34:19.000000000 +0000
 +++ Rotated.C
 @@ -232,6 +232,7 @@ void XRotUnloadFont(Display *dpy, int sc
    int ichar;

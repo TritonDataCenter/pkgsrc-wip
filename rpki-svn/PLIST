@@ -1,3 +1,4 @@
+@comment $NetBSD$
 bin/find_roa
 bin/hashdir
 bin/print_roa

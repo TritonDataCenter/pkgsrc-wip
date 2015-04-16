@@ -42,6 +42,7 @@ REPLACE_PYTHON+=	cmd/fsck-cmd.py
 REPLACE_PYTHON+=	cmd/ftp-cmd.py
 REPLACE_PYTHON+=	cmd/fuse-cmd.py
 REPLACE_PYTHON+=	cmd/help-cmd.py
+REPLACE_PYTHON+=	cmd/import-duplicity-cmd.py
 REPLACE_PYTHON+=	cmd/index-cmd.py
 REPLACE_PYTHON+=	cmd/init-cmd.py
 REPLACE_PYTHON+=	cmd/join-cmd.py

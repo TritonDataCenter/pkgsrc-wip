@@ -2,6 +2,7 @@
 
 DISTNAME=	rasterio-0.5.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	math python
 MASTER_SITES=	https://pypi.python.org/packages/source/r/rasterio/
 

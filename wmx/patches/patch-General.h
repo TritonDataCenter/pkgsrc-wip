@@ -1,6 +1,6 @@
 $NetBSD$
 
---- General.h.orig	2009-01-09 11:18:03.000000000 +0000
+--- General.h.orig	2014-11-16 19:34:19.000000000 +0000
 +++ General.h
 @@ -12,7 +12,7 @@
  #undef _POSIX_SOURCE

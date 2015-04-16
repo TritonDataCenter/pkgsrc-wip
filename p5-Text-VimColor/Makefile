@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		Text-VimColor-0.24
+DISTNAME=		Text-VimColor-0.26
 PKGNAME=		p5-${DISTNAME}
 CATEGORIES=		textproc perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Text/}
@@ -11,6 +11,7 @@ COMMENT=		Syntax color text in HTML or XML using Vim
 LICENSE=		${PERL5_LICENSE}
 
 BUILD_DEPENDS+=		p5-File-ShareDir-Install-[0-9]*:../../devel/p5-File-ShareDir-Install
+BUILD_DEPENDS+=		p5-Test-File-ShareDir-[0-9]*:../../devel/p5-Test-File-ShareDir
 
 DEPENDS+=		p5-Path-Class>=0.02:../../devel/p5-Path-Class
 DEPENDS+=		p5-File-ShareDir-[0-9]*:../../devel/p5-File-ShareDir

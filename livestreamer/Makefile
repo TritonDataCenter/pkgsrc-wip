@@ -1,8 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	livestreamer-1.11.1
+DISTNAME=	livestreamer-1.12.1
 CATEGORIES=	multimedia python
-MASTER_SITES=	-https://github.com/chrippa/livestreamer/archive/v${PKGVERSION_NOREV}${EXTRACT_SUFX}
+MASTER_SITES=	${MASTER_SITE_GITHUB:=chrippa/}
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://livestreamer.tanuki.se/
@@ -22,10 +23,9 @@ DEPENDS+=	${PYPKGPREFIX}-six-[0-9]*:../../lang/py-six
 DEPENDS+=	${PYPKGPREFIX}-futures-[0-9]*:../../wip/py-futures
 .endif
 .if ${_PYTHON_VERSION} <= 33
-DEPENDS+=	${PYPKGPREFIX}-singledispatch-[0-9]*:../../wip/py-singledispatch
+DEPENDS+=	${PYPKGPREFIX}-singledispatch-[0-9]*:../../devel/py-singledispatch
 .endif
 
-WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 EGG_NAME=	${PKGNAME_NOREV}
 
 REPLACE_PYTHON+= src/livestreamer/packages/flashmedia/flv.py
@@ -35,6 +35,8 @@ REPLACE_PYTHON+= src/livestreamer/packages/flashmedia/packet.py
 REPLACE_PYTHON+= src/livestreamer/packages/flashmedia/error.py
 REPLACE_PYTHON+= src/livestreamer/packages/flashmedia/f4v.py
 REPLACE_PYTHON+= src/livestreamer/packages/flashmedia/util.py
+REPLACE_PYTHON+= src/livestreamer/plugins/tv3cat.py
+REPLACE_PYTHON+= src/livestreamer/plugins/tvplayer.py
 
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"

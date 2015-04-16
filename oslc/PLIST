@@ -1,5 +1,6 @@
 @comment $NetBSD$
-bin/olsccli
+bin/oslccli
+bin/oslcgui
 lib/java/oslc/LICENSE.txt
 lib/java/oslc/README.txt
 lib/java/oslc/activation.jar

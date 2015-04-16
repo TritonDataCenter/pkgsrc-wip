@@ -13,8 +13,6 @@ LICENSE=	gnu-gpl-v3
 
 BUILD_TARGET= gmpy2.so
 
-PYTHON_VERSIONS_ACCEPTED= 34 33 27
-
 BUILDLINK_API_DEPENDS.gmp+=		gmp>=4.2.1
 .include "../../devel/gmp/buildlink3.mk"
 .include "../../lang/python/distutils.mk"

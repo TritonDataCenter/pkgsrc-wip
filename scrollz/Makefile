@@ -4,10 +4,10 @@
 DISTNAME=	ScrollZ-2.2.3
 PKGNAME=	${DISTNAME:tl}
 CATEGORIES=	chat
-MASTER_SITES=	http://www.scrollz.com/download/
+MASTER_SITES=	http://www.scrollz.info/download/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://www.scrollz.com/
+HOMEPAGE=	http://www.scrollz.info/
 COMMENT=	Advanced IRC client based on ircII client
 LICENSE=	modified-bsd # XXX ?
 

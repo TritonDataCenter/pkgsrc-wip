@@ -69,6 +69,7 @@ share/nvim/runtime/autoload/syntaxcomplete.vim
 share/nvim/runtime/autoload/tar.vim
 share/nvim/runtime/autoload/tohtml.vim
 share/nvim/runtime/autoload/vimball.vim
+share/nvim/runtime/autoload/vimexpect.vim
 share/nvim/runtime/autoload/xml/html32.vim
 share/nvim/runtime/autoload/xml/html401f.vim
 share/nvim/runtime/autoload/xml/html401s.vim
@@ -232,6 +233,7 @@ share/nvim/runtime/doc/nvim_clipboard.txt
 share/nvim/runtime/doc/nvim_intro.txt
 share/nvim/runtime/doc/nvim_provider.txt
 share/nvim/runtime/doc/nvim_python.txt
+share/nvim/runtime/doc/nvim_terminal_emulator.txt
 share/nvim/runtime/doc/options.txt
 share/nvim/runtime/doc/os_dos.txt
 share/nvim/runtime/doc/os_mac.txt
@@ -305,6 +307,7 @@ share/nvim/runtime/doc/usr_90.txt
 share/nvim/runtime/doc/usr_toc.txt
 share/nvim/runtime/doc/various.txt
 share/nvim/runtime/doc/vi_diff.txt
+share/nvim/runtime/doc/vim_diff.txt
 share/nvim/runtime/doc/visual.txt
 share/nvim/runtime/doc/windows.txt
 share/nvim/runtime/filetype.vim

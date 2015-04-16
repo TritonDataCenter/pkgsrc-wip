@@ -11,7 +11,7 @@ COMMENT=	Verilog simulation and synthesis tool (development snapshot version)
 LICENSE=	gnu-gpl-v2
 
 CONFLICTS+=	verilog-[0-9]*
-SNAPDATE=	20141205
+SNAPDATE=	20150105
 
 GCC_REQD+=	3.0
 USE_LANGUAGES=	c c++
@@ -29,9 +29,8 @@ TEST_TARGET=		check
 SUBST_CLASSES+=		dep
 SUBST_STAGE.dep=	pre-configure
 SUBST_MESSAGE.dep=	Resolve dependency for dep directory (mkdir dep before compile)
-SUBST_FILES.dep=	tgt-null/Makefile.in \
-			tgt-vlog95/Makefile.in \
-			tgt-vvp/Makefile.in \
+SUBST_FILES.dep=	\
+			cadpli/Makefile.in \
 			tgt-blif/Makefile.in \
 			tgt-fpga/Makefile.in \
 			tgt-null/Makefile.in \
@@ -42,8 +41,8 @@ SUBST_FILES.dep=	tgt-null/Makefile.in \
 			tgt-vhdl/Makefile.in \
 			tgt-vlog95/Makefile.in \
 			tgt-vvp/Makefile.in \
-			cadpli/Makefile.in
-SUBST_SED.dep=		'-e s,%o: %c,%o: %c dep,'
+
+SUBST_SED.dep=		-e 's,%.o: %.c,%.o: %.c dep,'
 
 # probably more simple fix with small patches, but interim solution:
 post-install:

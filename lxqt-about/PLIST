@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/lxqt-about
+share/applications/lxqt-about.desktop
+share/lxqt/lxqt-about/KF5WindowSystemTargets-noconfig.cmake

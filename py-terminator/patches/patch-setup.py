@@ -1,5 +1,8 @@
 $NetBSD$
+
 Use the right path for man-pages in pkgsrc.
+
+Install the man pages in the right directory.
 
 --- setup.py.orig	2014-03-29 19:45:44.000000000 +0000
 +++ setup.py
