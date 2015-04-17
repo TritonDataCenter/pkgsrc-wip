@@ -1,11 +1,11 @@
 # $NetBSD$
 
-DISTNAME=	custom_printf-${VERS}
-VERS=		112.17.00
+DISTNAME=	custom_printf-112.24.00
 CATEGORIES=     devel
-MASTER_SITES=   https://github.com/janestreet/custom_printf/archive/
-DISTFILES=      ${VERS}${EXTRACT_SUFX}
-DIST_SUBDIR=    ocaml-custom_printf
+MASTER_SITES=	${MASTER_SITE_GITHUB:=janestreet/}
+GITHUB_PROJECT=	custom_printf
+GITHUB_TAG=	112.24.00
+EXTRACT_SUFX=	.zip
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/janestreet/custom_printf/
