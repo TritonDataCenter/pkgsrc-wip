@@ -1,5 +1,7 @@
 $NetBSD$
 
+Solaris needs sys/mkdev.h for major(2).
+
 --- src/gbm/main/gbm.c.orig	2015-03-21 00:51:18.000000000 +0000
 +++ src/gbm/main/gbm.c
 @@ -35,6 +35,9 @@
