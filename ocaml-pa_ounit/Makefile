@@ -1,11 +1,11 @@
 # $NetBSD$
 
-DISTNAME=	pa_ounit-${VERS}
-VERS=		112.17.00
+DISTNAME=	pa_ounit-112.24.00
 CATEGORIES=     devel
-MASTER_SITES=   https://github.com/janestreet/pa_ounit/archive/
-DISTFILES=      ${VERS}${EXTRACT_SUFX}
-DIST_SUBDIR=    ocaml-pa_ounit
+MASTER_SITES=	${MASTER_SITE_GITHUB:=janestreet/}
+GITHUB_PROJECT=	pa_ounit
+GITHUB_TAG=	112.24.00
+EXTRACT_SUFX=	.zip
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/janestreet/pa_ounit/
