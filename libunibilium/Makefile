@@ -2,13 +2,13 @@
 
 DISTNAME=	libunibilium-1.1.2
 CATEGORIES=	devel
-MASTER_SITES=	-https://github.com/mauke/unibilium/archive/v${PKGVERSION_NOREV}${EXTRACT_SUFX}
+MASTER_SITES=	${MASTER_SITE_GITHUB:=mauke/}
+GITHUB_PROJECT=	unibilium
+GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 HOMEPAGE=	https://github.com/mauke/unibilium
 COMMENT=	Basic terminfo library
 LICENSE=	gnu-lgpl-v3
-
-WRKSRC=		${WRKDIR}/unibilium-${PKGVERSION_NOREV}
 
 USE_LANGUAGES=	c
 USE_LIBTOOL=	yes
