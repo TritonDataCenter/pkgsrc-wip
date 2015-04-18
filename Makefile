@@ -3836,7 +3836,6 @@ SUBDIR+=	xf86-video-intel-old
 SUBDIR+=	xf86-video-intel
 SUBDIR+=	xf86-video-modesetting
 SUBDIR+=	xf86-video-nouveau
-SUBDIR+=	xf86-video-nv-current
 SUBDIR+=	xf86-video-qxl
 SUBDIR+=	xf86-video-suncg6
 SUBDIR+=	xf86-video-suntcx
