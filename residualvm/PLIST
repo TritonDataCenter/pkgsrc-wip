@@ -5,11 +5,16 @@ share/doc/residualvm/AUTHORS
 share/doc/residualvm/COPYING
 share/doc/residualvm/COPYING.BSD
 share/doc/residualvm/COPYING.FREEFONT
+share/doc/residualvm/COPYING.ISC
 share/doc/residualvm/COPYING.LGPL
+share/doc/residualvm/COPYING.LUA
+share/doc/residualvm/COPYING.MIT
+share/doc/residualvm/COPYING.TINYGL
 share/doc/residualvm/COPYRIGHT
 share/doc/residualvm/KNOWN_BUGS
 share/doc/residualvm/NEWS
-share/doc/residualvm/README
+share/doc/residualvm/README.md
+share/icons/hicolor/scalable/apps/residualvm.svg
 share/pixmaps/residualvm.xpm
 share/residualvm/modern.zip
 share/residualvm/residualvm-grim-patch.lab
