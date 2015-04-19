@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	megatools-1.9.94
+DISTNAME=	megatools-1.9.95
 CATEGORIES=	filesystems security
 MASTER_SITES=	http://megatools.megous.com/builds/
 
