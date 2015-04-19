@@ -295,6 +295,7 @@ SUBDIR+=	cdogs
 SUBDIR+=	cdpr
 SUBDIR+=	cedet
 SUBDIR+=	cfengine
+SUBDIR+=	cgdb
 SUBDIR+=	cglib
 SUBDIR+=	cgminer297
 SUBDIR+=	cgnslib
