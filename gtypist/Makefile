@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		gtypist-2.8.3
+DISTNAME=		gtypist-2.9.5
 CATEGORIES=		textproc
 MASTER_SITES=		${MASTER_SITE_GNU:=gtypist/}
 
@@ -21,5 +21,5 @@ USE_PKGLOCALEDIR=		yes
 USE_TOOLS+=			makeinfo perl:run
 
 .include "../../devel/gettext-lib/buildlink3.mk"
-.include "../../devel/ncurses/buildlink3.mk"
+.include "../../devel/ncursesw/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
