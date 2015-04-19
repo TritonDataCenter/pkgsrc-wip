@@ -18,8 +18,8 @@ USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		bison flex gmake pkg-config
-CONFIGURE_ARGS+=	--with-SoundTouchincludes=${BUILDLINK_PREFIX.libSoundTouch}/include/soundtouch/
-BUILD_DEPENDS+=		libSoundTouch-[0-9]*:../../wip/libSoundTouch
+CONFIGURE_ARGS+=	--with-SoundTouchincludes=${BUILDLINK_PREFIX.soundtouch}/include/soundtouch/
+BUILD_DEPENDS+=		soundtouch-[0-9]*:../../audio/soundtouch
 
 SUBST_CLASSES+=		pixmaps
 SUBST_STAGE.pixmaps=	pre-configure
