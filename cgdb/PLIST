@@ -1,3 +1,6 @@
-@comment $NetBSD: PLIST,v 1.2 2009/06/14 17:48:37 joerg Exp $
+@comment $NetBSD$
 bin/cgdb
-share/doc/cgdb/README
+man/man1/cgdb.1
+share/cgdb/cgdb.txt
+share/info/cgdb.info
+share/info/dir
