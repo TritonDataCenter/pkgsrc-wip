@@ -1,7 +1,6 @@
 # $NetBSD: Makefile,v 1.23 2013/10/16 10:51:39 roy Exp $
 
 DISTNAME=	cgdb-0.6.8
-PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://cgdb.me/files/
 
