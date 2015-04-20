@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	mongodb-src-r2.6.7
+DISTNAME=	mongodb-src-r2.6.9
 PKGNAME=	${DISTNAME:S/src-r//:S/-rc/rc/}
 CATEGORIES=	databases
-MASTER_SITES=	http://downloads.mongodb.org/src/
+MASTER_SITES=	http://fastdl.mongodb.org/src/
 
 MAINTAINER=	bartosz.kuzma@gmail.com
 HOMEPAGE=	http://mongodb.org/
@@ -96,7 +96,7 @@ post-extract:
 	chmod -R g-w ${WRKSRC}
 
 do-build:
-	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${SCONS_BIN} ${SCONS_ARGS} all
+	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${SCONS_BIN} ${SCONS_ARGS} core
 
 do-install:
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${SCONS_BIN} ${SCONS_ARGS} \
