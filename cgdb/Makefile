@@ -9,6 +9,8 @@ HOMEPAGE=	http://cgdb.sourceforge.net/
 COMMENT=	Curses-based interface to the GNU Debugger (GDB)
 LICENSE=	gnu-gpl-v2
 
+BUILD_DEPENDS+=	help2man-[0-9]*:../../converters/help2man
+
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 INFO_FILES=	yes
