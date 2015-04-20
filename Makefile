@@ -521,6 +521,7 @@ SUBDIR+=	dssi
 SUBDIR+=	duali-data
 SUBDIR+=	duff
 SUBDIR+=	dumb
+SUBDIR+=	dunelegacy
 SUBDIR+=	dune-common
 SUBDIR+=	dune-geometry
 SUBDIR+=	dune-istl
