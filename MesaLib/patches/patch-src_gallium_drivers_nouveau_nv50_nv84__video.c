@@ -1,5 +1,7 @@
 $NetBSD$
 
+Fix build on platforms without close-on-exec.
+
 --- src/gallium/drivers/nouveau/nv50/nv84_video.c.orig	2015-03-21 00:51:18.000000000 +0000
 +++ src/gallium/drivers/nouveau/nv50/nv84_video.c
 @@ -34,7 +34,11 @@

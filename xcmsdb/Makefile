@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	xcmsdb-1.0.4
+DISTNAME=	xcmsdb-1.0.5
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XORG:=app/}
 EXTRACT_SUFX=	.tar.bz2

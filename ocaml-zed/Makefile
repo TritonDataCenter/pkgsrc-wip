@@ -13,5 +13,7 @@ LICENSE=	modified-bsd
 OCAML_USE_OASIS=	yes
 
 .include "../../wip/ocaml-camomile/buildlink3.mk"
+.include "../../devel/ocaml-react/buildlink3.mk"
+.include "../../lang/camlp4/buildlink3.mk"
 .include "../../mk/ocaml.mk"
 .include "../../mk/bsd.pkg.mk"

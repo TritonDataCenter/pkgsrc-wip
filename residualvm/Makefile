@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	residualvm-0.1.1-sources
+DISTNAME=	residualvm-0.2.1-sources
 PKGNAME=	${DISTNAME:S/-sources//}
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=residualvm/}
 CATEGORIES=	games

@@ -23,9 +23,6 @@ USE_TOOLS+=	gmake
 DEPENDS+=       ${LUA_PKGPREFIX}-MessagePack:../../wip/lua-MessagePack
 DEPENDS+=       ${LUA_PKGPREFIX}-lpeg:../../devel/lua-lpeg
 
-REPLACE_PERL+=	runtime/tools/pltags.pl runtime/tools/shtags.pl runtime/tools/efm_filter.pl
-REPLACE_AWK+=	runtime/tools/mve.awk
-
 .include "options.mk"
 
 .include "../../wip/libuv/buildlink3.mk"

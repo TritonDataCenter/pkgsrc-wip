@@ -42,7 +42,7 @@ CONFIGURE_ARGS+=	--disable-alsa
 .include "../../audio/libvorbis/buildlink3.mk"
 .include "../../audio/portaudio/buildlink3.mk"
 .include "../../math/fftw2/buildlink3.mk"
-.include "../../wip/libSoundTouch/buildlink3.mk"
+.include "../../audio/soundtouch/buildlink3.mk"
 .include "../../x11/fox/buildlink3.mk"
 
 .include "../../mk/oss.buildlink3.mk"

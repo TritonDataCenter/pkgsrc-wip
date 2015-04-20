@@ -1,5 +1,7 @@
 $NetBSD$
 
+Don't install the sysconf directory for now.
+
 --- src/mesa/drivers/dri/common/Makefile.in.orig	2015-02-28 00:06:10.000000000 +0000
 +++ src/mesa/drivers/dri/common/Makefile.in
 @@ -710,6 +710,9 @@ mostlyclean-libtool:

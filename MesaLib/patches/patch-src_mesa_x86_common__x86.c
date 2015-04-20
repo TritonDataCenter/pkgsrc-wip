@@ -1,5 +1,7 @@
 $NetBSD$
 
+Treat NetBSD like OpenBSD.
+
 --- src/mesa/x86/common_x86.c.orig	2015-03-28 18:20:39.000000000 +0000
 +++ src/mesa/x86/common_x86.c
 @@ -42,7 +42,7 @@

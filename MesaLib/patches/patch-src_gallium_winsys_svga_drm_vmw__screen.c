@@ -1,5 +1,7 @@
 $NetBSD$
 
+Solaris needs sys/mkdev.h for major(2).
+
 --- src/gallium/winsys/svga/drm/vmw_screen.c.orig	2014-09-12 21:30:32.000000000 +0000
 +++ src/gallium/winsys/svga/drm/vmw_screen.c
 @@ -32,6 +32,9 @@

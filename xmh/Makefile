@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	xmh-1.0.2
+DISTNAME=	xmh-1.0.3
 CATEGORIES=	mail
 MASTER_SITES=	${MASTER_SITE_XORG:=app/}
 EXTRACT_SUFX=	.tar.bz2

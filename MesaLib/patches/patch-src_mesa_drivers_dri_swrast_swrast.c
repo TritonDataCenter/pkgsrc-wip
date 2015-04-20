@@ -1,5 +1,7 @@
 $NetBSD$
 
+Fix build on older NetBSD w/o _SC_PHYS_PAGES.
+
 --- src/mesa/drivers/dri/swrast/swrast.c.orig	2015-03-28 18:20:39.000000000 +0000
 +++ src/mesa/drivers/dri/swrast/swrast.c
 @@ -60,6 +60,11 @@

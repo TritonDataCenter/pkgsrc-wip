@@ -1,5 +1,7 @@
 $NetBSD$
 
+Fix broken ifdef.
+
 --- src/mesa/drivers/dri/common/xmlconfig.c.orig	2015-03-28 18:20:39.000000000 +0000
 +++ src/mesa/drivers/dri/common/xmlconfig.c
 @@ -53,7 +53,7 @@ extern char *program_invocation_name, *p
