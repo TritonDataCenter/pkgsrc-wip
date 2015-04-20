@@ -11,7 +11,7 @@ name="slurmd"
 rcvar=${name}
 command="@PREFIX@/sbin/slurmd"
 
-slurmd_user="slurm"
+slurmd_user="root"
 
 load_rc_config $name
 run_rc_command "$1"
