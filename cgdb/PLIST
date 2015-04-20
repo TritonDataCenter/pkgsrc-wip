@@ -1,5 +1,0 @@
-@comment $NetBSD$
-bin/cgdb
-info/cgdb.info
-man/man1/cgdb.1
-share/cgdb/cgdb.txt
