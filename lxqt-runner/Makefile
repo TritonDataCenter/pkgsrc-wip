@@ -18,5 +18,4 @@ USE_LANGUAGES=	c c++
 .include "../../wip/lxqt-globalkeys/buildlink3.mk"
 .include "../../sysutils/menu-cache/buildlink3.mk"
 .include "../../wip/liblxqt/buildlink3.mk"
-.include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
