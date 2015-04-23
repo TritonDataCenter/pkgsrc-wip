@@ -2713,7 +2713,6 @@ SUBDIR+=	py-hdf5storage
 SUBDIR+=	py-healpy
 SUBDIR+=	py-helio
 SUBDIR+=	py-hfk
-SUBDIR+=	py-hglist
 SUBDIR+=	py-hgwatchman
 SUBDIR+=	py-hieroglyph
 SUBDIR+=	py-hope
