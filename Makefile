@@ -3201,6 +3201,7 @@ SUBDIR+=	py-xlutils
 SUBDIR+=	py-xpra
 SUBDIR+=	py-xsdb
 SUBDIR+=	py-yams
+SUBDIR+=	py-yapf
 SUBDIR+=	py-yapgvb
 SUBDIR+=	py-yapps2
 SUBDIR+=	py-yaprt
