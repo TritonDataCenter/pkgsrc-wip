@@ -37,10 +37,10 @@ SUBST_MESSAGE.gsed=	Adjusting gsed path.
 SUBST_FILES.gsed=	usr/bin/wklejto
 SUBST_SED.gsed=		-e "s, sed , ${TOOLS_PATH.gsed} ,g"
 
-AUTO_MKDIRS=		yes
-
 do-install:
+	${INSTALL_SCRIPT_DIR} ${DESTDIR}${PREFIX}/bin/
 	${INSTALL_SCRIPT} ${WRKSRC}/usr/bin/wklejto ${DESTDIR}${PREFIX}/bin/
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/wklejto/
 	${INSTALL_DATA} ${WRKSRC}/usr/share/wklejto/lang-mappings.sed ${DESTDIR}${PREFIX}/share/wklejto/
 
 .include "../../mk/bsd.pkg.mk"
