@@ -16,7 +16,7 @@ EXTRACT_USING=	gtar
 
 WRKSRC=		${WRKDIR}/wklejto-0.1
 USE_LANGUAGES=	# none
-USE_TOOLS+=	bash:run gsed:run
+USE_TOOLS+=	bash:run expr:run gsed:run
 
 DEPENDS+=	curl-[0-9]*:../../www/curl
 DEPENDS+=	xclip-[0-9]*:../../x11/xclip
