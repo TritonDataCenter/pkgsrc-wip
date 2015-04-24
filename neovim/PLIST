@@ -57,6 +57,8 @@ share/nvim/runtime/autoload/paste.vim
 share/nvim/runtime/autoload/phpcomplete.vim
 share/nvim/runtime/autoload/provider/clipboard.vim
 share/nvim/runtime/autoload/provider/python.vim
+share/nvim/runtime/autoload/provider/python3.vim
+share/nvim/runtime/autoload/provider/pythonx.vim
 share/nvim/runtime/autoload/provider/script_host.py
 share/nvim/runtime/autoload/python3complete.vim
 share/nvim/runtime/autoload/pythoncomplete.vim
