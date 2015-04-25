@@ -3337,6 +3337,7 @@ SUBDIR+=	ruby-iesd
 SUBDIR+=	ruby-kakasi
 SUBDIR+=	ruby-libv8
 SUBDIR+=	ruby-passenger
+SUBDIR+=	ruby-rdiscount
 SUBDIR+=	ruby-redmine
 SUBDIR+=	ruby-review
 SUBDIR+=	ruby-teamocil
