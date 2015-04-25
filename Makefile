@@ -883,6 +883,7 @@ SUBDIR+=	go
 SUBDIR+=	go-backoff
 SUBDIR+=	go-fsnotify
 SUBDIR+=	go-net
+SUBDIR+=	go-notify
 SUBDIR+=	go-text
 SUBDIR+=	go-tools
 SUBDIR+=	goattracker
