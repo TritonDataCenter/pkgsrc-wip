@@ -25,5 +25,6 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/${DISTNAME}\
 		${DESTDIR}${PREFIX}/bin/${PKGBASE}
 
+.include "../../wip/go-backoff/buildlink3.mk"
 .include "../../wip/go-notify/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
