@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	tme-0.10beta
+DISTNAME=	tme-0.10beta_2
 CATEGORIES=	emulators
 MASTER_SITES=	http://www.phabrics.com/
 EXTRACT_SUFX=   .tar.xz
