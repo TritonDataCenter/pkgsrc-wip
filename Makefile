@@ -1890,6 +1890,7 @@ SUBDIR+=	nos-tun
 SUBDIR+=	nostromo
 SUBDIR+=	notify-sharp
 SUBDIR+=	npth
+SUBDIR+=	nrg4iso
 SUBDIR+=	nsc2ke
 SUBDIR+=	nsp
 SUBDIR+=	nspluginwrapper
