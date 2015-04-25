@@ -3,7 +3,7 @@
 
 DISTNAME=		netkit-telnet-0.17
 CATEGORIES=		net
-MASTER_SITES=		ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/
+MASTER_SITES=		http://ibiblio.org/pub/linux/system/network/netkit/
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/
