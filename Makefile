@@ -3341,6 +3341,7 @@ SUBDIR+=	ruby-passenger
 SUBDIR+=	ruby-rdiscount
 SUBDIR+=	ruby-redmine
 SUBDIR+=	ruby-review
+SUBDIR+=	ruby-ronn
 SUBDIR+=	ruby-teamocil
 SUBDIR+=	ruby-therubyracer
 SUBDIR+=	ruby-trollop
