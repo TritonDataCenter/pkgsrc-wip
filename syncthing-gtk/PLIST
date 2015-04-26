@@ -92,6 +92,7 @@ share/pixmaps/emblem-syncthing-active.png
 share/pixmaps/emblem-syncthing-error.png
 share/pixmaps/emblem-syncthing-offline.png
 share/pixmaps/emblem-syncthing.png
+share/pixmaps/syncthing-gtk.png
 share/syncthing-gtk/about.glade
 share/syncthing-gtk/app.glade
 share/syncthing-gtk/daemon-output.glade
@@ -152,6 +153,7 @@ share/syncthing-gtk/icons/st-logo-32.png
 share/syncthing-gtk/icons/st-logo-512.png
 share/syncthing-gtk/icons/st-logo-64.png
 share/syncthing-gtk/icons/sync.png
+share/syncthing-gtk/icons/syncthing-gtk.png
 share/syncthing-gtk/icons/thumb_up.png
 share/syncthing-gtk/icons/up_rate.png
 share/syncthing-gtk/icons/version.png
