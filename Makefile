@@ -574,7 +574,6 @@ SUBDIR+=	emacs-current
 SUBDIR+=	emacs-current-nox11
 SUBDIR+=	emacs-ditz
 SUBDIR+=	emacs-pr-el
-SUBDIR+=	emacs-rc
 SUBDIR+=	emacs-session
 SUBDIR+=	emacs-w3m-current
 SUBDIR+=	emboss
