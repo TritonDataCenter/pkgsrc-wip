@@ -20,5 +20,3 @@ DEPENDS+=	sj3-server-[0-9]*:../../inputmethod/sj3-server
 .if !empty(PKG_OPTIONS:Manthy)
 DEPENDS+=	anthy-[0-9]*:../../inputmethod/anthy
 .endif
-
-
