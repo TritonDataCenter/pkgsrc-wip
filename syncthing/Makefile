@@ -18,6 +18,7 @@ NO_CONFIGURE=		yes
 INSTALLATION_DIRS=	bin
 
 MAKE_ENV+=		GOPATH=${WRKDIR}/gopath
+INSTALL_UNSTRIPPED=	yes
 
 SUBST_CLASSES+=		version
 SUBST_STAGE.version=	pre-build
