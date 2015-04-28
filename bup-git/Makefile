@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.10 2013/09/09 14:07:59 wiz Exp $
 
-DISTNAME=	bup-0.26
+DISTNAME=	bup-0.27
 CATEGORIES=	sysutils
 MASTER_SITES=	#
 
