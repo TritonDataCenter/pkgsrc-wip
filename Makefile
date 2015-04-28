@@ -2676,6 +2676,7 @@ SUBDIR+=	py-gcalendarsync
 SUBDIR+=	py-gccxml
 SUBDIR+=	py-genesis
 SUBDIR+=	py-geographiclib
+SUBDIR+=	py-geoip
 SUBDIR+=	py-geopy
 SUBDIR+=	py-gettext-tools
 SUBDIR+=	py-ghalatawi
