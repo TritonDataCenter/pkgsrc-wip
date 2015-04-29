@@ -472,6 +472,7 @@ share/examples/slurm/init.d.slurm
 share/examples/slurm/init.d.slurmdbd
 share/examples/slurm/init.d.slurmdbd.in
 share/examples/slurm/init.d.slurm.in
+share/examples/slurm/init.d.slurm.in.orig
 share/examples/slurm/slurm.conf.example
 share/examples/slurm/slurmctld.service
 share/examples/slurm/slurmctld.service.in
