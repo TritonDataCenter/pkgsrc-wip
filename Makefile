@@ -1553,7 +1553,6 @@ SUBDIR+=	libvg
 SUBDIR+=	libvterm
 SUBDIR+=	libwbxml2-patched
 SUBDIR+=	libxc
-SUBDIR+=	libxshmfence
 SUBDIR+=	libzdb
 SUBDIR+=	libzn-poly
 SUBDIR+=	lidia
