@@ -18,6 +18,7 @@ PKGCONFIG_OVERRIDE+=	xshmfence.pc.in
 
 # Needs additional pthread functions or alternative syncronization
 # implemenation on NetBSD. See PR lib/49529.
+# (On FreeBSD, umtx is used.)
 
 ONLY_FOR_PLATFORM+=	Linux-*-* FreeBSD-*-*
 
