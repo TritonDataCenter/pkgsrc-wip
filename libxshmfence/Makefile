@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	libxshmfence-1.1
+DISTNAME=	libxshmfence-1.2
 CATEGORIES=	x11
 MASTER_SITES=	http://xorg.freedesktop.org/archive/individual/lib/
 EXTRACT_SUFX=	.tar.bz2
@@ -15,6 +15,11 @@ USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
 
 PKGCONFIG_OVERRIDE+=	xshmfence.pc.in
+
+# Needs additional pthread functions or alternative syncronization
+# implemenation on NetBSD. See PR lib/49529.
+
+ONLY_FOR_PLATFORM+=	Linux-*-* FreeBSD-*-*
 
 .include "../../x11/xproto/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
