@@ -3443,6 +3443,7 @@ SUBDIR+=	slurm
 SUBDIR+=	sm-change_ldappass
 SUBDIR+=	sm-change_qldforward
 SUBDIR+=	sm-compatibility
+SUBDIR?=	smap
 SUBDIR+=	smc
 SUBDIR+=	smplayer
 SUBDIR+=	smproxy
