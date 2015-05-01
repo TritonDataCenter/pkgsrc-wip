@@ -395,6 +395,7 @@ lib/vlc/plugins/video_filter/libtransform_plugin.la
 lib/vlc/plugins/video_filter/libvhs_plugin.la
 lib/vlc/plugins/video_filter/libwave_plugin.la
 lib/vlc/plugins/video_filter/libyuvp_plugin.la
+${PLIST.egl}lib/vlc/plugins/video_output/libegl_x11_plugin.la
 lib/vlc/plugins/video_output/libgl_plugin.la
 ${PLIST.x11}lib/vlc/plugins/video_output/libglx_plugin.la
 lib/vlc/plugins/video_output/libvdummy_plugin.la

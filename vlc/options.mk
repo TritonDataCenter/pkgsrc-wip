@@ -98,6 +98,7 @@ CONFIGURE_ARGS+=	--disable-skins2
 
 ## X11 dependency and QT4 frontend
 
+PLIST_VARS+=		egl
 .if !empty(PKG_OPTIONS:Mx11)
 DEPENDS+= dejavu-ttf>=2.0:../../fonts/dejavu-ttf
 .include "../../graphics/freetype2/buildlink3.mk"
@@ -115,6 +116,9 @@ DEPENDS+= dejavu-ttf>=2.0:../../fonts/dejavu-ttf
 CONFIGURE_ARGS+=	--enable-qt \
 			--with-x
 PLIST.x11=		yes
+.if ${X11_TYPE} == "modular" || exists(${X11BASE}/include/EGL/egl.h)
+PLIST.egl=		yes
+.endif
 .else
 CONFIGURE_ARGS+=	--without-x \
 			--disable-xcb \
