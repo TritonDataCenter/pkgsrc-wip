@@ -25,7 +25,7 @@ SCONS_ARGS+=	--use-system-pcre=USE-SYSTEM-PCRE
 SCONS_ARGS+=	--use-system-snappy=USE-SYSTEM-SNAPPY
 SCONS_ARGS+=	--use-system-tcmalloc=USE-SYSTEM-TCMALLOC
 
-.include "../../mk/bsd.fast.prefs.mk"
+.include "../../mk/bsd.prefs.mk"
 
 .if ${MACHINE_ARCH} == "x86_64"
 SCONS_ARGS+=	--64
