@@ -3422,6 +3422,7 @@ SUBDIR+=	sipbomber
 SUBDIR+=	sipp
 SUBDIR+=	siproxd
 SUBDIR+=	siptoolbox
+SUBDIR+=	sipvicious
 SUBDIR+=	sipwitch
 SUBDIR+=	sis
 SUBDIR+=	siscone
