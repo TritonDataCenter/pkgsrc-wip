@@ -1,17 +1,17 @@
 $NetBSD$
 
 Use Boost swap instead of std. Fixes build on SunOS.
---- src/mongo/shell/linenoise_utf8.h.orig	2014-10-07 16:07:51.000000000 +0000
+--- src/mongo/shell/linenoise_utf8.h.orig	2015-04-08 20:28:08.000000000 +0000
 +++ src/mongo/shell/linenoise_utf8.h
-@@ -15,6 +15,7 @@
-  *    limitations under the License.
+@@ -27,6 +27,7 @@
+  *    then also delete it in the license file.
   */
  
 +#include <boost/core/swap.hpp>
  #include <boost/smart_ptr/scoped_array.hpp>
+ #include <algorithm>
  #include <string.h>
- 
-@@ -142,9 +143,9 @@ struct UtfStringMixin {
+@@ -155,9 +156,9 @@ struct UtfStringMixin {
      size_t chars() const { return _chars; }
  
      void swap( UtfStringMixin& other ) {

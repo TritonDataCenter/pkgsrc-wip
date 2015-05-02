@@ -1,18 +1,9 @@
 @comment $NetBSD$
-bin/bsondump
 bin/mongo
 bin/mongod
-bin/mongodump
-bin/mongoexport
-bin/mongofiles
-bin/mongoimport
-bin/mongooplog
 bin/mongoperf
-bin/mongorestore
 bin/mongos
 bin/mongosniff
-bin/mongostat
-bin/mongotop
 man/man1/bsondump.1
 man/man1/mongo.1
 man/man1/mongod.1
