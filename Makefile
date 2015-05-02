@@ -1724,7 +1724,6 @@ SUBDIR+=	moe
 SUBDIR+=	moeclock
 SUBDIR+=	molmol
 SUBDIR+=	monajat
-SUBDIR+=	mongodb
 SUBDIR+=	monkey-bubble
 SUBDIR+=	mono-zeroconf
 SUBDIR+=	monotone-cvsimport
