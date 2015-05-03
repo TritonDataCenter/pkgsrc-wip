@@ -13,7 +13,6 @@ LICENSE=	gnu-gpl-v2
 PYTHON_SCRIPTS=	svcrack.py svcrash.py svmap.py svreport.py svwar.py
 
 USE_LANGUAGES=	#perl scripts only
-NO_CONFIGURE=	YES
 NO_BUILD=	YES
 REPLACE_PYTHON+=	${PYTHON_SCRIPTS}
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
