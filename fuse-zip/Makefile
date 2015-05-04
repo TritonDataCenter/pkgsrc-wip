@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	fuse-zip-0.4.0
+PKGREVISION=	1
 CATEGORIES=	filesystems
 MASTER_SITES=	https://fuse-zip.googlecode.com/files/
 
