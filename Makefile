@@ -759,7 +759,6 @@ SUBDIR+=	gauche-pib
 SUBDIR+=	gcalcli-git
 SUBDIR+=	gcc42
 SUBDIR+=	gcc43
-SUBDIR+=	gcc48snapshot
 SUBDIR+=	gcc49snapshot
 SUBDIR+=	gcc50snapshot
 SUBDIR+=	gcolor2
