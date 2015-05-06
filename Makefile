@@ -2311,6 +2311,7 @@ SUBDIR+=	pfe
 SUBDIR+=	pgp6
 SUBDIR+=	pgplot
 SUBDIR+=	pgpool2
+SUBDIR+=	phalanx
 SUBDIR+=	phantomjs
 SUBDIR+=	phantomjs2
 SUBDIR+=	pheanstalk
