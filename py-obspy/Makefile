@@ -22,6 +22,9 @@ REPLACE_BASH=	obspy/taup/tests/data/TauP_test_data/gendata.sh
 
 PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-suds
 
+pre-configure:
+	${FIND} ${WRKSRC} -type f -exec ${CHMOD} -x {} \;
+
 .include "../../graphics/py-matplotlib/buildlink3.mk"
 .include "../../lang/python/distutils.mk"
 .include "../../math/py-numpy/buildlink3.mk"
