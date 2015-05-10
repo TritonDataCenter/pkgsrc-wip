@@ -10,6 +10,7 @@ share/ctags/corpora/RFC1213-MIB.txt
 share/ctags/corpora/ctags.ctags
 share/ctags/optlib/coffee.ctags
 share/ctags/optlib/ctags.ctags
+share/ctags/optlib/m4.ctags
 share/ctags/optlib/mib.ctags
 share/ctags/preload/default.ctags
 @pkgdir etc/ctags/preload
