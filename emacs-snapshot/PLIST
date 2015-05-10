@@ -1587,6 +1587,8 @@ share/emacs/${EMACS_VERSION}/lisp/emacs-lisp/copyright.el.gz
 share/emacs/${EMACS_VERSION}/lisp/emacs-lisp/copyright.elc
 share/emacs/${EMACS_VERSION}/lisp/emacs-lisp/crm.el.gz
 share/emacs/${EMACS_VERSION}/lisp/emacs-lisp/crm.elc
+share/emacs/${EMACS_VERSION}/lisp/emacs-lisp/cursor-sensor.el.gz
+share/emacs/${EMACS_VERSION}/lisp/emacs-lisp/cursor-sensor.elc
 share/emacs/${EMACS_VERSION}/lisp/emacs-lisp/debug.el.gz
 share/emacs/${EMACS_VERSION}/lisp/emacs-lisp/debug.elc
 share/emacs/${EMACS_VERSION}/lisp/emacs-lisp/derived.el.gz
