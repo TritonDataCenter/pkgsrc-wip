@@ -2,6 +2,7 @@
 sbin/auto-append-line
 sbin/auto-ask
 sbin/auto-backup-file
+sbin/auto-clean-pkgsrc
 sbin/auto-denyhosts-remove-ip
 sbin/auto-denyhosts-setup
 sbin/auto-disable-hyperthreading
