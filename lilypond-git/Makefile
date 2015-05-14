@@ -25,6 +25,7 @@ BUILD_DEPENDS+=	netpbm-[0-9]*:../../graphics/netpbm
 BUILD_DEPENDS+=	ImageMagick-[0-9]*:../../graphics/ImageMagick
 
 DEPENDS+=	tex-cyrillic-[0-9]*:../../print/tex-cyrillic
+DEPENDS+=	tex-lh-[0-9]*:../../fonts/tex-lh
 DEPENDS+=	tex-psnfss-[0-9]*:../../fonts/tex-psnfss
 DEPENDS+=	tex-epsf-[0-9]*:../../print/tex-epsf
 DEPENDS+=	tex-graphics-[0-9]*:../../print/tex-graphics

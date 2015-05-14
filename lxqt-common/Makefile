@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	lxqt-common-0.9.0
+DISTNAME=	lxqt-common-0.9.1
 CATEGORIES=	x11
 MASTER_SITES=	http://downloads.lxqt.org/lxqt/${PKGVERSION_NOREV}/
 

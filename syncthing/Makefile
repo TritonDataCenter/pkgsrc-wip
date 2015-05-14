@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	syncthing-0.10.30
+DISTNAME=	syncthing-0.11.0
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_GITHUB:=syncthing/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
@@ -18,6 +18,7 @@ NO_CONFIGURE=		yes
 INSTALLATION_DIRS=	bin
 
 MAKE_ENV+=		GOPATH=${WRKDIR}/gopath
+INSTALL_UNSTRIPPED=	yes
 
 SUBST_CLASSES+=		version
 SUBST_STAGE.version=	pre-build

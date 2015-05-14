@@ -1,8 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	Bear-2.0.2
+DISTNAME=	Bear-2.0.3
 CATEGORIES=	devel
-MASTER_SITES=	-https://github.com/rizsotto/Bear/archive/${PKGVERSION_NOREV}${EXTRACT_SUFX}
+MASTER_SITES=	${MASTER_SITE_GITHUB:=rizsotto/}
+GITHUB_PROJECT=	Bear
 
 HOMEPAGE=	https://github.com/rizsotto/Bear
 COMMENT=	Bear is a tool to generate compilation database

@@ -1,0 +1,11 @@
+@comment $NetBSD$
+bin/svcrack.py
+bin/svcrash.py
+bin/svmap.py
+bin/svreport.py
+bin/svwar.py
+man/man1/svcrack.1
+man/man1/svcrash.1
+man/man1/svmap.1
+man/man1/svreport.1
+man/man1/svwar.1

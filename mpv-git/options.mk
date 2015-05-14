@@ -22,6 +22,7 @@ WAF_CONFIGURE_ARGS+=	--disable-caca
 .if !empty(PKG_OPTIONS:Mlua)
 WAF_CONFIGURE_ARGS+=	--enable-lua
 .include "../../lang/lua/buildlink3.mk"
+LUA_VERSIONS_INCOMPATIBLE=	53
 .else
 WAF_CONFIGURE_ARGS+=	--disable-lua
 .endif

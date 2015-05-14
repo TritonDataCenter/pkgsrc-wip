@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	livestreamer-1.12.1
+DISTNAME=	livestreamer-1.12.2
 CATEGORIES=	multimedia python
 MASTER_SITES=	${MASTER_SITE_GITHUB:=chrippa/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}

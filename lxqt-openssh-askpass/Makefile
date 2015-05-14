@@ -15,5 +15,4 @@ USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
 .include "../../wip/liblxqt/buildlink3.mk"
-.include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,0 +1,13 @@
+===========================================================================
+$NetBSD: MESSAGE,v 1.4 2005/11/14 08:05:27 jlam Exp $
+
+For ActiveDirectory/Domain Controller, use:
+
+	${RCD_SCRIPTS_DIR}/samba start
+
+For traditional simple CIFS file sharing, use:
+
+	${RCD_SCRIPTS_DIR}/nmbd start
+	${RCD_SCRIPTS_DIR}/winbindd start
+	${RCD_SCRIPTS_DIR}/smbd start
+===========================================================================
