@@ -22,8 +22,6 @@ DEPENDS+=	bc-[0-9]*:../../math/bc
 DEPENDS+=	curl-[0-9]*:../../www/curl
 DEPENDS+=	jq-[0-9]*:../../devel/jq
 
-REPLACE_BASH+=	ansiweather
-
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
 
