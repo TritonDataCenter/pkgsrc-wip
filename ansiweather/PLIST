@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/ansiweather
+share/doc/ansiweather/AUTHORS
+share/doc/ansiweather/ChangeLog
+share/doc/ansiweather/README.md
+share/doc/ansiweather/ansiweather.plugin.zsh
+share/examples/ansiweather/ansiweatherrc.example
