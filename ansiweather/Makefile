@@ -16,7 +16,7 @@ LICENSE=	modified-bsd
 WRKSRC=		${WRKDIR}/ansiweather-1.02
 USE_LANGUAGES=	# none
 
-USE_TOOLS+=	bash:run date:run
+USE_TOOLS+=	awk:run bash:run date:run grep:run
 
 DEPENDS+=	bc-[0-9]*:../../math/bc
 DEPENDS+=	curl-[0-9]*:../../www/curl
