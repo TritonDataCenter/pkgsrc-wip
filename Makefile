@@ -97,6 +97,7 @@ SUBDIR+=	analizo
 SUBDIR+=	and
 SUBDIR+=	android-tools-adb
 SUBDIR+=	ann
+SUBDIR+=	ansiweather
 SUBDIR+=	anthy-dic-jis34
 SUBDIR+=	antlr3-c
 SUBDIR+=	aoeui
