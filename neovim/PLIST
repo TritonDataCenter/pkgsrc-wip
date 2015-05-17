@@ -1,5 +1,7 @@
 @comment $NetBSD$
 bin/nvim
+man/man1/nvim.1
+man/man1/nvimtutor.1
 share/locale/af/LC_MESSAGES/nvim.mo
 share/locale/ca/LC_MESSAGES/nvim.mo
 share/locale/cs.cp1250/LC_MESSAGES/nvim.mo
