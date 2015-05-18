@@ -1,4 +1,4 @@
-==============================================================================
+===========================================================================
 $NetBSD$
 
 Running DWB binaries
@@ -18,9 +18,9 @@ It is also required to set the DWBHOME to ${PREFIX}/dwb33:
 Reading DWB manual pages
 ------------------------
 
-The manual pages are installed to ${PREFIX}/dwb33/man.  Most of DWB's manual
-pages are not compatible with mandoc(1) or groff.  It is possible to read
-them with e.g.
+The manual pages are installed to ${PREFIX}/dwb33/man.  Most of DWB's
+manual pages are not compatible with mandoc(1) or groff.  It is possible to
+read them with e.g.
 
 	tbl <path to file> | nroff -man | col -x | less
-==============================================================================
+===========================================================================
