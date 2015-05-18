@@ -16,7 +16,9 @@ USE_LANGUAGES=	c c++
 USE_TOOLS+=	lex yacc
 MAKE_JOBS_SAFE=	no
 
-MAKE_FLAGS=	ROOT=${DESTDIR} \
+MAKE_FLAGS=	CFLGS="${CFLAGS}" \
+		LDFLGS="${LDFLAGS}" \
+		ROOT=${DESTDIR} \
 		BINDIR=${PREFIX}/dwb33/bin \
 		FONTDIR=${PREFIX}/dwb33/lib/font \
 		HOSTDIR=${PREFIX}/dwb33/lib/font/postscript \
