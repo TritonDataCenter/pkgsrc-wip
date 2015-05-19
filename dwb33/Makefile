@@ -18,6 +18,6 @@ MAKE_JOBS_SAFE=	no
 
 MAKE_FLAGS=	CFLGS="${CFLAGS}" \
 		LDFLGS="${LDFLAGS}" \
-		ROOT=${PREFIX}/dwb33
+		ROOT=${DESTDIR}${PREFIX}/dwb33
 
 .include "../../mk/bsd.pkg.mk"
