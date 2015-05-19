@@ -20,4 +20,5 @@ PKGCONFIG_OVERRIDE+=	libfm-qt/libfm-qt.pc.in
 .include "../../sysutils/menu-cache/buildlink3.mk"
 .include "../../wip/libfm/buildlink3.mk"
 .include "../../x11/qt5-qtbase/buildlink3.mk"
+.include "../../x11/qt5-qttools/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
