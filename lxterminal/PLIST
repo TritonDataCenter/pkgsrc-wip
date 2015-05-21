@@ -2,6 +2,7 @@
 bin/lxterminal
 man/man1/lxterminal.1
 share/applications/lxterminal.desktop
+share/icons/hicolor/128x128/apps/lxterminal.png
 share/lxterminal/lxterminal-preferences.ui
 share/lxterminal/lxterminal.conf
-share/pixmaps/lxterminal.png
+share/lxterminal/menu.ui
