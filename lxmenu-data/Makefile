@@ -8,9 +8,10 @@
 # So, please make sure that lxde-applications.menu is installed in /etc/xdg/menus.
 
 
-DISTNAME=	lxmenu-data-0.1.2
+DISTNAME=	lxmenu-data-0.1.4
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lxde/}
+EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://lxde.sourceforge.net/
