@@ -1,9 +1,9 @@
 @comment $NetBSD$
 bin/lxmusic
+man/man1/lxmusic.1
 share/applications/lxmusic.desktop
 share/lxmusic/lxmusic.ui.glade
 share/lxmusic/popup.ui.glade
 share/lxmusic/pref-dlg.ui.glade
 share/lxmusic/track-info.ui.glade
 share/pixmaps/lxmusic.png
-
