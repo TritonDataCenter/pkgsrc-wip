@@ -2,7 +2,7 @@
 
 DISTNAME=	lximage-qt-0.4.0
 CATEGORIES=	graphics
-MASTER_SITES=	http://downloads.lxqt.org/${PKGNAME}/${PKGVERSION_NOREV}/
+MASTER_SITES=	http://downloads.lxqt.org/lximage-qt/${PKGVERSION_NOREV}/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.lxqt.org/
@@ -12,7 +12,7 @@ LICENSE=	gnu-gpl-v2
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
-.include "../../wip/libfm/buildlink3.mk"
+.include "../../wip/pcmanfm-qt/buildlink3.mk"
 .include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../graphics/libexif/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
