@@ -33,4 +33,6 @@ DEPENDS+=       lxqt-runner>=0.9.0:../../wip/lxqt-runner
 DEPENDS+=       lxqt-session>=0.9.0:../../wip/lxqt-session
 DEPENDS+=       pcmanfm-qt>=0.9.0:../../wip/pcmanfm-qt
 
+.include "options.mk"
+
 .include "../../mk/bsd.pkg.mk"
