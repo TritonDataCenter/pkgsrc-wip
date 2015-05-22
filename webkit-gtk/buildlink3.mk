@@ -7,7 +7,7 @@ WEBKIT_GTK_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.webkit-gtk+=	webkit-gtk>=2.0
 BUILDLINK_ABI_DEPENDS.webkit-gtk?=	webkit-gtk>=2.6.5
-BUILDLINK_PKGSRCDIR.webkit-gtk?=	../../www/webkit-gtk
+BUILDLINK_PKGSRCDIR.webkit-gtk?=	../../wip/webkit-gtk
 
 pkgbase := webkit-gtk
 .include "../../mk/pkg-build-options.mk"
