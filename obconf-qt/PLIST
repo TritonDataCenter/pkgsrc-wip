@@ -1,1 +1,4 @@
 @comment $NetBSD$
+bin/obconf-qt
+share/applications/obconf-qt.desktop
+share/pixmaps/obconf-qt.png

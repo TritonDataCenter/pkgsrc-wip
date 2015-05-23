@@ -16,6 +16,7 @@ USE_LANGUAGES=	c c++
 
 CONFIGURE_ENV=	USE_QT5=ON
 
+.include "../../x11/qt5-qtx11extras/buildlink3.mk"
 .include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../wm/openbox/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
