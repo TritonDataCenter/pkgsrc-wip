@@ -30,8 +30,6 @@ CONF_FILES+=	${EGDIR}/xdg/autostart/lxqt-runner.desktop ${PKG_SYSCONFDIR}/xdg/au
 CONF_FILES+=	${EGDIR}/xdg/autostart/lxqt-screenlocker.desktop ${PKG_SYSCONFDIR}/xdg/autostart/lxqt-screenlocker.desktop
 CONF_FILES+=	${EGDIR}/xdg/autostart/lxqt-xscreensaver-autostart.desktop ${PKG_SYSCONFDIR}/xdg/autostart/lxqt-xscreensaver-autostart.desktop
 
-CMAKE_ARGS+=	-DLXQT_ETC_XDG_DIR=${PKG_SYSCONFDIR}/xdg
-
 SUBST_CLASSES+=	xdg
 SUBST_FILES.xdg=	autostart/CMakeLists.txt
 SUBST_SED.xdg=		-e 's,/etc/xdg/autostart,${EGDIR}/xdg/autostart,'

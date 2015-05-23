@@ -21,7 +21,7 @@ USE_LANGUAGES=	c c++
 #BUILDLINK_TRANSFORM+=rm:-fPIE
 # XXX Should be fixed in qt5-qtbase
 
-CMAKE_ARGS+=	-DLXQT_ETC_XDG_DIR=${PREFIX}/xdg
+CMAKE_ARGS+=	-DLXQT_ETC_XDG_DIR=${PKG_SYSCONFDIR}/xdg
 
 .include "../../wip/kwindowsystem/buildlink3.mk"
 .include "../../wip/libqtxdg/buildlink3.mk"

@@ -14,8 +14,6 @@ EXTRACT_USING=	gtar
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
-CMAKE_ARGS+=	-DLXQT_ETC_XDG_DIR=${PREFIX}/xdg
-
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../wip/liblxqt/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

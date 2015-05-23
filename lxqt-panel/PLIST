@@ -18,7 +18,7 @@ lib/lxqt-panel/libtaskbar.${RUBY_DLEXT}
 lib/lxqt-panel/libtray.${RUBY_DLEXT}
 lib/lxqt-panel/libvolume.${RUBY_DLEXT}
 lib/lxqt-panel/libworldclock.${RUBY_DLEXT}
-qt5/etc/xdg/lxqt/panel.conf
+share/examples/lxqt-panel/xdg/lxqt/panel.conf
 share/lxqt/lxqt-panel/clock.desktop
 share/lxqt/lxqt-panel/colorpicker.desktop
 share/lxqt/lxqt-panel/desktopswitch.desktop
