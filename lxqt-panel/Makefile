@@ -14,6 +14,8 @@ EXTRACT_USING=	gtar
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
+CMAKE_ARGS+=	-DLXQT_ETC_XDG_DIR=${PREFIX}/xdg
+
 .include "../../audio/alsa-lib/buildlink3.mk"
 .include "../../wip/liblxqt-mount/buildlink3.mk"
 .include "../../wip/lxqt-globalkeys/buildlink3.mk"

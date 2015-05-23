@@ -14,5 +14,12 @@ EXTRACT_USING=	gtar
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
+SUBST_CLASSES+=	xdg
+SUBST_FILES.xdg=	autostart/CMakeLists.txt
+SUBST_SED.xdg=		-e 's,/etc/xdg/autostart,${PREFIX}/etc/xdg/autostart,'
+SUBST_STAGE.xdg=	post-patch
+
+CMAKE_ARGS+=	-DLXQT_ETC_XDG_DIR=${PREFIX}/etc/xdg
+
 .include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
