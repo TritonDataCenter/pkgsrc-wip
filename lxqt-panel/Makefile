@@ -20,11 +20,10 @@ OWN_DIRS=	${PKG_SYSCONFDIR}/xdg/lxqt
 
 CONF_FILES+=	${EGDIR}/xdg/lxqt/panel.conf ${PKG_SYSCONFDIR}/xdg/lxqt/panel.conf
 
-# XXX: how to fix it properly?
-post-install:
-	${RUN} mkdir -p ${DESTDIR}${EGDIR}/xdg
-	${RUN} mv ${DESTDIR}${PKG_SYSCONFDIR}/xdg/lxqt ${DESTDIR}${EGDIR}/xdg
-	${RUN} rm -rf mv ${DESTDIR}${PKG_SYSCONFDIR}
+SUBST_CLASSES+=		confdir
+SUBST_FILES.confdir=	panel/CMakeLists.txt
+SUBST_SED.confdir=	-e 's,$${LXQT_ETC_XDG_DIR}/,${EGDIR}/xdg/,'
+SUBST_STAGE.confdir=	post-patch
 
 .include "../../audio/alsa-lib/buildlink3.mk"
 .include "../../wip/liblxqt-mount/buildlink3.mk"
