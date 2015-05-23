@@ -34,6 +34,12 @@ DEPENDS+=       lxqt-runner>=0.9.0:../../wip/lxqt-runner
 DEPENDS+=       lxqt-session>=0.9.0:../../wip/lxqt-session
 DEPENDS+=       pcmanfm-qt>=0.9.0:../../wip/pcmanfm-qt
 
+# actively used by apps -- are there alternatives?
+DEPENDS+=       oxygen-icons>=0.9.0:../../graphics/oxygen-icons
+
+# to be verified whether we want it, for now just shut the warnings up
+DEPENDS+=       qt5-qttranslations>=5.4.0:../../x11/qt5-qttranslations
+
 .include "options.mk"
 
 .include "../../mk/bsd.pkg.mk"
