@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (lxqt-common-0.9.1.tar.gz) = 0bd727c31495c055c83a2c6a06b201a7707341a5
 RMD160 (lxqt-common-0.9.1.tar.gz) = 575220416266811933020575d522cf149574eda9
 Size (lxqt-common-0.9.1.tar.gz) = 4060259 bytes
+SHA1 (patch-startlxqt.in) = a0c6199b1759a61b05a85cd1ea9f873855d4ccb5
