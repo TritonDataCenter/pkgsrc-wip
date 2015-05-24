@@ -1,13 +1,18 @@
 # $NetBSD$
 
-DISTNAME=	torsocks-2.0.0
+DISTNAME=	torsocks
 CATEGORIES=	net security
-MASTER_SITES=	-https://github.com/dgoulet/torsocks/archive/v${PKGVERSION_NOREV}${EXTRACT_SUFX}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/dgoulet/torsocks/
+HOMEPAGE=	https://gitweb.torproject.org/torsocks.git
 COMMENT=	Library to torify applications
 LICENSE=	gnu-gpl-v2
+
+
+GIT_REPOSITORIES=       master
+GIT_REPO.master=        https://git.torproject.org/torsocks.git
+GIT_MODULE.master=      torsocks
+
 
 DIST_SUBDIR=	torsocks
 
@@ -23,7 +28,7 @@ SUBST_FILES.configure=		configure.ac
 SUBST_SED.configure=		-e '/test/ s/ == / = /g'
 
 .include "../../mk/bsd.prefs.mk"
-
+.include "../../wip/mk/git-package.mk"
 # gethostbyaddr(3) in NetBSD < 7.0 prototype is:
 #     struct hostent *
 #     gethostbyaddr(const char *addr, socklen_t len, int type);
