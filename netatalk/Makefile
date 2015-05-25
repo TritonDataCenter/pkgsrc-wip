@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.99 2013/04/30 15:43:30 hauke Exp $
 
-DISTNAME=	netatalk-3.1.0
+DISTNAME=	netatalk-3.1.5
 CATEGORIES=	net print
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=netatalk/}
 EXTRACT_SUFX=	.tar.bz2
@@ -49,7 +49,9 @@ CONFIGURE_ARGS+=	--localstatedir=${VARBASE}/db
 CONFIGURE_ARGS+=	--with-uams-path=${PREFIX}/libexec/netatalk/uams
 CONFIGURE_ARGS+=	--with-bdb=${BDBBASE}
 CONFIGURE_ARGS+=	--with-ssl-dir=${BUILDLINK_PREFIX.openssl}
-CONFIGURE_ENV+=		MACHINE_ARCH=${MACHINE_ARCH}
+CONFIGURE_ARGS+=	--without-libevent
+CONFIGURE_ARGS+=	--without-tdb
+CONFIGURE_ENV+=		MACHINE_ARCH=${MACHINE_ARCH} TDB_CFLAGS=-I/opt/local/include/ TDB_LIBS="-L/opt/local/lib/ -ltdb"
 
 CFLAGS.SunOS+= -I/usr/include/kerberosv5/
 
@@ -74,6 +76,8 @@ SUBST_SED.paths=	-e "s,^\\(DVIPS=\\)\\(/usr/local/tex\\)\\(/bin\\),\\1${PREFIX}\
 
 PLIST_VARS+=		ad ea
 .if ${OPSYS} == "SunOS"
+CONFIGURE_ARGS+=	--with-init-style=solaris
+CONFIGURE_ARGS+=	--with-init-dir=/var/svc/manifest/network/
 PLIST.ad=		yes
 .endif
 .if ${OPSYS} == "SunOS" || ${OPSYS} == "DragonFly" || ${OPSYS} == "Linux" || \
@@ -91,6 +95,8 @@ post-install:
 .endif
 
 .include "../../databases/mysql55-client/buildlink3.mk"
+.include "../../databases/tdb/buildlink3.mk"
+.include "../../devel/libevent/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../security/libgcrypt/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
