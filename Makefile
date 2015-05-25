@@ -529,6 +529,7 @@ SUBDIR+=	dvbsnoop
 SUBDIR+=	dvd2xvid
 SUBDIR+=	dvegas
 SUBDIR+=	dwarf_fortress
+SUBDIR+=	dwb
 SUBDIR+=	dwb33
 SUBDIR+=	dwepcrack
 SUBDIR+=	dxmake
