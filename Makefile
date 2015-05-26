@@ -530,6 +530,7 @@ SUBDIR+=	dvd2xvid
 SUBDIR+=	dvegas
 SUBDIR+=	dwarf_fortress
 SUBDIR+=	dwb
+SUBDIR+=	dwb-gtk3
 SUBDIR+=	dwb33
 SUBDIR+=	dwepcrack
 SUBDIR+=	dxmake
