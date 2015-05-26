@@ -17,7 +17,7 @@ USE_LANGUAGES=	c c++
 EGDIR=		${PREFIX}/share/examples/lxqt-common
 
 OWN_DIRS+=	${PKG_SYSCONFDIR}/xdg/lxqt
-OWN_DIRS+=	${PKG_SYSCONFDIR}/xdg/menus
+MAKE_DIRS+=	${PKG_SYSCONFDIR}/xdg/menus
 OWN_DIRS+=	${PKG_SYSCONFDIR}/xdg/pcmanfm-qt/lxqt
 
 CONF_FILES+=	${EGDIR}/xdg/autostart/lxqt-compton.desktop ${PKG_SYSCONFDIR}/xdg/autostart/lxqt-compton.desktop
