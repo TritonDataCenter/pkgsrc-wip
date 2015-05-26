@@ -9,7 +9,6 @@ HOMEPAGE=	http://portix.bitbucket.org/dwb/
 COMMENT=	Dynamic WebKit browser, gtk2 version
 LICENSE=	gnu-gpl-v3
 
-FETCH_USING=	curl
 USE_TOOLS+=	gmake
 USE_TOOLS+=	pkg-config
 NO_CONFIGURE=	yes
