@@ -1,5 +1,6 @@
 # $NetBSD$
 # used by wip/dwb-gtk3/Makefile
+# used by wip/dwb-gtk2/Makefile
 
 DISTNAME=	dwb-${VERSION}
 VERSION=	2014.03.07
