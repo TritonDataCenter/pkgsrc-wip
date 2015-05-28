@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	pib-0.3.1
+PKGREVISION=	1
 CATEGORIES=	chat
 MASTER_SITES=	http://d.tir.jp/
 EXTRACT_SUFX=	.tgz
