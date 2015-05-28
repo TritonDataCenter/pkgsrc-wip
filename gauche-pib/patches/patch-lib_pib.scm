@@ -5,15 +5,6 @@ https://github.com/ayamada/copy-of-svn.tir.jp/pull/1
 
 --- lib/pib.scm.orig	2009-09-28 16:03:37.000000000 +0000
 +++ lib/pib.scm
-@@ -1,7 +1,7 @@
- ;;; coding: euc-jp
- ;;; -*- scheme -*-
- ;;; vim:set ft=scheme ts=8 sts=2 sw=2 et:
--;;; $Id$
-+;;; $Id$
- 
- ;;; plain irc bot (pib) module
- 
 @@ -461,10 +461,6 @@
       :accessor irc-recv-cv-of)
     (irc-send-cv
