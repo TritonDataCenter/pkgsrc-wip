@@ -2,7 +2,7 @@
 
 V=		20150517
 DISTNAME=	DWB3.3-${V}
-PKGNAME=	dwb33-${V}
+PKGNAME=	DWB-${V}
 CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_GITHUB:=n-t-roff/DWB3.3/releases/download/${V}/}
 
@@ -18,6 +18,6 @@ MAKE_JOBS_SAFE=	no
 
 MAKE_FLAGS=	CFLGS="${CFLAGS}" \
 		LDFLGS="${LDFLAGS}" \
-		ROOT=${DESTDIR}${PREFIX}/dwb33
+		ROOT=${DESTDIR}${PREFIX}/DWB
 
 .include "../../mk/bsd.pkg.mk"
