@@ -531,7 +531,6 @@ SUBDIR+=	dvegas
 SUBDIR+=	dwarf_fortress
 SUBDIR+=	dwb-gtk2
 SUBDIR+=	dwb-gtk3
-SUBDIR+=	dwb33
 SUBDIR+=	dwepcrack
 SUBDIR+=	dxmake
 SUBDIR+=	dzen2
