@@ -7,6 +7,7 @@ SUBDIR+=	389-ds-base
 SUBDIR+=	Bear
 SUBDIR+=	BitchX
 SUBDIR+=	Chinput
+SUBDIR+=	DWB
 SUBDIR+=	ETL
 SUBDIR+=	FontManager
 SUBDIR+=	GNUMail-pgp
