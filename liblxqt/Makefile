@@ -1,18 +1,13 @@
 # $NetBSD$
 
+.include "../../wip/liblxqt/Makefile.common"
+
 DISTNAME=	liblxqt-0.9.0
 CATEGORIES=	x11
-MASTER_SITES=	${MASTER_SITE_GITHUB:=lxde/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://lxqt.org/
 COMMENT=	Core utility library for all LXQt components
 LICENSE=	gnu-lgpl-v2.1
-
-EXTRACT_USING=	bsdtar
-
-USE_CMAKE=	yes
-USE_LANGUAGES=	c c++
 
 .include "../../wip/kwindowsystem/buildlink3.mk"
 .include "../../wip/libqtxdg/buildlink3.mk"
