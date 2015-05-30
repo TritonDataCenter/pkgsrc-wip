@@ -2,7 +2,7 @@
 
 DISTNAME=	lxqt-admin-0.9.0
 CATEGORIES=	x11
-MASTER_SITES=	http://downloads.lxqt.org/lxqt/${PKGVERSION_NOREV}/
+MASTER_SITES=	${MASTER_SITE_GITHUB:=lxde/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://lxqt.org/
