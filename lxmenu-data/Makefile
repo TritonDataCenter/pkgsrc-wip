@@ -1,6 +1,7 @@
 # $NetBSD$
 #
 
+.include "../../wip/liblxqt/Makefile.common"
 
 # TODO: handle etc files? is etc.xdg okay?
 # Default menu file should be put into /etc/xdg/menus according to the spec.
@@ -10,12 +11,9 @@
 
 DISTNAME=	lxmenu-data-0.1.4
 CATEGORIES=	x11
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lxde/}
-EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://lxde.sourceforge.net/
-COMMENT=	LXDE menu data
+COMMENT=	LXDE/LXQt menu data
 
 GNU_CONFIGURE=	yes
 #USE_LANGUAGES=	# none

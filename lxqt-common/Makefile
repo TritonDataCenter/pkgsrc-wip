@@ -1,18 +1,13 @@
 # $NetBSD$
 
+.include "../../wip/liblxqt/Makefile.common"
+
 DISTNAME=	lxqt-common-0.9.1
 CATEGORIES=	x11
-MASTER_SITES=	${MASTER_SITE_GITHUB:=lxde/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://lxqt.org/
 COMMENT=	Common data file required for running an lxde-qt session
 LICENSE=	gnu-lgpl-v2.1
-
-EXTRACT_USING=	gtar
-
-USE_CMAKE=	yes
-USE_LANGUAGES=	c c++
 
 EGDIR=		${PREFIX}/share/examples/lxqt-common
 
