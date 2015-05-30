@@ -14,13 +14,6 @@ EXTRACT_USING=	bsdtar
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
-# -fPIE is added by 
-# ${PREFIX}/qt5/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake
-# for some reason when building this shared library
-# (it does not happen to the other shared libraries built cmake and qt5)
-#BUILDLINK_TRANSFORM+=rm:-fPIE
-# XXX Should be fixed in qt5-qtbase
-
 .include "../../wip/kwindowsystem/buildlink3.mk"
 .include "../../wip/libqtxdg/buildlink3.mk"
 .include "../../x11/qt5-qtbase/buildlink3.mk"
