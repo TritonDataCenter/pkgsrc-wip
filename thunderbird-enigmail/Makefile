@@ -18,7 +18,6 @@ MAKE_JOBS_SAFE=	no
 
 # Minimal requirements are here: https://www.enigmail.net/download/source.php
 BUILD_DEPENDS+=		thunderbird>=31:../../mail/thunderbird
-BUILD_DEPENDS+=		zip-[0-9]*:../../archivers/zip
 DEPENDS+=		gnupg-[0-9]*:../../security/gnupg
 
 REPLACE_PERL+=	config/getOsTarget.pl
