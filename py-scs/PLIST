@@ -1,0 +1,6 @@
+@comment $NetBSD$
+${PYSITELIB}/_scs_direct.so
+${PYSITELIB}/_scs_indirect.so
+${PYSITELIB}/scs.py
+${PYSITELIB}/scs.pyc
+${PYSITELIB}/scs.pyo
