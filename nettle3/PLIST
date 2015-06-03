@@ -20,6 +20,7 @@ include/nettle/ccm.h
 include/nettle/chacha-poly1305.h
 include/nettle/chacha.h
 include/nettle/ctr.h
+include/nettle/curve25519.h
 include/nettle/des-compat.h
 include/nettle/des.h
 include/nettle/dsa-compat.h
@@ -28,6 +29,7 @@ include/nettle/eax.h
 include/nettle/ecc-curve.h
 include/nettle/ecc.h
 include/nettle/ecdsa.h
+include/nettle/eddsa.h
 include/nettle/gcm.h
 include/nettle/gosthash94.h
 include/nettle/hmac.h
@@ -57,6 +59,7 @@ include/nettle/sha2.h
 include/nettle/sha3.h
 include/nettle/twofish.h
 include/nettle/umac.h
+include/nettle/version.h
 include/nettle/yarrow.h
 info/nettle.info
 lib/libhogweed.la
