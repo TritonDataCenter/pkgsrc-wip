@@ -17,7 +17,7 @@ USE_TOOLS+=	gmake perl sed unzip
 MAKE_JOBS_SAFE=	no
 
 # Minimal requirements are here: https://www.enigmail.net/download/source.php
-BUILD_DEPENDS+=		thunderbird>=31:../../mail/thunderbird
+DEPENDS+=		thunderbird>=31:../../mail/thunderbird
 DEPENDS+=		gnupg-[0-9]*:../../security/gnupg
 
 REPLACE_PERL+=	config/getOsTarget.pl
