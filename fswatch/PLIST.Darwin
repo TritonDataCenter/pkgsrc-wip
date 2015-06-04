@@ -1,0 +1,2 @@
+@comment $NetBSD$
+include/libfswatch/c++/fsevents_monitor.h

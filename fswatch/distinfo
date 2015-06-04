@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (fswatch-1.4.6.tar.gz) = fb0dfd6fac6e11e11f8507bb084cb0b3c5ceb244
+RMD160 (fswatch-1.4.6.tar.gz) = ae62559177968a1d3b237a1a06a73fc7edd12c46
+Size (fswatch-1.4.6.tar.gz) = 126122 bytes
+SHA1 (patch-Makefile.am) = d3162ab9eb2ec996f792a7585765ba3dbf08aa2c
