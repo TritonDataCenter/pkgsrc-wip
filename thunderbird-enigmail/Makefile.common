@@ -16,6 +16,9 @@ MAKE_JOBS_SAFE=	no
 # Minimal requirements are here: https://www.enigmail.net/download/source.php
 DEPENDS+=		gnupg-[0-9]*:../../security/gnupg
 
+DISTINFO_FILE=	${.CURDIR}/../../wip/thunderbird-enigmail/distinfo
+PATCHDIR=	${.CURDIR}/../../wip/thunderbird-enigmail/patches
+
 REPLACE_PERL+=	config/getOsTarget.pl
 REPLACE_PERL+=	util/fixlang.pl
 REPLACE_PERL+=	util/make-lang-xpi.pl
