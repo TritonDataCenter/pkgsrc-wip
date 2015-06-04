@@ -1,4 +1,5 @@
 # $NetBSD$
+# used by wip/seamonkey-enigmail/Makefile
 
 DISTNAME=	enigmail-1.8.2
 CATEGORIES=	mail security
