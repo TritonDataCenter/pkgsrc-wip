@@ -2,7 +2,7 @@
 
 DISTNAME=	enigmail-1.8.2
 PKGNAME=	thunderbird-${DISTNAME}
-CATEGORIES=	security
+CATEGORIES=	mail security
 MASTER_SITES=	http://www.mozilla-enigmail.org/download/source/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
