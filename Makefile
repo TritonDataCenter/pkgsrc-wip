@@ -3396,6 +3396,7 @@ SUBDIR+=	sdd
 SUBDIR+=	sdict-tools
 SUBDIR+=	sdif-git
 SUBDIR+=	seagull
+SUBDIR+=	seamonkey-enigmail
 SUBDIR+=	sector-decomposition
 SUBDIR+=	seeks
 SUBDIR+=	semanticscuttle
