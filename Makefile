@@ -2,7 +2,6 @@
 
 COMMENT=	WIP pkgsrc packages
 
-SUBDIR+=	2bwm
 SUBDIR+=	389-ds-base
 SUBDIR+=	Bear
 SUBDIR+=	BitchX

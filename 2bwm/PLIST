@@ -1,5 +1,0 @@
-@comment $NetBSD$
-bin/2bwm
-bin/hidden
-man/man1/2bwm.1
-man/man1/hidden.1
