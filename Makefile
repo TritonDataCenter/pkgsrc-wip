@@ -404,7 +404,6 @@ SUBDIR+=	cvsanaly
 SUBDIR+=	cvsnt
 SUBDIR+=	cvsproxy
 SUBDIR+=	cvstrac
-SUBDIR+=	cw
 SUBDIR+=	cwebx
 SUBDIR+=	cxfreeze
 SUBDIR+=	cycle
