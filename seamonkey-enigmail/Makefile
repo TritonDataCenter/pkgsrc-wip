@@ -11,3 +11,5 @@ DEPENDS+=		seamonkey>=2.29:../../www/seamonkey
 
 # Path used during the install stage
 XPIDIR=		${PREFIX}/lib/seamonkey/extensions
+
+.include "../../mk/bsd.pkg.mk"

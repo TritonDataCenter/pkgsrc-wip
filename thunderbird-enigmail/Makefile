@@ -11,3 +11,5 @@ DEPENDS+=		thunderbird>=31:../../mail/thunderbird
 
 # Path used during the install stage
 XPIDIR=		${PREFIX}/lib/thunderbird/extensions
+
+.include "../../mk/bsd.pkg.mk"
