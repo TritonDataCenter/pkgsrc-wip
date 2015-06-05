@@ -3,6 +3,8 @@
 
 .include "Makefile.common"
 
+# https://git.gnome.org/browse/vte/
+
 CATEGORIES=	x11
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
