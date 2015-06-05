@@ -11,6 +11,7 @@ COMMENT=		Binary space partitioning window manager
 LICENSE=		2-clause-bsd
 
 USE_TOOLS+=		gmake
+REPLACE_BASH=		bin/bspwm-session
 
 EXAMPLESDIR=		${PREFIX}/share/examples/bspwm
 INSTALLATION_DIRS=	share/examples/bspwm
