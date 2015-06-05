@@ -1,11 +1,10 @@
-# $NetBSD: Makefile,v 1.83 2015/04/25 14:25:26 tnn Exp $
+# $NetBSD: Makefile,v 1.82 2014/05/05 00:48:38 ryoon Exp $
 #
 
-DISTNAME=	zenity-2.32.1
-PKGREVISION=	19
+DISTNAME=	zenity-3.16.2
 CATEGORIES=	x11 gnome
-MASTER_SITES=	${MASTER_SITE_GNOME:=sources/zenity/2.32/}
-EXTRACT_SUFX=	.tar.bz2
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/zenity/${PKGVERSION_NOREV:R}/}
+EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.gnome.org/
@@ -17,6 +16,7 @@ USE_TOOLS+=		gmake intltool msgfmt pkg-config
 
 BUILDLINK_API_DEPENDS.glib2+=	glib2>=2.8.0
 
+.include "../../x11/gtk3/buildlink3.mk"
 .include "../../sysutils/libnotify/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
