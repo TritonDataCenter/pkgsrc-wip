@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-configure,v 1.1 2015/06/05 13:43:20 gdt Exp $
 
 NetBSD uses mandoc since netbsd-6.
 

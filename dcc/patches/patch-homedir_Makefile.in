@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-homedir_Makefile.in,v 1.1 2015/06/05 13:43:20 gdt Exp $
 
 Install configuration files into PKGSRC_DCC_EGDIR.
 
