@@ -1,0 +1,15 @@
+# $NetBSD: Makefile.common,v 1.2 2011/07/08 17:23:05 drochner Exp $
+#
+# used by x11/py-vte/Makefile
+
+DISTNAME=	vte-0.40
+MASTER_SITES=	${MASTER_SITE_GITHUB:=GNOME/}
+GITHUB_TAG=	a235384892c617c961cd1c9131227f8b1363fa22
+
+HOMEPAGE=	http://www.gnome.org/
+LICENSE=	gnu-lgpl-v2
+
+DISTINFO_FILE=		${.CURDIR}/../../wip/vte/distinfo
+PATCHDIR=		${.CURDIR}/../../wip/vte/patches
+
+PKGCONFIG_OVERRIDE+=	vte.pc.in

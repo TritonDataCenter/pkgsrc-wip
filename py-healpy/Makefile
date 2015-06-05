@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	healpy-1.7.4
+DISTNAME=	healpy-1.8.6
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	math
+CATEGORIES=	math python
 MASTER_SITES=	https://pypi.python.org/packages/source/h/healpy/
 
 MAINTAINER=	jihbed.research@gmail.com
@@ -10,7 +10,7 @@ HOMEPAGE=	http://github.com/healpy
 COMMENT=	Healpix tools package for Python
 LICENSE=	gnu-gpl-v2
 
-DEPENDS+=	${PYPKGPREFIX}-fits>=3.2:../../graphics/py-fits
+#DEPENDS+=	${PYPKGPREFIX}-fits>=3.2:../../graphics/py-fits
 
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c c++ fortran

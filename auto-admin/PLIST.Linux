@@ -7,6 +7,7 @@ sbin/auto-denyhosts-remove-ip
 sbin/auto-denyhosts-setup
 sbin/auto-disable-hyperthreading
 sbin/auto-enable-autologout
+sbin/auto-file-secure
 sbin/auto-harden
 sbin/auto-insert-line
 sbin/auto-ldap-adduser
@@ -16,5 +17,6 @@ sbin/auto-pxe-installer-setup
 sbin/auto-pxe-node-discover
 sbin/auto-register-dhcp-hostname
 sbin/auto-replace-file
+sbin/auto-restore-pw
 sbin/auto-set-memory-limits
 sbin/auto-ssh-authorize

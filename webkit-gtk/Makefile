@@ -6,6 +6,13 @@ PKGNAME=	${DISTNAME:S/webkitgtk/webkit-gtk/}
 
 COMMENT=	GTK port of the WebKit browser engine
 
+BUILD_DEPENDS+=	gettext-tools>=0.18:../../devel/gettext-tools
+
+# shm_open(3) and shm_unlink(3) appeared in NetBSD 7.0
+.if !empty(MACHINE_PLATFORM:MNetBSD-*)
+DEPENDS+=       osabi-NetBSD>=7.0:../../pkgtools/osabi
+.endif
+
 #introspection support
 BUILDLINK_API_DEPENDS.gtk2+=	gtk2+>=2.24.17nb3
 .include "../../x11/gtk2/buildlink3.mk"

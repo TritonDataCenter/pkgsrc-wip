@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/sollya
+include/sollya-messages.h
+include/sollya.h
+lib/libsollya.la

@@ -1,9 +1,9 @@
 # $NetBSD$
-#
 
-DISTNAME=	lxmusic-0.4.4
+DISTNAME=	lxmusic-0.4.6
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lxde/}
+EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://lxde.org/

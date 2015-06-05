@@ -1,18 +1,13 @@
 # $NetBSD$
 
+.include "../../wip/liblxqt/Makefile.common"
+
 DISTNAME=	lxqt-runner-0.9.0
 CATEGORIES=	x11
-MASTER_SITES=	http://downloads.lxqt.org/lxqt/${PKGVERSION_NOREV}/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://lxqt.org/
 COMMENT=	Launch applications quickly by typing commands
 LICENSE=	gnu-lgpl-v2.1
-
-EXTRACT_USING=	gtar
-
-USE_CMAKE=	yes
-USE_LANGUAGES=	c c++
 
 .include "../../x11/qt5-qtscript/buildlink3.mk"
 .include "../../wip/lxqt-globalkeys/buildlink3.mk"

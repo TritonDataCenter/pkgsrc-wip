@@ -1,0 +1,5 @@
+@comment $NetBSD$
+include/mpfi.h
+include/mpfi_io.h
+info/mpfi.info
+lib/libmpfi.la

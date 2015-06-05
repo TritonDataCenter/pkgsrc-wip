@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	lgogdownloader-2.21
+DISTNAME=	lgogdownloader-2.23
 CATEGORIES=	games
 MASTER_SITES=	#
 
@@ -18,6 +18,7 @@ WRKSRC=		${WRKDIR}/lgogdownloader
 USE_LANGUAGES=	c++
 USE_TOOLS+=	gmake gunzip
 
+BUILD_TARGET=	release
 MAKE_FLAGS+=	PREFIX=${PREFIX}
 MAKE_FLAGS+=	MANPREFIX=${PREFIX}
 MAKE_FLAGS+=	LDFLAGS=${LDFLAGS:Q}

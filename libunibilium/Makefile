@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	libunibilium-1.1.2
+DISTNAME=	libunibilium-1.1.4
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GITHUB:=mauke/}
 GITHUB_PROJECT=	unibilium
