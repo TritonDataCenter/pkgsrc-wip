@@ -133,6 +133,11 @@ pre-configure:
 	${RUN} cd ${WRKSRC} && \
 	${SETENV} ${CONFIGURE_ENV} ${SH} ./autogen.sh NOCONFIGURE=1
 
+post-install:
+	${INSTALL_DATA} ${FILESDIR}/NetBSD.xpm ${DESTDIR}${PREFIX}/share/pixmaps
+	${INSTALL_DATA} ${FILESDIR}/custom.desktop \
+		${DESTDIR}${PREFIX}/share/gdm/BuiltInSessions
+
 .include "../../audio/libcanberra/buildlink3.mk"
 .include "../../x11/gtk3/buildlink3.mk"
 .include "../../wip/accountsservice/buildlink3.mk"
@@ -151,10 +156,4 @@ BUILDLINK_API_DEPENDS.libart+=	libart>=2.3.11
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../mk/omf-scrollkeeper.mk"
 .include "../../x11/gtk2/buildlink3.mk"
-
-post-install:
-	${INSTALL_DATA} ${FILESDIR}/NetBSD.xpm ${DESTDIR}${PREFIX}/share/pixmaps
-	${INSTALL_DATA} ${FILESDIR}/custom.desktop \
-		${DESTDIR}${PREFIX}/share/gdm/BuiltInSessions
-
 .include "../../mk/bsd.pkg.mk"
