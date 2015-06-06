@@ -1,5 +1,0 @@
-@comment $NetBSD$
-bin/aticonfig
-lib/modules/drivers/fglrx_drv.o
-lib/modules/linux/libfglrxdrm.a
-share/examples/${PKGBASE}/XF86Config.example
