@@ -25,7 +25,8 @@ CONFIGURE_ARGS+=	--enable-introspection
 CONFIGURE_ARGS+=	--enable-python
 
 pre-configure:
-	cd ${WRKSRC} && sh -x ./autogen.sh NOCONFIGURE=1
+	${RUN} cd ${WRKSRC} && \
+	${SETENV} ${CONFIGURE_ENV} ${SH} ./autogen.sh NOCONFIGURE=1
 
 .include "../../devel/gperf/buildlink3.mk"
 .include "../../security/gnutls/buildlink3.mk"
