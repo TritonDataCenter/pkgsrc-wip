@@ -28,6 +28,14 @@ CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 CONFIGURE_ARGS+=	--with-polkitd-user=${POLKITD_USER}
 CONFIGURE_ARGS+=	--disable-test
 
+.if ${OPSYS} == "FreeBSD"
+CONFIGURE_ARGS+=	--with-os-type=freebsd
+.elif ${OPSYS} == "NetBSD"
+CONFIGURE_ARGS+=	--with-os-type=netbsd
+.elif ${OPSYS} == "SunOS"
+CONFIGURE_ARGS+=	--with-os-type=solaris
+.endif
+
 POLKITD_USER?=		polkitd
 POLKITD_GROUP?=		polkitd
 PKG_GROUPS+=		${POLKITD_GROUP}
