@@ -1430,6 +1430,7 @@ SUBDIR+=	libcstring
 SUBDIR+=	libcsv
 SUBDIR+=	libcthreads
 SUBDIR+=	libcuba
+SUBDIR+=	libcue
 SUBDIR+=	libdbglog
 SUBDIR+=	libdbh2
 SUBDIR+=	libdbusmenu
