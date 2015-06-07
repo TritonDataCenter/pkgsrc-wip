@@ -26,6 +26,7 @@ PKGCONFIG_OVERRIDE+=	data/polkit-agent-1.pc.in
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 CONFIGURE_ARGS+=	--with-polkitd-user=${POLKITD_USER}
+CONFIGURE_ARGS+=	--disable-test
 
 POLKITD_USER?=		polkitd
 POLKITD_GROUP?=		polkitd
