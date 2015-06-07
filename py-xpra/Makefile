@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	xpra-0.14.24
+DISTNAME=	xpra-0.15.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	x11
 MASTER_SITES=	http://xpra.org/src/
@@ -37,6 +37,7 @@ REPLACE_PYTHON+=	tests/xpra/test_apps/__init__.py
 REPLACE_PYTHON+=	tests/xpra/x11/__init__.py
 REPLACE_PYTHON+=	tests/xpra/x11/bindings/__init__.py
 REPLACE_PYTHON+=	win32/__init__.py
+REPLACE_PYTHON+=	cups/xpraforwarder
 REPLACE_PYTHON+=	xpra/__init__.py
 REPLACE_PYTHON+=	xpra/client/__init__.py
 REPLACE_PYTHON+=	xpra/client/gl/__init__.py
