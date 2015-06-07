@@ -24,7 +24,7 @@ BUILD_DEPENDS+=	p5-XML-LibXML-[0-9]*:../../textproc/p5-XML-LibXML
 .include "../../x11/gtk-sharp/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
-.include "../../net/libsoup24/buildlink3.mk"
+.include "../../net/libsoup/buildlink3.mk"
 BUILDLINK_DEPMETHOD.gnome-keyring=	build
 .include "../../security/gnome-keyring/buildlink3.mk"
 .include "../../sysutils/dbus-glib/buildlink3.mk"

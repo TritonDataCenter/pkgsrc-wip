@@ -110,7 +110,7 @@ DEPENDS+=	libgtop>=2.26.1:../../sysutils/libgtop
 DEPENDS+=	libgweather>=2.26.1:../../devel/libgweather
 DEPENDS+=	liboobs>=2.22.0:../../sysutils/liboobs
 DEPENDS+=	librsvg>=2.26.0:../../graphics/librsvg
-DEPENDS+=	libsoup24>=2.26.2:../../net/libsoup24
+DEPENDS+=	libsoup>=2.26.2:../../net/libsoup
 DEPENDS+=	libwnck>=2.26.1:../../devel/libwnck
 DEPENDS+=	metacity>=2.26.0:../../wm/metacity
 .if ${X11_TYPE} != "native" || exists(${X11BASE}/lib/pkgconfig/xtst.pc)

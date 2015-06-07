@@ -26,7 +26,7 @@ PKGCONFIG_OVERRIDE+=	champlain.pc.in
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../graphics/clutter/buildlink3.mk"
 .include "../../graphics/clutter-gtk/buildlink3.mk"
-.include "../../net/libsoup24/buildlink3.mk"
+.include "../../net/libsoup/buildlink3.mk"
 .include "../../textproc/gtk-doc/buildlink3.mk"
 .include "../../x11/gtk3/buildlink3.mk"
 .include "../../wip/libmemphis02/buildlink3.mk"

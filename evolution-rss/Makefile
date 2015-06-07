@@ -39,7 +39,7 @@ post-extract:
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../mail/evolution/buildlink3.mk"
-.include "../../net/libsoup24/buildlink3.mk"
+.include "../../net/libsoup/buildlink3.mk"
 #.include "../../textproc/libxml2/buildlink3.mk"
 BUILDLINK_API_DEPENDS.libgtkhtml+=		libgtkhtml>=2.6.0
 .include "../../www/gtkhtml314/buildlink3.mk"

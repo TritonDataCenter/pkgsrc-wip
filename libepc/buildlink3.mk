@@ -14,7 +14,7 @@ BUILDLINK_PKGSRCDIR.libepc?=	../../wip/libepc
 .include "../../mk/dlopen.buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../net/avahi/buildlink3.mk"
-.include "../../net/libsoup24/buildlink3.mk"
+.include "../../net/libsoup/buildlink3.mk"
 .include "../../devel/libuuid/buildlink3.mk"
 .endif	# LIBEPC_BUILDLINK3_MK
 

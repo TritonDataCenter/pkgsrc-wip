@@ -26,6 +26,6 @@ PKGCONFIG_OVERRIDE+=	libsocialweb-client.pc.in libsocialweb-keyfob.pc.in \
 
 .include "../../textproc/json-glib/buildlink3.mk"
 .include "../../www/librest07/buildlink3.mk"
-.include "../../net/libsoup24/buildlink3.mk"
+.include "../../net/libsoup/buildlink3.mk"
 .include "../../devel/GConf/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

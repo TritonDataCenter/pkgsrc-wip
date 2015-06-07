@@ -11,7 +11,7 @@ BUILDLINK_PKGSRCDIR.libsocialweb?=	../../wip/libsocialweb
 
 .include "../../textproc/json-glib/buildlink3.mk"
 .include "../../www/librest07/buildlink3.mk"
-.include "../../net/libsoup24/buildlink3.mk"
+.include "../../net/libsoup/buildlink3.mk"
 .include "../../devel/GConf/buildlink3.mk"
 .endif	# LIBSOCIALWEB_BUILDLINK3_MK
 
