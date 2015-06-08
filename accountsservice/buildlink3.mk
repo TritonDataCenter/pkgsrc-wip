@@ -1,0 +1,18 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	accountsservice
+
+.if !defined(ACCOUNTSSERVICE_BUILDLINK3_MK)
+ACCOUNTSSERVICE_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.accountsservice+=	accountsservice>=0.6.40
+BUILDLINK_PKGSRCDIR.accountsservice?=	../../wip/accountsservice
+
+# XXX: option?
+.include "../../devel/gobject-introspection/buildlink3.mk"
+
+.include "../../wip/polkit/buildlink3.mk"
+.include "../../devel/glib2/buildlink3.mk"
+.endif	# ACCOUNTSSERVICE_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-accountsservice
