@@ -28,6 +28,8 @@ CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 CONFIGURE_ARGS+=	--with-polkitd-user=${POLKITD_USER}
 CONFIGURE_ARGS+=	--disable-test
 
+.include "../../mk/bsd.prefs.mk"
+
 .if ${OPSYS} == "FreeBSD"
 CONFIGURE_ARGS+=	--with-os-type=freebsd
 .elif ${OPSYS} == "NetBSD"
