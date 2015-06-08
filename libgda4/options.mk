@@ -147,5 +147,5 @@ DEPENDS+=	p5-XML-Parser>=:../../textproc/p5-XML-Parser
 .include "../../textproc/iso-codes/buildlink3.mk"
 .include "../../x11/libunique/buildlink3.mk"
 .include "../../x11/gtksourceview2/buildlink3.mk"
-.include "../../net/libsoup24/buildlink3.mk"
+.include "../../net/libsoup/buildlink3.mk"
 .include "../../security/gnome-keyring/buildlink3.mk"

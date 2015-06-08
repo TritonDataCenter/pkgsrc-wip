@@ -26,6 +26,6 @@ BUILDLINK_DEPMETHOD.gtk3=	build
 .include "../../mk/dlopen.buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../net/avahi/buildlink3.mk"
-.include "../../net/libsoup24/buildlink3.mk"
+.include "../../net/libsoup/buildlink3.mk"
 .include "../../devel/libuuid/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

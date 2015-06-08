@@ -2,9 +2,8 @@
 #
 # used by x11/py-vte/Makefile
 
-DISTNAME=	vte-0.40
+DISTNAME=	vte-0.40.2
 MASTER_SITES=	${MASTER_SITE_GITHUB:=GNOME/}
-GITHUB_TAG=	a235384892c617c961cd1c9131227f8b1363fa22
 
 HOMEPAGE=	http://www.gnome.org/
 LICENSE=	gnu-lgpl-v2

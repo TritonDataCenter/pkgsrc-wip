@@ -1,0 +1,5 @@
+$NetBSD: distinfo,v 1.62 2011/11/24 13:31:30 joerg Exp $
+
+SHA1 (gdm-3.17.2.tar.gz) = 0d03cce39a025c3e9c972949f76a0ff0e473b25c
+RMD160 (gdm-3.17.2.tar.gz) = 4041dac5baa53fd5244f1c8931a79e556805f919
+Size (gdm-3.17.2.tar.gz) = 2552713 bytes

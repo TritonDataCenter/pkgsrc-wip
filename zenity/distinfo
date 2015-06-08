@@ -1,0 +1,5 @@
+$NetBSD: distinfo,v 1.30 2010/11/24 20:59:15 drochner Exp $
+
+SHA1 (zenity-3.16.2.tar.gz) = b8e8caef75d8d68d01e10e160b69b1e1c7070112
+RMD160 (zenity-3.16.2.tar.gz) = df3129d3544df24fafd4b778899ce853a0340310
+Size (zenity-3.16.2.tar.gz) = 4044038 bytes

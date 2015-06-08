@@ -17,6 +17,7 @@ DEPENDS+=	mercurial-[0-9]*:../../devel/mercurial
 DEPENDS+=	sqlite3-[0-9]*:../../databases/sqlite3
 
 META_PACKAGE=	yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # only supports 2.7
 
 .include "options.mk"
 

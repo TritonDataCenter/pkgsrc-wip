@@ -1,6 +1,6 @@
 #!@RCD_SCRIPTS_SHELL@
 #
-# $NetBSD: dccifd.sh,v 1.1.1.1 2010/10/27 12:26:37 gdt Exp $
+# $NetBSD: dccifd.sh,v 1.2 2015/06/05 13:43:20 gdt Exp $
 #
 #
 # PROVIDE: dccifd
