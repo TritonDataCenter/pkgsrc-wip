@@ -13,5 +13,6 @@ SHA1 (patch-aq) = 03f81f9d5d230631f137213348886740c4601515
 SHA1 (patch-bin_ad_ad__cp.c) = 800ccbcbf377df4138be68a63d31660cb90dffae
 SHA1 (patch-distrib_initscripts_Makefile.in) = fc9f9f437e5304996bf30ee666ef31b7f004561f
 SHA1 (patch-etc_afpd_quota_c) = bb439c3b293c7349ba53b1cdf98d2e6c961b8648
+SHA1 (patch-include_atalk_acl.h) = f4e3792af86839f3e71fda84c471c01f9ded275e
 SHA1 (patch-include_atalk_ldapconfig.h) = 72e909f72ae205bb1ef1e80958f5fc382fa9ab5e
 SHA1 (patch-macros_quota-check.m4) = 0a2921971bf614573f5a804d6e003e6604e960c3
