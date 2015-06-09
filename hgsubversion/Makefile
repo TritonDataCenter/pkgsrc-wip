@@ -1,7 +1,7 @@
 # $NetBSD: $
 
 DISTNAME=		1.8.1
-PKGNAME=		hgsubversion-${DISTNAME}
+PKGNAME=		${PYPKGPREFIX}-hgsubversion-${DISTNAME}
 CATEGORIES=		devel python
 MASTER_SITES=		https://bitbucket.org/durin42/hgsubversion/get/
 
