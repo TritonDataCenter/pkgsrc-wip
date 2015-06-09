@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/rscryutil
-lib/rsyslog/lmcry_gcry.la
-man/man1/rscryutil.1
