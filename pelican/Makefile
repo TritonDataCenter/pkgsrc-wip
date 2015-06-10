@@ -6,7 +6,7 @@ CATEGORIES=		www textproc
 MASTER_SITES=		-https://github.com/getpelican/pelican/archive/${PKGVERSION_NOREV}${EXTRACT_SUFX}
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		ahp-nils@users.sourceforge.net
+MAINTAINER=		nils@NetBSD.org
 HOMEPAGE=		http://blog.getpelican.com/
 COMMENT=		Static site generator that supports Markdown and reST syntax
 LICENSE=		gnu-agpl-v3

@@ -7,7 +7,7 @@ PKGNAME=	${PYPKGPREFIX}-queue-${DISTNAME}
 CATEGORIES=	mail
 MASTER_SITES=	https://github.com/outini/pyqueue/archive/
 
-MAINTAINER=	ahp-nils@users.sourceforge.net
+MAINTAINER=	nils@NetBSD.org
 HOMEPAGE=	https://github.com/outini/pyqueue/
 COMMENT=	Postfix queue control python tool
 LICENSE=	gnu-gpl-v2

@@ -4,7 +4,7 @@ DISTNAME=	asql-${VERSION}
 CATEGORIES=	www databases
 MASTER_SITES=	http://www.steve.org.uk/Software/asql/
 
-MAINTAINER=	ahp-nils@users.sourceforge.net
+MAINTAINER=	nils@NetBSD.org
 HOMEPAGE=	http://www.steve.org.uk/Software/asql/
 COMMENT=	Query Apache logfiles via SQL
 LICENSE=	gnu-gpl-v2 OR artistic
