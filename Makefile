@@ -3510,6 +3510,7 @@ SUBDIR+=	sudoscript
 SUBDIR+=	suitesparse
 SUBDIR+=	sun-j2me
 SUBDIR+=	sunterlib
+SUBDIR+=	sunxi-tools
 SUBDIR+=	supercat
 SUBDIR+=	superchic
 SUBDIR+=	superlfv
