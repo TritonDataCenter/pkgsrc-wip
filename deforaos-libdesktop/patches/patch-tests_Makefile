@@ -2,17 +2,17 @@ $NetBSD$
 
 Build with Gtk+ 3 by default
 
---- src/Makefile.orig	2015-05-25 16:43:44.000000000 +0000
-+++ src/Makefile
-@@ -6,9 +6,9 @@ LIBDIR	= $(PREFIX)/lib
+--- tests/Makefile.orig	2015-05-25 16:43:44.000000000 +0000
++++ tests/Makefile
+@@ -7,9 +7,9 @@ SBINDIR	= $(PREFIX)/sbin
  CC	= cc
  CPPFLAGSF= -I ../include
  CPPFLAGS=
 -CFLAGSF	= -W `pkg-config --cflags libSystem gtk+-2.0`
 +CFLAGSF	= -W `pkg-config --cflags libSystem gtk+-3.0`
- CFLAGS	= -Wall -g -O2 -fPIC -pedantic
+ CFLAGS	= -Wall -g -O2 -pedantic
 -LDFLAGSF= `pkg-config --libs libSystem gtk+-2.0`
 +LDFLAGSF= `pkg-config --libs libSystem gtk+-3.0`
- AR	= ar
- RANLIB	= ranlib
- CCSHARED= $(CC) -shared
+ LDFLAGS	= $(OBJDIR)../src/libDesktop.a
+ RM	= rm -f
+ LN	= ln -f
