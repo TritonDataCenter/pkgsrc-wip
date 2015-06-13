@@ -2346,7 +2346,6 @@ SUBDIR+=	php-libawl-git
 SUBDIR+=	php-mongo
 SUBDIR+=	php-recode
 SUBDIR+=	php-rrd
-SUBDIR+=	php-ssh2
 SUBDIR+=	php-tclink
 SUBDIR+=	php-tidy
 SUBDIR+=	picasm
