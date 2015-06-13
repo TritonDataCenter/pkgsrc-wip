@@ -1490,7 +1490,6 @@ SUBDIR+=	liblbxutil
 SUBDIR+=	liblingoteach
 SUBDIR+=	liblo
 SUBDIR+=	liblogging
-SUBDIR+=	liblognorm1
 SUBDIR+=	liblxqt
 SUBDIR+=	liblxqt-mount
 SUBDIR+=	libmemphis02
