@@ -1810,7 +1810,6 @@ SUBDIR+=	myfitter
 SUBDIR+=	mysql++
 SUBDIR+=	mysql-docs
 SUBDIR+=	mysql-proxy
-SUBDIR+=	mysql-sphinxse
 SUBDIR+=	mysqltcl
 SUBDIR+=	mythtv
 SUBDIR+=	n2n
