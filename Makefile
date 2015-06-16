@@ -2510,6 +2510,7 @@ SUBDIR+=	py-bibtexparser3
 SUBDIR+=	py-bidict
 SUBDIR+=	py-bigfloat
 SUBDIR+=	py-biofrills
+SUBDIR+=	py-binaryornot
 SUBDIR+=	py-bip
 SUBDIR+=	py-biskit
 SUBDIR+=	py-bitarray
