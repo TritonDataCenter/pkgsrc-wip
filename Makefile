@@ -2443,6 +2443,7 @@ SUBDIR+=	purple-translate
 SUBDIR+=	pwnat
 SUBDIR+=	pxlib
 SUBDIR+=	pxview
+SUBDIR+=	pxz
 SUBDIR+=	py-Beaker
 SUBDIR+=	py-Brenda
 SUBDIR+=	py-CVSToys
