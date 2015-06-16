@@ -2565,6 +2565,7 @@ SUBDIR+=	py-conda
 SUBDIR+=	py-constraint
 SUBDIR+=	py-construct
 SUBDIR+=	py-control
+SUBDIR+=	py-cookiecutter
 SUBDIR+=	py-corrfitter
 SUBDIR+=	py-cosmolopy
 SUBDIR+=	py-coveralls
