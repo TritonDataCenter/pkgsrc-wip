@@ -43,3 +43,4 @@ ${PYSITELIB}/cookiecutter/utils.pyo
 ${PYSITELIB}/cookiecutter/vcs.py
 ${PYSITELIB}/cookiecutter/vcs.pyc
 ${PYSITELIB}/cookiecutter/vcs.pyo
+man/man1/cookiecutter.1
