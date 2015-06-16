@@ -66,6 +66,7 @@ SUBDIR+=	VASSAL
 SUBDIR+=	WEPCrack
 SUBDIR+=	a2ps-sharatype
 SUBDIR+=	abiword
+SUBDIR+=	abiword-plugins
 SUBDIR+=	acpiclient
 SUBDIR+=	acpid
 SUBDIR+=	adamem
