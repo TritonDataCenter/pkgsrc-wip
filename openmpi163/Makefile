@@ -93,7 +93,7 @@ post-install:
 	${SED} -e "s|%%MPI_PREFIX%%|${MPI_PREFIX}|g" \
 		files/cshrc.in > ${DESTDIR}${MPI_PREFIX}/etc/cshrc
 	${SED} -e "s|%%MPI_PREFIX%%|${MPI_PREFIX}|g" \
-		files/module.in > ${DESTDIR}${PREFIX}/etc/modulefiles/openmpi/${PKGVERSION}
+		files/module.in > ${DESTDIR}${MPI_PREFIX}/etc/modulefiles/openmpi/${PKGVERSION}
 	${INSTALL_DATA} ${DESTDIR}${MPI_PREFIX}/share/openmpi/examples/openmpi-default-hostfile ${DESTDIR}${MPI_PREFIX}/etc
 
 LIBLTDL_CONVENIENCE_SUBDIR=	opal/libltdl
