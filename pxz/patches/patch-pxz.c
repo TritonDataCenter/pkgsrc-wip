@@ -52,7 +52,7 @@ cf. Debian's deb fix CVE patch
  		}
  		
  		fo = stdout;
-+		/* for CVE-2015-1200 */
++		/* for fix CVE-2015-1200 */
 +		umask(077);
  		if ( std_in ) {
  			fi = stdin;
