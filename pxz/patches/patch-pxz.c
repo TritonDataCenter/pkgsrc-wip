@@ -1,5 +1,8 @@
 $NetBSD$
 
+fixed complie error.
+fixed CVE. 
+
 cf. FreeBSD's ports
 cf. Debian's deb fix CVE patch
 
