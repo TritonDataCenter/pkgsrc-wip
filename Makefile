@@ -3468,6 +3468,7 @@ SUBDIR+=	softflowd
 SUBDIR+=	soil
 SUBDIR+=	solarus-zsdx
 SUBDIR+=	songwrite2
+SUBDIR+=	sophia
 SUBDIR+=	soqt
 SUBDIR+=	spade
 SUBDIR+=	spai
