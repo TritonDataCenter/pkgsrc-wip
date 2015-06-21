@@ -3,3 +3,4 @@ $NetBSD: distinfo,v 1.3 2012/09/04 13:43:15 wiz Exp $
 SHA1 (patch-Makefile) = 3208d663af3e5e129499282d14e10abd94f56805
 SHA1 (patch-config_configure) = e453f37c2496a167292062b83ce84efd0756d7de
 SHA1 (patch-format-subst.pl) = 86f5a59e7680718c663878a3197f50bb071724dd
+SHA1 (patch-lib_bup___helpers.c) = 87718ebf27981fa5466ef70bd035485a6830bb98
