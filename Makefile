@@ -1683,6 +1683,7 @@ SUBDIR+=	megaglest
 SUBDIR+=	megatools
 SUBDIR+=	memdump
 SUBDIR+=	memgrep
+SUBDIR+=	memo
 SUBDIR+=	menumaker
 SUBDIR+=	meta-tracker
 SUBDIR+=	metalog
