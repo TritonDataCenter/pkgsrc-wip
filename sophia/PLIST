@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/sophia.h
+lib/libsophia.a
+lib/libsophia.so
