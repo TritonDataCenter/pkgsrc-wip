@@ -1537,6 +1537,7 @@ SUBDIR+=	libtextcat
 SUBDIR+=	libtlen2
 SUBDIR+=	libtogl
 SUBDIR+=	libtorrent-rasterbar
+SUBDIR+=	libucl
 SUBDIR+=	libuna
 SUBDIR+=	libunibilium
 SUBDIR+=	libuv
