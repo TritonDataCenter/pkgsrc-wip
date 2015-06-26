@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	sipwitch-1.9.7
+DISTNAME=	sipwitch-1.9.8
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_GNU:=sipwitch/}
 
