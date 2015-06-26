@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Lingua/}
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/~gregfast/Lingua-EN-Syllable-0.251/
 COMMENT=	Routine for estimating syllable count in words
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	${PERL5_LICENSE}
 
 PERL5_PACKLIST=	auto/Lingua/EN/Syllable/.packlist
 USE_LANGUAGES=	# none
