@@ -50,6 +50,9 @@ ${PYSITELIB}/application/python/descriptor.pyo
 ${PYSITELIB}/application/python/queue.py
 ${PYSITELIB}/application/python/queue.pyc
 ${PYSITELIB}/application/python/queue.pyo
+${PYSITELIB}/application/python/threadpool.py
+${PYSITELIB}/application/python/threadpool.pyc
+${PYSITELIB}/application/python/threadpool.pyo
 ${PYSITELIB}/application/python/types.py
 ${PYSITELIB}/application/python/types.pyc
 ${PYSITELIB}/application/python/types.pyo
