@@ -2,6 +2,7 @@
 bin/aggregate
 bin/colsum
 bin/filterbots
+bin/flattenjson
 bin/geoip
 bin/logfilter
 bin/logjoin
@@ -34,6 +35,9 @@ ${PYSITELIB}/logtools/_filter.pyo
 ${PYSITELIB}/logtools/_filterbots.py
 ${PYSITELIB}/logtools/_filterbots.pyc
 ${PYSITELIB}/logtools/_filterbots.pyo
+${PYSITELIB}/logtools/_flattenjson.py
+${PYSITELIB}/logtools/_flattenjson.pyc
+${PYSITELIB}/logtools/_flattenjson.pyo
 ${PYSITELIB}/logtools/_geoip.py
 ${PYSITELIB}/logtools/_geoip.pyc
 ${PYSITELIB}/logtools/_geoip.pyo

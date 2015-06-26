@@ -1,9 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	logtools-0.8.6
+DISTNAME=	logtools-0.8.7
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	https://pypi.python.org/packages/source/l/logtools/
 
