@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-GHCOMMIT=	87ba5ad017b7e984999278d3f63010522ba47b01
-DISTNAME=	${GHCOMMIT}
-PKGNAME=	pkg15-1.4.99.18.20150405
+VERSION=	1.5.4
+DISTNAME=	${VERSION}
+PKGNAME=	pkg15-${VERSION}
 CATEGORIES=	pkgtools
 MASTER_SITES=	https://github.com/freebsd/pkg/archive/
 
@@ -12,7 +12,7 @@ HOMEPAGE=	https://github.com/freebsd/pkg/archive/
 COMMENT=	Package management tool for FreeBSD
 LICENSE=	2-clause-bsd
 
-WRKSRC=		${WRKDIR}/pkg-${GHCOMMIT}
+WRKSRC=		${WRKDIR}/pkg-${VERSION}
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
