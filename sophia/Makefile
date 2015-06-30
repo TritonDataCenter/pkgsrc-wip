@@ -6,7 +6,7 @@ VERSION=	1.2.2
 CATEGORIES=	databases
 MASTER_SITES=	-https://codeload.github.com/pmwkaa/sophia/tar.gz/version_${VERSION}
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	cfkoch@users.sourceforge.net
 HOMEPAGE=	https://github.com/pmwkaa/sophia
 COMMENT=	Modern embeddable key-value database
 LICENSE=	2-clause-bsd
