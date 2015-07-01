@@ -4,7 +4,7 @@ DISTNAME=	memo-1.6
 CATEGORIES=	misc
 MASTER_SITES=	http://www.getmemo.org/
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	cfkoch@users.sourceforge.net
 HOMEPAGE=	http://www.getmemo.org/
 COMMENT=	Note-taking software
 LICENSE=	gnu-gpl-v3
