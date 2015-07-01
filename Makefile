@@ -226,7 +226,6 @@ SUBDIR+=	bmp-docklet
 SUBDIR+=	bnr2
 SUBDIR+=	boa
 SUBDIR+=	bochs
-SUBDIR+=	bochs-snapshot
 SUBDIR+=	bogomips
 SUBDIR+=	boinc
 SUBDIR+=	boinc-client
