@@ -3502,7 +3502,6 @@ SUBDIR+=	structure
 SUBDIR+=	stumpwm
 SUBDIR+=	stunnel3
 SUBDIR+=	sudo
-SUBDIR+=	sudoscript
 SUBDIR+=	suitesparse
 SUBDIR+=	sun-j2me
 SUBDIR+=	sunterlib
