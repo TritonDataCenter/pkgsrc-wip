@@ -1889,6 +1889,7 @@ SUBDIR+=	noor
 SUBDIR+=	nos-tun
 SUBDIR+=	nostromo
 SUBDIR+=	notify-sharp
+SUBDIR+=	noto-ttf
 SUBDIR+=	npth
 SUBDIR+=	nrg4iso
 SUBDIR+=	nsc2ke
