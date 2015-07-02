@@ -1381,7 +1381,6 @@ SUBDIR+=	last.fm
 SUBDIR+=	lastfm-sharp
 SUBDIR+=	lat
 SUBDIR+=	lbt
-SUBDIR+=	lbxproxy
 SUBDIR+=	lcalc
 SUBDIR+=	lcdproc
 SUBDIR+=	lcrack
