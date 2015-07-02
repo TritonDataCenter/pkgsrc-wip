@@ -1,5 +1,0 @@
-@comment $NetBSD$
-include/xorg/joystick-properties.h
-lib/pkgconfig/xorg-joystick.pc
-lib/xorg/modules/input/joystick_drv.la
-man/man4/joystick.4
