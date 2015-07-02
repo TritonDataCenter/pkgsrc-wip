@@ -3827,7 +3827,6 @@ SUBDIR+=	xf86dga
 SUBDIR+=	xf86rushproto
 SUBDIR+=	xfburn
 SUBDIR+=	xfs
-SUBDIR+=	xfsinfo
 SUBDIR+=	xgfe
 SUBDIR+=	xgobi
 SUBDIR+=	xhkeys1
