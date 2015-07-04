@@ -1,10 +1,9 @@
 # $NetBSD$
-#
 
-DISTNAME=	smmap-0.8.2
+DISTNAME=	smmap-0.8.4
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel
-MASTER_SITES=	http://pypi.python.org/packages/source/s/smmap/
+MASTER_SITES=	https://pypi.python.org/packages/source/s/smmap/
 
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	https://github.com/Byron/smmap
