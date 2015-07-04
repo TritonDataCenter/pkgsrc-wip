@@ -24,7 +24,6 @@ man/man1/dirmngr-client.1
 man/man1/gpg-agent.1
 man/man1/gpg-connect-agent.1
 man/man1/gpg-preset-passphrase.1
-man/man1/gpg-zip.1
 man/man1/gpg2.1
 man/man1/gpgconf.1
 man/man1/gpgparsemail.1

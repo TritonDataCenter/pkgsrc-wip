@@ -1,7 +1,7 @@
 # $NetBSD$
 
-
-DISTNAME=	gnupg-2.1.2
+DISTNAME=	gnupg-2.1.6
+PKGNAME=	${DISTNAME:S/gnupg-/gnupg2-/}
 CATEGORIES=	security
 MASTER_SITES=	ftp://ftp.gnupg.org/gcrypt/gnupg/
 EXTRACT_SUFX=	.tar.bz2
@@ -22,7 +22,6 @@ GNU_CONFIGURE=		yes
 
 BUILDLINK_API_DEPENDS.libgpg-error+=	libgpg-error>=1.4
 BUILDLINK_API_DEPENDS.npth+=		npth>=0.91
-
 
 .include "../../security/libgpg-error/buildlink3.mk"
 .include "../../wip/libassuan22/buildlink3.mk"
