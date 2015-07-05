@@ -32,7 +32,7 @@ MAKE_FLAGS+=	PYTHON=${PYTHONBIN}
 MAKE_FLAGS+=	MANDIR=${DESTDIR}${PREFIX}/${PKGMANDIR}
 
 USE_TOOLS+=		bash gmake perl
-REPLACE_PERL=		format-subst.pl wvtestrun
+REPLACE_PERL=		format-subst.pl
 REPLACE_PYTHON+=	cmd/bloom-cmd.py
 REPLACE_PYTHON+=	cmd/cat-file-cmd.py
 REPLACE_PYTHON+=	cmd/daemon-cmd.py
