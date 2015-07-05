@@ -1727,7 +1727,6 @@ SUBDIR+=	mmm-mode
 SUBDIR+=	mnogosearch
 SUBDIR+=	modglue
 SUBDIR+=	modplugplay
-SUBDIR+=	modular-xorg-xephyr
 SUBDIR+=	moe
 SUBDIR+=	moeclock
 SUBDIR+=	molmol
