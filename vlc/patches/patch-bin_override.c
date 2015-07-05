@@ -11,12 +11,3 @@ $NetBSD$
   && (defined (__ELF__) && !defined (__sun__))
  /* Solaris crashes on printf("%s", NULL); which is legal, but annoying. */
  
-@@ -125,7 +125,7 @@ static void *getsym (const char *name)
-  *
-  * Some evil libraries modify the environment. We currently ignore the calls as
-  * they could crash the process. This may cause funny behaviour though. */
--int putenv (char *str)
-+int putenv (const char *str)
- {
-     if (override)
-     {
