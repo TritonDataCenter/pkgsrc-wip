@@ -2,7 +2,7 @@ $NetBSD$
 
 See comment on patch_compat_Makefile.am.
 
---- compat/Makefile.in.orig	2015-02-23 19:46:51.000000000 +0000
+--- compat/Makefile.in.orig	2015-04-13 08:16:15.000000000 +0000
 +++ compat/Makefile.in
 @@ -135,7 +135,7 @@ am__uninstall_files_from_dir = { \
           $(am__cd) "$$dir" && rm -f $$files; }; \
