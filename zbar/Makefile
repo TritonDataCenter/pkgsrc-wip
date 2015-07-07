@@ -13,7 +13,7 @@ LICENSE=	gnu-lgpl-v2.1
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
-USE_LANGUAGES=	c c++	# XXX: c++ is required only for TEST_TARGET
+USE_LANGUAGES=	c
 
 # XXX: should we move some of them to options.mk?
 CONFIGURE_ARGS+=	--disable-video
@@ -25,7 +25,10 @@ PKGCONFIG_OVERRIDE+=	zbar-gtk.pc.in
 PKGCONFIG_OVERRIDE+=	zbar-qt.pc.in
 PKGCONFIG_OVERRIDE+=	zbar.pc.in
 
+.if !empty(PKGSRC_RUN_TEST:M[yY][eE][sS])
 TEST_TARGET=	check
+USE_LANGUAGES=	c c++
+.endif
 
 .include "options.mk"
 .include "../../mk/bsd.pkg.mk"
