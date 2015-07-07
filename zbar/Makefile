@@ -27,7 +27,12 @@ PKGCONFIG_OVERRIDE+=	zbar.pc.in
 
 .if !empty(PKGSRC_RUN_TEST:M[yY][eE][sS])
 TEST_TARGET=	check
+
 USE_LANGUAGES=	c c++
+
+REPLACE_PYTHON+=	test/barcodetest.py
+PYTHON_FOR_BUILD_ONLY=	yes
+.include "../../lang/python/application.mk"
 .endif
 
 .include "options.mk"
