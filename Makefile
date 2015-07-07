@@ -3918,6 +3918,7 @@ SUBDIR+=	zathura-djvu
 SUBDIR+=	zathura-mupdf
 SUBDIR+=	zathura-poppler
 SUBDIR+=	zathura-ps
+SUBDIR+=	zbar
 SUBDIR+=	zetacoin
 SUBDIR+=	zinf
 SUBDIR+=	ziparchive
