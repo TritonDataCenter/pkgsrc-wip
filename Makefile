@@ -645,6 +645,7 @@ SUBDIR+=	fastrpc
 SUBDIR+=	fbida
 SUBDIR+=	fbpager
 SUBDIR+=	fbpanel
+SUBDIR+=	fbsd2pkg
 SUBDIR+=	fceux
 SUBDIR+=	fcgiwrap
 SUBDIR+=	fdm
