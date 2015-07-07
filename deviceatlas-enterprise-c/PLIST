@@ -1,3 +1,4 @@
+@comment $NetBSD$
 include/dac.h
 include/dac_json.h
 lib/libda.so
