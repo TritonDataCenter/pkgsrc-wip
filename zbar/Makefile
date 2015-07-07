@@ -5,7 +5,7 @@ CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=zbar/}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	leot1990@users.sourceforge.net
 HOMEPAGE=	http://zbar.sourceforge.net/
 COMMENT=	Bar code reader
 LICENSE=	gnu-lgpl-v2.1
