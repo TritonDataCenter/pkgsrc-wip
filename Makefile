@@ -461,6 +461,7 @@ SUBDIR+=	desktop-data-model
 SUBDIR+=	desmume
 SUBDIR+=	despotify
 SUBDIR+=	detachtty
+SUBDIR+=	deviceatlas-enterprise-c
 SUBDIR+=	dfbpoint
 SUBDIR+=	dfbsee
 SUBDIR+=	dfu-util
