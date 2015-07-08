@@ -2991,6 +2991,7 @@ SUBDIR+=	py-quepy
 SUBDIR+=	py-queue
 SUBDIR+=	py-qutip
 SUBDIR+=	py-qutrub
+SUBDIR+=	py-radare2
 SUBDIR+=	py-radon
 SUBDIR+=	py-radontea
 SUBDIR+=	py-raphrase
