@@ -1399,7 +1399,6 @@ SUBDIR+=	lgogdownloader-git
 SUBDIR+=	lhapdf
 SUBDIR+=	lhs2tex
 SUBDIR+=	libGenome
-SUBDIR+=	libXaw3d
 SUBDIR+=	libXprintAppUtil
 SUBDIR+=	libalkimia
 SUBDIR+=	libanimal
