@@ -13,6 +13,7 @@ LICENSE=	gnu-gpl-v3
 
 USE_LANGUAGES+=	c c++
 USE_TOOLS+=	gmake
+USE_TOOLS+=	pkg-config
 
 BUILD_DEPENDS+=	radare2-valabind-[0-9]*:../../devel/radare2-valabind
 BUILD_DEPENDS+=	swig-[0-9]*:../../devel/swig
