@@ -2339,7 +2339,6 @@ SUBDIR+=	php-dtrace
 SUBDIR+=	php-gtk2
 SUBDIR+=	php-imagick
 SUBDIR+=	php-libawl-git
-SUBDIR+=	php-mongo
 SUBDIR+=	php-recode
 SUBDIR+=	php-rrd
 SUBDIR+=	php-tclink
