@@ -2,10 +2,10 @@
 
 DISTNAME=	alt-ergo-0.93
 CATEGORIES=	devel
-MASTER_SITES=	http://ergo.lri.fr/http/
+MASTER_SITES=	-http://alt-ergo.ocamlpro.com/download_manager.php?target=${DISTNAME}${EXTRACT_SUFX}
 
 MAINTAINER=	MarkoSchuetz@web.de
-HOMEPAGE=	http://ergo.lri.fr/http/
+HOMEPAGE=	http://ergo.lri.fr/
 COMMENT=	Automatic theorem prover for program verification
 
 USE_TOOLS+=	gmake
