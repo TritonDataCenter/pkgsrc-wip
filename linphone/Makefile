@@ -14,7 +14,6 @@ GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake intltool perl pkg-config
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	YES
-USE_GNU_READLINE=	yes # rl_hook_func_t et al.
 USE_PKGLOCALEDIR=	yes
 
 CONFIGURE_ARGS+=	--with-osip=${BUILDLINK_PREFIX.libosip2}
@@ -28,6 +27,7 @@ BUILDLINK_TRANSFORM+=	rm:-Werror
 .include "options.mk"
 
 .include "../../mk/bsd.prefs.mk"
+
 .if ${OPSYS} == "Darwin"
 CONFIGURE_ARGS+=	--enable-macsnd
 . if !empty(PKGSRC_COMPILER:Mgcc*)
