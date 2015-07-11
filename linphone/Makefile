@@ -50,6 +50,7 @@ CPPFLAGS+=	-DDSP_NAME="\"${DEVOSSAUDIO}\""
 
 .include "../../x11/libXv/buildlink3.mk"
 .include "../../audio/speex/buildlink3.mk"
+.include "../../audio/speexdsp/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/libosip/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
