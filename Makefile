@@ -1684,7 +1684,6 @@ SUBDIR+=	menumaker
 SUBDIR+=	meta-tracker
 SUBDIR+=	metalog
 SUBDIR+=	metasploit
-SUBDIR+=	metatheme
 SUBDIR+=	metis
 SUBDIR+=	mg-cvs
 SUBDIR+=	mg-lsh
