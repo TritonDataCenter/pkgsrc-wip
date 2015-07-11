@@ -3110,7 +3110,6 @@ SUBDIR+=	py-tasphyne
 SUBDIR+=	py-teafiles
 SUBDIR+=	py-telepathy
 SUBDIR+=	py-teng
-SUBDIR+=	py-terminator
 SUBDIR+=	py-texml
 SUBDIR+=	py-thLib
 SUBDIR+=	py-theano
