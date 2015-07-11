@@ -23,7 +23,7 @@ USE_TOOLS+=	intltool
 .include "../../lang/python/distutils.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../sysutils/py-notify-python/buildlink3.mk"
-.include "../../wip/py-keybinder/buildlink3.mk"
+.include "../../x11/py-keybinder/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../x11/py-vte/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
