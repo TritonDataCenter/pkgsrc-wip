@@ -866,7 +866,6 @@ SUBDIR+=	gnormalize
 SUBDIR+=	gnubg
 SUBDIR+=	gnump3d
 SUBDIR+=	gnunet
-SUBDIR+=	gnupg21
 SUBDIR+=	gnupoc-makesis
 SUBDIR+=	gnupod
 SUBDIR+=	gnuradio
