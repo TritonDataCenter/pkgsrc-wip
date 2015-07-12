@@ -849,6 +849,7 @@ SUBDIR+=	gnomad2
 SUBDIR+=	gnome
 SUBDIR+=	gnome-activity-journal
 SUBDIR+=	gnome-alsamixer
+SUBDIR+=	gnome-apps
 SUBDIR+=	gnome-bluetooth
 SUBDIR+=	gnome-clipboard-daemon
 SUBDIR+=	gnome-core
