@@ -3872,7 +3872,6 @@ SUBDIR+=	watch
 SUBDIR+=	wbox
 SUBDIR+=	webbrowser
 SUBDIR+=	webcleaner
-SUBDIR+=	webkit-gtk
 SUBDIR+=	webkit-gtk3
 SUBDIR+=	webkit-sharp
 SUBDIR+=	weland
