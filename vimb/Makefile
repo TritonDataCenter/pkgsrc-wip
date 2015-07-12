@@ -18,6 +18,6 @@ MAKE_ENV+=	EXAMPLEDIR="${EGDIR}"
 MAKE_ENV+=	MANDIR="${PREFIX}/${PKGMANDIR}"
 
 .include "../../net/libsoup/buildlink3.mk"
-.include "../../www/webkit-gtk/buildlink3.mk"
+.include "../../www/webkit24-gtk/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
