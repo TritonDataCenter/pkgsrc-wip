@@ -4,7 +4,7 @@ include/deadbeef/deadbeef.h
 include/deadbeef/gtkui_api.h
 lib/deadbeef/adplug.la
 lib/deadbeef/artwork.la
-lib/deadbeef/cdda.la
+@comment lib/deadbeef/cdda.la
 lib/deadbeef/converter.la
 lib/deadbeef/converter_gtk2.la
 lib/deadbeef/convpresets/AAC_(Nero_FAAC).txt
