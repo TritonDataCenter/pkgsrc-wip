@@ -459,7 +459,6 @@ SUBDIR+=	deforaos-pdfviewer
 SUBDIR+=	deforaos-phone
 SUBDIR+=	deforaos-player
 SUBDIR+=	deforaos-probe
-SUBDIR+=	deforaos-surfer
 SUBDIR+=	deforaos-terminal
 SUBDIR+=	deforaos-todo
 SUBDIR+=	depsolver
