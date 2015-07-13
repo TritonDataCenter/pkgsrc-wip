@@ -26,5 +26,5 @@ PKGCONFIG_OVERRIDE+=	pywebkitgtk.pc.in
 BUILDLINK_API_DEPENDS.pygtk2+=		${PYPKGPREFIX}-gtk2>=2.13.0
 .include "../../x11/py-gtk2/buildlink3.mk"
 BUILDLINK_API_DEPENDS.webkit-gtk+=	webkit-gtk>=1.1.3
-.include "../../www/webkit1-gtk/buildlink3.mk"
+.include "../../www/webkit24-gtk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
