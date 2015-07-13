@@ -3029,7 +3029,6 @@ SUBDIR+=	py-pyec
 SUBDIR+=	py-pyecm
 SUBDIR+=	py-pyentropy
 SUBDIR+=	py-pyevolve
-SUBDIR+=	py-pyexiv2
 SUBDIR+=	py-pyfaces
 SUBDIR+=	py-pyflation
 SUBDIR+=	py-pygit2
