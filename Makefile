@@ -305,6 +305,7 @@ SUBDIR+=	chbg
 SUBDIR+=	checkstyle
 SUBDIR+=	chemeq
 SUBDIR+=	chems
+SUBDIR+=	chibi-scheme
 SUBDIR+=	chicken
 SUBDIR+=	choosefont
 SUBDIR+=	chora
