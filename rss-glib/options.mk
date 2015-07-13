@@ -26,7 +26,7 @@ CONFIGURE_ARGS+=	--disable-python
 ### Enable mono support
 ###
 .if !empty(PKG_OPTIONS:Mmono)
-.  include "../../lang/mono2/buildlink3.mk"
+.  include "../../lang/mono/buildlink3.mk"
 .  include "../../x11/gtk-sharp/buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-mono=yes
 PLIST_SRC+=		${PKGDIR}/PLIST.mono
