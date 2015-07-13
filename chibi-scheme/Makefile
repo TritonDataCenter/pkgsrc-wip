@@ -20,6 +20,8 @@ REPLACE_FILES.chibi-scheme=	tools/chibi-doc tools/chibi-ffi tools/snow-chibi
 
 CFLAGS.NetBSD+=	-D_KMEMUSER	# Needed for kinfo_proc in <sys/sysctl.h>
 
+# XXX: Avoid `gmake: write error: stdout' error during the install phase
+INSTALL_MAKE_FLAGS+=	-s
 MAKE_ENV+=	MANDIR=${PREFIX}/${PKGMANDIR}/man1
 MAKE_ENV+=	PREFIX=${PREFIX}
 
