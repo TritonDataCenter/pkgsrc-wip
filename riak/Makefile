@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=		riak-2.0.5
+DISTNAME=		riak-2.1.1
 CATEGORIES=		databases
-MASTER_SITES=		http://s3.amazonaws.com/downloads.basho.com/riak/2.0/${PKGVERSION}/
+MASTER_SITES=		http://s3.amazonaws.com/downloads.basho.com/riak/2.1/${PKGVERSION}/
 
 MAINTAINER=		filip@joyent.com
 HOMEPAGE=		http://www.basho.com/products_riak_overview.php
