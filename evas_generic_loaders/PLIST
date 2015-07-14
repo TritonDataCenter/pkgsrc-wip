@@ -50,7 +50,7 @@ lib/evas/utils/evas_image_loader.ogg
 lib/evas/utils/evas_image_loader.ogm
 lib/evas/utils/evas_image_loader.ogv
 lib/evas/utils/evas_image_loader.orf
-lib/evas/utils/evas_image_loader.pdf
+@comment lib/evas/utils/evas_image_loader.pdf
 lib/evas/utils/evas_image_loader.pef
 lib/evas/utils/evas_image_loader.ps
 lib/evas/utils/evas_image_loader.qt
