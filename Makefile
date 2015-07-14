@@ -1681,6 +1681,7 @@ SUBDIR+=	makedict
 SUBDIR+=	makepp
 SUBDIR+=	malaga
 SUBDIR+=	maloc
+SUBDIR+=	mame
 SUBDIR+=	man
 SUBDIR+=	man-db
 SUBDIR+=	manatee
