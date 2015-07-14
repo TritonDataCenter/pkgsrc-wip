@@ -7,13 +7,14 @@ PKGNAME=	e17-${DISTVERSION:S/-//}
 CATEGORIES=	x11
 MASTER_SITES=	http://download.enlightenment.org/releases/
 EXTRACT_SUFX=	.tar.bz2
+PKGREVISION=	1
 
 MAINTAINER=	dieter.NetBSD@pandora.be
 HOMEPAGE=	http://www.enlightenment.org/
 COMMENT=	The Window Manager and Desktop Shell
 LICENSE=	2-clause-bsd
 
-DEPENDS+=	evas-gif>=1.7.0:../../wip/evas-gif
+#DEPENDS+=	evas-gif>=1.7.0:../../wip/evas-gif
 #DEPENDS+=	evas-gl-x11>=1.7.0:../../wip/evas-gl-x11
 DEPENDS+=	evas-software-x11>=1.7.0:../../wip/evas-software-x11
 DEPENDS+=	evas-xpm>=1.7.0:../../wip/evas-xpm
