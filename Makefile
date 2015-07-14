@@ -2405,6 +2405,7 @@ SUBDIR+=	php-dtrace
 SUBDIR+=	php-gtk2
 SUBDIR+=	php-imagick
 SUBDIR+=	php-libawl-git
+SUBDIR+=	php-malware-finder
 SUBDIR+=	php-recode
 SUBDIR+=	php-rrd
 SUBDIR+=	php-tclink
