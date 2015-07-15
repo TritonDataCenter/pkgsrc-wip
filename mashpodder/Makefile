@@ -11,7 +11,7 @@ PKGNAME=	mashpodder-0.4.9
 PKGREVISION=	1
 MASTER_SITES=	https://github.com/chessgriffin/mashpodder/archive/
 
-MAINTAINER=	ahp-nils@users.sourceforge.net
+MAINTAINER=	nils@NetBSD.org
 HOMEPAGE=	https://github.com/chessgriffin/mashpodder/
 
 DEPENDS+=	libxslt-[0-9]*:../../textproc/libxslt

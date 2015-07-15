@@ -9,9 +9,14 @@ HOMEPAGE=	https://bitbucket.org/enovance/trollius/
 COMMENT=	Module asyncio, for writing single-threaded concurrent code
 LICENSE=	apache-2.0
 
-EGG_NAME=	${DISTNAME:S/-/_/}
-
-DEPENDS+=	${PYPKGPREFIX}-futures-[0-9]*:../../wip/py-futures
+EGG_NAME=	${DISTNAME}
+PLIST_VARS+=	pre33
 
 .include "../../lang/python/egg.mk"
+
+.if ${_PYTHON_VERSION} < 33
+DEPENDS+=	${PYPKGPREFIX}-futures-[0-9]*:../../wip/py-futures
+PLIST.pre33=	yes
+.endif
+
 .include "../../mk/bsd.pkg.mk"

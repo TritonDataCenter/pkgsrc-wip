@@ -18,6 +18,9 @@ ${PYSITELIB}/mando/tests/run.pyo
 ${PYSITELIB}/mando/tests/test_core.py
 ${PYSITELIB}/mando/tests/test_core.pyc
 ${PYSITELIB}/mando/tests/test_core.pyo
+${PYSITELIB}/mando/tests/test_unicode_docstring_on_py2.py
+${PYSITELIB}/mando/tests/test_unicode_docstring_on_py2.pyc
+${PYSITELIB}/mando/tests/test_unicode_docstring_on_py2.pyo
 ${PYSITELIB}/mando/tests/test_utils.py
 ${PYSITELIB}/mando/tests/test_utils.pyc
 ${PYSITELIB}/mando/tests/test_utils.pyo

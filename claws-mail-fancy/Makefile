@@ -1,26 +1,17 @@
 # $NetBSD$
 #
 
-DISTNAME=	fancy-0.9.15
-PKGNAME=	claws-mail-${DISTNAME}
-CATEGORIES=	mail
-MASTER_SITES=	http://www.claws-mail.org/downloads/plugins/
+PLUGIN_NAME=    fancy
+.include "../../mail/claws-mail/plugins.mk"
 
 MAINTAINER=	dieter.NetBSD@pandora.be
-HOMEPAGE=	http://www.claws-mail.org/downloads/plugins/
 COMMENT=	Renders HTML e-mail using the WebKit library
-LICENSE=	gnu-gpl-v3
 
-USE_LIBTOOL=		yes
-USE_TOOLS+=		pkg-config
-GNU_CONFIGURE=		yes
-USE_PKGLOCALEDIR=	yes
+CONFIGURE_ARGS+= --enable-${PLUGIN_NAME}-plugin
+CONFIGURE_ARGS+= --disable-libravatar-plugin
 
-.include "../../mail/claws-mail/Makefile.vers"
-.include "../../mail/claws-mail/buildlink3.mk"
-#.include "../../net/libsoup/buildlink3.mk"
-.include "../../security/gnutls/buildlink3.mk"
-.include "../../www/curl/buildlink3.mk"
-.include "../../www/webkit1-gtk/buildlink3.mk"
+DEPENDS+=	claws-mail-${CLAWS_VERSION}{,nb[0-9]*}:../../mail/claws-mail
+
+.include "../../www/webkit24-gtk/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

@@ -14,7 +14,6 @@ GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake intltool perl pkg-config
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	YES
-USE_GNU_READLINE=	yes # rl_hook_func_t et al.
 USE_PKGLOCALEDIR=	yes
 
 CONFIGURE_ARGS+=	--with-osip=${BUILDLINK_PREFIX.libosip2}
@@ -28,6 +27,7 @@ BUILDLINK_TRANSFORM+=	rm:-Werror
 .include "options.mk"
 
 .include "../../mk/bsd.prefs.mk"
+
 .if ${OPSYS} == "Darwin"
 CONFIGURE_ARGS+=	--enable-macsnd
 . if !empty(PKGSRC_COMPILER:Mgcc*)
@@ -50,6 +50,7 @@ CPPFLAGS+=	-DDSP_NAME="\"${DEVOSSAUDIO}\""
 
 .include "../../x11/libXv/buildlink3.mk"
 .include "../../audio/speex/buildlink3.mk"
+.include "../../audio/speexdsp/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/libosip/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"

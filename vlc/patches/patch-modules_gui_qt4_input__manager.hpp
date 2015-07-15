@@ -1,5 +1,8 @@
 $NetBSD$
 
+Qt's MOC doesn't handle int64_t, so introduce a meaningful type name
+so that slot/signal/connection macros work properly.
+
 --- modules/gui/qt4/input_manager.hpp.orig	2015-01-26 18:50:20.000000000 +0000
 +++ modules/gui/qt4/input_manager.hpp
 @@ -37,6 +37,7 @@
@@ -24,3 +27,12 @@ $NetBSD$
      void seekRequested( float pos );
      void rateChanged( float );
      void nameChanged( const QString& );
+@@ -225,7 +226,7 @@ signals:
+     void chapterChanged( bool );
+     void inputCanSeek( bool );
+     /// You can resume playback
+-    void resumePlayback( int64_t );
++    void resumePlayback( putime_t );
+     /// Statistics are updated
+     void statisticsUpdated( input_item_t* );
+     void infoChanged( input_item_t* );

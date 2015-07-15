@@ -3,9 +3,9 @@ sbin/debootstrap
 share/debootstrap/debian-archive-keyring.gpg
 share/debootstrap/devices.tar.gz
 share/debootstrap/functions
-share/debootstrap/libfakesyscall.c
-share/debootstrap/libfakesyscall-i386.so
 share/debootstrap/libfakesyscall-amd64.so
+share/debootstrap/libfakesyscall-i386.so
+share/debootstrap/libfakesyscall.c
 share/debootstrap/scripts/breezy
 share/debootstrap/scripts/dapper
 share/debootstrap/scripts/edgy
@@ -19,6 +19,7 @@ share/debootstrap/scripts/hoary.buildd
 share/debootstrap/scripts/intrepid
 share/debootstrap/scripts/jaunty
 share/debootstrap/scripts/jessie
+share/debootstrap/scripts/jessie-kfreebsd
 share/debootstrap/scripts/karmic
 share/debootstrap/scripts/lenny
 share/debootstrap/scripts/lucid

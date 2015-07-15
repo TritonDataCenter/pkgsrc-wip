@@ -5,7 +5,7 @@ DISTNAME=		dhcpd-snmp-0.2
 CATEGORIES=		net
 MASTER_SITES=	http://www.net-track.ch/php/d.php?f=/opensource/dhcpd-snmp/
 
-MAINTAINER=		ahp-nils@users.sourceforge.net
+MAINTAINER=		nils@NetBSD.org
 HOMEPAGE=		http://www.net-track.ch/opensource/dhcpd-snmp/
 COMMENT=		Extension for the Net-SNMP agent and the ISC DHCP server
 LICENSE=		gnu-gpl-v2

@@ -1,7 +1,19 @@
 $NetBSD$
 
+Qt's MOC doesn't handle int64_t, so introduce a meaningful type name
+so that slot/signal/connection macros work properly.
+
 --- modules/gui/qt4/input_manager.cpp.orig	2015-04-12 21:29:20.000000000 +0000
 +++ modules/gui/qt4/input_manager.cpp
+@@ -138,7 +138,7 @@ void InputManager::setInput( input_threa
+                     !var_GetFloat( p_input, "start-time" ) &&
+                     !var_GetFloat( p_input, "stop-time" ) )
+             {
+-                emit resumePlayback( (int64_t)i_time * 1000 );
++                emit resumePlayback( (putime_t)i_time * 1000 );
+             }
+         }
+ 
 @@ -446,7 +446,7 @@ void InputManager::UpdatePosition()
  {
      /* Update position */

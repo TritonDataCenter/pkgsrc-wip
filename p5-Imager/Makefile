@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		Imager-0.97
+DISTNAME=		Imager-1.003
 PKGNAME=		p5-${DISTNAME}
 CATEGORIES=		graphics perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Imager/}

@@ -1,6 +1,9 @@
 $NetBSD$
 
---- modules/gui/qt4/util/input_slider.cpp.orig	2014-08-14 07:20:12.000000000 +0000
+Qt's MOC doesn't handle int64_t, so introduce a meaningful type name
+so that slot/signal/connection macros work properly.
+
+--- modules/gui/qt4/util/input_slider.cpp.orig	2015-04-12 15:12:46.000000000 +0000
 +++ modules/gui/qt4/util/input_slider.cpp
 @@ -164,7 +164,7 @@ void SeekSlider::setChapters( SeekPoints
   * \param time Elapsed time. Unused

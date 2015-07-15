@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	python-application-1.4.1
+DISTNAME=	python-application-1.5.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel
 MASTER_SITES=	http://pypi.python.org/packages/source/p/python-application/

@@ -7,7 +7,7 @@ PKGNAME=			dscan-0.1
 CATEGORIES=			net
 MASTER_SITES=		https://github.com/dugsong/dscan/archive/
 
-MAINTAINER=			ahp-nils@users.sourceforge.net
+MAINTAINER=			nils@NetBSD.org
 HOMEPAGE=			https://github.com/dugsong/dscan
 COMMENT=			Network scanner
 LICENSE=			original-bsd

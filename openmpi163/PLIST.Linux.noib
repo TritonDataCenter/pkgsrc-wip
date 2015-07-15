@@ -28,7 +28,7 @@ bin/orterun
 bin/orte-top
 bin/orte_wrapper_script
 etc/cshrc
-etc/module
+etc/modulefiles/openmpi/1.6.3
 etc/openmpi-default-hostfile
 etc/shrc
 include/mpi-ext.h

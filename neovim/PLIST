@@ -1,7 +1,6 @@
 @comment $NetBSD$
 bin/nvim
 man/man1/nvim.1
-man/man1/nvimtutor.1
 share/locale/af/LC_MESSAGES/nvim.mo
 share/locale/ca/LC_MESSAGES/nvim.mo
 share/locale/cs.cp1250/LC_MESSAGES/nvim.mo
@@ -222,6 +221,7 @@ share/nvim/runtime/doc/os_win32.txt
 share/nvim/runtime/doc/pattern.txt
 share/nvim/runtime/doc/pi_getscript.txt
 share/nvim/runtime/doc/pi_gzip.txt
+share/nvim/runtime/doc/pi_matchit.txt
 share/nvim/runtime/doc/pi_netrw.txt
 share/nvim/runtime/doc/pi_paren.txt
 share/nvim/runtime/doc/pi_spec.txt
@@ -283,7 +283,6 @@ share/nvim/runtime/doc/usr_42.txt
 share/nvim/runtime/doc/usr_43.txt
 share/nvim/runtime/doc/usr_44.txt
 share/nvim/runtime/doc/usr_45.txt
-share/nvim/runtime/doc/usr_90.txt
 share/nvim/runtime/doc/usr_toc.txt
 share/nvim/runtime/doc/various.txt
 share/nvim/runtime/doc/vi_diff.txt
@@ -492,7 +491,6 @@ share/nvim/runtime/ftplugin/yaml.vim
 share/nvim/runtime/ftplugin/zimbu.vim
 share/nvim/runtime/ftplugin/zsh.vim
 share/nvim/runtime/ftplugof.vim
-share/nvim/runtime/gvimrc_example.vim
 share/nvim/runtime/indent.vim
 share/nvim/runtime/indent/README.txt
 share/nvim/runtime/indent/aap.vim
@@ -680,7 +678,6 @@ share/nvim/runtime/macros/justify.vim
 share/nvim/runtime/macros/less.bat
 share/nvim/runtime/macros/less.sh
 share/nvim/runtime/macros/less.vim
-share/nvim/runtime/macros/matchit.txt
 share/nvim/runtime/macros/matchit.vim
 share/nvim/runtime/macros/shellmenu.vim
 share/nvim/runtime/macros/swapmous.vim
@@ -691,6 +688,7 @@ share/nvim/runtime/optwin.vim
 share/nvim/runtime/plugin/README.txt
 share/nvim/runtime/plugin/getscriptPlugin.vim
 share/nvim/runtime/plugin/gzip.vim
+share/nvim/runtime/plugin/matchit.vim
 share/nvim/runtime/plugin/matchparen.vim
 share/nvim/runtime/plugin/netrwPlugin.vim
 share/nvim/runtime/plugin/rplugin.vim

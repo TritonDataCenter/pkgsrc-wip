@@ -1,5 +1,8 @@
 $NetBSD$
 
+Qt's MOC doesn't handle int64_t, so introduce a meaningful type name
+so that slot/signal/connection macros work properly.
+
 --- modules/gui/qt4/components/interface_widgets.cpp.orig	2015-01-22 14:50:00.000000000 +0000
 +++ modules/gui/qt4/components/interface_widgets.cpp
 @@ -759,13 +759,13 @@ TimeLabel::TimeLabel( intf_thread_t *_p_

@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	st-0.5
+DISTNAME=	st-0.6
 CATEGORIES=	x11
 MASTER_SITES=	http://dl.suckless.org/st/
 

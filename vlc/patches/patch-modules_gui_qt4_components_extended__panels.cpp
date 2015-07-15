@@ -1,6 +1,9 @@
 $NetBSD$
 
---- modules/gui/qt4/components/extended_panels.cpp.orig	2014-11-16 18:57:59.000000000 +0000
+Qt's MOC doesn't handle int64_t, so introduce a meaningful type name
+so that slot/signal/connection macros work properly.
+
+--- modules/gui/qt4/components/extended_panels.cpp.orig	2015-04-01 10:47:07.000000000 +0000
 +++ modules/gui/qt4/components/extended_panels.cpp
 @@ -1583,7 +1583,7 @@ void SyncControls::update()
  {

@@ -32,7 +32,7 @@ MAKE_FLAGS+=	PYTHON=${PYTHONBIN}
 MAKE_FLAGS+=	MANDIR=${DESTDIR}${PREFIX}/${PKGMANDIR}
 
 USE_TOOLS+=		bash gmake perl
-REPLACE_PERL=		format-subst.pl wvtestrun
+REPLACE_PERL=		format-subst.pl
 REPLACE_PYTHON+=	cmd/bloom-cmd.py
 REPLACE_PYTHON+=	cmd/cat-file-cmd.py
 REPLACE_PYTHON+=	cmd/daemon-cmd.py
@@ -87,6 +87,7 @@ SUBST_FILES.python-c+=	t/test-meta.sh
 SUBST_MESSAGE.python-c=	Fixing python executable in tests.
 
 REPLACE_BASH+=		cmd/import-rdiff-backup-cmd.sh
+REPLACE_BASH+=		config/configure
 REPLACE_BASH+=		t/compare-trees
 REPLACE_BASH+=		t/configure-sampledata
 REPLACE_BASH+=		t/force-delete

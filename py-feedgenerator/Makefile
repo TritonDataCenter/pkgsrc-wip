@@ -5,7 +5,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		www
 MASTER_SITES=		https://pypi.python.org/packages/source/f/feedgenerator/
 
-MAINTAINER=		ahp-nils@users.sourceforge.net
+MAINTAINER=		nils@NetBSD.org
 HOMEPAGE=		https://github.com/dmdm/feedgenerator-py3k.git
 COMMENT=		Standalone version of django.utils.feedgenerator, compatible with Py3k
 LICENSE=		modified-bsd

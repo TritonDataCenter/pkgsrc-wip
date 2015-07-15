@@ -1,5 +1,8 @@
 $NetBSD$
 
+Qt's MOC doesn't handle int64_t, so introduce a meaningful type name
+so that slot/signal/connection macros work properly.
+
 --- modules/gui/qt4/util/input_slider.hpp.orig	2014-11-16 18:57:59.000000000 +0000
 +++ modules/gui/qt4/util/input_slider.hpp
 @@ -48,6 +48,8 @@ class QPropertyAnimation;

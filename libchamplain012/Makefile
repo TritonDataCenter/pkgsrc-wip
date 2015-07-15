@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	libchamplain-0.12.9
-PKGNAME=	libchamplain012-0.12.9
+DISTNAME=	libchamplain-0.12.10
+PKGNAME=	libchamplain012-0.12.10
 CATEGORIES=	geography
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/libchamplain/0.12/}
 EXTRACT_SUFX=	.tar.xz
@@ -11,7 +11,6 @@ HOMEPAGE=	http://projects.gnome.org/libchamplain
 COMMENT=	Map widget
 LICENSE=	gnu-lgpl-v2.1
 
-WRKSRC=		${WRKDIR}/libchamplain-0.12.9
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake pkg-config

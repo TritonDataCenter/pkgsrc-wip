@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (bareos-Release-14.2.3.zip) = 3e9a75efab4471532ef864ba57afbd8d78c6154b
-RMD160 (bareos-Release-14.2.3.zip) = 9e151194db453c30114e28b99efbaede4b2e0232
-Size (bareos-Release-14.2.3.zip) = 4748346 bytes
-SHA1 (patch-aa) = 76abb289826e6162d0f8e7764fddaa846d1754d1
+SHA1 (bareos-Release-14.2.5.tar.gz) = c29260d89b07af538956e1b6e63df82498646751
+RMD160 (bareos-Release-14.2.5.tar.gz) = 5da7f85861cb467ac22e9c7f53d89a7a50868fd0
+Size (bareos-Release-14.2.5.tar.gz) = 3820963 bytes
+SHA1 (patch-aa) = b60a5b11dc36e6a6ebc30a685be59d28ff765b16

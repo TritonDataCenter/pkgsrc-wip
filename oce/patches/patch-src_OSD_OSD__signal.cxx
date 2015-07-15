@@ -1,9 +1,28 @@
 $NetBSD$
 
+Define SIGFPE macros on SunOS.
 Respect the reality as CMake found it, there might not be libsunmath.
---- src/OSD/OSD_signal.cxx.orig	2014-02-12 20:06:33.000000000 +0000
+--- src/OSD/OSD_signal.cxx.orig	2015-03-08 22:19:42.000000000 +0000
 +++ src/OSD/OSD_signal.cxx
-@@ -422,7 +422,7 @@ void OSD::SetSignal(const Standard_Boole
+@@ -55,6 +55,17 @@ ACT_SIGIO_HANDLER *ADR_ACT_SIGIO_HANDLER
+ typedef void (* SIG_PFV) (int);
+ #endif
+ 
++#if defined(__sun)
++# include <sys/siginfo.h>
++# define FPE_FLTDIV_TRAP FPE_FLTDIV
++# define FPE_INTDIV_TRAP FPE_INTDIV
++# define FPE_FLTOVF_TRAP FPE_FLTOVF
++# define FPE_INTOVF_TRAP FPE_INTOVF
++# define FPE_FLTUND_TRAP FPE_FLTUND
++# define FPE_FLTRES_TRAP FPE_FLTRES
++# define FPE_FLTINV_TRAP FPE_FLTINV
++#endif
++
+ #ifdef __GNUC__
+ # include <stdlib.h>
+ # include <stdio.h>
+@@ -379,7 +390,7 @@ void OSD::SetSignal(const Standard_Boole
  
    if( aFloatingSignal ) {
      //==== Enable the floating point exceptions ===============

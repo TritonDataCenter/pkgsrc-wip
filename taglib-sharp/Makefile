@@ -18,7 +18,7 @@ PKGCONFIG_OVERRIDE+=	taglib-sharp.pc.in
 
 CONFIGURE_ARGS+=	--enable-docs
 
-.include "../../lang/mono2/buildlink3.mk"
+.include "../../lang/mono/buildlink3.mk"
 .include "../../security/policykit/buildlink3.mk"
 .include "../../x11/gnome-sharp/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

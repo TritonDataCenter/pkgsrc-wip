@@ -11,7 +11,7 @@ COMMENT=	Date::Range - deal with a range of dates
 LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	p5-Date-Simple>=0.03:../../devel/p5-Date-Simple
-BUILD_DEPENDS+=	{perl>=5.7.3,p5-Test-Simple>=0.4}:../../devel/p5-Test-Simple
+#BUILD_DEPENDS+=	{perl>=5.7.3,p5-Test-Simple>=0.4}:../../devel/p5-Test-Simple
 
 USE_LANGUAGES=	# empty
 

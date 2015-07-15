@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	syncthing-0.11.0
+DISTNAME=	syncthing-0.11.8
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_GITHUB:=syncthing/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}

@@ -1,0 +1,5 @@
+$NetBSD$
+
+RMD160 (deviceatlas_c_0.9.zip) = 7f41a0ddf1d84f72d91d04af8314ca4f46de54d2
+SHA1 (patch-CMakeLists.txt) = 53864152d179aa75b720b29b21dbd30cfff31751
+SHA1 (patch-examples_CMakeLists.txt) = 16198ee7e3cd8895ac1c66e24e25bf76368657be

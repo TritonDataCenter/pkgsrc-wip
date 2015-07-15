@@ -1,11 +1,10 @@
 # $NetBSD$
 
-
-DISTNAME=	libassuan-2.2.0
+DISTNAME=	libassuan-2.2.1
 CATEGORIES=	security
 MASTER_SITES=	ftp://ftp.gnupg.org/gcrypt/libassuan/
 EXTRACT_SUFX=	.tar.bz2
-CONFLICTS=	libassuan-1.*{,nb*}
+CONFLICTS=	libassuan-[0-9]*
 
 MAINTAINER=	ada@netbsdfr.org
 HOMEPAGE=	http://gnupg.org/related_software/libassuan/index.en.html

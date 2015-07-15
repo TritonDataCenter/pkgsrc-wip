@@ -1,3 +1,5 @@
 @comment $NetBSD$
 bin/vimb
 man/man1/vimb.1
+share/examples/vimb/formfiller/formfiller
+share/examples/vimb/formfiller/scripts.js

@@ -4,7 +4,7 @@ DISTNAME=	slowhttptest-1.6
 CATEGORIES=	security
 MASTER_SITES=	https://slowhttptest.googlecode.com/files/
 
-MAINTAINER=	ahp-nils@users.sourceforge.net
+MAINTAINER=	nils@NetBSD.org
 HOMEPAGE=	https://code.google.com/p/slowhttptest/
 COMMENT=	Tool implementing some Slow HTTP attacks
 LICENSE=	apache-2.0

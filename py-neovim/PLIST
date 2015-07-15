@@ -1,12 +1,10 @@
 @comment $NetBSD$
-bin/pynvim
-${PYSITELIB}/neovim-${PKGVERSION}-py2.7.egg-info/PKG-INFO
-${PYSITELIB}/neovim-${PKGVERSION}-py2.7.egg-info/SOURCES.txt
-${PYSITELIB}/neovim-${PKGVERSION}-py2.7.egg-info/dependency_links.txt
-${PYSITELIB}/neovim-${PKGVERSION}-py2.7.egg-info/entry_points.txt
-${PYSITELIB}/neovim-${PKGVERSION}-py2.7.egg-info/not-zip-safe
-${PYSITELIB}/neovim-${PKGVERSION}-py2.7.egg-info/requires.txt
-${PYSITELIB}/neovim-${PKGVERSION}-py2.7.egg-info/top_level.txt
+${PYSITELIB}/${EGG_INFODIR}/PKG-INFO
+${PYSITELIB}/${EGG_INFODIR}/SOURCES.txt
+${PYSITELIB}/${EGG_INFODIR}/dependency_links.txt
+${PYSITELIB}/${EGG_INFODIR}/not-zip-safe
+${PYSITELIB}/${EGG_INFODIR}/requires.txt
+${PYSITELIB}/${EGG_INFODIR}/top_level.txt
 ${PYSITELIB}/neovim/__init__.py
 ${PYSITELIB}/neovim/__init__.pyc
 ${PYSITELIB}/neovim/__init__.pyo

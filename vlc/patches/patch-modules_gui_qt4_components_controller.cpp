@@ -1,5 +1,8 @@
 $NetBSD$
 
+Qt's MOC doesn't handle int64_t, so introduce a meaningful type name
+so that slot/signal/connection macros work properly.
+
 --- modules/gui/qt4/components/controller.cpp.orig	2015-01-28 16:37:58.000000000 +0000
 +++ modules/gui/qt4/components/controller.cpp
 @@ -353,8 +353,8 @@ QWidget *AbstractController::createWidge

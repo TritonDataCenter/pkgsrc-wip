@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/memo
+man/man1/memo.1

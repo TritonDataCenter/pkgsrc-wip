@@ -18,7 +18,7 @@ PLIST_SRC+=	PLIST.emacs
 # needs gtk3 and webkit-gtk-3
 .if !empty(PKG_OPTIONS:Mgtk)
 .include "../../x11/gtk3/buildlink3.mk"
-.include "../../www/webkit-gtk/buildlink3.mk"
+.include "../../www/webkit24-gtk/buildlink3.mk"
 .endif
 
 .if !empty(PKG_OPTIONS:Mguile)

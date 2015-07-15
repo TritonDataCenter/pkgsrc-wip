@@ -2,10 +2,10 @@ $NetBSD$
 
 Build with Gtk+ 3 by default
 
---- data/libDesktop.pc.in.orig	2013-05-12 22:01:49.000000000 +0000
+--- data/libDesktop.pc.in.orig	2014-03-29 19:25:14.000000000 +0000
 +++ data/libDesktop.pc.in
 @@ -6,6 +6,6 @@ libdir=${exec_prefix}/lib
- Name: libDesktop
+ Name: @PACKAGE@
  Description: DeforaOS Desktop helper library
  Version: @VERSION@
 -Requires: libSystem gtk+-2.0

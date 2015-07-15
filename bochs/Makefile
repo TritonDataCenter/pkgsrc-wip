@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.79 2014/05/05 00:47:49 ryoon Exp $
 
-DISTNAME=		bochs-2.6.7
+DISTNAME=		bochs-2.6.8
 CATEGORIES=		emulators
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=bochs/}
 

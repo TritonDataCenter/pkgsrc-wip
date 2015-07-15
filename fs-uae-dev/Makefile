@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	fs-uae-2.5.29dev
+DISTNAME=	fs-uae-2.5.32dev
 CATEGORIES=	emulators
 MASTER_SITES=	http://fs-uae.net/fs-uae/devel/${PKGVERSION_NOREV}/
 
@@ -12,6 +12,8 @@ LICENSE=	gnu-gpl-v2
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		pkg-config zip
 GNU_CONFIGURE=		yes
+
+CONFIGURE_ARGS += --enable-lua
 
 .include "../../mk/bsd.prefs.mk"
 .if ${OPSYS} != "Darwin"

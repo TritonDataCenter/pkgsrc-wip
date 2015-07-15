@@ -25,9 +25,9 @@ lib/bareos_fd_consts.py
 lib/bareos_sd_consts.py
 lib/bpipe-fd.so
 lib/libbareos.la
-lib/libbareoscats-sqlite3-${PKGVERSION}.so
-lib/libbareoscats-sqlite3.a
-lib/libbareoscats-sqlite3.so
+lib/libbareoscats-${BAREOS_DB}-${PKGVERSION}.so
+lib/libbareoscats-${BAREOS_DB}.a
+lib/libbareoscats-${BAREOS_DB}.so
 lib/libbareoscats.la
 lib/libbareoscfg.la
 lib/libbareosfind.la
@@ -46,14 +46,15 @@ libexec/bareos/bconsole
 libexec/bareos/btraceback.dbx
 libexec/bareos/btraceback.gdb
 libexec/bareos/btraceback.mdb
+libexec/bareos/chio-changer
 libexec/bareos/create_bareos_database
-libexec/bareos/ddl/creates/sqlite3.sql
-libexec/bareos/ddl/updates/sqlite3.10_11.sql
-libexec/bareos/ddl/updates/sqlite3.11_12.sql
-libexec/bareos/ddl/updates/sqlite3.12_14.sql
-libexec/bareos/ddl/updates/sqlite3.14_2001.sql
-libexec/bareos/ddl/updates/sqlite3.2001_2002.sql
-libexec/bareos/ddl/updates/sqlite3.2002_2003.sql
+libexec/bareos/ddl/creates/${BAREOS_DB}.sql
+libexec/bareos/ddl/updates/${BAREOS_DB}.10_11.sql
+libexec/bareos/ddl/updates/${BAREOS_DB}.11_12.sql
+libexec/bareos/ddl/updates/${BAREOS_DB}.12_14.sql
+libexec/bareos/ddl/updates/${BAREOS_DB}.14_2001.sql
+libexec/bareos/ddl/updates/${BAREOS_DB}.2001_2002.sql
+libexec/bareos/ddl/updates/${BAREOS_DB}.2002_2003.sql
 libexec/bareos/ddl/versions.map
 libexec/bareos/delete_catalog_backup
 libexec/bareos/disk-changer
@@ -68,11 +69,11 @@ libexec/bareos/query.sql
 libexec/bareos/update_bareos_tables
 man/man1/bareos-tray-monitor.1
 man/man1/bat.1
-man/man1/bconsole.1.gz
-man/man1/bregex.1.gz
+man/man1/bconsole.1
+man/man1/bregex.1
 man/man1/bsmtp.1
-man/man1/bwild.1.gz
-man/man8/bareos-dbcheck.8.gz
+man/man1/bwild.1
+man/man8/bareos-dbcheck.8
 man/man8/bareos-dir.8
 man/man8/bareos-fd.8
 man/man8/bareos-sd.8
@@ -80,12 +81,11 @@ man/man8/bareos.8
 man/man8/bcopy.8
 man/man8/bextract.8
 man/man8/bls.8
-man/man8/bpluginfo.8.gz
+man/man8/bpluginfo.8
 man/man8/bscan.8
-man/man8/bscrypto.8.gz
+man/man8/bscrypto.8
 man/man8/btape.8
 man/man8/btraceback.8
-sbin/bareos
 sbin/bareos-dbcheck
 sbin/bareos-dir
 sbin/bareos-fd
@@ -103,7 +103,8 @@ sbin/btape
 sbin/btraceback
 sbin/bwild
 @pkgdir var/bareos/logs
+@pkgdir share/examples/bareos
 @pkgdir libexec/bareos/ddl/grants
 @pkgdir libexec/bareos/ddl/drops
-@pkgdir etc/bareos-sd.d
-@pkgdir etc/bareos-dir.d
+@pkgdir etc/bareos/bareos-sd.d
+@pkgdir etc/bareos/bareos-dir.d
