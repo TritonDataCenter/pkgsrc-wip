@@ -7,4 +7,5 @@ SHA1 (patch-deps__erlang_js__c_src__Makefile) = a49481f9cb0ae9130a96102b3d540a82
 SHA1 (patch-deps_eleveldb_c__src_build__deps.sh) = 88348831637a6fcafea0099ae0bd35c36e197146
 SHA1 (patch-deps_eleveldb_c__src_eleveldb.cc) = 2e21a560c3f990ff9ac7dd604de00404644e7a5a
 SHA1 (patch-deps_node__package_priv_base_env.sh) = c7a32ac69b916c47706b914c71042ea6fd62a1e2
-SHA1 (patch-rel__vars.config) = e962d9190cb9ce0e7c7b95ecb354db95a9c3a30d
+SHA1 (patch-deps_node__package_priv_base_runner) = 0fa3cdbab932ba7033f56bb4260f56208ecb4741
+SHA1 (patch-rel__vars.config) = ad31bebb40b09b76e31802ba5949f72a1b34a1c6
