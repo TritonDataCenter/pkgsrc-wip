@@ -9,6 +9,7 @@ COMMENT=	Highly reliable distributed coordination server (client)
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++ c99
 USE_LIBTOOL=	yes
+USE_MULTIARCH=	lib
 
 BUILD_DEPENDS+=	cppunit-[0-9]*:../../devel/cppunit
 
