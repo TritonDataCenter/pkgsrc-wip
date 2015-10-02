@@ -9,7 +9,12 @@ HOMEPAGE=		http://www.basho.com/products_riak_overview.php
 COMMENT=		Distributed, highly available data store
 LICENSE=		apache-2.0
 
+CONFLICTS+=		riakeds-[0-9]*
+.if exists(../../devel/git/Makefile)
 BUILD_DEPENDS+=		git-base-[0-9]*:../../devel/git-base
+.else
+BUILD_DEPENDS+=		scmgit-base-[0-9]*:../../devel/scmgit-base
+.endif
 
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
@@ -50,6 +55,10 @@ OWN_DIRS_PERMS+=	${RIAK_LOG} ${RIAK_USER} ${RIAK_GROUP} 0770
 PKG_SYSCONFSUBDIR=	riak
 CONF_FILES+=		share/examples/riak/riak.conf ${PKG_SYSCONFDIR}/riak.conf
 CONF_FILES+=		share/examples/riak/solr-log4j.properties ${PKG_SYSCONFDIR}/solr-log4j.properties
+
+SMF_USER=		${RIAK_USER}
+SMF_GROUP=		${RIAK_GROUP}
+SMF_HOME=		${RIAK_DATA}
 
 BUILD_TARGET=		rel
 

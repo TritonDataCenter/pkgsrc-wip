@@ -59,6 +59,10 @@ CONF_FILES+=		share/examples/zookeeper/zoo.cfg ${PKG_SYSCONFDIR}/zoo.cfg
 CONF_FILES_PERMS+=	share/examples/zookeeper/zookeeper-env.sh ${PKG_SYSCONFDIR}/zookeeper-env.sh \
 			${ROOT_USER} ${ROOT_GROUP} 0755
 
+SMF_NAME=		zookeeper
+FILES_SUBST+=		ZK_USER=${ZK_USER}
+FILES_SUBST+=		ZK_GROUP=${ZK_GROUP}
+
 do-build:
 	cd ${WRKSRC} && ${SETENV} JAVA_HOME=${PKG_JAVA_HOME} ant bin-package
 
