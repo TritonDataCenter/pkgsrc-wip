@@ -1,6 +1,7 @@
 # $NetBSD: Makefile,v 1.22 2015/05/12 11:15:13 ryo-on Exp $
 
 DISTNAME=	samba-${VERSION}
+PKGNAME=	samba4-${VERSION}
 CATEGORIES=	net
 MASTER_SITES=	http://download.samba.org/pub/samba/
 
@@ -14,9 +15,11 @@ CONFLICTS+=	ja-samba-[0-9]* pam-smbpass-[0-9]* tdb-[0-9]* winbind-[0-9]*
 
 BUILD_DEFS+=		VARBASE
 
+USE_MULTIARCH=	lib
+
 .include "../../mk/bsd.prefs.mk"
 
-SMB_LIB?=		${PREFIX}/lib
+SMB_LIB?=		${PREFIX}/lib${LIBARCHSUFFIX}
 
 PKG_SYSCONFSUBDIR=	samba
 SMB_SHAREDSTATE?=	${PREFIX}/com
@@ -93,7 +96,9 @@ CONFIGURE_ARGS+=	--jobs=${MAKE_JOBS}
 
 # for binbind option build.
 LDFLAGS+=		-Wl,--allow-shlib-undefined
+LDFLAGS+=		${COMPILER_RPATH_FLAG}${SMB_MODULES}
 LDFLAGS+=		${COMPILER_RPATH_FLAG}${SMB_PRIVATELIB}
+LDFLAGS.SunOS+=		-lintl
 
 .include "options.mk"
 
