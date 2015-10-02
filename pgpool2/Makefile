@@ -24,6 +24,8 @@ BUILD_DEFS+=		PGPOOL_USER PGPOOL_GROUP PGGROUP PGHOME VARBASE
 
 EGDIR=			share/examples/pgpool2
 
+SMF_VAR=		postgresql-pgpool2
+
 PGPOOL_USER?=		pgpool
 PGPOOL_GROUP?=		${PGGROUP}
 PGGROUP?=		pgsql
@@ -63,6 +65,9 @@ CONF_FILES+=		${EGDIR}/pgpool.conf.sample ${PKG_SYSCONFDIR}/pgpool.conf
 CONF_FILES+=		${EGDIR}/pool_hba.conf.sample ${PKG_SYSCONFDIR}/pool_hba.conf
 CONF_FILES_PERMS+=	${EGDIR}/pool_passwd ${PKG_SYSCONFDIR}/pool_passwd \
 			${PGPOOL_USER} ${PGGROUP} 0640
+
+FILES_SUBST+=		PGPOOL_USER=${PGPOOL_USER}
+FILES_SUBST+=		PGPOOL_GROUP=${PGPOOL_GROUP}
 
 post-install:
 	${TOUCH} ${DESTDIR}${PREFIX}/share/examples/pgpool2/pool_passwd
