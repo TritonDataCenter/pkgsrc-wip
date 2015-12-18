@@ -1,6 +1,6 @@
-# $NetBSD: Makefile,v 1.6 2015/08/20 14:02:41 ttys Exp $
+# $NetBSD: Makefile,v 1.7 2015/11/23 12:51:43 tty Exp $
 
-DISTNAME=	ansible-1.9.2
+DISTNAME=	ansible-1.9.4
 PKGREVISION=	1
 #PKGNAME=   ${PYPKGPREFIX}-${DISTNAME} # XXX: for when package is py3x-ready
 CATEGORIES=	python sysutils
@@ -46,7 +46,7 @@ SUBST_FILES.pythonbin=  Makefile
 SUBST_MESSAGE.pythonbin=        Fixing path to PYTHONBIN.
 SUBST_SED.pythonbin=    -e "s,PYTHON=python,PYTHON=${PYTHONBIN},"
 
-PYTHON_VERSIONS_INCOMPATIBLE=   33 34 # py-paramiko
+PYTHON_VERSIONS_INCOMPATIBLE=   33 34 35 # py-paramiko
 
 REPLACE_PYTHON=         lib/ansible/runner/action_plugins/synchronize.py
 REPLACE_PYTHON+=        lib/ansible/utils/module_docs.py

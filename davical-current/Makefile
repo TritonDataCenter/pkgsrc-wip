@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	davical-${DAVICAL_VERSION}
-DAVICAL_VERSION=1.1.1
+DAVICAL_VERSION=1.1.3.1
 PKGREVISION=    ${_GIT_PKGVERSION:S/.//g}
 CATEGORIES=	www
 MASTER_SITES=	http://debian.mcmillan.net.nz/packages/davical/
@@ -14,8 +14,10 @@ COMMENT=	Simple CalDAV server using a PostgreSQL backend
 LICENSE=	gnu-gpl-v2 AND gnu-gpl-v3
 
 GIT_REPOSITORIES=       master
-GIT_REPO.master=        git://repo.or.cz/${PKGBASE}.git
-GIT_MODULE.master=      ${PKGBASE}
+GIT_REPO.master=        https://gitlab.com/davical-project/davical.git
+GIT_MODULE.master=      davical
+# for "SSL certificate problem: unable to get local issuer certificate"
+GIT_ENV.master+=	GIT_SSL_NO_VERIFY=true
 
 DAVICALDIR=	${PREFIX}/share/davical
 EGDIR=		${PREFIX}/share/examples/davical
@@ -43,6 +45,7 @@ DEPENDS+=	${PHP_PKG_PREFIX}-libawl>=0.53:../../devel/php-libawl
 DEPENDS+=	${PHP_PKG_PREFIX}-calendar>=5.3.18:../../time/php-calendar
 DEPENDS+=	${PHP_PKG_PREFIX}-curl>=5.3.18:../../www/php-curl
 DEPENDS+=	p5-DBI>=1.631:../../databases/p5-DBI
+DEPENDS+=	p5-DBD-postgresql>=3.5:../../databases/p5-DBD-postgresql
 DEPENDS+=	p5-YAML>=0.71:../../textproc/p5-YAML
 DEPENDS+=	pwgen>=2.06:../../sysutils/pwgen
 DEPENDS+=	postgresql${PGSQL_VERSION}-client-[0-9]*:../../databases/postgresql${PGSQL_VERSION}-client
