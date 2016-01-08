@@ -1,10 +1,11 @@
 # $NetBSD$
 libfpx_ver=	1.3.1
-DISTNAME=	libfpx-${libfpx_ver}-4
+DISTNAME=	libfpx-${libfpx_ver}-6
 PKGNAME=	libfpx-${libfpx_ver}
+PKGREVISION=	2
 CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.imagemagick.org/pub/ImageMagick/delegates/ \
-		ftp://ftp.kddlabs.co.jp/graphics/ImageMagick/ \
+		ftp://ftp.kddlabs.co.jp/graphics/ImageMagick/delegates/ \
 		http://www.imagemagick.org/download/delegates/
 EXTRACT_SUFX=	.tar.xz
 
@@ -13,13 +14,8 @@ HOMEPAGE=	http://www.imagemagick.org/
 COMMENT=	Library for reading FlashPix images
 #LICENSE=	# TODO: (see mk/license.mk)
 
-USE_TOOLS+=	autoconf automake
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
-
-pre-configure:
-	cd ${WRKSRC}; aclocal; autoheader; \
-	automake -a --foreign -i; autoconf
 
 .include "../../mk/bsd.pkg.mk"

@@ -10,6 +10,7 @@ COMMENT=	Highly efficient file backup system based on the git packfile format
 LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	par2-[0-9]*:../../archivers/par2
+DEPENDS+=	${PYPKGPREFIX}-fuse-bindings-[0-9]*:../../filesystems/py-fuse-bindings
 DEPENDS+=	${PYPKGPREFIX}-readline-[0-9]*:../../devel/py-readline
 DEPENDS+=	${PYPKGPREFIX}-tornado-[0-9]*:../../www/py-tornado
 DEPENDS+=	git-base-[0-9]*:../../devel/git-base
@@ -32,17 +33,6 @@ MAKE_FLAGS+=	PYTHON=${PYTHONBIN}
 MAKE_FLAGS+=	MANDIR=${DESTDIR}${PREFIX}/${PKGMANDIR}
 
 USE_TOOLS+=		bash gmake perl
-REPLACE_PERL=		format-subst.pl
-REPLACE_PYTHON+=	main.py
-REPLACE_PYTHON+=	wvtest.py
-
-SUBST_CLASSES+=		python-c
-SUBST_SED.python-c+=	-e 's,python -c,${PYTHONBIN} -c,'
-SUBST_STAGE.python-c=	pre-configure
-SUBST_FILES.python-c+=	t/lib.sh
-SUBST_FILES.python-c+=	t/test-ls.sh
-SUBST_FILES.python-c+=	t/test-meta.sh
-SUBST_MESSAGE.python-c=	Fixing python executable in tests.
 
 REPLACE_BASH+=		cmd/import-rdiff-backup-cmd.sh
 REPLACE_BASH+=		config/configure
@@ -60,6 +50,8 @@ REPLACE_BASH+=		t/test-rm-between-index-and-save.sh
 REPLACE_BASH+=		t/test-save-creates-no-unrefs.sh
 REPLACE_BASH+=		t/test.sh
 REPLACE_BASH+=		wvtest-bup.sh
+
+INSTALLATION_DIRS=	share/doc/bup
 
 post-install:
 #	${INSTALL_DATA} ${DOCDIR}/*.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
