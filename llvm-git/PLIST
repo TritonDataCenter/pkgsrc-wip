@@ -35,6 +35,7 @@ bin/llvm-tblgen
 bin/obj2yaml
 bin/opt
 bin/sancov
+bin/sanstats
 bin/verify-uselistorder
 bin/yaml2obj
 include/llvm-c/Analysis.h
@@ -86,7 +87,9 @@ include/llvm/ADT/MapVector.h
 include/llvm/ADT/None.h
 include/llvm/ADT/Optional.h
 include/llvm/ADT/PackedVector.h
+include/llvm/ADT/PointerEmbeddedInt.h
 include/llvm/ADT/PointerIntPair.h
+include/llvm/ADT/PointerSumType.h
 include/llvm/ADT/PointerUnion.h
 include/llvm/ADT/PostOrderIterator.h
 include/llvm/ADT/PriorityQueue.h
@@ -221,6 +224,8 @@ include/llvm/CodeGen/GCMetadata.h
 include/llvm/CodeGen/GCMetadataPrinter.h
 include/llvm/CodeGen/GCStrategy.h
 include/llvm/CodeGen/GCs.h
+include/llvm/CodeGen/GlobalISel/IRTranslator.h
+include/llvm/CodeGen/GlobalISel/Types.h
 include/llvm/CodeGen/ISDOpcodes.h
 include/llvm/CodeGen/IntrinsicLowering.h
 include/llvm/CodeGen/LatencyPriorityQueue.h
@@ -292,6 +297,7 @@ include/llvm/CodeGen/ScoreboardHazardRecognizer.h
 include/llvm/CodeGen/SelectionDAG.h
 include/llvm/CodeGen/SelectionDAGISel.h
 include/llvm/CodeGen/SelectionDAGNodes.h
+include/llvm/CodeGen/SelectionDAGTargetInfo.h
 include/llvm/CodeGen/SlotIndexes.h
 include/llvm/CodeGen/StackMaps.h
 include/llvm/CodeGen/StackProtector.h
@@ -306,6 +312,8 @@ include/llvm/Config/AsmPrinters.def
 include/llvm/Config/Disassemblers.def
 include/llvm/Config/Targets.def
 include/llvm/Config/llvm-config.h
+include/llvm/DebugInfo/CodeView/CVLeafTypes.def
+include/llvm/DebugInfo/CodeView/CVSymbolTypes.def
 include/llvm/DebugInfo/CodeView/CodeView.h
 include/llvm/DebugInfo/CodeView/CodeViewOStream.h
 include/llvm/DebugInfo/CodeView/FieldListRecordBuilder.h
@@ -314,6 +322,7 @@ include/llvm/DebugInfo/CodeView/Line.h
 include/llvm/DebugInfo/CodeView/ListRecordBuilder.h
 include/llvm/DebugInfo/CodeView/MemoryTypeTableBuilder.h
 include/llvm/DebugInfo/CodeView/MethodListRecordBuilder.h
+include/llvm/DebugInfo/CodeView/SymbolRecord.h
 include/llvm/DebugInfo/CodeView/TypeIndex.h
 include/llvm/DebugInfo/CodeView/TypeRecord.h
 include/llvm/DebugInfo/CodeView/TypeRecordBuilder.h
@@ -419,7 +428,13 @@ include/llvm/ExecutionEngine/Orc/LogicalDylib.h
 include/llvm/ExecutionEngine/Orc/NullResolver.h
 include/llvm/ExecutionEngine/Orc/ObjectLinkingLayer.h
 include/llvm/ExecutionEngine/Orc/ObjectTransformLayer.h
-include/llvm/ExecutionEngine/Orc/OrcTargetSupport.h
+include/llvm/ExecutionEngine/Orc/OrcArchitectureSupport.h
+include/llvm/ExecutionEngine/Orc/OrcError.h
+include/llvm/ExecutionEngine/Orc/OrcRemoteTargetClient.h
+include/llvm/ExecutionEngine/Orc/OrcRemoteTargetRPCAPI.h
+include/llvm/ExecutionEngine/Orc/OrcRemoteTargetServer.h
+include/llvm/ExecutionEngine/Orc/RPCChannel.h
+include/llvm/ExecutionEngine/Orc/RPCUtils.h
 include/llvm/ExecutionEngine/OrcMCJITReplacement.h
 include/llvm/ExecutionEngine/RTDyldMemoryManager.h
 include/llvm/ExecutionEngine/RuntimeDyld.h
@@ -537,12 +552,14 @@ include/llvm/MC/MCCodeEmitter.h
 include/llvm/MC/MCCodeGenInfo.h
 include/llvm/MC/MCContext.h
 include/llvm/MC/MCDirectives.h
-include/llvm/MC/MCDisassembler.h
+include/llvm/MC/MCDisassembler/MCDisassembler.h
+include/llvm/MC/MCDisassembler/MCExternalSymbolizer.h
+include/llvm/MC/MCDisassembler/MCRelocationInfo.h
+include/llvm/MC/MCDisassembler/MCSymbolizer.h
 include/llvm/MC/MCDwarf.h
 include/llvm/MC/MCELFObjectWriter.h
 include/llvm/MC/MCELFStreamer.h
 include/llvm/MC/MCExpr.h
-include/llvm/MC/MCExternalSymbolizer.h
 include/llvm/MC/MCFixedLenDisassembler.h
 include/llvm/MC/MCFixup.h
 include/llvm/MC/MCFixupKindInfo.h
@@ -567,8 +584,8 @@ include/llvm/MC/MCParser/MCAsmParser.h
 include/llvm/MC/MCParser/MCAsmParserExtension.h
 include/llvm/MC/MCParser/MCAsmParserUtils.h
 include/llvm/MC/MCParser/MCParsedAsmOperand.h
+include/llvm/MC/MCParser/MCTargetAsmParser.h
 include/llvm/MC/MCRegisterInfo.h
-include/llvm/MC/MCRelocationInfo.h
 include/llvm/MC/MCSchedule.h
 include/llvm/MC/MCSection.h
 include/llvm/MC/MCSectionCOFF.h
@@ -580,8 +597,6 @@ include/llvm/MC/MCSymbol.h
 include/llvm/MC/MCSymbolCOFF.h
 include/llvm/MC/MCSymbolELF.h
 include/llvm/MC/MCSymbolMachO.h
-include/llvm/MC/MCSymbolizer.h
-include/llvm/MC/MCTargetAsmParser.h
 include/llvm/MC/MCTargetOptions.h
 include/llvm/MC/MCTargetOptionsCommandFlags.h
 include/llvm/MC/MCValue.h
@@ -676,6 +691,7 @@ include/llvm/Support/ELFRelocs/PowerPC.def
 include/llvm/Support/ELFRelocs/PowerPC64.def
 include/llvm/Support/ELFRelocs/Sparc.def
 include/llvm/Support/ELFRelocs/SystemZ.def
+include/llvm/Support/ELFRelocs/WebAssembly.def
 include/llvm/Support/ELFRelocs/i386.def
 include/llvm/Support/ELFRelocs/${MACHINE_ARCH}.def
 include/llvm/Support/Endian.h
@@ -725,7 +741,6 @@ include/llvm/Support/Recycler.h
 include/llvm/Support/RecyclingAllocator.h
 include/llvm/Support/Regex.h
 include/llvm/Support/Registry.h
-include/llvm/Support/RegistryParser.h
 include/llvm/Support/SMLoc.h
 include/llvm/Support/SaveAndRestore.h
 include/llvm/Support/ScaledNumber.h
@@ -770,6 +785,7 @@ include/llvm/TableGen/StringMatcher.h
 include/llvm/TableGen/StringToOffsetTable.h
 include/llvm/TableGen/TableGenBackend.h
 include/llvm/Target/CostTable.h
+include/llvm/Target/GenericOpcodes.td
 include/llvm/Target/Target.td
 include/llvm/Target/TargetCallingConv.h
 include/llvm/Target/TargetCallingConv.td
@@ -786,7 +802,6 @@ include/llvm/Target/TargetRecip.h
 include/llvm/Target/TargetRegisterInfo.h
 include/llvm/Target/TargetSchedule.td
 include/llvm/Target/TargetSelectionDAG.td
-include/llvm/Target/TargetSelectionDAGInfo.h
 include/llvm/Target/TargetSubtargetInfo.h
 include/llvm/Transforms/IPO.h
 include/llvm/Transforms/IPO/ForceFunctionAttrs.h
@@ -823,6 +838,7 @@ include/llvm/Transforms/Utils/ModuleUtils.h
 include/llvm/Transforms/Utils/PromoteMemToReg.h
 include/llvm/Transforms/Utils/SSAUpdater.h
 include/llvm/Transforms/Utils/SSAUpdaterImpl.h
+include/llvm/Transforms/Utils/SanitizerStats.h
 include/llvm/Transforms/Utils/SimplifyIndVar.h
 include/llvm/Transforms/Utils/SimplifyLibCalls.h
 include/llvm/Transforms/Utils/SplitModule.h
@@ -902,3 +918,4 @@ share/llvm/cmake/LLVMExternalProjectUtils.cmake
 share/llvm/cmake/LLVMInstallSymlink.cmake
 share/llvm/cmake/LLVMProcessSources.cmake
 share/llvm/cmake/TableGen.cmake
+share/llvm/cmake/VersionFromVCS.cmake

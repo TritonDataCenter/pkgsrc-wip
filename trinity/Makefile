@@ -46,6 +46,8 @@ REPLACE_PERL=	util/*/*.pl \
 # FIXME: Coreutils doesn't build, but we should use the pkg anyway
 REPLACE_BASH=	trinity-plugins/coreutils/build_parallel_sort.sh
 
+DEPENDS+=	p5-PerlIO-gzip>=0:../../devel/p5-PerlIO-gzip
+
 # Some scripts are not available during patch stage
 SUBST_CLASSES+=		shebang
 SUBST_STAGE.shebang=	post-build
@@ -73,6 +75,13 @@ SUBST_STAGE.plugins=	pre-build
 SUBST_FILES.plugins=	${WRKSRC}/Trinity
 SUBST_SED.plugins=	-e 's|$$ROOTDIR/trinity-plugins/jellyfish|${PREFIX}|g' \
 			-e 's|$$ROOTDIR/trinity-plugins/parafly|${PREFIX}|g'
+
+SUBST_CLASSES+=		util
+SUBST_STAGE.util=	post-patch
+SUBST_FILES.util=	${WRKSRC}/util/insilico_read_normalization.pl
+SUBST_SED.util= \
+		-e 's|$$ROOTDIR/trinity-plugins/jellyfish|${LOCALBASE}|g' \
+		-e 's|$$ROOTDIR/trinity-plugins/fastool|${LOCALBASE}/bin|g'
 
 SUBST_CLASSES+=		make
 SUBST_STAGE.make=	post-patch

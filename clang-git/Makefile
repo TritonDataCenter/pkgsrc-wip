@@ -1,6 +1,6 @@
 # $NetBSD: Makefile.common,v 1.7 2015/07/20 05:49:53 adam Exp $
 
-PKGNAME=	clang-3.7.0
+PKGNAME=	clang-3.9.0
 CATEGORIES=	lang devel
 
 GIT_REPOSITORIES=	clang
@@ -61,9 +61,21 @@ CMAKE_ARGS+=	-DLLVM_TARGETS_TO_BUILD="X86"
 
 CMAKE_ARG_PATH=	${WRKDIR}/clang
 
+.include "../../mk/compiler.mk"
+
+# patch NetBSD::GetCXXStdlibType
+.if ${OPSYS} == "NetBSD" && !empty(PKGSRC_COMPILER:Mgcc)
+SUBST_CLASSES+=			libcxx
+SUBST_STAGE.libcxx=		pre-configure
+SUBST_MESSAGE.libcxx=		Patching toolchain to use libstdc++ as we're using GCC
+SUBST_FILES.libcxx=		${WRKDIR}/clang/lib/Driver/ToolChains.cpp
+SUBST_SED.libcxx=		-e 's,Major >= 7 || (Major == 6 && Minor == 99 && Micro >= 49) || Major == 0,false,'
+.endif
+
 post-extract:
 	${RUN} mkdir -p ${WRKSRC}
 
+.include "../../devel/googletest/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../wip/mk/git-package.mk"
 .include "../../devel/zlib/buildlink3.mk"

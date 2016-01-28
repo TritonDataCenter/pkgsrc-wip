@@ -11,12 +11,10 @@ LICENSE=	mit
 
 MAKE_JOBS_SAFE=	no
 
-NO_CONFIGURE=		yes
 USE_TOOLS+=		pkg-config
 
-# Adjust config.mk
 SUBST_CLASSES+=		configmk
-SUBST_STAGE.configmk=	pre-patch
+SUBST_STAGE.configmk=	pre-configure
 SUBST_MESSAGE.configmk=	Fixing config.mk
 SUBST_FILES.configmk=	config.mk
 SUBST_SED.configmk+=	-e 's,/usr/local,${PREFIX},g'

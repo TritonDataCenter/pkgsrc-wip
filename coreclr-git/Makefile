@@ -13,13 +13,20 @@ COMMENT=	The .NET Core runtime and the base library
 LICENSE=	mit
 
 #USE_CMAKE=	yes
-#USE_LANGUAGES=	c c++
+USE_LANGUAGES=	c c++
 
 USE_TOOLS+=	bash
 REPLACE_BASH+=	build.sh
 
 do-build:
-		${RUN} cd ${WRKSRC} && ./build.sh
+		${RUN} cd ${WRKSRC} && PYTHON=${PYTHONBIN} ./build.sh
 
+.include "../../textproc/icu/buildlink3.mk"
+.include "../../wip/llvm-git/buildlink3.mk"
+.include "../../wip/lldb-git/buildlink3.mk"
+.include "../../wip/clang-git/buildlink3.mk"
+.include "../../lang/python/extension.mk"
+.include "../../lang/python/application.mk"
+.include "../../lang/python/tool.mk"
 .include "../../wip/mk/git-package.mk"
 .include "../../mk/bsd.pkg.mk"
