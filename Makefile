@@ -1034,6 +1034,7 @@ SUBDIR+=	hgsubversion
 SUBDIR+=	higan
 SUBDIR+=	higgsbounds
 SUBDIR+=	hijra
+SUBDIR+=	hitch
 SUBDIR+=	hlint
 SUBDIR+=	homebank
 SUBDIR+=	hoogle
