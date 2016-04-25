@@ -1,24 +1,16 @@
 # $NetBSD: Makefile,v 1.9 2015/04/10 12:08:34 krytarowski Exp $
 
-DISTNAME=	mate-applets-1.12.1
-CATEGORIES=	x11
-MASTER_SITES=	http://pub.mate-desktop.org/releases/1.12/
-EXTRACT_SUFX=	.tar.xz
+.include "../../wip/mate/Makefile.common"
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://www.mate-desktop.org/
+DISTNAME=	mate-applets-${MATE_VERSION}
+CATEGORIES=	x11
+
 COMMENT=	MATE panel applets
-LICENSE=	gnu-gpl-v2 AND gnu-fdl-v1.1
 
 CONFLICTS+=	gnome-applets-[0-9]*
 
 TOOL_DEPENDS+=	itstool-[0-9]*:../../textproc/itstool
 TOOL_DEPENDS+=	libxml2-[0-9]*:../../textproc/libxml2 # for xmllint
-
-GNU_CONFIGURE=		yes
-USE_LIBTOOL=		yes
-USE_TOOLS+=		gmake intltool msgfmt pkg-config
-USE_PKGLOCALEDIR=	yes
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 
@@ -28,13 +20,13 @@ MAKE_DIRS+=	${PKG_SYSCONFDIR}/sound/events
 
 .include "../../mk/bsd.prefs.mk"
 
-.if ${OPSYS} != "Darwin"
+.if ${OPSYS} != "Darwin" && ${OPSYS} != "SunOS"
 CONF_FILES+=	${PREFIX}/share/examples/mate-applets/sound/events/mate-battstat_applet.soundlist \
 		${PKG_SYSCONFDIR}/sound/events/mate-battstat_applet.soundlist
 .endif
 
 PLIST_VARS=	batt
-.if ${OPSYS} != "Darwin"
+.if ${OPSYS} != "Darwin" && ${OPSYS} != "SunOS"
 PLIST.batt=	yes
 .endif
 

@@ -7,7 +7,7 @@ DISTNAME=	corefx
 PKGNAME=	corefx-0.0.0
 CATEGORIES=	devel
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	kamil@NetBSD.org
 HOMEPAGE=	https://github.com/dotnet/corefx
 COMMENT=	The .NET Core foundational libraries
 LICENSE=	mit
@@ -26,6 +26,7 @@ do-build:
 	${RUN} cd ${WRKSRC} && \
 	${PKGSRC_SETENV} ${MAKE_ENV} ./build.sh native verbose cmakeargs ${CMAKE_ARGS:Q}
 
+.include "../../security/mit-krb5/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
 .include "../../textproc/icu/buildlink3.mk"
 .include "../../lang/llvm/buildlink3.mk"
