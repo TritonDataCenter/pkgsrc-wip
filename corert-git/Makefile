@@ -7,7 +7,7 @@ DISTNAME=	corert
 PKGNAME=	corert-0.0.0
 CATEGORIES=	devel
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	kamil@NetBSD.org
 HOMEPAGE=	https://github.com/dotnet/corert
 COMMENT=	Microsoft .NET Core runtime optimized for AOT scenarios
 LICENSE=	mit
@@ -21,7 +21,6 @@ REPLACE_BASH+=	build.sh
 do-build:
 		${RUN} cd ${WRKSRC} && PYTHON=${PYTHONBIN} ./build.sh
 
-.include "../../lang/mono/buildlink3.mk"
 .include "../../lang/llvm/buildlink3.mk"
 .include "../../devel/lldb/buildlink3.mk"
 .include "../../lang/clang/buildlink3.mk"
