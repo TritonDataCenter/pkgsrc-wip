@@ -124,6 +124,7 @@ Suggested package updates
 	o slim-1.3.6
 	o smc-1.9
 	o smplayer-15.9
+	o spyder-3.0.0
 	o supertux-0.4
 	o sxemacs-22.1.15
 	o syncthing-inotify-0.8.3
@@ -160,6 +161,7 @@ Suggested ready to import packages
 	o R-gsl
 	o R-iterators
 	o R-mclust
+	o aldo
 	o am-utils [pkg/35668]
 	o aspell-dictionaries
 	o bogomips
@@ -172,14 +174,13 @@ Suggested ready to import packages
 	o marathon-tempus-irae
 	o matiec
 	o pear-Net_URL2
-	o phalanx
+	o phalanx [kamil]
 	o pnmcurve
-	o py-csp # XXX import this as py-pycsp
+	o py-csp [kamil; some tests hang but it seems good enough; need for wip/py-uuid]
 	o py-jswebkit
 	o rar4
 	o send-pr
 	o tqsllib
-	o truecrypt
 	o trustedQSL
 	o vlevel
 	o xmms-skins [pkg/35666]
@@ -192,7 +193,7 @@ Suggested infrastructure improvements
 
 	o Support using cached distfiles for 'tool update' instead
 	  of checking out the whole repository again, in
-	  {hg,svn}-package.mk.
+	  hg-package.mk.
 
 Suggested fixes
 ===============
