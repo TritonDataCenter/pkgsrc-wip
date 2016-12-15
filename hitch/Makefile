@@ -1,12 +1,12 @@
-# $NetBSD$
+# $NetBSD: Makefile,v 1.4 2016/10/02 09:19:35 fhajny Exp $
 
-DISTNAME=	hitch-1.2.0
+DISTNAME=	hitch-1.4.1
 CATEGORIES=	security
 MASTER_SITES=	https://hitch-tls.org/source/
 
 MAINTAINER=	filip@joyent.com
 HOMEPAGE=	https://hitch-tls.org/
-COMMENT=	Scalable TLS proxy
+COMMENT=	High performance SSL/TLS proxy
 LICENSE=	2-clause-bsd
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-docutils-[0-9]*:../../textproc/py-docutils
@@ -14,25 +14,45 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-docutils-[0-9]*:../../textproc/py-docutils
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 
+.include "../../mk/bsd.prefs.mk"
+
 CONFIGURE_ARGS+=	--with-rst2man=${PREFIX}/bin/rst2man.py${PYVERSSUFFIX}
 
 CPPFLAGS.SunOS+=	-D__EXTENSIONS__
-LIBS.SunOS+=		-lsocket
+LIBS.SunOS+=		-lnsl -lsocket
+
+BUILD_DEFS+=		HITCH_USER HITCH_GROUP HITCH_CERTS
+
+HITCH_USER?=		hitch
+HITCH_GROUP?=		hitch
+HITCH_CERTS?=		${PKG_SYSCONFDIR}/certs.pem
+
+PKG_GROUPS+=		${HITCH_GROUP}
+PKG_USERS+=		${HITCH_USER}:${HITCH_GROUP}
+PKG_GECOS.${HITCH_USER}=hitch daemon user
+
+RCD_SCRIPTS=		hitch
+
+MESSAGE_SUBST+=		HITCH_CERTS=${HITCH_CERTS}
+
+SUBST_CLASSES+=		dir
+SUBST_STAGE.dir=	pre-configure
+SUBST_FILES.dir=	hitch.conf.example
+SUBST_VARS.dir=		HITCH_USER HITCH_GROUP HITCH_CERTS
+SUBST_MESSAGE.dir=	Setting default configuration values
+
+PKG_SYSCONFSUBDIR=	hitch
+CONF_FILES+=		share/examples/hitch/hitch.conf.example \
+			${PKG_SYSCONFDIR}/hitch.conf
 
 INSTALLATION_DIRS+=	share/examples/hitch
 
-PKG_SYSCONFSUBDIR=	hitch
-
-CONF_FILES+=		share/examples/hitch/hitch.conf.ex \
-			${PKG_SYSCONFDIR}/hitch.conf
-
 post-install:
-	${MV} ${DESTDIR}${PREFIX}/share/doc/hitch/hitch.conf.ex \
+	${MV} ${DESTDIR}${PREFIX}/share/doc/hitch/hitch.conf.example \
 		${DESTDIR}${PREFIX}/share/examples/hitch
 
 PYTHON_FOR_BUILD_ONLY=	yes
 .include "../../lang/python/pyversion.mk"
-
 .include "../../devel/libev/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

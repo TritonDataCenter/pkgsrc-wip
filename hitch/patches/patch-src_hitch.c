@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-src_hitch.c,v 1.1 2016/05/25 20:15:35 fhajny Exp $
 
 Need sys/filio on SunOS for FIONBIO.
 
