@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.21 2015/09/07 13:10:43 thomasklausner Exp $
 
-DISTNAME=	xpra-1.0
+DISTNAME=	xpra-1.0.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	x11
 MASTER_SITES=	http://xpra.org/src/
@@ -17,7 +17,7 @@ USE_LANGUAGES=	c c++
 USE_TOOLS+=	pkg-config
 
 #PYTHON_VERSIONED_DEPENDENCIES=	cairo
-PYTHON_VERSIONS_INCOMPATIBLE=	34 35 # py-gtk2
+PYTHON_VERSIONS_INCOMPATIBLE=	34 35 36 # py-gtk2
 
 REPLACE_PYTHON+=	cups/xpraforwarder
 REPLACE_PYTHON+=	*/*.py

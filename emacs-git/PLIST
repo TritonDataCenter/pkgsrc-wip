@@ -2389,7 +2389,6 @@ share/emacs/${PKGVERSION}/lisp/language/vietnamese.el.gz
 share/emacs/${PKGVERSION}/lisp/language/vietnamese.elc
 share/emacs/${PKGVERSION}/lisp/ldefs-boot-auto.el
 share/emacs/${PKGVERSION}/lisp/ldefs-boot-manual.el
-share/emacs/${PKGVERSION}/lisp/ldefs-boot.el
 share/emacs/${PKGVERSION}/lisp/leim/ja-dic/ja-dic.el.gz
 share/emacs/${PKGVERSION}/lisp/leim/ja-dic/ja-dic.elc
 share/emacs/${PKGVERSION}/lisp/leim/leim-list.el
@@ -3577,6 +3576,8 @@ share/emacs/${PKGVERSION}/lisp/term/screen.el.gz
 share/emacs/${PKGVERSION}/lisp/term/screen.elc
 share/emacs/${PKGVERSION}/lisp/term/sun.el.gz
 share/emacs/${PKGVERSION}/lisp/term/sun.elc
+share/emacs/${PKGVERSION}/lisp/term/tmux.el.gz
+share/emacs/${PKGVERSION}/lisp/term/tmux.elc
 share/emacs/${PKGVERSION}/lisp/term/tty-colors.el.gz
 share/emacs/${PKGVERSION}/lisp/term/tty-colors.elc
 share/emacs/${PKGVERSION}/lisp/term/tvi970.el.gz

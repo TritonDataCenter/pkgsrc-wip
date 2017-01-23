@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.9 2016/02/24 22:32:59 tty Exp $
 
-DISTNAME=	ansible-2.1.1.0
+DISTNAME=	ansible-2.2.0.0
 #PKGNAME=	${PYPKGPREFIX}-${DISTNAME} # XXX: for when package is py3x-ready
 CATEGORIES=	python sysutils
 MASTER_SITES=	http://releases.ansible.com/ansible/
@@ -14,10 +14,11 @@ DEPENDS+=	${PYPKGPREFIX}-yaml-[0-9]*:../../textproc/py-yaml
 DEPENDS+=	${PYPKGPREFIX}-paramiko-[0-9]*:../../security/py-paramiko
 DEPENDS+=	${PYPKGPREFIX}-jinja2-[0-9]*:../../textproc/py-jinja2
 DEPENDS+=	${PYPKGPREFIX}-crypto>=2.6:../../security/py-crypto
+DEPENDS+=	${PYPKGPREFIX}-jxmlease-[0-9]*:../../wip/py-jxmlease
 
 USE_TOOLS+=	gmake
 PYTHON_VERSIONS_ACCEPTED=		27
-PYTHON_VERSIONS_INCOMPATIBLE=	34 35 # py-paramiko
+PYTHON_VERSIONS_INCOMPATIBLE=	34 35 36 # py-paramiko
 
 EGDIR=		${PREFIX}/share/examples/ansible
 

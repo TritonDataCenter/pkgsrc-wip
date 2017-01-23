@@ -1,6 +1,6 @@
 # $NetBSD$
-PKGNAME=	lumina-1.1.0
-DISTNAME=	lumina-qt5-1.1.0
+PKGNAME=	lumina-1.2.0
+DISTNAME=	lumina-qt5-1.2.0
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_GITHUB:=trueos/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
@@ -37,6 +37,8 @@ post-install:
 	${RM} -f ${DESTDIR}${PREFIX}/share/lumina-desktop/menu-scripts/ls.json.sh.orig
 
 .include "../../x11/libXdamage/buildlink3.mk"
+# for libxcb-xinput
+BUILDLINK_ABI_DEPENDS.libxcb+=	libxcb>=1.12nb1
 .include "../../x11/libxcb/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../x11/qt5-qttools/buildlink3.mk"

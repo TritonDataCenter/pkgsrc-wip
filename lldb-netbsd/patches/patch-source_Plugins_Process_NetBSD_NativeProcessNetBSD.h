@@ -1,8 +1,8 @@
 $NetBSD$
 
---- source/Plugins/Process/NetBSD/NativeProcessNetBSD.h.orig	2016-12-26 05:32:46.173568985 +0000
+--- source/Plugins/Process/NetBSD/NativeProcessNetBSD.h.orig	2017-01-20 20:30:48.337095578 +0000
 +++ source/Plugins/Process/NetBSD/NativeProcessNetBSD.h
-@@ -0,0 +1,180 @@
+@@ -0,0 +1,183 @@
 +//===-- NativeProcessNetBSD.h ---------------------------------- -*- C++ -*-===//
 +//
 +//                     The LLVM Compiler Infrastructure
@@ -111,6 +111,7 @@ $NetBSD$
 +  // ---------------------------------------------------------------------
 +  // NativeProcessProtocol protected interface
 +  // ---------------------------------------------------------------------
++
 +  Error
 +  GetSoftwareBreakpointTrapOpcode(size_t trap_opcode_size_hint,
 +                                  size_t &actual_opcode_size,
@@ -141,6 +142,8 @@ $NetBSD$
 +  void AttachToInferior(MainLoop &mainloop, lldb::pid_t pid, Error &error);
 +
 +  ::pid_t Attach(lldb::pid_t pid, Error &error);
++
++  static Error SetDefaultPtraceOpts(const lldb::pid_t);
 +
 +  static void *MonitorThread(void *baton);
 +
