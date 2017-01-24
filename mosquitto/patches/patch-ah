@@ -26,6 +26,7 @@ Support exception for NetBSD, taken from FreeBSD. Correctly locate the library
  INSTALL?=install
 -prefix=/usr/local
 +prefix=${PREFIX}
- mandir=${prefix}/share/man
+-mandir=${prefix}/share/man
++mandir=${prefix}/man
  localedir=${prefix}/share/locale
  STRIP?=strip
