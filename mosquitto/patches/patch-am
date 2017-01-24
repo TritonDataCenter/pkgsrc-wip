@@ -1,8 +1,8 @@
 $NetBSD$
-BSDs don't support long options
+BSDs don't support long options and correct file permission
 --- lib/cpp/Makefile.orig	2016-08-29 21:50:11.282837830 +0000
 +++ lib/cpp/Makefile	2016-08-29 21:50:41.337564781 +0000
-@@ -10,7 +10,7 @@
+@@ -10,10 +10,10 @@
  
  install : all
  	$(INSTALL) -d ${DESTDIR}$(prefix)/lib${LIB_SUFFIX}/
@@ -10,4 +10,8 @@ BSDs don't support long options
 +	$(INSTALL) -s libmosquittopp.so.${SOVERSION} ${DESTDIR}${prefix}/lib${LIB_SUFFIX}/libmosquittopp.so.${SOVERSION}
  	ln -sf libmosquittopp.so.${SOVERSION} ${DESTDIR}${prefix}/lib${LIB_SUFFIX}/libmosquittopp.so
  	$(INSTALL) -d ${DESTDIR}${prefix}/include/
- 	$(INSTALL) mosquittopp.h ${DESTDIR}${prefix}/include/mosquittopp.h
+-	$(INSTALL) mosquittopp.h ${DESTDIR}${prefix}/include/mosquittopp.h
++	$(INSTALL) -m 644 mosquittopp.h ${DESTDIR}${prefix}/include/mosquittopp.h
+ 	
+ uninstall :
+ 	-rm -f ${DESTDIR}${prefix}/lib${LIB_SUFFIX}/libmosquittopp.so.${SOVERSION}

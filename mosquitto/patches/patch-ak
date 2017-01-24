@@ -1,8 +1,8 @@
 $NetBSD$
-BSDs don't support long options
+BSDs don't support long options and corrent file modes
 --- lib/Makefile.orig	2016-08-29 21:51:21.897719218 +0000
 +++ lib/Makefile	2016-08-29 21:51:43.349422011 +0000
-@@ -25,7 +25,7 @@
+@@ -25,10 +25,10 @@
  
  install : all
  	$(INSTALL) -d ${DESTDIR}$(prefix)/lib${LIB_SUFFIX}/
@@ -10,4 +10,8 @@ BSDs don't support long options
 +	$(INSTALL) -s libmosquitto.so.${SOVERSION} ${DESTDIR}${prefix}/lib${LIB_SUFFIX}/libmosquitto.so.${SOVERSION}
  	ln -sf libmosquitto.so.${SOVERSION} ${DESTDIR}${prefix}/lib${LIB_SUFFIX}/libmosquitto.so
  	$(INSTALL) -d ${DESTDIR}${prefix}/include/
- 	$(INSTALL) mosquitto.h ${DESTDIR}${prefix}/include/mosquitto.h
+-	$(INSTALL) mosquitto.h ${DESTDIR}${prefix}/include/mosquitto.h
++	$(INSTALL) -m 644 mosquitto.h ${DESTDIR}${prefix}/include/mosquitto.h
+ 	$(MAKE) -C cpp install
+ 
+ uninstall :
