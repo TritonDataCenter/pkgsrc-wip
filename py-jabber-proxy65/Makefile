@@ -3,7 +3,7 @@
 DISTNAME=	Proxy65-1.2.0
 PKGNAME=	${PYPKGPREFIX}-jabber-${DISTNAME:S/P/p/}
 CATEGORIES=	chat python
-MASTER_SITES=	http://proxy65.googlecode.com/files/
+MASTER_SITES=	https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/proxy65/
 
 MAINTAINER=	eric@cirr.com
 HOMEPAGE=	http://proxy65.googlecode.com/
@@ -17,15 +17,13 @@ LICENSE=	mit
 #
 # DEPENDS+=	jabberd-[0-9]*:../../chat/jabberd2
 DEPENDS+=	${PYPKGPREFIX}-twisted>=8.1.0:../../net/py-twisted
+DEPENDS+=	${PYPKGPREFIX}-automat-[0-9]*:../../devel/py-automat
 DEPENDS+=	${PYPKGPREFIX}-OpenSSL>=0.6:../../security/py-OpenSSL
 
-# it's a python package using the standard Python packager
-PYDISTUTILSPKG=	yes
-PYTHON_VERSIONS_INCOMPATIBLE=	34 35 36 # py-twisted
+PYTHON_VERSIONS_INCOMPATIBLE=	34 35 36 # as of 1.2.0
 
 # always include bsd.prefs.mk before any .if or .ifdef statements
 .include "../../mk/bsd.prefs.mk"
-
 
 JABBER_USER?=		jabberd
 JABBER_GROUP?=		jabberd
@@ -48,5 +46,5 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/${f} ${DOCDIR}
 .endfor
 
-.include "../../lang/python/extension.mk"
+.include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"

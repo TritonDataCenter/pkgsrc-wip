@@ -1,6 +1,8 @@
 $NetBSD$
 
---- src/xlib/CMakeLists.txt.orig	2017-01-09 21:54:26.000000000 +0000
+Don’t link with dl on non-Linux
+
+--- src/xlib/CMakeLists.txt.orig	2017-02-06 18:58:47.000000000 +0000
 +++ src/xlib/CMakeLists.txt
 @@ -39,7 +39,11 @@ message("X library: ${X11_LIBRARIES}")
  message("Xrender include: ${X11_Xrender_INCLUDE_PATH}")
@@ -13,5 +15,5 @@ $NetBSD$
 +  target_link_libraries(utoxNATIVE dl)
 +endif()
  
- install(FILES
-     ../utox.desktop
+ include(GNUInstallDirs)
+ 

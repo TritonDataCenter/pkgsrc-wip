@@ -4,7 +4,7 @@ DISTNAME=		pyaim-t-0.8a
 PKGNAME=		${PYPKGPREFIX}-jabber-${DISTNAME:S/py//}
 PKGREVISION=		1
 CATEGORIES=		chat python
-MASTER_SITES=		http://pyaimt.googlecode.com/files/
+MASTER_SITES=		https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/pyaimt/
 
 MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://code.google.com/p/pyaimt/
@@ -29,7 +29,7 @@ REPLACE_PYTHON+=	PyAIMt.py
 REPLACE_PYTHON+=	tools/infodump.py
 REPLACE_PYTHON+=	tools/managessi.py
 REPLACE_PYTHON+=	tools/migrate.py
-PYTHON_VERSIONS_INCOMPATIBLE=	34 35 36 # py-imaging, py-twisted
+PYTHON_VERSIONS_INCOMPATIBLE=	34 35 36 # py-imaging
 
 # always include bsd.prefs.mk before any .if or .ifdef statements
 .include "../../mk/bsd.prefs.mk"

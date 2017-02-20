@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- chromecast/browser/BUILD.gn.orig	2017-02-02 02:02:51.000000000 +0000
++++ chromecast/browser/BUILD.gn
+@@ -120,7 +120,7 @@ source_set("browser") {
+     "//ui/gl",
+   ]
+ 
+-  if (is_linux) {
++  if (is_linux || is_bsd) {
+     sources += [
+       "cast_memory_pressure_monitor.cc",
+       "cast_memory_pressure_monitor.h",

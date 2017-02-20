@@ -1,13 +1,13 @@
-$NetBSD: patch-chrome_app_resources_locale__settings.grd,v 1.1 2011/05/27 13:23:09 rxg Exp $
+$NetBSD$
 
---- chrome/app/resources/locale_settings.grd.orig	2011-05-24 08:01:35.000000000 +0000
+--- chrome/app/resources/locale_settings.grd.orig	2017-02-02 02:02:48.000000000 +0000
 +++ chrome/app/resources/locale_settings.grd
-@@ -589,7 +589,7 @@
+@@ -151,7 +151,7 @@
+         55
        </message>
  
-       <!-- The width and height for the "create application shortcuts error" dialog. -->
--      <if expr="os == 'linux2' or os.find('bsd') != -1">
-+      <if expr="os == 'linux2' or os.find('bsd') != -1 or os == 'dragonfly2'">
-         <message name="IDS_CREATE_SHORTCUTS_ERROR_DIALOG_WIDTH_CHARS" use_name_for_id="true">
-          60
-         </message>
+-      <if expr="is_win or is_linux or chromeos">
++      <if expr="is_win or is_linux or chromeos or is_bsd">
+         <!-- The width of the ash/ChromeOS system tray menu in pixels. -->
+         <message name="IDS_SYSTEM_TRAY_MENU_BUBBLE_WIDTH_PIXELS" use_name_for_id="true">
+           300

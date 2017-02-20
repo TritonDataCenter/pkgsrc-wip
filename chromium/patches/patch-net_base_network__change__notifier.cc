@@ -1,8 +1,8 @@
-$NetBSD: patch-net_base_network__change__notifier.cc,v 1.1 2011/04/28 03:09:02 rxg Exp $
+$NetBSD$
 
---- net/base/network_change_notifier.cc.orig	2011-04-13 08:01:17.000000000 +0000
+--- net/base/network_change_notifier.cc.orig	2017-02-02 02:02:56.000000000 +0000
 +++ net/base/network_change_notifier.cc
-@@ -42,7 +42,6 @@ NetworkChangeNotifier* NetworkChangeNoti
+@@ -533,7 +533,6 @@ NetworkChangeNotifier* NetworkChangeNoti
  #elif defined(OS_MACOSX)
    return new NetworkChangeNotifierMac();
  #else
@@ -10,3 +10,21 @@ $NetBSD: patch-net_base_network__change__notifier.cc,v 1.1 2011/04/28 03:09:02 r
    return NULL;
  #endif
  }
+@@ -753,7 +752,7 @@ void NetworkChangeNotifier::LogOperatorC
+ #endif
+ }
+ 
+-#if defined(OS_LINUX)
++#if defined(OS_LINUX) || defined(OS_BSD)
+ // static
+ const internal::AddressTrackerLinux*
+ NetworkChangeNotifier::GetAddressTracker() {
+@@ -978,7 +977,7 @@ NetworkChangeNotifier::NetworkChangeNoti
+   network_change_calculator_->Init();
+ }
+ 
+-#if defined(OS_LINUX)
++#if defined(OS_LINUX) || defined(OS_BSD)
+ const internal::AddressTrackerLinux*
+ NetworkChangeNotifier::GetAddressTrackerInternal() const {
+   return NULL;

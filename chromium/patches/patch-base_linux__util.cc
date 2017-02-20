@@ -1,12 +1,20 @@
-$NetBSD: patch-base_linux__util.cc,v 1.1 2011/04/28 03:09:02 rxg Exp $
+$NetBSD$
 
---- base/linux_util.cc.orig	2011-04-13 08:01:34.000000000 +0000
+--- base/linux_util.cc.orig	2017-02-02 02:02:47.000000000 +0000
 +++ base/linux_util.cc
-@@ -171,6 +171,7 @@ std::string GetLinuxDistro() {
-   }
- #else
-   NOTIMPLEMENTED();
-+  return "Unknown";
+@@ -110,12 +110,14 @@ char g_linux_distro[kDistroSize] =
+     "CrOS";
+ #elif defined(OS_ANDROID)
+     "Android";
++#elif defined(OS_BSD)
++    "BSD";
+ #else  // if defined(OS_LINUX)
+     "Unknown";
  #endif
- }
  
+ std::string GetLinuxDistro() {
+-#if defined(OS_CHROMEOS) || defined(OS_ANDROID)
++#if defined(OS_CHROMEOS) || defined(OS_ANDROID) || defined(OS_BSD)
+   return g_linux_distro;
+ #elif defined(OS_LINUX)
+   LinuxDistroHelper* distro_state_singleton = LinuxDistroHelper::GetInstance();

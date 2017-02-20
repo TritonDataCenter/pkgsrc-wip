@@ -1,14 +1,16 @@
-$NetBSD: patch-v8_src_globals.h,v 1.1 2011/05/27 13:23:09 rxg Exp $
+$NetBSD$
 
---- v8/src/globals.h.orig	2011-05-24 08:20:55.000000000 +0000
+--- v8/src/globals.h.orig	2017-02-02 02:04:00.000000000 +0000
 +++ v8/src/globals.h
-@@ -177,7 +177,8 @@ typedef byte* Address;
+@@ -182,7 +182,11 @@ const size_t kCodeRangeAreaAlignment = 2
+ const size_t kMaximalCodeRangeSize = 512 * MB;
+ const size_t kCodeRangeAreaAlignment = 64 * KB;  // OS page on PPC Linux
+ #else
++#if defined(__FreeBSD__) || defined(__NetBSD__)
++const size_t kMaximalCodeRangeSize = 256 * MB;
++#else
+ const size_t kMaximalCodeRangeSize = 512 * MB;
++#endif
+ const size_t kCodeRangeAreaAlignment = 4 * KB;  // OS page.
  #endif
- 
- #if (defined(__APPLE__) && defined(__MACH__)) || \
--    defined(__FreeBSD__) || defined(__OpenBSD__)
-+    defined(__DragonFly__) || defined(__FreeBSD__) || \
-+    defined(__NetBSD__) || defined(__OpenBSD__)
- #define USING_BSD_ABI
- #endif
- 
+ #if V8_OS_WIN

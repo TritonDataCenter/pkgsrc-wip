@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (syncthing-0.14.18.tar.gz) = 09ae4da2ba54298c34ae6163f29b8ec900de5f76
-RMD160 (syncthing-0.14.18.tar.gz) = c4b7ae36224fc695a369501e079b98dfb9b3b97e
-SHA512 (syncthing-0.14.18.tar.gz) = 107c7712c8d377ceb042280ae23b55af57dff4a357abad6310705c0689bae06cf2ec01cb2984bd92303938abef4f3c9767e555f4c93531f08e8020d0e60aa455
-Size (syncthing-0.14.18.tar.gz) = 6007483 bytes
+SHA1 (syncthing-0.14.23.tar.gz) = 727553bef2157dbfc4257f9691cd7574361bf26a
+RMD160 (syncthing-0.14.23.tar.gz) = 79b44cb3cfe341daf3a034041a319c9a7f27f427
+SHA512 (syncthing-0.14.23.tar.gz) = 36a1d0f1ec6642056a6ff43b90af417eff09d6f9c7358fb1d80c3f0470d9c686d8644e4491c94f95a644ee26b6b4df4ecc27d519c7d4cc39539061f6dc5b181c
+Size (syncthing-0.14.23.tar.gz) = 6783975 bytes

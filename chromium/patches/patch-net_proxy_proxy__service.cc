@@ -1,22 +1,22 @@
-$NetBSD: patch-net_proxy_proxy__service.cc,v 1.1 2011/04/28 03:09:02 rxg Exp $
+$NetBSD$
 
---- net/proxy/proxy_service.cc.orig	2011-04-13 08:01:16.000000000 +0000
+--- net/proxy/proxy_service.cc.orig	2017-02-02 02:02:56.000000000 +0000
 +++ net/proxy/proxy_service.cc
-@@ -25,7 +25,7 @@
+@@ -49,7 +49,7 @@
  #elif defined(OS_MACOSX)
  #include "net/proxy/proxy_config_service_mac.h"
  #include "net/proxy/proxy_resolver_mac.h"
 -#elif defined(OS_LINUX) && !defined(OS_CHROMEOS)
-+#elif defined(OS_LINUX) && !defined(OS_CHROMEOS) || defined(OS_BSD)
++#elif (defined(OS_LINUX) && !defined(OS_CHROMEOS)) || defined(OS_FREEBSD) || defined(OS_NETBSD)
  #include "net/proxy/proxy_config_service_linux.h"
- #endif
- #include "net/proxy/proxy_resolver.h"
-@@ -795,7 +795,7 @@ ProxyConfigService* ProxyService::Create
-   NOTREACHED() << "ProxyConfigService for ChromeOS should be created in "
-                << "chrome_url_request_context.cc::CreateProxyConfigService.";
-   return NULL;
+ #elif defined(OS_ANDROID)
+ #include "net/proxy/proxy_config_service_android.h"
+@@ -1520,7 +1520,7 @@ ProxyService::CreateSystemProxyConfigSer
+              << "profile_io_data.cc::CreateProxyConfigService and this should "
+              << "be used only for examples.";
+   return base::WrapUnique(new UnsetProxyConfigService);
 -#elif defined(OS_LINUX)
 +#elif defined(OS_LINUX) || defined(OS_BSD)
-   ProxyConfigServiceLinux* linux_config_service
-       = new ProxyConfigServiceLinux();
+   std::unique_ptr<ProxyConfigServiceLinux> linux_config_service(
+       new ProxyConfigServiceLinux());
  

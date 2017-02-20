@@ -1,6 +1,6 @@
 $NetBSD$
 
---- source/Plugins/Process/NetBSD/NativeProcessNetBSD.cpp.orig	2017-01-21 18:35:30.311662060 +0000
+--- source/Plugins/Process/NetBSD/NativeProcessNetBSD.cpp.orig	2017-02-06 19:51:43.599155992 +0000
 +++ source/Plugins/Process/NetBSD/NativeProcessNetBSD.cpp
 @@ -0,0 +1,1387 @@
 +//===-- NativeProcessNetBSD.cpp -------------------------------- -*- C++ -*-===//
@@ -30,7 +30,7 @@ $NetBSD$
 +
 +// Other libraries and framework includes
 +#include "lldb/Core/EmulateInstruction.h"
-+#include "lldb/Core/Error.h"
++#include "lldb/Utility/Error.h"
 +#include "lldb/Core/ModuleSpec.h"
 +#include "lldb/Core/RegisterValue.h"
 +#include "lldb/Core/State.h"
@@ -39,7 +39,7 @@ $NetBSD$
 +#include "lldb/Host/ThreadLauncher.h"
 +#include "lldb/Host/common/NativeBreakpoint.h"
 +#include "lldb/Host/common/NativeRegisterContext.h"
-+#include "lldb/Host/netbsd/ProcessLauncherNetBSD.h"
++#include "lldb/Host/posix/ProcessLauncherPosixFork.h"
 +#include "lldb/Symbol/ObjectFile.h"
 +#include "lldb/Target/Process.h"
 +#include "lldb/Target/ProcessLaunchInfo.h"
@@ -110,7 +110,7 @@ $NetBSD$
 +void PtraceDisplayBytes(int &req, void *addr, int data) {
 +  StreamString buf;
 +  Log *verbose_log(ProcessPOSIXLog::GetLogIfAllCategoriesSet(
-+      POSIX_LOG_PTRACE | POSIX_LOG_VERBOSE));
++      POSIX_LOG_PTRACE));
 +
 +  if (verbose_log) {
 +    switch (req) {
@@ -232,7 +232,7 @@ $NetBSD$
 +    lldb::pid_t pid, NativeProcessProtocol::NativeDelegate &native_delegate,
 +    MainLoop &mainloop, NativeProcessProtocolSP &native_process_sp) {
 +  Log *log(GetLogIfAllCategoriesSet(LIBLLDB_LOG_PROCESS));
-+  if (log && log->GetMask().Test(POSIX_LOG_VERBOSE))
++  if (log)
 +    log->Printf("NativeProcessNetBSD::%s(pid = %" PRIi64 ")", __FUNCTION__, pid);
 +
 +  // Retrieve the architecture for the running process.
@@ -307,7 +307,7 @@ $NetBSD$
 +  MaybeLogLaunchInfo(launch_info);
 +
 +  ::pid_t pid =
-+      ProcessLauncherNetBSD().LaunchProcess(launch_info, error).GetProcessId();
++      ProcessLauncherPosixFork().LaunchProcess(launch_info, error).GetProcessId();
 +  if (error.Fail())
 +    return error;
 +

@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- base/test/BUILD.gn.orig	2017-02-02 02:02:47.000000000 +0000
++++ base/test/BUILD.gn
+@@ -303,7 +303,7 @@ static_library("run_all_base_unittests")
+   ]
+ }
+ 
+-if (is_linux) {
++if (is_linux || is_bsd) {
+   shared_library("malloc_wrapper") {
+     testonly = true
+     sources = [

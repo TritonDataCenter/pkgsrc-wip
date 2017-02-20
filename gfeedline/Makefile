@@ -3,7 +3,7 @@
 DISTNAME=	gfeedline-2.4.1
 PKGREVISION=	1
 CATEGORIES=	net
-MASTER_SITES=	http://gfeedline.googlecode.com/files/
+MASTER_SITES=	https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gfeedline/
 
 MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://code.google.com/p/gfeedline/
@@ -20,7 +20,7 @@ DEPENDS+=	${PYPKGPREFIX}-xdg-[0-9]*:../../devel/py-xdg
 DEPENDS+=	${PYPKGPREFIX}-distutils-extra-[0-9]*:../../wip/py-distutils-extra
 
 PYTHON_VERSIONED_DEPENDENCIES=	dateutil
-PYTHON_VERSIONS_INCOMPATIBLE=	34 35 36 # py-beautifulsoup, py-gobject, py-twisted
+PYTHON_VERSIONS_INCOMPATIBLE=	34 35 36 # py-beautifulsoup, py-gobject
 
 USE_LANGUAGES=	# none
 NO_BUILD=	YES

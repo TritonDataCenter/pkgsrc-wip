@@ -1,18 +1,18 @@
 # $NetBSD: Makefile.common,v 1.7 2015/07/20 05:49:53 adam Exp $
 
-PKGNAME=	lldb-4.0.0
+PKGNAME=	lldb-5.0.0
 CATEGORIES=	lang devel
 
 SVN_REPOSITORIES=	lldb
 SVN_REPO.lldb=		http://llvm.org/svn/llvm-project/lldb/trunk
-SVN_REVISION.lldb=	289997
+SVN_REVISION.lldb=	294224
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://lldb.org/
 COMMENT=	Next generation, high-performance debugger
 LICENSE=	modified-bsd
 
-#DEPENDS+=	${PYPKGPREFIX}-six-[0-9]*:../../lang/py-six
+DEPENDS+=	${PYPKGPREFIX}-six-[0-9]*:../../lang/py-six
 
 WRKSRC=			${WRKDIR}/${PKGBASE}
 CONFIGURE_DIRS=		${WRKDIR}/build
@@ -27,6 +27,7 @@ CMAKE_ARGS+=	-DLLVM_CONFIG=${LLVM_CONFIG_PATH}
 CMAKE_ARGS+=	-DCMAKE_BUILD_TYPE=Release
 CMAKE_ARGS+=	-DCMAKE_C_COMPILER=${CC:Q}
 CMAKE_ARGS+=	-DCMAKE_CXX_COMPILER=${CXX:Q}
+CMAKE_ARGS+=	-DLLDB_USE_SYSTEM_SIX:BOOL=TRUE
 
 CHECK_PORTABILITY_SKIP=	utils/buildit/build_llvm
 
@@ -53,12 +54,6 @@ TEST_TARGET=		check-lldb
 #TEST_TARGET=		check-lldb-single # check-lldb -j1
 #TEST_TARGET=		check-lldb-expr # unknown
 TEST_ENV+=		LD_LIBRARY_PATH=${WRKDIR}/build/lib
-
-.if exists(/usr/include/panel.h)
-CMAKE_ARGS+=	-DLLDB_DISABLE_CURSES:BOOL=FALSE
-.else
-CMAKE_ARGS+=	-DLLDB_DISABLE_CURSES:BOOL=TRUE
-.endif
 
 post-extract:
 	${RUN} mkdir -p ${WRKDIR}/build

@@ -1,31 +1,22 @@
-$NetBSD: patch-chrome_browser_memory__details.cc,v 1.2 2011/05/27 13:23:09 rxg Exp $
+$NetBSD$
 
---- chrome/browser/memory_details.cc.orig	2011-05-24 08:01:43.000000000 +0000
+--- chrome/browser/memory_details.cc.orig	2017-02-02 02:02:49.000000000 +0000
 +++ chrome/browser/memory_details.cc
-@@ -25,7 +25,7 @@
- #include "grit/generated_resources.h"
+@@ -33,7 +33,7 @@
+ #include "extensions/features/features.h"
  #include "ui/base/l10n/l10n_util.h"
  
--#if defined(OS_LINUX)
-+#if defined(OS_LINUX) || defined(OS_BSD)
- #include "content/browser/zygote_host_linux.h"
- #include "content/browser/renderer_host/render_sandbox_host_linux.h"
+-#if defined(OS_POSIX) && !defined(OS_MACOSX) && !defined(OS_ANDROID)
++#if defined(OS_POSIX) && !defined(OS_MACOSX) && !defined(OS_ANDROID) && !defined(OS_BSD)
+ #include "content/public/browser/zygote_host_linux.h"
  #endif
-@@ -109,7 +109,7 @@ void MemoryDetails::CollectChildInfoOnIO
- void MemoryDetails::CollectChildInfoOnUIThread() {
-   DCHECK(BrowserThread::CurrentlyOn(BrowserThread::UI));
  
--#if defined(OS_LINUX)
-+#if defined(OS_LINUX) || defined(OS_BSD)
-   const pid_t zygote_pid = ZygoteHost::GetInstance()->pid();
-   const pid_t sandbox_helper_pid = RenderSandboxHostLinux::GetInstance()->pid();
- #endif
-@@ -236,7 +236,7 @@ void MemoryDetails::CollectChildInfoOnUI
-       }
+@@ -335,7 +335,7 @@ void MemoryDetails::CollectChildInfoOnUI
+       process.titles.push_back(title);
      }
  
--#if defined(OS_LINUX)
-+#if defined(OS_LINUX) || defined(OS_BSD)
-     if (process.pid == zygote_pid) {
-       process.type = ChildProcessInfo::ZYGOTE_PROCESS;
-     } else if (process.pid == sandbox_helper_pid) {
+-#if defined(OS_POSIX) && !defined(OS_MACOSX) && !defined(OS_ANDROID)
++#if defined(OS_POSIX) && !defined(OS_MACOSX) && !defined(OS_ANDROID) && !defined(OS_BSD)
+     if (content::ZygoteHost::GetInstance()->IsZygotePid(process.pid)) {
+       process.process_type = content::PROCESS_TYPE_ZYGOTE;
+     }

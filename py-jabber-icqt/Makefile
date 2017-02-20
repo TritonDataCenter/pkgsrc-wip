@@ -3,7 +3,7 @@
 DISTNAME=		pyicqt-0.8.1.5
 PKGNAME=		${PYPKGPREFIX}-jabber-${DISTNAME:S/py//}
 CATEGORIES=		chat python
-MASTER_SITES=		http://pyicqt.googlecode.com/files/
+MASTER_SITES=		https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/pyicqt/
 
 MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://code.google.com/p/pyicqt/
@@ -38,7 +38,7 @@ REPLACE_PYTHON+=	PyICQt.py
 REPLACE_PYTHON+=	tools/infodump.py
 REPLACE_PYTHON+=	tools/managessi.py
 REPLACE_PYTHON+=	tools/migrate.py
-PYTHON_VERSIONS_INCOMPATIBLE=	34 35 36 # py-imaging, py-twisted
+PYTHON_VERSIONS_INCOMPATIBLE=	34 35 36 # py-imaging
 
 TRANSPORTDIR=		${JABBER_TRANSDIR}/pyicqt
 

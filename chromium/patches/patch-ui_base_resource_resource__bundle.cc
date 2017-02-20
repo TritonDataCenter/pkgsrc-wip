@@ -1,13 +1,22 @@
-$NetBSD: patch-ui_base_resource_resource__bundle.cc,v 1.1 2011/05/27 13:23:09 rxg Exp $
+$NetBSD$
 
---- ui/base/resource/resource_bundle.cc.orig	2011-05-24 08:01:59.000000000 +0000
+--- ui/base/resource/resource_bundle.cc.orig	2017-02-02 02:03:13.000000000 +0000
 +++ ui/base/resource/resource_bundle.cc
-@@ -129,7 +129,7 @@ gfx::Image& ResourceBundle::GetImageName
-   return *GetEmptyImage();
+@@ -651,7 +651,7 @@ void ResourceBundle::ReloadFonts() {
  }
  
--#if !defined(OS_MACOSX) && !defined(OS_LINUX)
-+#if !defined(OS_POSIX)
- // Only Mac and Linux have non-Skia native image types. All other platforms use
- // Skia natively, so just use GetImageNamed().
- gfx::Image& ResourceBundle::GetNativeImageNamed(int resource_id) {
+ ScaleFactor ResourceBundle::GetMaxScaleFactor() const {
+-#if defined(OS_CHROMEOS) || defined(OS_WIN) || defined(OS_LINUX)
++#if defined(OS_CHROMEOS) || defined(OS_WIN) || defined(OS_LINUX) || defined(OS_BSD)
+   return max_scale_factor_;
+ #else
+   return GetSupportedScaleFactors().back();
+@@ -711,7 +711,7 @@ void ResourceBundle::InitSharedInstance(
+     supported_scale_factors.push_back(SCALE_FACTOR_100P);
+   }
+ #elif defined(OS_MACOSX) || defined(OS_CHROMEOS) || defined(OS_LINUX) || \
+-    defined(OS_WIN)
++    defined(OS_WIN) || defined(OS_BSD)
+   supported_scale_factors.push_back(SCALE_FACTOR_200P);
+ #endif
+   ui::SetSupportedScaleFactors(supported_scale_factors);

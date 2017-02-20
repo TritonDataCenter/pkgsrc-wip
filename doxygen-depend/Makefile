@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.6 2015/02/10 08:56:25 makoto Exp $
 # $Id: Makefile,v 1.6 2015/02/10 08:56:25 makoto Exp $
 
-DISTNAME=	doxygen-dependent-1.02
+DISTNAME=	doxygen-depend-1.03
 CATEGORIES=	meta-pkgs
 LICENSE=	generic-nonlicense
 
@@ -40,9 +40,9 @@ BUILD_DEPENDS+=	gnuradio-doxygen-[0-9]*:../../ham/gnuradio-doxygen	# YES
 BUILD_DEPENDS+=	uhd-[0-9]*:../../ham/uhd
 BUILD_DEPENDS+=	ibus-qt-[0-9]*:../../inputmethod/ibus-qt	# TOOLS_NOOP= doxygen
 .if 0
-BUILD_DEPENDS+=	gcc44-[0-9]*:../../lang/gcc44
-BUILD_DEPENDS+=	gcc45-[0-9]*:../../lang/gcc45
-BUILD_DEPENDS+=	gcc46-[0-9]*:../../lang/gcc46
+BUILD_DEPENDS+=	gcc44-[0-9]*:../../wip/gcc44
+BUILD_DEPENDS+=	gcc45-[0-9]*:../../wip/gcc45
+BUILD_DEPENDS+=	gcc46-[0-9]*:../../wip/gcc46
 .endif
 BUILD_DEPENDS+=	qore-[0-9]*:../../lang/qore
 #UILD_DEPENDS+=	blitz++-[0-9]*:../../math/blitz++  	# disabled by configure
@@ -60,7 +60,6 @@ BUILD_DEPENDS+=	open-vm-tools-[0-9]*:../../sysutils/open-vm-tools
 BUILD_DEPENDS+=	serd-[0-9]*:../../textproc/serd
 BUILD_DEPENDS+=	sord-[0-9]*:../../textproc/sord
 #UILD_DEPENDS+=	xmltooling-[0-9]*:../../textproc/xmltooling	# disabled by configure
-BUILD_DEPENDS+=	tidy-[0-9]*:../../www/tidy         	# YES
 #UILD_DEPENDS+=	gnome-mag-[0-9]*:../../x11/gnome-mag	# disabled by SUBST
 BUILD_DEPENDS+=	kdelibdocs-[0-9]*:../../x11/kdelibdocs3	# YES
 #UILD_DEPENDS+=	libxcb-[0-9]*:../../x11/libxcb     	# disabled by configure

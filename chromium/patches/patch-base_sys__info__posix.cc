@@ -1,13 +1,22 @@
-$NetBSD: patch-base_sys__info__posix.cc,v 1.1 2011/04/28 03:09:02 rxg Exp $
+$NetBSD$
 
---- base/sys_info_posix.cc.orig	2011-04-13 08:01:34.000000000 +0000
+--- base/sys_info_posix.cc.orig	2017-02-02 02:02:47.000000000 +0000
 +++ base/sys_info_posix.cc
-@@ -23,7 +23,7 @@
+@@ -35,7 +35,7 @@
+ 
+ namespace {
+ 
+-#if !defined(OS_OPENBSD)
++#if !defined(OS_BSD)
+ int NumberOfProcessors() {
+   // sysconf returns the number of "logical" (not "physical") processors on both
+   // Mac and Linux.  So we get the number of max available "logical" processors.
+@@ -128,7 +128,7 @@ bool GetDiskSpaceInfo(const base::FilePa
  
  namespace base {
  
 -#if !defined(OS_OPENBSD)
 +#if !defined(OS_BSD)
  int SysInfo::NumberOfProcessors() {
-   // It seems that sysconf returns the number of "logical" processors on both
-   // Mac and Linux.  So we get the number of "online logical" processors.
+   return g_lazy_number_of_processors.Get().value();
+ }
