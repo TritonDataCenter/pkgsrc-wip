@@ -84,6 +84,7 @@ include/clang/AST/Mangle.h
 include/clang/AST/MangleNumberingContext.h
 include/clang/AST/NSAPI.h
 include/clang/AST/NestedNameSpecifier.h
+include/clang/AST/ODRHash.h
 include/clang/AST/OpenMPClause.h
 include/clang/AST/OperationKinds.def
 include/clang/AST/OperationKinds.h
@@ -446,6 +447,7 @@ include/clang/StaticAnalyzer/Core/PathSensitive/SValBuilder.h
 include/clang/StaticAnalyzer/Core/PathSensitive/SValVisitor.h
 include/clang/StaticAnalyzer/Core/PathSensitive/SVals.def
 include/clang/StaticAnalyzer/Core/PathSensitive/SVals.h
+include/clang/StaticAnalyzer/Core/PathSensitive/SimpleConstraintManager.h
 include/clang/StaticAnalyzer/Core/PathSensitive/Store.h
 include/clang/StaticAnalyzer/Core/PathSensitive/StoreRef.h
 include/clang/StaticAnalyzer/Core/PathSensitive/SubEngine.h

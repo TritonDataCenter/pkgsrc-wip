@@ -1,10 +1,10 @@
 # $NetBSD$
 
 CATEGORIES=	net
-GITHUB_PROJECT=	seafile-client
-VERSION=	6.0.1
+GITHUB_PROJECT=	seafile
+VERSION=	6.0.3
 DISTNAME=	v${VERSION}
-PKGNAME=	${GITHUB_PROJECT}-${VERSION}
+PKGNAME=	seafile-client-${VERSION}
 MASTER_SITES=	${MASTER_SITE_GITHUB:=haiwen/}
 GITHUB_TAG=	v${VERSION}
 
@@ -18,23 +18,34 @@ LICENSE=	gnu-gpl-v2
 DIST_SUBDIR=	${GITHUB_PROJECT}
 WRKSRC=		${WRKDIR}/${GITHUB_PROJECT}-${VERSION}
 
-USE_CMAKE=	yes
+GNU_CONFIGURE=	yes
+USE_LIBTOOL=	yes
+AUTOMAKE_REQD=	1.9
 
 USE_LANGUAGES+=	c c++
-USE_TOOLS+=	pkg-config cmake
+USE_TOOLS+=	pkg-config automake aclocal autoheader autoconf gmake
 
+CONFLICTS=	seafile-server-[0-9]*
+
+SUBST_CLASSES+=		python
+SUBST_STAGE.python=	pre-configure
+SUBST_FILES.python=	app/seaf-cli daemon/seaf-daemon
+SUBST_SED.python=	-e 's,/usr/bin/env python,${PYTHONBIN},'
+
+pre-configure:
+	set -e; cd ${WRKSRC}; \
+	libtoolize; aclocal; autoheader; automake -a --foreign -i; autoconf
+
+.include "../../devel/libinotify/buildlink3.mk"
 .include "../../textproc/jansson/buildlink3.mk"
-.include "../../wip/seafile-ccnet/buildlink3.mk"
-.include "../../wip/seafile-libsearpc/buildlink3.mk"
-.include "../../wip/seafile-daemon/buildlink3.mk"
+.include "../../wip/ccnet-server/buildlink3.mk"
+.include "../../wip/libsearpc/buildlink3.mk"
+.include "../../security/openssl/buildlink3.mk"
 .include "../../devel/libuuid/buildlink3.mk"
-.include "../../x11/qt5-qtwebsockets/buildlink3.mk"
-.include "../../x11/qt5-sqlite3/buildlink3.mk"
+.include "../../www/curl/buildlink3.mk"
+.include "../../databases/sqlite3/buildlink3.mk"
+.include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/libevent/buildlink3.mk"
-.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
+.include "../../wip/libevhtp/buildlink3.mk"
 .include "../../x11/qt5-qtbase/buildlink3.mk"
-.include "../../x11/qt5-qttools/buildlink3.mk"
-.include "../../devel/gettext-tools/buildlink3.mk"
-.include "../../sysutils/desktop-file-utils/buildlink3.mk"
-.include "../../x11/gtk3/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
