@@ -1,6 +1,0 @@
-$NetBSD: distinfo,v 1.5 2013/11/17 07:26:45 bubuchka Exp $
-
-SHA1 (leveldb-1.14.0.tar.gz) = 641d54df4aaf7ee569ae003cfbdb888ebdee0d7f
-RMD160 (leveldb-1.14.0.tar.gz) = 8106fe78fb06d30a1adfa9ba91c38c15ff40b09b
-Size (leveldb-1.14.0.tar.gz) = 208282 bytes
-SHA1 (patch-aa) = 66a727ab380538bf01f4d472cdad0eeccddff544

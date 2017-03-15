@@ -72,7 +72,6 @@ libexec/emacs/${PKGVERSION}/${MACHINE_GNU_PLATFORM}/hexl
 libexec/emacs/${PKGVERSION}/${MACHINE_GNU_PLATFORM}/movemail
 libexec/emacs/${PKGVERSION}/${MACHINE_GNU_PLATFORM}/profile
 libexec/emacs/${PKGVERSION}/${MACHINE_GNU_PLATFORM}/rcs2log
-libexec/emacs/${PKGVERSION}/${MACHINE_GNU_PLATFORM}/update-game-score
 man/man1/ctags.1
 man/man1/ebrowse.1
 man/man1/emacs.1
@@ -2389,8 +2388,7 @@ share/emacs/${PKGVERSION}/lisp/language/viet-util.el.gz
 share/emacs/${PKGVERSION}/lisp/language/viet-util.elc
 share/emacs/${PKGVERSION}/lisp/language/vietnamese.el.gz
 share/emacs/${PKGVERSION}/lisp/language/vietnamese.elc
-share/emacs/${PKGVERSION}/lisp/ldefs-boot-auto.el
-share/emacs/${PKGVERSION}/lisp/ldefs-boot-manual.el
+share/emacs/${PKGVERSION}/lisp/ldefs-boot.el
 share/emacs/${PKGVERSION}/lisp/leim/ja-dic/ja-dic.el.gz
 share/emacs/${PKGVERSION}/lisp/leim/ja-dic/ja-dic.elc
 share/emacs/${PKGVERSION}/lisp/leim/leim-list.el

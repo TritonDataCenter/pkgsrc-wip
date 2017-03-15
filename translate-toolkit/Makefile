@@ -13,7 +13,10 @@ HOMEPAGE=	http://toolkit.translatehouse.org/
 COMMENT=	Essential Toolkit for Localization Engineers
 LICENSE=	gnu-gpl-v1
 
+PYTHON_VERSIONS_INCOMPATIBLE=	26
+
 DEPENDS+=	${PYPKGPREFIX}-six>=1.9.0:../../lang/py-six
+DEPENDS+=	${PYPKGPREFIX}-sqlite3>=1.9.0:../../databases/py-sqlite3
 
 USE_LANGUAGES=	c
 
