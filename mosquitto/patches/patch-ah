@@ -1,5 +1,5 @@
 $NetBSD$
-Support exception for NetBSD, taken from FreeBSD
+Support exception for NetBSD, taken from FreeBSD. Correctly locate the library
 --- config.mk.orig	2016-06-02 21:20:22.000000000 +0000
 +++ config.mk	2016-08-28 15:27:03.968104814 +0000
 @@ -115,7 +115,7 @@
@@ -11,14 +11,22 @@ Support exception for NetBSD, taken from FreeBSD
  	BROKER_LIBS:=-lm
  else
  	BROKER_LIBS:=-ldl -lm
+@@ -128,7 +128,7 @@
+ 	LIB_LIBS:=$(LIB_LIBS) -lrt
+ endif
+ 
+-CLIENT_LDFLAGS:=$(LDFLAGS) -L../lib ../lib/libmosquitto.so.${SOVERSION}
++CLIENT_LDFLAGS:=$(LDFLAGS) libmosquitto.so.${SOVERSION}
+ 
+ ifeq ($(UNAME),SunOS)
+ 	ifeq ($(CC),cc)
 @@ -241,7 +241,7 @@
  endif
  
  INSTALL?=install
 -prefix=/usr/local
--mandir=${prefix}/share/man
--localedir=${prefix}/share/locale
 +prefix=${PREFIX}
-+mandir=${PREFIX}/man
-+localedir=${PREFIX}/share/locale
+-mandir=${prefix}/share/man
++mandir=${prefix}/man
+ localedir=${prefix}/share/locale
  STRIP?=strip

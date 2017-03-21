@@ -1,9 +1,27 @@
 $NetBSD$
-BSDs don't support long options
+BSDs don't support long options and correctly locate the library
 --- client/Makefile.orig	2016-08-29 21:52:12.870263205 +0000
 +++ client/Makefile	2016-08-29 21:52:39.329840759 +0000
-@@ -24,8 +24,8 @@
+@@ -10,10 +10,10 @@
+ mosquitto_sub : sub_client.o client_shared.o
+ 	${CROSS_COMPILE}${CC} $^ -o $@ ${CLIENT_LDFLAGS}
  
+-pub_client.o : pub_client.c ../lib/libmosquitto.so.${SOVERSION}
++pub_client.o : pub_client.c libmosquitto.so.${SOVERSION}
+ 	${CROSS_COMPILE}${CC} -c $< -o $@ ${CLIENT_CFLAGS}
+ 
+-sub_client.o : sub_client.c ../lib/libmosquitto.so.${SOVERSION}
++sub_client.o : sub_client.c libmosquitto.so.${SOVERSION}
+ 	${CROSS_COMPILE}${CC} -c $< -o $@ ${CLIENT_CFLAGS}
+ 
+ client_shared.o : client_shared.c client_shared.h
+@@ -22,10 +22,13 @@
+ ../lib/libmosquitto.so.${SOVERSION} :
+ 	$(MAKE) -C ../lib
+ 
++libmosquitto.so.${SOVERSION} : ../lib/libmosquitto.so.${SOVERSION}
++	ln -s ../lib/libmosquitto.so.${SOVERSION} libmosquitto.so.${SOVERSION}
++
  install : all
  	$(INSTALL) -d ${DESTDIR}$(prefix)/bin
 -	$(INSTALL) -s --strip-program=${CROSS_COMPILE}${STRIP} mosquitto_pub ${DESTDIR}${prefix}/bin/mosquitto_pub
