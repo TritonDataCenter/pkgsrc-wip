@@ -1,6 +1,6 @@
 $NetBSD$
 
---- lib/sanitizer_common/sanitizer_syscall_generic.inc.orig	2017-07-03 15:33:06.561978756 +0000
+--- lib/sanitizer_common/sanitizer_syscall_generic.inc.orig	2017-07-03 15:33:06.000000000 +0000
 +++ lib/sanitizer_common/sanitizer_syscall_generic.inc
 @@ -11,13 +11,37 @@
  //
@@ -31,14 +31,14 @@ $NetBSD$
 +//   - internal_syscall     for 32-bit length (int, pid_t)
 +//   - internal_syscall64   for 64-bit length (off_t)
 +//   - internal_syscall_ptr for pointer and (s)size_t
-+# define  internal_syscall      syscall                                                                                               
++# define  internal_syscall      syscall
 +# define  internal_syscall64    __syscall
 +# if SANITIZER_WORDSIZE == 64
 +#  define internal_syscall_ptr  __syscall
 +# else
 +#  define internal_syscall_ptr  syscall
 +# endif
-+#elif (SANITIZER_FREEBSD || SANITIZER_MAC) && defined(__x86_64__)
++#elif defined(__x86_64__) && (SANITIZER_FREEBSD || SANITIZER_MAC)
  # define internal_syscall __syscall
  # else
  # define internal_syscall syscall

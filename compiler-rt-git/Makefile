@@ -27,13 +27,20 @@ CMAKE_ARGS+=	-DCMAKE_C_COMPILER=${CC:Q}
 CMAKE_ARGS+=	-DCMAKE_CXX_COMPILER=${CXX:Q}
 CMAKE_ARGS+=	-DCOMPILER_RT_OS_DIR:STRING=${LOWER_OPSYS}${OS_VERSION:R}
 CMAKE_ARGS+=	-DCOMPILER_RT_INSTALL_PATH:STRING=lib/clang/${PKGVERSION_NOREV}
+#CMAKE_ARGS+=	-DCOMPILER_RT_INCLUDE_TESTS:BOOL=ON
+# Not supported in standalone build
+CMAKE_ARGS+=	-DCOMPILER_RT_INCLUDE_TESTS:BOOL=OFF
 
 PLIST_SUBST+=	COMPILER_RT_OS_DIR=${LOWER_OPSYS}${OS_VERSION:R}
+
+#TEST_TARGET=		check-compiler-rt
+#TEST_ENV+=		LD_LIBRARY_PATH=${WRKDIR}/build/lib
 
 post-extract:
 	${RUN} mkdir -p ${WRKDIR}/build
 
 .include "../../wip/mk/git-package.mk"
+.include "../../devel/googletest/buildlink3.mk"
 DEPENDS+=	llvm-${PKGVERSION_NOREV}{,nb*}:../../wip/llvm-git
 .include "../../wip/llvm-git/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
