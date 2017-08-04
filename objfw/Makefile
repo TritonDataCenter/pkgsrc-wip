@@ -1,18 +1,27 @@
-# $NetBSD: Makefile,v 1.5 2015/08/15 19:26:30 midar Exp $
-#
+# $NetBSD$
 
-DISTNAME=	objfw-0.8
-MASTER_SITES=	https://webkeks.org/objfw/downloads/
-EXTRACT_SUFX=	.tar.xz
-
+DISTNAME=	objfw-0.90
 CATEGORIES=	devel
+MASTER_SITES=	https://heap.zone/objfw/downloads/
+
+MAINTAINER=	js@heap.zone
+HOMEPAGE=	https://heap.zone/objfw/
 COMMENT=	Portable, lightweight framework for the Objective-C language
 LICENSE=	qpl-v1.0 OR gnu-gpl-v2 OR gnu-gpl-v3
-HOMEPAGE=	https://webkeks.org/objfw/
-MAINTAINER=	js@webkeks.org
 
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		objc
 CONFIGURE_ARGS+=	--enable-static
+CONFIGURE_ARGS+=	OBJCFLAGS=${CFLAGS:M*:Q} LDFLAGS=${LDFLAGS:M*:Q}
+
+.include "../../mk/bsd.prefs.mk"
+
+PLIST_SRC=	PLIST
+
+.if ${OPSYS} != "Darwin"
+PLIST_SRC+=	${PKGDIR}/PLIST.runtime
+.else
+PLIST_SRC+=	${PKGDIR}/PLIST.bridge
+.endif
 
 .include "../../mk/bsd.pkg.mk"

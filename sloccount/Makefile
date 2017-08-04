@@ -18,6 +18,8 @@ USE_TOOLS+=	flex gunzip perl
 
 MAKE_FILE=	makefile
 MAKE_FLAGS+=	PREFIX=${PREFIX}
+MAKE_FLAGS+=	CFLAGS=${CFLAGS:Q}
+MAKE_FLAGS+=	LDFLAGS=${LDFLAGS:Q}
 MAKE_FLAGS+=	DESTDIR=${DESTDIR}
 MAKE_FLAGS+=	INSTALL_DIR=${DESTDIR}${PREFIX}/libexec/sloccount
 
@@ -48,6 +50,12 @@ REPLACE_PERL+=		print_sum
 REPLACE_PERL+=		python_count
 REPLACE_PERL+=		simplecount
 REPLACE_PERL+=		sql_count
+
+SUBST_CLASSES+=		prefix
+SUBST_MESSAGE.prefix=	Fixing path to internal binaries.
+SUBST_STAGE.prefix=	post-patch
+SUBST_SED.prefix=	-e 's,@PREFIX@,${PREFIX},g'
+SUBST_FILES.prefix=	sloccount
 
 post-install:
 	${MV} ${DESTDIR}${PREFIX}/libexec/sloccount/sloccount ${DESTDIR}${PREFIX}/bin/sloccount
