@@ -1,9 +1,9 @@
 # $NetBSD: Makefile,v 1.92 2016/03/05 11:28:49 jperkin Exp $
 
-DISTNAME=		nmh-1.7-RC1
-PKGNAME=		nmh-1.7rc1
+DISTNAME=		nmh-1.7-RC3
+PKGNAME=		nmh-1.7rc3
 CATEGORIES=		mail
-MASTER_SITES=		http://savannah.nongnu.org/download/nmh/
+MASTER_SITES=		https://download.savannah.nongnu.org/releases/nmh/
 
 MAINTAINER=		leot@NetBSD.org
 HOMEPAGE=		http://www.nongnu.org/nmh/
@@ -15,17 +15,7 @@ CONFLICTS+=		ja-mh6-[0-9]*
 
 USE_TOOLS+=		lex
 
-# We choose DOT_LOCKING in our patches because ".lock" files are
-# the most common locking mechanism supported by mail software.
-# It also works well over NFS.
-
-# Locks supported by `mail.local' are ".lock" and flock(2).
-
 .include "../../mk/bsd.prefs.mk"
-# Avoids SEGV in nmh's private version of strcasecmp() under gcc4
-.if !empty(PKGSRC_COMPILER:Mgcc*)
-CFLAGS+=		-O1
-.endif
 
 .include "options.mk"
 
@@ -90,11 +80,11 @@ CONF_FILES+=		${EGDIR}/${f} ${PKG_SYSCONFDIR}/${f}
 CONFIGURE_ENV+=		ac_cv_func_arc4random=no
 .endif
 
+TEST_TARGET=		check
+
 post-install:
 	${INSTALL_DATA} ${FILESDIR}/mhn.defaults.dist \
 	    ${DESTDIR}${EGDIR}/mhn.defaults
-
-.include "../../mk/bsd.prefs.mk"
 
 .if ${OPSYS} == "Linux"
 .include "../../databases/gdbm_compat/buildlink3.mk"

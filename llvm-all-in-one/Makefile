@@ -1,10 +1,10 @@
 # $NetBSD: Makefile.common,v 1.7 2015/07/20 05:49:53 adam Exp $
 
-LLVM_VERSION=	5.0.0
+LLVM_VERSION=	6.0.0
 
 CATEGORIES=	lang devel
 
-LLVM_SVN_REV=		308844
+LLVM_SVN_REV=		312394
 
 SVN_REPOSITORIES=		llvm
 SVN_REPO.llvm=			http://llvm.org/svn/llvm-project/llvm/trunk
@@ -137,10 +137,17 @@ TEST_ENV+=		LD_LIBRARY_PATH=${WRKDIR}/build/lib
 TEST_ENV+=		VERBOSE=1
 
 # Not complete, not everything works
-.for _test_ in check-llvm check-clang check-lldb check-compiler-rt check-lld check-libcxx check-unwind check-polly check-libomptarget check-sanitizer check-interception
+.for _test_ in check-llvm check-clang check-lldb check-compiler-rt check-lld \
+	check-libcxx check-unwind check-polly check-libomptarget \
+	check-sanitizer check-interception check-tsan check-asan check-msan \
+	check-ubsan check-all check-asan-dynamic check-safestack \
+	check-profile check-fuzzer
 ${_test_}: build
-	${RUN}${_ULIMIT_CMD} cd ${TEST_DIRS} && ${TEST_MAKE_CMD} ${_test_}
+	${RUN}${_ULIMIT_CMD} cd ${TEST_DIRS} && ${TEST_MAKE_CMD} -j${MAKE_JOBS} ${_test_}
 .endfor
+
+check-check: build
+	${RUN}${_ULIMIT_CMD} cd ${TEST_DIRS} && ${TEST_MAKE_CMD} -j${MAKE_JOBS} ${_test_}
 
 do-test: check-llvm check-clang check-lldb check-compiler-rt check-lld check-libcxx check-unwind check-polly check-libomptarget
 	${RUN} echo "Running tests"

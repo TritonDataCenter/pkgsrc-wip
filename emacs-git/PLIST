@@ -827,7 +827,6 @@ share/emacs/${PKGVERSION}/etc/nxml/test-valid.xml
 share/emacs/${PKGVERSION}/etc/org/OrgOdtContentTemplate.xml
 share/emacs/${PKGVERSION}/etc/org/OrgOdtStyles.xml
 share/emacs/${PKGVERSION}/etc/org/README
-share/emacs/${PKGVERSION}/etc/org/library-of-babel.org
 share/emacs/${PKGVERSION}/etc/package-keyring.gpg
 share/emacs/${PKGVERSION}/etc/ps-prin0.ps
 share/emacs/${PKGVERSION}/etc/ps-prin1.ps
@@ -3404,6 +3403,10 @@ share/emacs/${PKGVERSION}/lisp/progmodes/executable.el.gz
 share/emacs/${PKGVERSION}/lisp/progmodes/executable.elc
 share/emacs/${PKGVERSION}/lisp/progmodes/f90.el.gz
 share/emacs/${PKGVERSION}/lisp/progmodes/f90.elc
+share/emacs/${PKGVERSION}/lisp/progmodes/flymake-proc.el.gz
+share/emacs/${PKGVERSION}/lisp/progmodes/flymake-proc.elc
+share/emacs/${PKGVERSION}/lisp/progmodes/flymake-ui.el.gz
+share/emacs/${PKGVERSION}/lisp/progmodes/flymake-ui.elc
 share/emacs/${PKGVERSION}/lisp/progmodes/flymake.el.gz
 share/emacs/${PKGVERSION}/lisp/progmodes/flymake.elc
 share/emacs/${PKGVERSION}/lisp/progmodes/fortran.el.gz
@@ -3597,6 +3600,8 @@ share/emacs/${PKGVERSION}/lisp/term/internal.el.gz
 share/emacs/${PKGVERSION}/lisp/term/internal.elc
 share/emacs/${PKGVERSION}/lisp/term/iris-ansi.el.gz
 share/emacs/${PKGVERSION}/lisp/term/iris-ansi.elc
+share/emacs/${PKGVERSION}/lisp/term/konsole.el.gz
+share/emacs/${PKGVERSION}/lisp/term/konsole.elc
 share/emacs/${PKGVERSION}/lisp/term/linux.el.gz
 share/emacs/${PKGVERSION}/lisp/term/linux.elc
 share/emacs/${PKGVERSION}/lisp/term/lk201.el.gz
@@ -3655,6 +3660,8 @@ share/emacs/${PKGVERSION}/lisp/textmodes/flyspell.el.gz
 share/emacs/${PKGVERSION}/lisp/textmodes/flyspell.elc
 share/emacs/${PKGVERSION}/lisp/textmodes/ispell.el.gz
 share/emacs/${PKGVERSION}/lisp/textmodes/ispell.elc
+share/emacs/${PKGVERSION}/lisp/textmodes/less-css-mode.el.gz
+share/emacs/${PKGVERSION}/lisp/textmodes/less-css-mode.elc
 share/emacs/${PKGVERSION}/lisp/textmodes/makeinfo.el.gz
 share/emacs/${PKGVERSION}/lisp/textmodes/makeinfo.elc
 share/emacs/${PKGVERSION}/lisp/textmodes/mhtml-mode.el.gz

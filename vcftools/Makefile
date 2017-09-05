@@ -25,10 +25,12 @@ REPLACE_PERL=	src/perl/*
 # No zlib.pc on FreeBSD 9.x
 CONFIGURE_ENV=	ZLIB_CFLAGS=" " ZLIB_LIBS="-lz"
 
-PORTVERSION=	0.1.14
+PORTVERSION=	0.1.15
 
 pre-configure:
 	cd ${WRKSRC} && autoreconf -if
 
 .include "../../devel/zlib/buildlink3.mk"
+# Causes configure to fail
+#.include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
