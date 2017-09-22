@@ -1,6 +1,7 @@
 Suggested package updates
 =========================
 
+	o 389-ds-base-1.3.7.4
 	o ReZound-0.13.1beta
 	o alive-2.0.2
 	o alt-ergo-0.99.1
@@ -13,7 +14,7 @@ Suggested package updates
 	o bleachbit-0.9.6
 	o blink-2.0.0
 	o cairo-java-1.0.8
-	o calligra-3.0
+	o calligra-3.0.1
 	o cde-2.2.4
 	o cinelerra-4.5
 	o d4x-2.5.7.1
@@ -53,7 +54,7 @@ Suggested package updates
 	o gtkaml-0.4.3
 	o guichan-0.8.1
 	o guitone-0.9
-	o gwyddion-2.48
+	o gwyddion-2.49
 	o higan-100
 	o hitori-0.4.5
 	o hu-go-2.11
@@ -63,7 +64,6 @@ Suggested package updates
 	o java-asm-3.2
 	o java-bcel-5.2
 	o java-swt-3.6
-	o js-Gallery-2.27.0
 	o kawa-1.9.1
 	o kibana-4.3.1
 	o kino-1.0.0
@@ -109,7 +109,7 @@ Suggested package updates
 	o py-smop-0.29
 	o py-zeitgeist-0.9.16
 	o qmc2-0.59
-	o qtcreator-4.3
+	o qtcreator-4.4
 	o qupzilla-2.1.0
 	o rdup-1.1.13
 	o recoll-1.19.14
@@ -133,10 +133,11 @@ Suggested package updates
 	o tmw-0.0.29.1
 	o torcs-1.3.6
 	o trinity-14.0.3
-	o uget-2.1.5
+	o uget-2.1.6
 	o vidalia-0.2.21
 	o vidalia-devel-0.3.3
 	o virtualbox-5.1.10
+	o webkit-gtk-2.18.0
 	o wkhtmltopdf-0.12.4
 	o xaralx-bin-0.7.1692
 	o xf86-input-synaptics-1.8.0

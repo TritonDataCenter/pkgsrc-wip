@@ -1,1 +1,2 @@
-Dumps core on NetBSD-8.99.2/amd64 during startup. -- wiz 20170903
+- Review curses(3) patches
+- Check if also non-monochromatic themes work
