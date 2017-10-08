@@ -1687,6 +1687,8 @@ share/emacs/${PKGVERSION}/lisp/emacs-lisp/regi.el.gz
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/regi.elc
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/ring.el.gz
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/ring.elc
+share/emacs/${PKGVERSION}/lisp/emacs-lisp/rmc.el.gz
+share/emacs/${PKGVERSION}/lisp/emacs-lisp/rmc.elc
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/rx.el.gz
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/rx.elc
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/seq.el.gz
@@ -3053,6 +3055,8 @@ share/emacs/${PKGVERSION}/lisp/org/ob-groovy.el.gz
 share/emacs/${PKGVERSION}/lisp/org/ob-groovy.elc
 share/emacs/${PKGVERSION}/lisp/org/ob-haskell.el.gz
 share/emacs/${PKGVERSION}/lisp/org/ob-haskell.elc
+share/emacs/${PKGVERSION}/lisp/org/ob-hledger.el.gz
+share/emacs/${PKGVERSION}/lisp/org/ob-hledger.elc
 share/emacs/${PKGVERSION}/lisp/org/ob-io.el.gz
 share/emacs/${PKGVERSION}/lisp/org/ob-io.elc
 share/emacs/${PKGVERSION}/lisp/org/ob-java.el.gz
@@ -3103,8 +3107,6 @@ share/emacs/${PKGVERSION}/lisp/org/ob-ruby.el.gz
 share/emacs/${PKGVERSION}/lisp/org/ob-ruby.elc
 share/emacs/${PKGVERSION}/lisp/org/ob-sass.el.gz
 share/emacs/${PKGVERSION}/lisp/org/ob-sass.elc
-share/emacs/${PKGVERSION}/lisp/org/ob-scala.el.gz
-share/emacs/${PKGVERSION}/lisp/org/ob-scala.elc
 share/emacs/${PKGVERSION}/lisp/org/ob-scheme.el.gz
 share/emacs/${PKGVERSION}/lisp/org/ob-scheme.elc
 share/emacs/${PKGVERSION}/lisp/org/ob-screen.el.gz
@@ -3125,6 +3127,8 @@ share/emacs/${PKGVERSION}/lisp/org/ob-table.el.gz
 share/emacs/${PKGVERSION}/lisp/org/ob-table.elc
 share/emacs/${PKGVERSION}/lisp/org/ob-tangle.el.gz
 share/emacs/${PKGVERSION}/lisp/org/ob-tangle.elc
+share/emacs/${PKGVERSION}/lisp/org/ob-vala.el.gz
+share/emacs/${PKGVERSION}/lisp/org/ob-vala.elc
 share/emacs/${PKGVERSION}/lisp/org/ob.el.gz
 share/emacs/${PKGVERSION}/lisp/org/ob.elc
 share/emacs/${PKGVERSION}/lisp/org/org-agenda.el.gz
@@ -3153,6 +3157,8 @@ share/emacs/${PKGVERSION}/lisp/org/org-datetree.el.gz
 share/emacs/${PKGVERSION}/lisp/org/org-datetree.elc
 share/emacs/${PKGVERSION}/lisp/org/org-docview.el.gz
 share/emacs/${PKGVERSION}/lisp/org/org-docview.elc
+share/emacs/${PKGVERSION}/lisp/org/org-duration.el.gz
+share/emacs/${PKGVERSION}/lisp/org/org-duration.elc
 share/emacs/${PKGVERSION}/lisp/org/org-element.el.gz
 share/emacs/${PKGVERSION}/lisp/org/org-element.elc
 share/emacs/${PKGVERSION}/lisp/org/org-entities.el.gz
@@ -3406,8 +3412,6 @@ share/emacs/${PKGVERSION}/lisp/progmodes/f90.el.gz
 share/emacs/${PKGVERSION}/lisp/progmodes/f90.elc
 share/emacs/${PKGVERSION}/lisp/progmodes/flymake-proc.el.gz
 share/emacs/${PKGVERSION}/lisp/progmodes/flymake-proc.elc
-share/emacs/${PKGVERSION}/lisp/progmodes/flymake-ui.el.gz
-share/emacs/${PKGVERSION}/lisp/progmodes/flymake-ui.elc
 share/emacs/${PKGVERSION}/lisp/progmodes/flymake.el.gz
 share/emacs/${PKGVERSION}/lisp/progmodes/flymake.elc
 share/emacs/${PKGVERSION}/lisp/progmodes/fortran.el.gz
