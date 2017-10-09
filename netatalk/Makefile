@@ -85,6 +85,8 @@ PLIST.ea=		yes
 
 INSTALLATION_DIRS=	libexec/psffilters etc/netatalk ${EGDIR}
 
+CHECK_SSP_SUPPORTED=	no
+
 .if !empty(PKG_OPTIONS:Mpam)
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/config/pam/netatalk ${DESTDIR}${EGDIR}/netatalk.pam
