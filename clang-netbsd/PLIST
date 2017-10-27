@@ -149,6 +149,7 @@ include/clang/Analysis/Analyses/ThreadSafetyUtil.h
 include/clang/Analysis/Analyses/UninitializedValues.h
 include/clang/Analysis/AnalysisDeclContext.h
 include/clang/Analysis/AnalysisDiagnostic.h
+include/clang/Analysis/BodyFarm.h
 include/clang/Analysis/CFG.h
 include/clang/Analysis/CFGStmtMap.h
 include/clang/Analysis/CallGraph.h
@@ -208,6 +209,7 @@ include/clang/Basic/DiagnosticLexKinds.inc
 include/clang/Basic/DiagnosticOptions.def
 include/clang/Basic/DiagnosticOptions.h
 include/clang/Basic/DiagnosticParseKinds.inc
+include/clang/Basic/DiagnosticRefactoringKinds.inc
 include/clang/Basic/DiagnosticSemaKinds.inc
 include/clang/Basic/DiagnosticSerializationKinds.inc
 include/clang/Basic/ExceptionSpecificationType.h
@@ -511,9 +513,12 @@ include/clang/Tooling/Refactoring/RefactoringAction.h
 include/clang/Tooling/Refactoring/RefactoringActionRegistry.def
 include/clang/Tooling/Refactoring/RefactoringActionRule.h
 include/clang/Tooling/Refactoring/RefactoringActionRuleRequirements.h
-include/clang/Tooling/Refactoring/RefactoringActionRuleRequirementsInternal.h
 include/clang/Tooling/Refactoring/RefactoringActionRules.h
 include/clang/Tooling/Refactoring/RefactoringActionRulesInternal.h
+include/clang/Tooling/Refactoring/RefactoringDiagnostic.h
+include/clang/Tooling/Refactoring/RefactoringOption.h
+include/clang/Tooling/Refactoring/RefactoringOptionVisitor.h
+include/clang/Tooling/Refactoring/RefactoringOptions.h
 include/clang/Tooling/Refactoring/RefactoringResultConsumer.h
 include/clang/Tooling/Refactoring/RefactoringRuleContext.h
 include/clang/Tooling/Refactoring/Rename/RenamingAction.h
@@ -522,7 +527,6 @@ include/clang/Tooling/Refactoring/Rename/SymbolOccurrences.h
 include/clang/Tooling/Refactoring/Rename/USRFinder.h
 include/clang/Tooling/Refactoring/Rename/USRFindingAction.h
 include/clang/Tooling/Refactoring/Rename/USRLocFinder.h
-include/clang/Tooling/Refactoring/SourceSelectionConstraints.h
 include/clang/Tooling/RefactoringCallbacks.h
 include/clang/Tooling/ReplacementsYaml.h
 include/clang/Tooling/Tooling.h
@@ -562,6 +566,7 @@ lib/clang/${PKGVERSION}/include/avxintrin.h
 lib/clang/${PKGVERSION}/include/bmi2intrin.h
 lib/clang/${PKGVERSION}/include/bmiintrin.h
 lib/clang/${PKGVERSION}/include/clflushoptintrin.h
+lib/clang/${PKGVERSION}/include/clwbintrin.h
 lib/clang/${PKGVERSION}/include/clzerointrin.h
 lib/clang/${PKGVERSION}/include/cpuid.h
 lib/clang/${PKGVERSION}/include/cuda_wrappers/algorithm
@@ -641,6 +646,7 @@ lib/libclangEdit.a
 lib/libclangFormat.a
 lib/libclangFrontend.a
 lib/libclangFrontendTool.a
+lib/libclangHandleCXX.a
 lib/libclangIndex.a
 lib/libclangLex.a
 lib/libclangParse.a

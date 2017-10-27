@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	s6-2.4.0.0
+DISTNAME=	s6-2.6.1.1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://skarnet.org/software/s6/
 LICENSE=	isc
@@ -17,6 +17,6 @@ CONFIGURE_ARGS+=	--with-lib=${PREFIX}/lib/execline
 CONFIGURE_ARGS+=	--with-lib=${PREFIX}/lib/skalibs
 CONFIGURE_ARGS+=	--with-include=${PREFIX}/include
 
-.include "../../wip/skalibs/buildlink3.mk"
+.include "../../devel/skalibs/buildlink3.mk"
 .include "../../wip/execline/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
