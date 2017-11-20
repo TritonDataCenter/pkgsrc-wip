@@ -1,6 +1,8 @@
-$NetBSD: distinfo,v 1.74 2016/10/19 10:58:14 wiz Exp $
+$NetBSD$
 
-SHA1 (tor-0.2.9.6-rc.tar.gz) = 843f4b74994524dd43fcacf736115cd7e69e7612
-RMD160 (tor-0.2.9.6-rc.tar.gz) = 19bb1b11c6b150526bb7fa97f120363cda22a3ae
-SHA512 (tor-0.2.9.6-rc.tar.gz) = f037de16cc9687098aa5f9655dac39b87d0bd050bb2aa8884b31c9c64f64fed85897497f35d16691f50e2db980ea1babaf5ef553d3c372137b462b34ac7cdf51
-Size (tor-0.2.9.6-rc.tar.gz) = 5492978 bytes
+SHA1 (tor-0.3.2.4-alpha.tar.gz) = 2e0d5d5dd6198b20a232b695d4179531dc7f6a55
+RMD160 (tor-0.3.2.4-alpha.tar.gz) = 46884080b9a4244ffa3a349c9235f273ab2d2a8f
+SHA512 (tor-0.3.2.4-alpha.tar.gz) = 8ed5cf13cdaabd92034a1bb4580f112b09a2369a5d8dc05b788b1a4c8c4a9b683e4329a7fe2a03b5e7491c2fbbde6a3bd359e821e04f36cf553adef192c01df2
+Size (tor-0.3.2.4-alpha.tar.gz) = 6282717 bytes
+SHA1 (patch-Makefile.in) = f3e51f568aa7c4338d352689d1ab2f0bb10aa016
+SHA1 (patch-src_or_config.c) = 6cc372ca1809ff8cb7f5cc181f8e7a735d1148cb

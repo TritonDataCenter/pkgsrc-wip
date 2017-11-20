@@ -1,17 +1,17 @@
-@comment $NetBSD: PLIST,v 1.12 2014/06/07 09:11:36 wiz Exp $
-bin/tor
-bin/tor-gencert
-bin/tor-resolve
-bin/torify
-man/man1/tor-gencert.1
-man/man1/tor-resolve.1
-man/man1/tor.1
-man/man1/torify.1
-share/doc/tor/tor-gencert.html
-share/doc/tor/tor-resolve.html
-share/doc/tor/tor.html
-share/doc/tor/torify.html
-share/examples/rc.d/tor
-share/examples/tor/torrc.sample
-share/tor/geoip
-share/tor/geoip6
+@comment $NetBSD$
+bin/tor-dev
+bin/tor-gencert-dev
+bin/tor-resolve-dev
+bin/torify-dev
+${PLIST.doc}man/man1/tor-gencert-dev.1
+${PLIST.doc}man/man1/tor-resolve-dev.1
+${PLIST.doc}man/man1/tor-dev.1
+${PLIST.doc}man/man1/torify-dev.1
+${PLIST.doc}share/doc/tordev/tor-gencert.html
+${PLIST.doc}share/doc/tordev/tor-resolve.html
+${PLIST.doc}share/doc/tordev/tor.html
+${PLIST.doc}share/doc/tordev/torify.html
+share/examples/rc.d/tordev
+share/examples/tordev/torrc.sample
+share/tordev/geoip
+share/tordev/geoip6

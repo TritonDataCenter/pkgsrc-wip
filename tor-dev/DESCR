@@ -9,3 +9,5 @@ nodes, and negotiate a "virtual circuit" through the network, in which each
 node knows its predecessor and successor, but no others. Traffic flowing down
 the circuit is unwrapped by a symmetric key at each node, which reveals the
 downstream node.
+
+This version is not a stable Tor release. Expect more bugs than usual.

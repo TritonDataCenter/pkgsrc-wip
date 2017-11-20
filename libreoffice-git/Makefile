@@ -1,6 +1,7 @@
 # $NetBSD: Makefile,v 1.68 2015/11/23 10:30:16 wiz Exp $
 
 DISTNAME=	libreoffice
+PKGREVISION=	1
 CATEGORIES=	misc
 
 GIT_REPOSITORIES= core
@@ -292,7 +293,7 @@ BUILDLINK_API_DEPENDS.libetonyek+=	libetonyek>=0.1.4
 .include "../../multimedia/gstreamer1/buildlink3.mk"
 .include "../../multimedia/gst-plugins1-base/buildlink3.mk"
 .include "../../net/libcmis/buildlink3.mk"
-.include "../../print/cups/buildlink3.mk"
+.include "../../print/cups-base/buildlink3.mk"
 .include "../../print/poppler-cpp/buildlink3.mk"
 .include "../../print/poppler-includes/buildlink3.mk"
 .include "../../sysutils/dbus/buildlink3.mk"

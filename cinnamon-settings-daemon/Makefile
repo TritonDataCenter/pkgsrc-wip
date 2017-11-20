@@ -2,6 +2,7 @@
 
 DISTNAME=	3.0.1
 PKGNAME=	cinnamon-settings-daemon-3.0.1
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_GITHUB:=linuxmint/cinnamon-settings-daemon/archive/}
 
@@ -21,7 +22,7 @@ pre-configure:
 
 BUILD_DEPENDS+=	gnome-common-[0-9]*:../../devel/gnome-common
 
-.include "../../print/cups/buildlink3.mk"
+.include "../../print/cups-base/buildlink3.mk"
 .include "../../audio/libcanberra/buildlink3.mk"
 .include "../../audio/pulseaudio/buildlink3.mk"
 .include "../../devel/GConf/buildlink3.mk"

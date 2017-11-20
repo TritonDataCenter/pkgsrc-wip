@@ -1,6 +1,7 @@
 # $NetBSD: Makefile,v 1.54 2015/04/25 14:24:52 tnn Exp $
 
 DISTNAME=	gnome-settings-daemon-3.16.4
+PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gnome-settings-daemon/3.16/}
 EXTRACT_SUFX=	.tar.xz
@@ -60,7 +61,7 @@ BUILDLINK_API_DEPENDS.gsettings-desktop-schemas+=	gsettings-desktop-schemas>=3.1
 .include "../../wip/geocode-glib/buildlink3.mk"
 .include "../../wip/libgweather/buildlink3.mk"
 .include "../../security/polkit/buildlink3.mk"
-.include "../../print/cups/buildlink3.mk"
+.include "../../print/cups-base/buildlink3.mk"
 .include "../../textproc/json-glib/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
