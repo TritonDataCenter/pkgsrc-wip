@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.6 2015/04/25 14:20:47 tnn Exp $
 
-DISTNAME=	retroarch-1.6.7
+DISTNAME=	retroarch-1.6.9
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_GITHUB:=libretro/}
 
@@ -32,12 +32,12 @@ CPPFLAGS+=	-DPREFIX=\"${PREFIX}\"
 
 .include "../../mk/bsd.fast.prefs.mk"
 
-# On exit:
+# On exit (load a game first):
 # assertion "pthread__tsd_destructors[key] != NULL" failed:
 # file "/usr/src/lib/libpthread/pthread_tsd.c", line 287, function "pthread_key_delete"
 # [1]   Abort trap (core dumped) retroarch
 .if ${OPSYS} == "NetBSD"
-CONFIGURE_ARGS+=	--disable-thread_storage
+CONFIGURE_ARGS+=       --disable-thread_storage
 .endif
 
 .include "options.mk"
