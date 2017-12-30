@@ -5,7 +5,7 @@ CATEGORIES=	lang devel
 
 SVN_REPOSITORIES=	compiler-rt
 SVN_REPO.compiler-rt=	http://llvm.org/svn/llvm-project/compiler-rt/trunk
-SVN_REVISION.compiler-rt=	319308
+SVN_REVISION.compiler-rt=	321288
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://compiler-rt.llvm.org/
@@ -33,7 +33,7 @@ post-extract:
 	${RUN} mkdir -p ${WRKDIR}/build
 
 .include "../../wip/mk/svn-package.mk"
-DEPENDS+=	llvm-${PKGVERSION_NOREV}{,nb*}:../../wip/llvm-netbsd
-.include "../../wip/llvm-netbsd/buildlink3.mk"
+#DEPENDS+=	llvm-${PKGVERSION_NOREV}{,nb*}:../../wip/llvm-netbsd
+#.include "../../wip/llvm-netbsd/buildlink3.mk"
 .include "../../lang/python/tool.mk"
 .include "../../mk/bsd.pkg.mk"

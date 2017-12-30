@@ -220,6 +220,8 @@ qt5/include/QtPositioning/QGeoCircle
 qt5/include/QtPositioning/QGeoCoordinate
 qt5/include/QtPositioning/QGeoLocation
 qt5/include/QtPositioning/QGeoPath
+qt5/include/QtPositioning/QGeoPolygon
+qt5/include/QtPositioning/QGeoPolygonPrivate
 qt5/include/QtPositioning/QGeoPositionInfo
 qt5/include/QtPositioning/QGeoPositionInfoSource
 qt5/include/QtPositioning/QGeoPositionInfoSourceFactory
@@ -238,6 +240,7 @@ qt5/include/QtPositioning/qgeocircle.h
 qt5/include/QtPositioning/qgeocoordinate.h
 qt5/include/QtPositioning/qgeolocation.h
 qt5/include/QtPositioning/qgeopath.h
+qt5/include/QtPositioning/qgeopolygon.h
 qt5/include/QtPositioning/qgeopositioninfo.h
 qt5/include/QtPositioning/qgeopositioninfosource.h
 qt5/include/QtPositioning/qgeopositioninfosourcefactory.h
@@ -264,12 +267,12 @@ qt5/lib/libQt5Location.prl
 qt5/lib/libQt5Location.so
 qt5/lib/libQt5Location.so.${PKGVERSION}
 qt5/lib/libQt5Location.so.5
-qt5/lib/libQt5Location.so.5.9
+qt5/lib/libQt5Location.so.5.10
 qt5/lib/libQt5Positioning.prl
 qt5/lib/libQt5Positioning.so
 qt5/lib/libQt5Positioning.so.${PKGVERSION}
 qt5/lib/libQt5Positioning.so.5
-qt5/lib/libQt5Positioning.so.5.9
+qt5/lib/libQt5Positioning.so.5.10
 qt5/lib/pkgconfig/Qt5Location.pc
 qt5/lib/pkgconfig/Qt5Positioning.pc
 qt5/mkspecs/modules/qt_lib_location.pri
