@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.6 2012/12/03 14:05:08 othyro Exp $
 #
 
-DISTNAME=	bwm-ng-0.6
+DISTNAME=	bwm-ng-0.6.1
 CATEGORIES=	net
 MASTER_SITES=	http://www.gropp.org/bwm-ng/
 
@@ -13,4 +13,5 @@ LICENSE=	gnu-gpl-v2
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
+.include "../../mk/curses.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
