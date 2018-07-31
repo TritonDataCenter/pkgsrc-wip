@@ -1,26 +1,38 @@
 # $NetBSD: Makefile,v 1.4 2017/09/14 12:43:54 leot Exp $
 
-DISTNAME=	routersploit-2.2.1
+DISTNAME=	routersploit-3.3.0
 CATEGORIES=	security
-MASTER_SITES=	${MASTER_SITE_GITHUB:=reverse-shell/}
+MASTER_SITES=	${MASTER_SITE_GITHUB:=threat9/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/reverse-shell/routersploit
-COMMENT=	The Router Exploitation Framework
+MAINTAINER=	leot@NetBSD.org
+HOMEPAGE=	https://github.com/threat9/routersploit
+COMMENT=	Exploitation Framework for Embedded Devices
 LICENSE=	modified-bsd
 
-DEPENDS+=	${PYPKGPREFIX}-requests>=2.9.1:../../devel/py-requests
-DEPENDS+=	${PYPKGPREFIX}-paramiko>=1.16.0:../../security/py-paramiko
-DEPENDS+=	${PYPKGPREFIX}-beautifulsoup4>=4.4.1:../../www/py-beautifulsoup4
-DEPENDS+=	${PYPKGPREFIX}-snmp>=4.3.2:../../wip/py-snmp
+DEPENDS+=	${PYPKGPREFIX}-future-[0-9]*:../../devel/py-future
+DEPENDS+=	${PYPKGPREFIX}-requests-[0-9]*:../../devel/py-requests
+DEPENDS+=	${PYPKGPREFIX}-paramiko-[0-9]*:../../security/py-paramiko
+DEPENDS+=	${PYPKGPREFIX}-crypto-[0-9]*:../../security/py-crypto
+DEPENDS+=	${PYPKGPREFIX}-snmp-[0-9]*:../../wip/py-snmp
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_INCOMPATIBLE=	34 35 36 # not yet ported as of 2.2.1
+REPLACE_PYTHON+=	rsf.py
 
+PYTHON_VERSIONS_INCOMPATIBLE=	27
+
+#
+# - Add a MANIFEST.in in order to install all routersploit/resources package
+#   data files
+# - Add an (empty) __init__.py in order to correctly pick up Python code in
+#   routersploit/resources subdirectories
+#
+# Shared upstream via <https://github.com/threat9/routersploit/pull/494>
+#
 post-extract:
-	${CP} ${FILESDIR}/setup.py ${WRKSRC}
+	${CP} ${FILESDIR}/MANIFEST.in ${WRKSRC}
+	${RUN} cd ${WRKSRC} && ${TOUCH} routersploit/resources/__init__.py
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/egg.mk"

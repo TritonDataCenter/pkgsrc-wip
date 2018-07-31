@@ -1,5 +1,0 @@
-$NetBSD: distinfo,v 1.2 2014/10/28 15:33:55 thomasklausner Exp $
-
-SHA1 (libpsl-0.6.0.tar.gz) = e70febdc2822b57484bcb4b67722c445cd8af834
-RMD160 (libpsl-0.6.0.tar.gz) = b176281a4298c2d59d529510d91c73fd0547a384
-Size (libpsl-0.6.0.tar.gz) = 85334 bytes

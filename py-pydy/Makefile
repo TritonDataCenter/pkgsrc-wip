@@ -12,13 +12,13 @@ LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.17.0:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-sympy>=0.1:../../math/py-sympy
-#theano optional dependencie
-#DEPENDS+=	${PYPKGPREFIX}-theano>=0.7.0:../../wip/py-theano
+# Theano optional dependencie
+#DEPENDS+=	${PYPKGPREFIX}-Theano>=0.7.0:../../math/py-Theano
 
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_INCOMPATIBLE=	34 35 36
+PYTHON_VERSIONS_INCOMPATIBLE=	34 35 36 37
 
 #py-cython optional dependencie
 .include "../../devel/py-cython/buildlink3.mk"
