@@ -8,7 +8,7 @@ GITHUB_TAG=	${PKGVERSION_NOREV}
 
 MAINTAINER=	youri@NetBSD.org
 HOMEPAGE=	https://github.com/linuxmint/cinnamon
-COMMENT=	Javascript bindings based on gobject-introspection
+COMMENT=	Desktop Environment with layout similar to Gnome
 LICENSE=	gnu-gpl-v2
 
 NOT_PAX_MPROTECT_SAFE=	bin/cinnamon
@@ -86,7 +86,7 @@ DEPENDS+=	${PYPKGPREFIX}-pexpect-[0-9]*:../../devel/py-pexpect
 DEPENDS+=	${PYPKGPREFIX}-pyinotify-[0-9]*:../../sysutils/py-pyinotify
 .endif
 DEPENDS+=	${PYPKGPREFIX}-gobject3-[0-9]*:../../devel/py-gobject3
-DEPENDS+=	${PYPKGPREFIX}-pam-[0-9]*:../../cinnamon/py-pam
+DEPENDS+=	${PYPKGPREFIX}-pam-[0-9]*:../../wip/py-pam
 DEPENDS+=	caribou-[0-9]*:../../x11/caribou
 DEPENDS+=	keybinder3-[0-9]*:../../x11/keybinder3
 DEPENDS+=	gst-plugins1-vpx-[0-9]*:../../multimedia/gst-plugins1-vpx

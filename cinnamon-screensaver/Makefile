@@ -6,7 +6,7 @@ MASTER_SITES=	${MASTER_SITE_GITHUB:=linuxmint/}
 GITHUB_PROJECT=	cinnamon-screensaver
 GITHUB_TAG=	${PKGVERSION_NOREV}
 
-MAINTAINER=	youri@gmail.com
+MAINTAINER=	youri@NetBSD.com
 HOMEPAGE=	https://github.com/linuxmint/cinnamon-screensaver
 COMMENT=	Cinnamon screensaver
 LICENSE=	gnu-gpl-v2
@@ -52,6 +52,7 @@ CONF_FILES+=	${PREFIX}/share/examples/pam.d/cinnamon-screensaver \
 
 BUILD_DEPENDS+=		gettext-m4>=0.14.6:../../devel/gettext-m4
 BUILD_DEPENDS+=		autoconf-archive-[0-9]*:../../devel/autoconf-archive
+TOOL_DEPENDS+=		gdbus-codegen-[0-9]*:../../devel/gdbus-codegen
 
 DEPENDS+=	${PYPKGPREFIX}-xapp>=1.2.0:../../wip/py-xapp
 DEPENDS+=	${PYPKGPREFIX}-setproctitle-[0-9]*:../../sysutils/py-setproctitle
