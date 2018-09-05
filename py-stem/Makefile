@@ -1,30 +1,16 @@
-# $NetBSD: Makefile,v 1.6 2012/10/07 13:27:23 asau Exp $
-#
+# $NetBSD$
 
-DISTNAME=		PyStem-1.0.4
-PKGNAME=		${PYPKGPREFIX}-stem-1.0.4
-CATEGORIES=		devel
-MASTER_SITES=		http://www.alobbs.com//pystem/
+DISTNAME=	stem-1.6.0
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	net security
+MASTER_SITES=	${MASTER_SITE_PYPI:=s/stem/}
 
-MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://www.alobbs.com//pystem/
-COMMENT=		Binding of the Porter stemming algorithm to Python
+MAINTAINER=	pkgsrc-users@NetBSD.org
+HOMEPAGE=	https://stem.torproject.org/index.html
+COMMENT=	Python controller library for Tor
+LICENSE=	gnu-lgpl-v3
 
-PY_PATCHPLIST=		# defined
-# How the heck do I get Python include directory?!
-CFLAGS+=		-I. -I${PREFIX}/include/python${PYVERSSUFFIX}
+USE_LANGUAGES=	# none
 
-PY_STEM_FILES=		stem py-c-stem stopwords stoplist
-
-do-build:
-	for a in ${PY_STEM_FILES}; do \
-		( cd ${WRKSRC} && ${CC} ${CFLAGS} -c $$a.c ); \
-	done
-	cd ${WRKSRC} && ${CC} ${LDFLAGS} -shared -o _pyStem.so *.o
-
-do-install:
-	${INSTALL_DATA} ${WRKSRC}/_pyStem.so ${DESTDIR}${PREFIX}/${PYSITELIB}/_pyStem.so
-	${INSTALL_DATA} ${WRKSRC}/Stem.py ${DESTDIR}${PREFIX}/${PYSITELIB}/Stem.py
-
-.include "../../lang/python/extension.mk"
+.include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"

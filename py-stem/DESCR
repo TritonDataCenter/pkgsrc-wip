@@ -1,7 +1,6 @@
-Binding of the Porter stemming algorithm to Python.
+Stem is a Python controller library that you can use to interact
+with Tor. With it you can write scripts and applications with
+capabilities similar Nyx.
 
-Example usage:
-
-	import Stem, sys
-	print Stem.stem("pythonic")
-	print Stem.delete_stop_words(sys.copyright)
+From a technical standpoint, Stem is a Python implementation of
+Tor's directory and control specifications.

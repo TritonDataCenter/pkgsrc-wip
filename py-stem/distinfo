@@ -1,6 +1,7 @@
-$NetBSD: distinfo,v 1.2 2005/09/28 06:41:39 rillig Exp $
+$NetBSD$
 
-SHA1 (PyStem-1.0.4.tar.gz) = 9d7509b2b9e69028526a0d66dc66873b71ce809e
-RMD160 (PyStem-1.0.4.tar.gz) = 881608125f9c6bd22c3604115f4d4fe6cb4be540
-Size (PyStem-1.0.4.tar.gz) = 10041 bytes
-SHA1 (patch-aa) = cab9142c3e79dc223ded705024c2d192c1503805
+SHA1 (stem-1.6.0.tar.gz) = 1590ee340a3b321d8e51cfd6e9fb2c6637b93fee
+RMD160 (stem-1.6.0.tar.gz) = 9b61f9e8659b056a23e2d4f77027ef6dc2a84bc2
+SHA512 (stem-1.6.0.tar.gz) = 499a15b1cbd12d75865c93e253e797507564d5b5f2a9a0f021107d89c85db040e050944a9ac69b629f74e265d350467bef9d36ec52f7ef2e6a97180a7b93e94c
+Size (stem-1.6.0.tar.gz) = 2049999 bytes
+SHA1 (patch-stem_util_test__tools.py) = b8056fb8a16c0d833224a70f3e7a1747a4a76013

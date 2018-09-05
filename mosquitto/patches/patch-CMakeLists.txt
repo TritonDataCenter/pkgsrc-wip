@@ -1,0 +1,26 @@
+$NetBSD$
+
+In cmake build, adjust paths to pkgsrc norms.  (From OpenBSD.)
+
+--- CMakeLists.txt.orig	2018-08-16 16:05:26.000000000 +0000
++++ CMakeLists.txt
+@@ -30,17 +30,12 @@ if (WIN32)
+ else (WIN32)
+ 	set (BINDIR bin)
+ 	set (SBINDIR sbin)
+-	if ("${CMAKE_INSTALL_PREFIX}" STREQUAL /usr)
+-		set (SYSCONFDIR /etc/mosquitto)
+-	else ("${CMAKE_INSTALL_PREFIX}" STREQUAL /usr)
+-		set (SYSCONFDIR etc/mosquitto)
+-	endif ("${CMAKE_INSTALL_PREFIX}" STREQUAL /usr)
++	set (SYSCONFDIR "${DATAROOTDIR}/examples/mosquitto")
+ 	
+ 	set (LIBDIR lib${LIB_SUFFIX})
+-	set (CMAKE_INSTALL_RPATH "${CMAKE_INSTALL_PREFIX}/${LIBDIR}")
+ 	set (INCLUDEDIR include)
+ 	set (DATAROOTDIR share)
+-	set (MANDIR "${DATAROOTDIR}/man")
++	set (MANDIR "man")
+ 	set (SHAREDIR "${DATAROOTDIR}/mosquitto")
+ 	set (PKGCONFIGDIR "${LIBDIR}/pkgconfig")
+ endif (WIN32)
