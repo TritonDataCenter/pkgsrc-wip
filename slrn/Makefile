@@ -1,16 +1,19 @@
 # $NetBSD$
 
-DISTNAME=	slrn-1.0.3
+DISTNAME=	slrn-1.0.3a
 CATEGORIES=	news
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=slrn/}
-EXTRACT_SUFX=	a.tar.bz2
+MASTER_SITES=	http://jedsoft.org/releases/slrn/
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://slrn.sourceforge.net/
 COMMENT=	Highly customizable threaded newsreader
 LICENSE=	gnu-gpl-v2
 
+EXTRACT_USING=	bsdtar
 MAKE_JOBS_SAFE=	no
+
+WRKSRC=		${WRKDIR}/slrn-1.0.3
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

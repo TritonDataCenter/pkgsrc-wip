@@ -15,9 +15,13 @@ COMMENT=	Lightweight Tox client for the desktop
 LICENSE=	gnu-gpl-v3
 
 USE_CMAKE=	yes
+TEST_TARGET=	test
 
-.include "../../wip/toxcore/buildlink3.mk"
-.include "../../wip/filter_audio-git/buildlink3.mk"
+# Unclear crash in OpenAL on NetBSD
+CMAKE_ARGS+=	-DENABLE_ASAN=OFF
+
+.include "../../chat/toxcore/buildlink3.mk"
+.include "../../audio/filter_audio/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../audio/openal-soft/buildlink3.mk"
 .include "../../graphics/libv4l/buildlink3.mk"
