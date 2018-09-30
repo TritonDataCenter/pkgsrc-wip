@@ -3,7 +3,6 @@
 DISTNAME=	qtwebengine-everywhere-src-${QTVERSION}
 PKGNAME=	qt5-qtwebengine-${QTVERSION}
 COMMENT=	Qt5 WebEngine module
-MASTER_SITES+=	https://download.qt.io/archive/qt/5.10/5.10.1/submodules/
 
 BUILD_DEPENDS+=		gperf-[0-9]*:../../devel/gperf
 BUILD_DEPENDS+=		ninja-build-[0-9]*:../../devel/ninja-build
@@ -54,6 +53,7 @@ post-install:
 .include "../../devel/libexecinfo/buildlink3.mk"
 .endif
 .include "../../devel/libffi/buildlink3.mk"
+.include "../../devel/nss/buildlink3.mk"
 .include "../../devel/snappy/buildlink3.mk"
 .include "../../graphics/libwebp/buildlink3.mk"
 .include "../../multimedia/ffmpeg3/buildlink3.mk"

@@ -1,0 +1,12 @@
+$NetBSD$
+
+Add testfile utility to PATH.
+
+--- tests/Makefile.am.orig	2014-02-10 00:38:21.000000000 +0000
++++ tests/Makefile.am
+@@ -7,4 +7,4 @@ SHELL_TO_TEST = ../posh$(exe_suffix)
+ CATEGORIES_TO_TEST = sh,posix,pdksh,posh,debian,no-history,no-typeset,no-aliases,no-arrays,no-coprocs,no-herestrings,no-ulimit
+ 
+ check test:
+-	$(srcdir)/th-sh $(srcdir)/th -s $(srcdir) -p $(SHELL_TO_TEST) -C $(CATEGORIES_TO_TEST) $(TESTARGS)
++	export PATH=$$(cd $(srcdir) ; pwd)/../debianutils:$(PATH) ; $(srcdir)/th-sh $(srcdir)/th -s $(srcdir) -p $(SHELL_TO_TEST) -C $(CATEGORIES_TO_TEST) $(TESTARGS)

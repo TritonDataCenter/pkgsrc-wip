@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	rust-1.29.0
+DISTNAME=	rust-1.29.1
 PKGNAME=	${DISTNAME:S/rust/rust-bin/}
 CATEGORIES=	lang
 MASTER_SITES=	https://static.rust-lang.org/dist/
@@ -72,17 +72,46 @@ do-build:
 do-install:
 	cd ${WRKSRC} && env PKGMANDIR=${PKGMANDIR} bash ./install.sh \
 	--destdir=${DESTDIR} --prefix=${PREFIX}
+	${RM} -f ${DESTDIR}${PREFIX}/lib/rustlib/install.log
+	${RM} -f ${DESTDIR}${PREFIX}/lib/rustlib/manifest-*
+	${RM} -f ${DESTDIR}${PREFIX}/lib/rustlib/uninstall.sh
 
 .if ${OPSYS} == "Darwin"
 .PHONY: fix-darwin-install-name
 post-install: fix-darwin-install-name
 fix-darwin-install-name:
-.  for bin in rls rustc rustdoc
+.  for bin in clippy-driver rls rustc rustdoc
 	otool -XL ${DESTDIR}${PREFIX}/bin/${bin}			\
 	    | ${GREP} '@rpath' | while read rpath rest; do		\
 		install_name_tool -change $$rpath			\
 		    `${ECHO} $$rpath | ${SED} -e 's,@rpath,${PREFIX}/lib,g'` \
 		    ${DESTDIR}${PREFIX}/bin/${bin};			\
+	done
+.  endfor
+.  for lib in lib lib/rustlib/${RUST_ARCH}/lib lib/rustlib/${RUST_ARCH}/codegen-backends
+	for f in ${DESTDIR}${PREFIX}/${lib}/lib*.dylib; do		\
+		[ ! -f $$f ] && continue;				\
+		install_name_tool -id `${ECHO} $$f | ${SED} -e 's,${DESTDIR},,g'` $$f; \
+		otool -XL $$f | grep '@rpath' | while read rpath rest; do \
+			install_name_tool -change $$rpath \
+			    `${ECHO} $$rpath | ${SED} -e 's,@rpath,${PREFIX}/lib,g'` \
+			    $$f;					\
+		done;							\
+	done
+.  endfor
+.elif ${OPSYS} == "Linux"
+BUILD_DEPENDS+=		patchelf-[0-9]*:../../devel/patchelf
+
+.PHONY: fix-relative-rpath
+post-install: fix-relative-rpath
+fix-relative-rpath:
+.  for bin in clippy-driver rls rustc rustdoc
+	${PREFIX}/bin/patchelf --set-rpath ${PREFIX}/lib ${DESTDIR}${PREFIX}/bin/${bin}
+.  endfor
+.  for lib in lib lib/rustlib/${RUST_ARCH}/lib lib/rustlib/${RUST_ARCH}/codegen-backends
+	for f in ${DESTDIR}${PREFIX}/${lib}/lib*.so; do			\
+		[ ! -f $$f ] && continue;				\
+		${PREFIX}/bin/patchelf --set-rpath ${PREFIX}/lib $$f;			\
 	done
 .  endfor
 .endif
