@@ -1,13 +1,13 @@
 # $NetBSD$
 
-BUILDLINK_TREE+=	vips
+BUILDLINK_TREE+=	libvips
 
-.if !defined(VIPS_BUILDLINK3_MK)
-VIPS_BUILDLINK3_MK:=
+.if !defined(LIBVIPS_BUILDLINK3_MK)
+LIBVIPS_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.vips+=	vips>=8.2.2
-BUILDLINK_PKGSRCDIR.vips?=	../../wip/libvips
+BUILDLINK_API_DEPENDS.libvips+=	libvips>=8.2.2
+BUILDLINK_PKGSRCDIR.libvips?=	../../wip/libvips
 
-.endif	# VIPS_BUILDLINK3_MK
+.endif	# LIBVIPS_BUILDLINK3_MK
 
-BUILDLINK_TREE+=	-vips
+BUILDLINK_TREE+=	-libvips
