@@ -14,6 +14,7 @@ DEPENDS+=	${PYPKGPREFIX}-uncertainties>=3.1.5:../../math/py-uncertainties
 
 REPLACE_PYTHON+=	pint/pint-convert
 
+PYTHON_VERSIONS_INCOMPATIBLE=	27
 
 BUILDLINK_API_DEPENDS.py-numpy+=	${PYPKGPREFIX}-numpy>=1.1
 .include "../../math/py-numpy/buildlink3.mk"
